@@ -41,10 +41,16 @@
     display: grid; grid-template-columns: 1fr 1.1fr 1fr;
     gap: 1.25rem; padding: 1.25rem; max-width: 1600px; margin: 0 auto;
   }
-  @media (max-width: 1100px) { main { grid-template-columns: 1fr; } }
+  /* pod 1100px: panely pod sebou, súhrn (stred) ako prvý */
+  @media (max-width: 1100px) {
+    main { grid-template-columns: 1fr; }
+    .panel-center { order: -1; }
+    .panel { min-height: 0; }
+  }
   .panel {
     background: var(--surface); border-radius: 16px; box-shadow: var(--shadow);
     border: 1px solid var(--border); padding: 1.25rem; min-height: 300px;
+    min-width: 0; /* grid item nesmie rásť podľa obsahu (scroll meteogramu) */
   }
   .panel h2 {
     font-size: 1.05rem; margin-bottom: 1rem; display: flex;
@@ -83,6 +89,7 @@
 
   /* meteogram */
   .meteogram-wrap { text-align: center; }
+  .meteogram-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .meteogram-wrap img { max-width: 100%; border-radius: 8px; }
   .note { font-size: .75rem; color: var(--muted); margin-top: .6rem; line-height: 1.5; }
 
@@ -94,6 +101,25 @@
     padding: 1.25rem; line-height: 1.6;
   }
   footer a { color: var(--primary); }
+
+  /* mobil */
+  @media (max-width: 640px) {
+    header { padding: .8rem 1rem; gap: .6rem; }
+    header h1 { font-size: 1.25rem; }
+    header .tagline { font-size: .75rem; }
+    .city-picker { margin-left: 0; width: 100%; }
+    .city-picker input { min-width: 0; flex: 1; font-size: 16px; } /* 16px = iOS nezoomuje */
+    main { padding: .75rem; gap: .75rem; }
+    .panel { padding: 1rem; border-radius: 12px; }
+    .place .name { font-size: 1.5rem; }
+    .day-card { grid-template-columns: 72px 44px 1fr auto; gap: .5rem; padding: .8rem .9rem; }
+    .day-card .emoji { font-size: 1.7rem; }
+    .day-card .temps { font-size: 1.15rem; }
+    .day-card .precip { font-size: .8rem; }
+    table.hours { font-size: .82rem; }
+    /* meteogram nechaj čitateľný — posúva sa do strán prstom */
+    .meteogram-scroll img { min-width: 640px; max-width: none; }
+  }
 </style>
 </head>
 <body>
@@ -247,7 +273,7 @@ function App() {
           {!loading && data && !data.yr && <div className="error">{data.yr_error || "Dáta nie sú dostupné."}</div>}
         </section>
 
-        <section className="panel">
+        <section className="panel panel-center">
           {loading && <div className="status">Načítavam…</div>}
           {error && <div className="error">{error}</div>}
           {!loading && data && (
@@ -267,9 +293,11 @@ function App() {
           {loading && <div className="status">Načítavam…</div>}
           {!loading && data && (
             <div className="meteogram-wrap">
-              <img src={data.meteogram_url} alt={"ALADIN meteogram – " + data.city.name}
-                   onError={e => { e.target.style.display = "none"; e.target.nextSibling.style.display = "block"; }} />
-              <div className="error" style={{display: "none"}}>Meteogram sa nepodarilo načítať.</div>
+              <div className="meteogram-scroll">
+                <img src={data.meteogram_url} alt={"ALADIN meteogram – " + data.city.name}
+                     onError={e => { e.target.style.display = "none"; e.target.nextSibling.style.display = "block"; }} />
+                <div className="error" style={{display: "none"}}>Meteogram sa nepodarilo načítať.</div>
+              </div>
               <div className="note">Automatická predpoveď modelu ALADIN, aktualizovaná 4× denne.</div>
             </div>
           )}
