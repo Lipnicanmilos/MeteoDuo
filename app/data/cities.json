@@ -1,0 +1,4274 @@
+[
+ {
+  "id": "32299",
+  "name": "Abraham"
+ },
+ {
+  "id": "32376",
+  "name": "Aleksince"
+ },
+ {
+  "id": "32216",
+  "name": "Andovce"
+ },
+ {
+  "id": "32463",
+  "name": "Babin"
+ },
+ {
+  "id": "32624",
+  "name": "Bacuch"
+ },
+ {
+  "id": "32215",
+  "name": "Badin"
+ },
+ {
+  "id": "31971",
+  "name": "Bahon"
+ },
+ {
+  "id": "32196",
+  "name": "Bajc"
+ },
+ {
+  "id": "32057",
+  "name": "Baka"
+ },
+ {
+  "id": "38077",
+  "name": "Baldovce - start"
+ },
+ {
+  "id": "48024",
+  "name": "Banikov"
+ },
+ {
+  "id": "32271",
+  "name": "Banka"
+ },
+ {
+  "id": "32092",
+  "name": "Banov"
+ },
+ {
+  "id": "31422",
+  "name": "Banovce nad Bebravou"
+ },
+ {
+  "id": "32302",
+  "name": "Banska Bela"
+ },
+ {
+  "id": "31370",
+  "name": "Banska Bystrica"
+ },
+ {
+  "id": "31444",
+  "name": "Banska Stiavnica"
+ },
+ {
+  "id": "32692",
+  "name": "Banske"
+ },
+ {
+  "id": "31455",
+  "name": "Baranovo"
+ },
+ {
+  "id": "31454",
+  "name": "Baranovo - Zadky"
+ },
+ {
+  "id": "34040",
+  "name": "Bardejov (centrum)"
+ },
+ {
+  "id": "31380",
+  "name": "Bardejov (meteo stanica)"
+ },
+ {
+  "id": "38173",
+  "name": "Bartoska hotel"
+ },
+ {
+  "id": "32025",
+  "name": "Batizovce"
+ },
+ {
+  "id": "32279",
+  "name": "Batorove Kosihy"
+ },
+ {
+  "id": "32398",
+  "name": "Batovce"
+ },
+ {
+  "id": "32036",
+  "name": "Beckov"
+ },
+ {
+  "id": "31996",
+  "name": "Bela"
+ },
+ {
+  "id": "32551",
+  "name": "Bela nad Cirochou"
+ },
+ {
+  "id": "32681",
+  "name": "Bela-Dulice"
+ },
+ {
+  "id": "32452",
+  "name": "Beladice"
+ },
+ {
+  "id": "34580",
+  "name": "Belajky"
+ },
+ {
+  "id": "32093",
+  "name": "Belusa"
+ },
+ {
+  "id": "32237",
+  "name": "Benus"
+ },
+ {
+  "id": "31932",
+  "name": "Bernolakovo"
+ },
+ {
+  "id": "32130",
+  "name": "Besenov"
+ },
+ {
+  "id": "34030",
+  "name": "Besenova"
+ },
+ {
+  "id": "31939",
+  "name": "Betliar"
+ },
+ {
+  "id": "32163",
+  "name": "Bezovce"
+ },
+ {
+  "id": "32541",
+  "name": "Bidovce"
+ },
+ {
+  "id": "32065",
+  "name": "Biel"
+ },
+ {
+  "id": "32316",
+  "name": "Biely Kostol"
+ },
+ {
+  "id": "31925",
+  "name": "Bina"
+ },
+ {
+  "id": "32620",
+  "name": "Biskupice"
+ },
+ {
+  "id": "38079",
+  "name": "Blahova"
+ },
+ {
+  "id": "31978",
+  "name": "Blatne"
+ },
+ {
+  "id": "32085",
+  "name": "Bobrov"
+ },
+ {
+  "id": "32331",
+  "name": "Bobrovec"
+ },
+ {
+  "id": "32553",
+  "name": "Bojna"
+ },
+ {
+  "id": "31431",
+  "name": "Bojnice (centrum)"
+ },
+ {
+  "id": "32579",
+  "name": "Bojnicky"
+ },
+ {
+  "id": "32056",
+  "name": "Boleraz"
+ },
+ {
+  "id": "32405",
+  "name": "Bolesov"
+ },
+ {
+  "id": "31165",
+  "name": "Borisov"
+ },
+ {
+  "id": "32437",
+  "name": "Borsa"
+ },
+ {
+  "id": "32217",
+  "name": "Borsky Mikulas"
+ },
+ {
+  "id": "31975",
+  "name": "Borsky Svaty Jur"
+ },
+ {
+  "id": "32108",
+  "name": "Bosaca"
+ },
+ {
+  "id": "31948",
+  "name": "Bosany"
+ },
+ {
+  "id": "32468",
+  "name": "Botany"
+ },
+ {
+  "id": "32124",
+  "name": "Branc"
+ },
+ {
+  "id": "32737",
+  "name": "Bratislava (centrum)"
+ },
+ {
+  "id": "31357",
+  "name": "Bratislava (letisko)"
+ },
+ {
+  "id": "31176",
+  "name": "Bratislava - Koliba"
+ },
+ {
+  "id": "31175",
+  "name": "Bratislava - Lamac"
+ },
+ {
+  "id": "32628",
+  "name": "Brehy"
+ },
+ {
+  "id": "32320",
+  "name": "Brekov"
+ },
+ {
+  "id": "32424",
+  "name": "Brestovany"
+ },
+ {
+  "id": "32088",
+  "name": "Breza"
+ },
+ {
+  "id": "31479",
+  "name": "Brezno"
+ },
+ {
+  "id": "32104",
+  "name": "Brezova pod Bradlom"
+ },
+ {
+  "id": "31963",
+  "name": "Brezovica"
+ },
+ {
+  "id": "32098",
+  "name": "Brodske"
+ },
+ {
+  "id": "32160",
+  "name": "Brusno"
+ },
+ {
+  "id": "32439",
+  "name": "Brvniste"
+ },
+ {
+  "id": "32145",
+  "name": "Brzotin"
+ },
+ {
+  "id": "32667",
+  "name": "Buc"
+ },
+ {
+  "id": "32114",
+  "name": "Bucany"
+ },
+ {
+  "id": "31520",
+  "name": "Bucie Start"
+ },
+ {
+  "id": "32372",
+  "name": "Budca"
+ },
+ {
+  "id": "32575",
+  "name": "Budkovce"
+ },
+ {
+  "id": "31960",
+  "name": "Budmerice"
+ },
+ {
+  "id": "31397",
+  "name": "Bukova"
+ },
+ {
+  "id": "34553",
+  "name": "Bukova Horka"
+ },
+ {
+  "id": "31469",
+  "name": "Bukovina"
+ },
+ {
+  "id": "32166",
+  "name": "Busince"
+ },
+ {
+  "id": "32109",
+  "name": "Buzica"
+ },
+ {
+  "id": "32684",
+  "name": "Bystrany"
+ },
+ {
+  "id": "32494",
+  "name": "Bystre"
+ },
+ {
+  "id": "32180",
+  "name": "Bystricany"
+ },
+ {
+  "id": "32447",
+  "name": "Bystricka"
+ },
+ {
+  "id": "31430",
+  "name": "Bytca"
+ },
+ {
+  "id": "32045",
+  "name": "Bzince pod Javorinou"
+ },
+ {
+  "id": "32668",
+  "name": "Cabaj-Capor"
+ },
+ {
+  "id": "32071",
+  "name": "Cachtice"
+ },
+ {
+  "id": "31438",
+  "name": "Cadca"
+ },
+ {
+  "id": "32597",
+  "name": "Cajkov"
+ },
+ {
+  "id": "32555",
+  "name": "Cakajovce"
+ },
+ {
+  "id": "32600",
+  "name": "Caklov"
+ },
+ {
+  "id": "32636",
+  "name": "Calovec"
+ },
+ {
+  "id": "32194",
+  "name": "Cana"
+ },
+ {
+  "id": "32086",
+  "name": "Cary"
+ },
+ {
+  "id": "32000",
+  "name": "Casta"
+ },
+ {
+  "id": "32099",
+  "name": "Castkovce"
+ },
+ {
+  "id": "32659",
+  "name": "Cata"
+ },
+ {
+  "id": "32225",
+  "name": "Cebovce"
+ },
+ {
+  "id": "32414",
+  "name": "Cecejovce"
+ },
+ {
+  "id": "32544",
+  "name": "Cechynce"
+ },
+ {
+  "id": "32646",
+  "name": "Cejkov"
+ },
+ {
+  "id": "32537",
+  "name": "Cerenany"
+ },
+ {
+  "id": "32539",
+  "name": "Cernik"
+ },
+ {
+  "id": "32483",
+  "name": "Cerova"
+ },
+ {
+  "id": "31525",
+  "name": "Cervenica pri Sabinove"
+ },
+ {
+  "id": "32381",
+  "name": "Cervenik"
+ },
+ {
+  "id": "38612",
+  "name": "Chata Kosodrevina"
+ },
+ {
+  "id": "38171",
+  "name": "Chata pod Hrbom"
+ },
+ {
+  "id": "32732",
+  "name": "Chlebnice"
+ },
+ {
+  "id": "32406",
+  "name": "Chminianska Nova Ves"
+ },
+ {
+  "id": "32709",
+  "name": "Chminianske Jakubovany"
+ },
+ {
+  "id": "32578",
+  "name": "Chocholna Velcice"
+ },
+ {
+  "id": "31477",
+  "name": "Chopok"
+ },
+ {
+  "id": "31475",
+  "name": "Chopok - Lukova"
+ },
+ {
+  "id": "31476",
+  "name": "Chopok - Zahradky"
+ },
+ {
+  "id": "31941",
+  "name": "Chorvatsky Grob"
+ },
+ {
+  "id": "32360",
+  "name": "Chotin"
+ },
+ {
+  "id": "32564",
+  "name": "Chrenovec-Brusno"
+ },
+ {
+  "id": "32359",
+  "name": "Chtelnica"
+ },
+ {
+  "id": "32455",
+  "name": "Chynorany"
+ },
+ {
+  "id": "38080",
+  "name": "Cicmany"
+ },
+ {
+  "id": "32677",
+  "name": "Cicov"
+ },
+ {
+  "id": "31513",
+  "name": "Cierna Kopa"
+ },
+ {
+  "id": "32121",
+  "name": "Cierna nad Tisou"
+ },
+ {
+  "id": "32473",
+  "name": "Cierna Voda"
+ },
+ {
+  "id": "32030",
+  "name": "Cierne"
+ },
+ {
+  "id": "32277",
+  "name": "Cierne Klacany"
+ },
+ {
+  "id": "32128",
+  "name": "Cierny Balog"
+ },
+ {
+  "id": "32159",
+  "name": "Cierny Brod"
+ },
+ {
+  "id": "31468",
+  "name": "Ciertaz"
+ },
+ {
+  "id": "31926",
+  "name": "Cifer"
+ },
+ {
+  "id": "32420",
+  "name": "Cigel"
+ },
+ {
+  "id": "32666",
+  "name": "Cilizska Radvan"
+ },
+ {
+  "id": "32042",
+  "name": "Cinobana"
+ },
+ {
+  "id": "32663",
+  "name": "Circ"
+ },
+ {
+  "id": "34041",
+  "name": "Ciz"
+ },
+ {
+  "id": "34579",
+  "name": "Cunovo - Divoka Voda"
+ },
+ {
+  "id": "32619",
+  "name": "Dechtice"
+ },
+ {
+  "id": "32652",
+  "name": "Demandice"
+ },
+ {
+  "id": "32637",
+  "name": "Demjata"
+ },
+ {
+  "id": "31467",
+  "name": "Detva"
+ },
+ {
+  "id": "32161",
+  "name": "Diakovce"
+ },
+ {
+  "id": "32386",
+  "name": "Diviacka Nova Ves"
+ },
+ {
+  "id": "32585",
+  "name": "Diviaky nad Nitricou"
+ },
+ {
+  "id": "32332",
+  "name": "Divin"
+ },
+ {
+  "id": "32503",
+  "name": "Divina"
+ },
+ {
+  "id": "32428",
+  "name": "Dlha nad Oravou"
+ },
+ {
+  "id": "32543",
+  "name": "Dlhe Klcovo"
+ },
+ {
+  "id": "32695",
+  "name": "Dlhe nad Cirochou"
+ },
+ {
+  "id": "32328",
+  "name": "Dlhe Pole"
+ },
+ {
+  "id": "32197",
+  "name": "Dobra Niva"
+ },
+ {
+  "id": "31504",
+  "name": "Dobsina"
+ },
+ {
+  "id": "32511",
+  "name": "Dohnany"
+ },
+ {
+  "id": "32352",
+  "name": "Dojc"
+ },
+ {
+  "id": "32032",
+  "name": "Dolany"
+ },
+ {
+  "id": "32275",
+  "name": "Dolna Krupa"
+ },
+ {
+  "id": "32214",
+  "name": "Dolna Marikova"
+ },
+ {
+  "id": "32497",
+  "name": "Dolna Streda"
+ },
+ {
+  "id": "32704",
+  "name": "Dolna Strehova"
+ },
+ {
+  "id": "32313",
+  "name": "Dolna Suca"
+ },
+ {
+  "id": "32174",
+  "name": "Dolna Tizina"
+ },
+ {
+  "id": "32492",
+  "name": "Dolne Kockovce"
+ },
+ {
+  "id": "32505",
+  "name": "Dolne Obdokovce"
+ },
+ {
+  "id": "32456",
+  "name": "Dolne Oresany"
+ },
+ {
+  "id": "32522",
+  "name": "Dolne Saliby"
+ },
+ {
+  "id": "32205",
+  "name": "Dolne Vestenice"
+ },
+ {
+  "id": "31368",
+  "name": "Dolny Hricov"
+ },
+ {
+  "id": "31371",
+  "name": "Dolny Kubin"
+ },
+ {
+  "id": "32278",
+  "name": "Dolny Ohaj"
+ },
+ {
+  "id": "32603",
+  "name": "Dolny Stal"
+ },
+ {
+  "id": "32097",
+  "name": "Domaniza"
+ },
+ {
+  "id": "31460",
+  "name": "Donovaly"
+ },
+ {
+  "id": "31485",
+  "name": "Dovalovo"
+ },
+ {
+  "id": "32605",
+  "name": "Drahnov"
+ },
+ {
+  "id": "32184",
+  "name": "Drahovce"
+ },
+ {
+  "id": "32157",
+  "name": "Drienov"
+ },
+ {
+  "id": "32286",
+  "name": "Drienovec"
+ },
+ {
+  "id": "31973",
+  "name": "Drietoma"
+ },
+ {
+  "id": "32618",
+  "name": "Druzstevna pri Hornade"
+ },
+ {
+  "id": "38073",
+  "name": "Dubina - start"
+ },
+ {
+  "id": "31928",
+  "name": "Dubnica nad Vahom"
+ },
+ {
+  "id": "32661",
+  "name": "Dubnik"
+ },
+ {
+  "id": "31521",
+  "name": "Dubovica"
+ },
+ {
+  "id": "32066",
+  "name": "Dubrava"
+ },
+ {
+  "id": "34028",
+  "name": "Dudince (centrum)"
+ },
+ {
+  "id": "31443",
+  "name": "Dudince (meteo stanica)"
+ },
+ {
+  "id": "32259",
+  "name": "Dulovce"
+ },
+ {
+  "id": "31954",
+  "name": "Dunajska Luzna"
+ },
+ {
+  "id": "34022",
+  "name": "Dunajska Streda (centrum)"
+ },
+ {
+  "id": "32644",
+  "name": "Durcina"
+ },
+ {
+  "id": "32340",
+  "name": "Durkov"
+ },
+ {
+  "id": "31542",
+  "name": "Durkovec"
+ },
+ {
+  "id": "32474",
+  "name": "Dvorniky"
+ },
+ {
+  "id": "31935",
+  "name": "Dvory nad Zitavou"
+ },
+ {
+  "id": "31930",
+  "name": "Farna"
+ },
+ {
+  "id": "31983",
+  "name": "Filakovo"
+ },
+ {
+  "id": "32596",
+  "name": "Fintice"
+ },
+ {
+  "id": "32258",
+  "name": "Fricovce"
+ },
+ {
+  "id": "32364",
+  "name": "Gabcikovo"
+ },
+ {
+  "id": "32044",
+  "name": "Gajary"
+ },
+ {
+  "id": "31406",
+  "name": "Galanta"
+ },
+ {
+  "id": "32243",
+  "name": "Ganovce"
+ },
+ {
+  "id": "32496",
+  "name": "Gbelany"
+ },
+ {
+  "id": "31429",
+  "name": "Gbelce"
+ },
+ {
+  "id": "32031",
+  "name": "Gbely"
+ },
+ {
+  "id": "32588",
+  "name": "Geca"
+ },
+ {
+  "id": "31519",
+  "name": "Gelnica"
+ },
+ {
+  "id": "32007",
+  "name": "Gemerska Horka"
+ },
+ {
+  "id": "31949",
+  "name": "Gemerska Poloma"
+ },
+ {
+  "id": "31376",
+  "name": "Gemerske Michalovce"
+ },
+ {
+  "id": "34036",
+  "name": "Gerlachov"
+ },
+ {
+  "id": "31172",
+  "name": "Gerlachovsky stit"
+ },
+ {
+  "id": "32457",
+  "name": "Giraltovce"
+ },
+ {
+  "id": "32169",
+  "name": "Golianovo"
+ },
+ {
+  "id": "32431",
+  "name": "Habovka"
+ },
+ {
+  "id": "31518",
+  "name": "Haj - Start"
+ },
+ {
+  "id": "32565",
+  "name": "Hajnacka"
+ },
+ {
+  "id": "31411",
+  "name": "Hajske"
+ },
+ {
+  "id": "32116",
+  "name": "Halic"
+ },
+ {
+  "id": "31936",
+  "name": "Handlova"
+ },
+ {
+  "id": "32509",
+  "name": "Haniska"
+ },
+ {
+  "id": "31931",
+  "name": "Hanusovce nad Toplou"
+ },
+ {
+  "id": "32617",
+  "name": "Harichovce"
+ },
+ {
+  "id": "32662",
+  "name": "Hazlin"
+ },
+ {
+  "id": "32493",
+  "name": "Helcmanovce"
+ },
+ {
+  "id": "32009",
+  "name": "Helpa"
+ },
+ {
+  "id": "32699",
+  "name": "Hencovce"
+ },
+ {
+  "id": "32106",
+  "name": "Hermanovce"
+ },
+ {
+  "id": "34537",
+  "name": "Hertnik"
+ },
+ {
+  "id": "34536",
+  "name": "Hervartov"
+ },
+ {
+  "id": "31984",
+  "name": "Hlinik nad Hronom"
+ },
+ {
+  "id": "32722",
+  "name": "Hlinne"
+ },
+ {
+  "id": "31408",
+  "name": "Hlohovec"
+ },
+ {
+  "id": "32611",
+  "name": "Hniezdne"
+ },
+ {
+  "id": "31929",
+  "name": "Hnusta"
+ },
+ {
+  "id": "32670",
+  "name": "Hodejov"
+ },
+ {
+  "id": "32702",
+  "name": "Hodrusa-Hamre"
+ },
+ {
+  "id": "31979",
+  "name": "Holic"
+ },
+ {
+  "id": "32614",
+  "name": "Holice"
+ },
+ {
+  "id": "32209",
+  "name": "Hontianske Nemce"
+ },
+ {
+  "id": "32678",
+  "name": "Horka"
+ },
+ {
+  "id": "32117",
+  "name": "Horna Kralova"
+ },
+ {
+  "id": "32417",
+  "name": "Horna Poruba"
+ },
+ {
+  "id": "32303",
+  "name": "Horna Poton"
+ },
+ {
+  "id": "32344",
+  "name": "Horna Streda"
+ },
+ {
+  "id": "32504",
+  "name": "Horna Stubna"
+ },
+ {
+  "id": "32218",
+  "name": "Horna Suca"
+ },
+ {
+  "id": "32375",
+  "name": "Horna Ves"
+ },
+ {
+  "id": "32293",
+  "name": "Horne Obdokovce"
+ },
+ {
+  "id": "32112",
+  "name": "Horne Oresany"
+ },
+ {
+  "id": "32072",
+  "name": "Horne Saliby"
+ },
+ {
+  "id": "31966",
+  "name": "Horne Srnie"
+ },
+ {
+  "id": "32481",
+  "name": "Horny Bar"
+ },
+ {
+  "id": "32427",
+  "name": "Horny Vadicov"
+ },
+ {
+  "id": "32470",
+  "name": "Hostie"
+ },
+ {
+  "id": "31466",
+  "name": "Hrabovo"
+ },
+ {
+  "id": "32125",
+  "name": "Hrabusice"
+ },
+ {
+  "id": "32508",
+  "name": "Hradiste"
+ },
+ {
+  "id": "32589",
+  "name": "Hran"
+ },
+ {
+  "id": "31998",
+  "name": "Hranovnica"
+ },
+ {
+  "id": "31514",
+  "name": "Hrhov"
+ },
+ {
+  "id": "31471",
+  "name": "Hrinova"
+ },
+ {
+  "id": "32170",
+  "name": "Hrnciarovce nad Parnou"
+ },
+ {
+  "id": "32235",
+  "name": "Hrochot"
+ },
+ {
+  "id": "31474",
+  "name": "Hronec"
+ },
+ {
+  "id": "32730",
+  "name": "Hronovce"
+ },
+ {
+  "id": "32354",
+  "name": "Hronske Klacany"
+ },
+ {
+  "id": "32049",
+  "name": "Hronsky Benadik"
+ },
+ {
+  "id": "32390",
+  "name": "Hrusovany"
+ },
+ {
+  "id": "32263",
+  "name": "Hrustin"
+ },
+ {
+  "id": "32639",
+  "name": "Hubova"
+ },
+ {
+  "id": "32429",
+  "name": "Hul"
+ },
+ {
+  "id": "31533",
+  "name": "Humenne"
+ },
+ {
+  "id": "32487",
+  "name": "Huncovce"
+ },
+ {
+  "id": "31366",
+  "name": "Hurbanovo"
+ },
+ {
+  "id": "32720",
+  "name": "Hvozdnica"
+ },
+ {
+  "id": "32559",
+  "name": "Hybe"
+ },
+ {
+  "id": "32671",
+  "name": "Ihlany"
+ },
+ {
+  "id": "31420",
+  "name": "Ilava"
+ },
+ {
+  "id": "31508",
+  "name": "Iliasovce"
+ },
+ {
+  "id": "32558",
+  "name": "Imel"
+ },
+ {
+  "id": "31416",
+  "name": "Inovec"
+ },
+ {
+  "id": "32343",
+  "name": "Istebne"
+ },
+ {
+  "id": "31924",
+  "name": "Ivanka pri Dunaji"
+ },
+ {
+  "id": "32285",
+  "name": "Ivanka pri Nitre"
+ },
+ {
+  "id": "31953",
+  "name": "Iza"
+ },
+ {
+  "id": "32101",
+  "name": "Jablonica"
+ },
+ {
+  "id": "32358",
+  "name": "Jablonove"
+ },
+ {
+  "id": "31981",
+  "name": "Jacovce"
+ },
+ {
+  "id": "32580",
+  "name": "Jahodna"
+ },
+ {
+  "id": "32073",
+  "name": "Jaklovce"
+ },
+ {
+  "id": "32489",
+  "name": "Jakubany"
+ },
+ {
+  "id": "32026",
+  "name": "Jakubov"
+ },
+ {
+  "id": "38619",
+  "name": "Jakubovany"
+ },
+ {
+  "id": "31511",
+  "name": "Jamnik"
+ },
+ {
+  "id": "32315",
+  "name": "Janovce"
+ },
+ {
+  "id": "31991",
+  "name": "Jarok"
+ },
+ {
+  "id": "32374",
+  "name": "Jarovnice"
+ },
+ {
+  "id": "32338",
+  "name": "Jasenie"
+ },
+ {
+  "id": "31970",
+  "name": "Jasenov"
+ },
+ {
+  "id": "31449",
+  "name": "Jasenska Dolina"
+ },
+ {
+  "id": "31404",
+  "name": "Jaslovske Bohunice"
+ },
+ {
+  "id": "34031",
+  "name": "Jasna"
+ },
+ {
+  "id": "32566",
+  "name": "Jasov"
+ },
+ {
+  "id": "31426",
+  "name": "Jasova"
+ },
+ {
+  "id": "31535",
+  "name": "Javornik"
+ },
+ {
+  "id": "32648",
+  "name": "Jedlove Kostolany"
+ },
+ {
+  "id": "32265",
+  "name": "Jelenec"
+ },
+ {
+  "id": "31947",
+  "name": "Jelka"
+ },
+ {
+  "id": "31958",
+  "name": "Jelsava"
+ },
+ {
+  "id": "32055",
+  "name": "Jesenske"
+ },
+ {
+  "id": "32251",
+  "name": "Kajal"
+ },
+ {
+  "id": "32053",
+  "name": "Kalinovo"
+ },
+ {
+  "id": "32638",
+  "name": "Kalna nad Hronom"
+ },
+ {
+  "id": "32425",
+  "name": "Kalnica"
+ },
+ {
+  "id": "32023",
+  "name": "Kamenec pod Vtacnikom"
+ },
+ {
+  "id": "32729",
+  "name": "Kamenica"
+ },
+ {
+  "id": "31534",
+  "name": "Kamenica nad Cirochou"
+ },
+ {
+  "id": "32713",
+  "name": "Kamenica nad Hronom"
+ },
+ {
+  "id": "31522",
+  "name": "Kamenicky Hrad"
+ },
+ {
+  "id": "32385",
+  "name": "Kamenicna"
+ },
+ {
+  "id": "32507",
+  "name": "Kamenin"
+ },
+ {
+  "id": "32079",
+  "name": "Kamenna Poruba"
+ },
+ {
+  "id": "32626",
+  "name": "Kamenny Most"
+ },
+ {
+  "id": "32526",
+  "name": "Kamienka (okres Stara Lubovna)"
+ },
+ {
+  "id": "32202",
+  "name": "Kanianka"
+ },
+ {
+  "id": "32388",
+  "name": "Kapusany"
+ },
+ {
+  "id": "32591",
+  "name": "Katlovce"
+ },
+ {
+  "id": "32517",
+  "name": "Kecerovce"
+ },
+ {
+  "id": "32535",
+  "name": "Kendice"
+ },
+ {
+  "id": "31506",
+  "name": "Kezmarok"
+ },
+ {
+  "id": "32478",
+  "name": "Klacno"
+ },
+ {
+  "id": "32132",
+  "name": "Klasov"
+ },
+ {
+  "id": "32436",
+  "name": "Klastor pod Znievom"
+ },
+ {
+  "id": "32291",
+  "name": "Klatova Nova Ves"
+ },
+ {
+  "id": "31489",
+  "name": "Klenovec"
+ },
+ {
+  "id": "31484",
+  "name": "Klenovsky Vepor"
+ },
+ {
+  "id": "32256",
+  "name": "Klin"
+ },
+ {
+  "id": "32642",
+  "name": "Klokocov"
+ },
+ {
+  "id": "32351",
+  "name": "Kluknava"
+ },
+ {
+  "id": "32011",
+  "name": "Kocovce"
+ },
+ {
+  "id": "31524",
+  "name": "Kohut"
+ },
+ {
+  "id": "31523",
+  "name": "Kojsovska hola"
+ },
+ {
+  "id": "31980",
+  "name": "Kokava nad Rimavicou"
+ },
+ {
+  "id": "32602",
+  "name": "Koksov-Baksa"
+ },
+ {
+  "id": "32103",
+  "name": "Kolackov"
+ },
+ {
+  "id": "32348",
+  "name": "Kolarovice"
+ },
+ {
+  "id": "32033",
+  "name": "Kolarovo"
+ },
+ {
+  "id": "32111",
+  "name": "Kolinany"
+ },
+ {
+  "id": "32022",
+  "name": "Kolta"
+ },
+ {
+  "id": "31364",
+  "name": "Komarno"
+ },
+ {
+  "id": "32241",
+  "name": "Komjatice"
+ },
+ {
+  "id": "32724",
+  "name": "Komjatna"
+ },
+ {
+  "id": "32530",
+  "name": "Konska"
+ },
+ {
+  "id": "31459",
+  "name": "Kopa"
+ },
+ {
+  "id": "32257",
+  "name": "Kopcany"
+ },
+ {
+  "id": "32733",
+  "name": "Korna"
+ },
+ {
+  "id": "32687",
+  "name": "Korytarky"
+ },
+ {
+  "id": "32335",
+  "name": "Koseca"
+ },
+ {
+  "id": "32120",
+  "name": "Kosecke Podhradie"
+ },
+ {
+  "id": "32738",
+  "name": "Kosice (centrum)"
+ },
+ {
+  "id": "31378",
+  "name": "Kosice (letisko)"
+ },
+ {
+  "id": "32003",
+  "name": "Kosicke Olsany"
+ },
+ {
+  "id": "32207",
+  "name": "Kostany nad Turcom"
+ },
+ {
+  "id": "32689",
+  "name": "Kostolne Kracany"
+ },
+ {
+  "id": "32188",
+  "name": "Kosuty"
+ },
+ {
+  "id": "32305",
+  "name": "Kotesova"
+ },
+ {
+  "id": "32336",
+  "name": "Kovacova"
+ },
+ {
+  "id": "32432",
+  "name": "Kovarce"
+ },
+ {
+  "id": "32400",
+  "name": "Kozarovce"
+ },
+ {
+  "id": "32181",
+  "name": "Kracunovce"
+ },
+ {
+  "id": "32516",
+  "name": "Krajne"
+ },
+ {
+  "id": "32100",
+  "name": "Krakovany"
+ },
+ {
+  "id": "32571",
+  "name": "Kralov Brod"
+ },
+ {
+  "id": "31496",
+  "name": "Kralova hola"
+ },
+ {
+  "id": "32037",
+  "name": "Kralova nad Vahom"
+ },
+ {
+  "id": "32027",
+  "name": "Kralova pri Senci"
+ },
+ {
+  "id": "32592",
+  "name": "Kralovce"
+ },
+ {
+  "id": "31382",
+  "name": "Kralovsky Chlmec"
+ },
+ {
+  "id": "32008",
+  "name": "Krasnany"
+ },
+ {
+  "id": "32270",
+  "name": "Krasno nad Kysucou"
+ },
+ {
+  "id": "32280",
+  "name": "Krasnohorske Podhradie"
+ },
+ {
+  "id": "32041",
+  "name": "Kremnica"
+ },
+ {
+  "id": "31171",
+  "name": "Krivan"
+ },
+ {
+  "id": "32323",
+  "name": "Krivan - obec"
+ },
+ {
+  "id": "32688",
+  "name": "Krivany"
+ },
+ {
+  "id": "31532",
+  "name": "Krivostianka"
+ },
+ {
+  "id": "31168",
+  "name": "Krizna"
+ },
+ {
+  "id": "32721",
+  "name": "Krizova Ves"
+ },
+ {
+  "id": "32389",
+  "name": "Krizovany nad Dudvahom"
+ },
+ {
+  "id": "32524",
+  "name": "Krnca"
+ },
+ {
+  "id": "31989",
+  "name": "Krompachy"
+ },
+ {
+  "id": "32567",
+  "name": "Krpelany"
+ },
+ {
+  "id": "31451",
+  "name": "Krupina"
+ },
+ {
+  "id": "32411",
+  "name": "Krusovce"
+ },
+ {
+  "id": "31170",
+  "name": "Kubinska hola"
+ },
+ {
+  "id": "38078",
+  "name": "Kubinska hola - start"
+ },
+ {
+  "id": "31395",
+  "name": "Kuchyna"
+ },
+ {
+  "id": "31436",
+  "name": "Kunerad"
+ },
+ {
+  "id": "32198",
+  "name": "Kurima"
+ },
+ {
+  "id": "32136",
+  "name": "Kuty"
+ },
+ {
+  "id": "32201",
+  "name": "Kuzmice"
+ },
+ {
+  "id": "32479",
+  "name": "Kysak"
+ },
+ {
+  "id": "31437",
+  "name": "Kysucke Nove Mesto"
+ },
+ {
+  "id": "32153",
+  "name": "Kysucky Lieskovec"
+ },
+ {
+  "id": "32002",
+  "name": "Lab"
+ },
+ {
+  "id": "32080",
+  "name": "Ladce"
+ },
+ {
+  "id": "32139",
+  "name": "Laksarska Nova Ves"
+ },
+ {
+  "id": "32645",
+  "name": "Lastomir"
+ },
+ {
+  "id": "32715",
+  "name": "Lastovce"
+ },
+ {
+  "id": "34539",
+  "name": "Latky"
+ },
+ {
+  "id": "32183",
+  "name": "Lazany"
+ },
+ {
+  "id": "32747",
+  "name": "Lazany"
+ },
+ {
+  "id": "32606",
+  "name": "Lazy pod Makytou"
+ },
+ {
+  "id": "32640",
+  "name": "Lednica"
+ },
+ {
+  "id": "32010",
+  "name": "Lednicke Rovne"
+ },
+ {
+  "id": "32657",
+  "name": "Lefantovce"
+ },
+ {
+  "id": "32244",
+  "name": "Lehnice"
+ },
+ {
+  "id": "32317",
+  "name": "Lehota"
+ },
+ {
+  "id": "32403",
+  "name": "Lehota pod Vtacnikom"
+ },
+ {
+  "id": "32082",
+  "name": "Lekarovce"
+ },
+ {
+  "id": "32327",
+  "name": "Leles"
+ },
+ {
+  "id": "32402",
+  "name": "Lemesany"
+ },
+ {
+  "id": "32081",
+  "name": "Lendak"
+ },
+ {
+  "id": "34552",
+  "name": "Lendak - start"
+ },
+ {
+  "id": "32076",
+  "name": "Leopoldov"
+ },
+ {
+  "id": "32701",
+  "name": "Letanovce"
+ },
+ {
+  "id": "31367",
+  "name": "Levice"
+ },
+ {
+  "id": "31510",
+  "name": "Levoca"
+ },
+ {
+  "id": "31174",
+  "name": "Licartovce"
+ },
+ {
+  "id": "31481",
+  "name": "Liesek"
+ },
+ {
+  "id": "32326",
+  "name": "Lieskovec"
+ },
+ {
+  "id": "32641",
+  "name": "Liestany"
+ },
+ {
+  "id": "32304",
+  "name": "Lietava"
+ },
+ {
+  "id": "32262",
+  "name": "Lietavska Lucka"
+ },
+ {
+  "id": "32629",
+  "name": "Lietavska Svinna-Babkov"
+ },
+ {
+  "id": "32165",
+  "name": "Likavka"
+ },
+ {
+  "id": "32189",
+  "name": "Limbach"
+ },
+ {
+  "id": "32051",
+  "name": "Lipany"
+ },
+ {
+  "id": "32736",
+  "name": "Lipova"
+ },
+ {
+  "id": "32391",
+  "name": "Liptovska Kokava"
+ },
+ {
+  "id": "31465",
+  "name": "Liptovska Luzna"
+ },
+ {
+  "id": "32655",
+  "name": "Liptovska Osada"
+ },
+ {
+  "id": "32363",
+  "name": "Liptovska Porubka"
+ },
+ {
+  "id": "32156",
+  "name": "Liptovska Teplicka"
+ },
+ {
+  "id": "31458",
+  "name": "Liptovske Revuce"
+ },
+ {
+  "id": "32654",
+  "name": "Liptovske Sliace"
+ },
+ {
+  "id": "31483",
+  "name": "Liptovsky Hradok"
+ },
+ {
+  "id": "31480",
+  "name": "Liptovsky Jan"
+ },
+ {
+  "id": "31582",
+  "name": "Liptovsky Jan - START"
+ },
+ {
+  "id": "32743",
+  "name": "Liptovsky Mikulas (centrum)"
+ },
+ {
+  "id": "31373",
+  "name": "Liptovsky Ondrej (meteo stanica)"
+ },
+ {
+  "id": "32435",
+  "name": "Liptovsky Peter"
+ },
+ {
+  "id": "31472",
+  "name": "Liptovsky Trnovec"
+ },
+ {
+  "id": "32467",
+  "name": "Liskova"
+ },
+ {
+  "id": "32233",
+  "name": "Lok"
+ },
+ {
+  "id": "32392",
+  "name": "Lokca"
+ },
+ {
+  "id": "38162",
+  "name": "Lom nad Rimavicou"
+ },
+ {
+  "id": "32727",
+  "name": "Lomnicka"
+ },
+ {
+  "id": "31499",
+  "name": "Lomnicky stit"
+ },
+ {
+  "id": "32512",
+  "name": "Lovcica-Trubin"
+ },
+ {
+  "id": "32520",
+  "name": "Lovinobana"
+ },
+ {
+  "id": "31942",
+  "name": "Lozorno"
+ },
+ {
+  "id": "32187",
+  "name": "Lubela"
+ },
+ {
+  "id": "32622",
+  "name": "Lubenik"
+ },
+ {
+  "id": "32380",
+  "name": "Lubina"
+ },
+ {
+  "id": "32515",
+  "name": "Lubochna"
+ },
+ {
+  "id": "32423",
+  "name": "Lubotice"
+ },
+ {
+  "id": "32094",
+  "name": "Lubotin"
+ },
+ {
+  "id": "32741",
+  "name": "Lucenec (centrum)"
+ },
+ {
+  "id": "31374",
+  "name": "Lucenec (meteo stanica)"
+ },
+ {
+  "id": "32383",
+  "name": "Lucky"
+ },
+ {
+  "id": "32609",
+  "name": "Ludanice"
+ },
+ {
+  "id": "32735",
+  "name": "Lukacovce (okres Humenne)"
+ },
+ {
+  "id": "31413",
+  "name": "Lukacovce (okres Nitra)"
+ },
+ {
+  "id": "32325",
+  "name": "Lutila"
+ },
+ {
+  "id": "32150",
+  "name": "Luzianky"
+ },
+ {
+  "id": "32521",
+  "name": "Lysa pod Makytou"
+ },
+ {
+  "id": "38072",
+  "name": "Lysak"
+ },
+ {
+  "id": "32500",
+  "name": "Machulince"
+ },
+ {
+  "id": "32177",
+  "name": "Madunice"
+ },
+ {
+  "id": "31540",
+  "name": "Magurica"
+ },
+ {
+  "id": "32074",
+  "name": "Majcichov"
+ },
+ {
+  "id": "32143",
+  "name": "Makov"
+ },
+ {
+  "id": "32563",
+  "name": "Mala Ida"
+ },
+ {
+  "id": "32631",
+  "name": "Mala Lehota"
+ },
+ {
+  "id": "31393",
+  "name": "Malacky"
+ },
+ {
+  "id": "32395",
+  "name": "Malcice"
+ },
+ {
+  "id": "32484",
+  "name": "Malcov"
+ },
+ {
+  "id": "32442",
+  "name": "Male Levare"
+ },
+ {
+  "id": "32182",
+  "name": "Male Trakany"
+ },
+ {
+  "id": "32653",
+  "name": "Malinec"
+ },
+ {
+  "id": "31526",
+  "name": "Maliniak"
+ },
+ {
+  "id": "31463",
+  "name": "Malino Brdo"
+ },
+ {
+  "id": "32038",
+  "name": "Malinovo"
+ },
+ {
+  "id": "32634",
+  "name": "Maly Hores"
+ },
+ {
+  "id": "34555",
+  "name": "Maly Javornik"
+ },
+ {
+  "id": "32669",
+  "name": "Maly Saris"
+ },
+ {
+  "id": "32440",
+  "name": "Malzenice"
+ },
+ {
+  "id": "32679",
+  "name": "Mana"
+ },
+ {
+  "id": "32337",
+  "name": "Marcelova"
+ },
+ {
+  "id": "32460",
+  "name": "Margecany"
+ },
+ {
+  "id": "32154",
+  "name": "Markusovce"
+ },
+ {
+  "id": "31445",
+  "name": "Martin"
+ },
+ {
+  "id": "31440",
+  "name": "Martinske hole"
+ },
+ {
+  "id": "32266",
+  "name": "Matuskovo"
+ },
+ {
+  "id": "32246",
+  "name": "Medzev"
+ },
+ {
+  "id": "32311",
+  "name": "Medzibrod"
+ },
+ {
+  "id": "31381",
+  "name": "Medzilaborce"
+ },
+ {
+  "id": "32430",
+  "name": "Melcice-Lieskove"
+ },
+ {
+  "id": "32239",
+  "name": "Michalany"
+ },
+ {
+  "id": "32373",
+  "name": "Michalova"
+ },
+ {
+  "id": "31933",
+  "name": "Michalovce"
+ },
+ {
+  "id": "32308",
+  "name": "Mikusovce"
+ },
+ {
+  "id": "31531",
+  "name": "Milhostov (meteo stanica)"
+ },
+ {
+  "id": "31502",
+  "name": "Mlynica"
+ },
+ {
+  "id": "32434",
+  "name": "Mnichova Lehota"
+ },
+ {
+  "id": "32017",
+  "name": "Mnisek nad Hnilcom"
+ },
+ {
+  "id": "32718",
+  "name": "Moca"
+ },
+ {
+  "id": "32123",
+  "name": "Mocenok"
+ },
+ {
+  "id": "31427",
+  "name": "Mochovce"
+ },
+ {
+  "id": "31934",
+  "name": "Modra"
+ },
+ {
+  "id": "32573",
+  "name": "Modra nad Cirochou"
+ },
+ {
+  "id": "32731",
+  "name": "Modrany"
+ },
+ {
+  "id": "32273",
+  "name": "Modry Kamen"
+ },
+ {
+  "id": "32147",
+  "name": "Mojmirovce"
+ },
+ {
+  "id": "32135",
+  "name": "Mojzesovo"
+ },
+ {
+  "id": "32486",
+  "name": "Mokrance"
+ },
+ {
+  "id": "32204",
+  "name": "Moldava nad Bodvou"
+ },
+ {
+  "id": "32696",
+  "name": "Moravany"
+ },
+ {
+  "id": "32203",
+  "name": "Moravany nad Vahom"
+ },
+ {
+  "id": "32416",
+  "name": "Moravske Lieskove"
+ },
+ {
+  "id": "32294",
+  "name": "Moravsky Svaty Jan"
+ },
+ {
+  "id": "32480",
+  "name": "Mosovce"
+ },
+ {
+  "id": "31982",
+  "name": "Most pri Bratislave"
+ },
+ {
+  "id": "32324",
+  "name": "Mostova"
+ },
+ {
+  "id": "32087",
+  "name": "Muran"
+ },
+ {
+  "id": "32269",
+  "name": "Mutne"
+ },
+ {
+  "id": "32131",
+  "name": "Muzla"
+ },
+ {
+  "id": "31402",
+  "name": "Myjava"
+ },
+ {
+  "id": "32144",
+  "name": "Mytna"
+ },
+ {
+  "id": "31478",
+  "name": "Myto pod Dumbierom"
+ },
+ {
+  "id": "32680",
+  "name": "Nacina Ves"
+ },
+ {
+  "id": "32060",
+  "name": "Nalepkovo"
+ },
+ {
+  "id": "31470",
+  "name": "Namestovo"
+ },
+ {
+  "id": "32693",
+  "name": "Nana"
+ },
+ {
+  "id": "31962",
+  "name": "Neded"
+ },
+ {
+  "id": "32710",
+  "name": "Nedozery-Brezany"
+ },
+ {
+  "id": "32630",
+  "name": "Nemce"
+ },
+ {
+  "id": "31938",
+  "name": "Nemecka"
+ },
+ {
+  "id": "32173",
+  "name": "Nemsova"
+ },
+ {
+  "id": "32633",
+  "name": "Nenince"
+ },
+ {
+  "id": "32297",
+  "name": "Neslusa"
+ },
+ {
+  "id": "32029",
+  "name": "Nesvady"
+ },
+ {
+  "id": "34042",
+  "name": "Nimnica"
+ },
+ {
+  "id": "32739",
+  "name": "Nitra (centrum)"
+ },
+ {
+  "id": "31365",
+  "name": "Nitra (meteo stanica)"
+ },
+ {
+  "id": "32113",
+  "name": "Nitrianska Blatnica"
+ },
+ {
+  "id": "32077",
+  "name": "Nitrianske Hrnciarovce"
+ },
+ {
+  "id": "32016",
+  "name": "Nitrianske Pravno"
+ },
+ {
+  "id": "32306",
+  "name": "Nitrianske Rudno"
+ },
+ {
+  "id": "32384",
+  "name": "Nitrianske Sucany"
+ },
+ {
+  "id": "32719",
+  "name": "Nitrica"
+ },
+ {
+  "id": "32148",
+  "name": "Nizna"
+ },
+ {
+  "id": "32379",
+  "name": "Nizna Mysla"
+ },
+ {
+  "id": "32621",
+  "name": "Nizna Slana"
+ },
+ {
+  "id": "32548",
+  "name": "Nizny Hrabovec"
+ },
+ {
+  "id": "32658",
+  "name": "Nizny Hrusov"
+ },
+ {
+  "id": "32590",
+  "name": "Nizny Zipov"
+ },
+ {
+  "id": "32195",
+  "name": "Nova Bana"
+ },
+ {
+  "id": "31407",
+  "name": "Nova Bosaca"
+ },
+ {
+  "id": "32249",
+  "name": "Nova Bystrica"
+ },
+ {
+  "id": "32708",
+  "name": "Nova Dedina"
+ },
+ {
+  "id": "32536",
+  "name": "Nova Dedinka"
+ },
+ {
+  "id": "31957",
+  "name": "Nova Dubnica"
+ },
+ {
+  "id": "31461",
+  "name": "Nova Hola"
+ },
+ {
+  "id": "31927",
+  "name": "Nova Lesna"
+ },
+ {
+  "id": "32210",
+  "name": "Nova Lubovna"
+ },
+ {
+  "id": "32347",
+  "name": "Nova Ves nad Zitavou"
+ },
+ {
+  "id": "32067",
+  "name": "Novaky"
+ },
+ {
+  "id": "31409",
+  "name": "Nove Mesto nad Vahom"
+ },
+ {
+  "id": "32230",
+  "name": "Nove Sady"
+ },
+ {
+  "id": "31412",
+  "name": "Nove Zamky"
+ },
+ {
+  "id": "32583",
+  "name": "Novot"
+ },
+ {
+  "id": "34037",
+  "name": "Novy Smokovec"
+ },
+ {
+  "id": "32491",
+  "name": "Novy Zivot"
+ },
+ {
+  "id": "32554",
+  "name": "Obid"
+ },
+ {
+  "id": "32090",
+  "name": "Obyce"
+ },
+ {
+  "id": "32356",
+  "name": "Ochodnica"
+ },
+ {
+  "id": "32248",
+  "name": "Ocova"
+ },
+ {
+  "id": "32418",
+  "name": "Ohrady"
+ },
+ {
+  "id": "32382",
+  "name": "Okoc"
+ },
+ {
+  "id": "32690",
+  "name": "Okolicna na Ostrove"
+ },
+ {
+  "id": "32598",
+  "name": "Olesna"
+ },
+ {
+  "id": "32118",
+  "name": "Omsenie"
+ },
+ {
+  "id": "32577",
+  "name": "Opatovce nad Nitrou"
+ },
+ {
+  "id": "32453",
+  "name": "Oravska Jasenica"
+ },
+ {
+  "id": "32122",
+  "name": "Oravska Lesna"
+ },
+ {
+  "id": "31955",
+  "name": "Oravska Polhora"
+ },
+ {
+  "id": "32268",
+  "name": "Oravske Vesele"
+ },
+ {
+  "id": "32547",
+  "name": "Oravsky Podzamok"
+ },
+ {
+  "id": "32399",
+  "name": "Orechova Poton"
+ },
+ {
+  "id": "31399",
+  "name": "Oresany (Slepy vrch)"
+ },
+ {
+  "id": "32001",
+  "name": "Oscadnica"
+ },
+ {
+  "id": "32407",
+  "name": "Oslany"
+ },
+ {
+  "id": "31515",
+  "name": "Ostra Hora"
+ },
+ {
+  "id": "31167",
+  "name": "Ostredok"
+ },
+ {
+  "id": "32426",
+  "name": "Ostrov"
+ },
+ {
+  "id": "32660",
+  "name": "Ostrovany"
+ },
+ {
+  "id": "32199",
+  "name": "Ozdany"
+ },
+ {
+  "id": "31972",
+  "name": "Palarikovo"
+ },
+ {
+  "id": "31457",
+  "name": "Pansky Diel"
+ },
+ {
+  "id": "32706",
+  "name": "Papin"
+ },
+ {
+  "id": "32377",
+  "name": "Papradno"
+ },
+ {
+  "id": "32024",
+  "name": "Parchovany"
+ },
+ {
+  "id": "32421",
+  "name": "Partizanska Lupca"
+ },
+ {
+  "id": "31425",
+  "name": "Partizanske"
+ },
+ {
+  "id": "37493",
+  "name": "Pastovce"
+ },
+ {
+  "id": "32083",
+  "name": "Pata"
+ },
+ {
+  "id": "34023",
+  "name": "Patince"
+ },
+ {
+  "id": "32518",
+  "name": "Pavlovce nad Uhom"
+ },
+ {
+  "id": "32665",
+  "name": "Pecovska Nova Ves"
+ },
+ {
+  "id": "32703",
+  "name": "Perin-Chym"
+ },
+ {
+  "id": "32656",
+  "name": "Petrova Ves"
+ },
+ {
+  "id": "32529",
+  "name": "Petrovany"
+ },
+ {
+  "id": "32370",
+  "name": "Petrovice"
+ },
+ {
+  "id": "31396",
+  "name": "Pezinok"
+ },
+ {
+  "id": "31581",
+  "name": "Pezinska Baba"
+ },
+ {
+  "id": "32740",
+  "name": "Piestany (centrum)"
+ },
+ {
+  "id": "31362",
+  "name": "Piestany (meteo stanica)"
+ },
+ {
+  "id": "32171",
+  "name": "Plastovce"
+ },
+ {
+  "id": "32158",
+  "name": "Plavec"
+ },
+ {
+  "id": "32253",
+  "name": "Plavecky Stvrtok"
+ },
+ {
+  "id": "32290",
+  "name": "Plavnica"
+ },
+ {
+  "id": "32371",
+  "name": "Plesivec"
+ },
+ {
+  "id": "32172",
+  "name": "Plevnik - Drienove"
+ },
+ {
+  "id": "32028",
+  "name": "Pliesovce"
+ },
+ {
+  "id": "31166",
+  "name": "Ploska"
+ },
+ {
+  "id": "32443",
+  "name": "Pobedim"
+ },
+ {
+  "id": "32472",
+  "name": "Podbiel"
+ },
+ {
+  "id": "32084",
+  "name": "Podbrezova"
+ },
+ {
+  "id": "32532",
+  "name": "Podhajska"
+ },
+ {
+  "id": "32649",
+  "name": "Podhorany"
+ },
+ {
+  "id": "38074",
+  "name": "Podhorod - Paprtny"
+ },
+ {
+  "id": "31462",
+  "name": "Podkonice/Plese"
+ },
+ {
+  "id": "32301",
+  "name": "Podolie"
+ },
+ {
+  "id": "32059",
+  "name": "Podolinec"
+ },
+ {
+  "id": "32185",
+  "name": "Podvysoka"
+ },
+ {
+  "id": "31493",
+  "name": "Pohorela"
+ },
+ {
+  "id": "32211",
+  "name": "Pohranice"
+ },
+ {
+  "id": "32292",
+  "name": "Pohronska Polhora"
+ },
+ {
+  "id": "32632",
+  "name": "Pohronsky Ruskov"
+ },
+ {
+  "id": "34118",
+  "name": "Polana Cervenec (totalizator)"
+ },
+ {
+  "id": "32746",
+  "name": "Polomka"
+ },
+ {
+  "id": "31486",
+  "name": "Poltar"
+ },
+ {
+  "id": "32450",
+  "name": "Poniky"
+ },
+ {
+  "id": "34035",
+  "name": "Poprad (centrum)"
+ },
+ {
+  "id": "31377",
+  "name": "Poprad (letisko)"
+ },
+ {
+  "id": "31997",
+  "name": "Poproc"
+ },
+ {
+  "id": "32593",
+  "name": "Porac"
+ },
+ {
+  "id": "32227",
+  "name": "Poruba"
+ },
+ {
+  "id": "32557",
+  "name": "Povazany"
+ },
+ {
+  "id": "31428",
+  "name": "Povazska Bystrica"
+ },
+ {
+  "id": "32110",
+  "name": "Povina"
+ },
+ {
+  "id": "32647",
+  "name": "Pozdisovce"
+ },
+ {
+  "id": "31987",
+  "name": "Prakovce"
+ },
+ {
+  "id": "31990",
+  "name": "Prasice"
+ },
+ {
+  "id": "32206",
+  "name": "Pravenec"
+ },
+ {
+  "id": "32601",
+  "name": "Precin"
+ },
+ {
+  "id": "31994",
+  "name": "Predajna"
+ },
+ {
+  "id": "32556",
+  "name": "Predmier"
+ },
+ {
+  "id": "32459",
+  "name": "Preselany"
+ },
+ {
+  "id": "31379",
+  "name": "Presov"
+ },
+ {
+  "id": "32134",
+  "name": "Pribeta"
+ },
+ {
+  "id": "32141",
+  "name": "Pribylina"
+ },
+ {
+  "id": "31432",
+  "name": "Prievidza"
+ },
+ {
+  "id": "32281",
+  "name": "Pruske"
+ },
+ {
+  "id": "32126",
+  "name": "Pruzina"
+ },
+ {
+  "id": "31424",
+  "name": "Puchov"
+ },
+ {
+  "id": "32404",
+  "name": "Pukanec"
+ },
+ {
+  "id": "32061",
+  "name": "Puste Ulany"
+ },
+ {
+  "id": "32107",
+  "name": "Rabca"
+ },
+ {
+  "id": "32412",
+  "name": "Rabcice"
+ },
+ {
+  "id": "32261",
+  "name": "Radola"
+ },
+ {
+  "id": "32095",
+  "name": "Radosina"
+ },
+ {
+  "id": "32444",
+  "name": "Radosovce"
+ },
+ {
+  "id": "32651",
+  "name": "Radzovce"
+ },
+ {
+  "id": "32012",
+  "name": "Rajec"
+ },
+ {
+  "id": "32068",
+  "name": "Rajecka Lesna"
+ },
+ {
+  "id": "34025",
+  "name": "Rajecke Teplice (centrum)"
+ },
+ {
+  "id": "32296",
+  "name": "Rakova"
+ },
+ {
+  "id": "32552",
+  "name": "Rakovec nad Ondavou"
+ },
+ {
+  "id": "32700",
+  "name": "Rakusy"
+ },
+ {
+  "id": "32595",
+  "name": "Raslavice"
+ },
+ {
+  "id": "32576",
+  "name": "Raznany"
+ },
+ {
+  "id": "32449",
+  "name": "Raztocno"
+ },
+ {
+  "id": "31988",
+  "name": "Reca"
+ },
+ {
+  "id": "31495",
+  "name": "Revuca"
+ },
+ {
+  "id": "32200",
+  "name": "Richnava"
+ },
+ {
+  "id": "32674",
+  "name": "Richvald"
+ },
+ {
+  "id": "32615",
+  "name": "Rimavska Sec"
+ },
+ {
+  "id": "31375",
+  "name": "Rimavska Sobota"
+ },
+ {
+  "id": "32682",
+  "name": "Rimavske Janovce"
+ },
+ {
+  "id": "32221",
+  "name": "Risnovce"
+ },
+ {
+  "id": "31482",
+  "name": "Rohace - Spalena"
+ },
+ {
+  "id": "32231",
+  "name": "Rohovce"
+ },
+ {
+  "id": "31921",
+  "name": "Rohoznik"
+ },
+ {
+  "id": "31967",
+  "name": "Rosina"
+ },
+ {
+  "id": "31950",
+  "name": "Rovinka"
+ },
+ {
+  "id": "32021",
+  "name": "Rozhanovce"
+ },
+ {
+  "id": "32717",
+  "name": "Rozkovany"
+ },
+ {
+  "id": "31507",
+  "name": "Roznava"
+ },
+ {
+  "id": "32361",
+  "name": "Rudina"
+ },
+ {
+  "id": "32212",
+  "name": "Rudnany"
+ },
+ {
+  "id": "32137",
+  "name": "Ruskov"
+ },
+ {
+  "id": "32282",
+  "name": "Ruzindol"
+ },
+ {
+  "id": "31464",
+  "name": "Ruzomberok"
+ },
+ {
+  "id": "32312",
+  "name": "Rybany"
+ },
+ {
+  "id": "32179",
+  "name": "Rybnik"
+ },
+ {
+  "id": "32744",
+  "name": "Sabinov"
+ },
+ {
+  "id": "32643",
+  "name": "Sacurov"
+ },
+ {
+  "id": "32723",
+  "name": "Sady nad Torysou"
+ },
+ {
+  "id": "31369",
+  "name": "Sahy"
+ },
+ {
+  "id": "31976",
+  "name": "Sajdikove Humence"
+ },
+ {
+  "id": "31410",
+  "name": "Sala"
+ },
+ {
+  "id": "32728",
+  "name": "Salka"
+ },
+ {
+  "id": "31419",
+  "name": "Samorin"
+ },
+ {
+  "id": "38559",
+  "name": "Santovka"
+ },
+ {
+  "id": "32725",
+  "name": "Sarisske Dravce"
+ },
+ {
+  "id": "32238",
+  "name": "Sarisske Jastrabie"
+ },
+ {
+  "id": "32175",
+  "name": "Sarisske Michalany"
+ },
+ {
+  "id": "31491",
+  "name": "Sarkanica"
+ },
+ {
+  "id": "32167",
+  "name": "Sarovce"
+ },
+ {
+  "id": "32349",
+  "name": "Sastin-Straze"
+ },
+ {
+  "id": "32142",
+  "name": "Sebechleby"
+ },
+ {
+  "id": "32133",
+  "name": "Sebedrazie"
+ },
+ {
+  "id": "32409",
+  "name": "Secovce"
+ },
+ {
+  "id": "32608",
+  "name": "Secovska Polianka"
+ },
+ {
+  "id": "32538",
+  "name": "Sedlice"
+ },
+ {
+  "id": "32691",
+  "name": "Sedliska"
+ },
+ {
+  "id": "32164",
+  "name": "Sekule"
+ },
+ {
+  "id": "31956",
+  "name": "Selce"
+ },
+ {
+  "id": "32058",
+  "name": "Selice"
+ },
+ {
+  "id": "32510",
+  "name": "Semerovo"
+ },
+ {
+  "id": "32568",
+  "name": "Sena"
+ },
+ {
+  "id": "31398",
+  "name": "Senec"
+ },
+ {
+  "id": "31359",
+  "name": "Senica"
+ },
+ {
+  "id": "32063",
+  "name": "Senkvice"
+ },
+ {
+  "id": "31951",
+  "name": "Sered"
+ },
+ {
+  "id": "34535",
+  "name": "Siba"
+ },
+ {
+  "id": "32353",
+  "name": "Sid"
+ },
+ {
+  "id": "32289",
+  "name": "Sielnica"
+ },
+ {
+  "id": "32365",
+  "name": "Sihelne"
+ },
+ {
+  "id": "34554",
+  "name": "Siminy"
+ },
+ {
+  "id": "32295",
+  "name": "Sintava"
+ },
+ {
+  "id": "32362",
+  "name": "Sirk"
+ },
+ {
+  "id": "32333",
+  "name": "Siroke"
+ },
+ {
+  "id": "34119",
+  "name": "Sivy vrch (vrchol)"
+ },
+ {
+  "id": "32570",
+  "name": "Skacany"
+ },
+ {
+  "id": "31358",
+  "name": "Skalica"
+ },
+ {
+  "id": "32219",
+  "name": "Skalite"
+ },
+ {
+  "id": "31448",
+  "name": "Skalka"
+ },
+ {
+  "id": "31501",
+  "name": "Skalnate Pleso"
+ },
+ {
+  "id": "32610",
+  "name": "Skaros"
+ },
+ {
+  "id": "34027",
+  "name": "Sklene Teplice"
+ },
+ {
+  "id": "32342",
+  "name": "Skycov"
+ },
+ {
+  "id": "32020",
+  "name": "Sladkovicovo"
+ },
+ {
+  "id": "32464",
+  "name": "Slanec"
+ },
+ {
+  "id": "32523",
+  "name": "Slavosovce"
+ },
+ {
+  "id": "32714",
+  "name": "Slazany"
+ },
+ {
+  "id": "34029",
+  "name": "Sliac (centrum)"
+ },
+ {
+  "id": "32745",
+  "name": "Sliac (kupele)"
+ },
+ {
+  "id": "31456",
+  "name": "Sliac (meteo stanica)"
+ },
+ {
+  "id": "48022",
+  "name": "Sliezsky dom"
+ },
+ {
+  "id": "32034",
+  "name": "Slovenska Lupca"
+ },
+ {
+  "id": "32528",
+  "name": "Slovenska Ves"
+ },
+ {
+  "id": "32716",
+  "name": "Slovenske Nove Mesto"
+ },
+ {
+  "id": "31995",
+  "name": "Slovensky Grob"
+ },
+ {
+  "id": "31505",
+  "name": "Slovensky raj"
+ },
+ {
+  "id": "32612",
+  "name": "Slovinky"
+ },
+ {
+  "id": "31517",
+  "name": "Slubica"
+ },
+ {
+  "id": "32168",
+  "name": "Smizany"
+ },
+ {
+  "id": "31964",
+  "name": "Smolenice"
+ },
+ {
+  "id": "32272",
+  "name": "Smolnik"
+ },
+ {
+  "id": "34021",
+  "name": "Smrdaky"
+ },
+ {
+  "id": "38076",
+  "name": "Smrekovica - Branisko"
+ },
+ {
+  "id": "48023",
+  "name": "Snilovske sedlo"
+ },
+ {
+  "id": "31538",
+  "name": "Snina"
+ },
+ {
+  "id": "32039",
+  "name": "Soblahov"
+ },
+ {
+  "id": "32149",
+  "name": "Sobotiste"
+ },
+ {
+  "id": "31539",
+  "name": "Sobrance"
+ },
+ {
+  "id": "32396",
+  "name": "Sokolany"
+ },
+ {
+  "id": "32542",
+  "name": "Sokolce"
+ },
+ {
+  "id": "32283",
+  "name": "Sokolovce"
+ },
+ {
+  "id": "31974",
+  "name": "Sol"
+ },
+ {
+  "id": "32102",
+  "name": "Solcany"
+ },
+ {
+  "id": "32151",
+  "name": "Solosnica"
+ },
+ {
+  "id": "32650",
+  "name": "Somotor"
+ },
+ {
+  "id": "32250",
+  "name": "Soporna"
+ },
+ {
+  "id": "32089",
+  "name": "Spacince"
+ },
+ {
+  "id": "31169",
+  "name": "Spani laz"
+ },
+ {
+  "id": "32013",
+  "name": "Spisska Bela"
+ },
+ {
+  "id": "31509",
+  "name": "Spisska Nova Ves"
+ },
+ {
+  "id": "31503",
+  "name": "Spisska Stara Ves"
+ },
+ {
+  "id": "32146",
+  "name": "Spisska Teplica"
+ },
+ {
+  "id": "32119",
+  "name": "Spisske Bystre"
+ },
+ {
+  "id": "32229",
+  "name": "Spisske Podhradie"
+ },
+ {
+  "id": "32476",
+  "name": "Spisske Tomasovce"
+ },
+ {
+  "id": "32014",
+  "name": "Spisske Vlachy"
+ },
+ {
+  "id": "32627",
+  "name": "Spissky Hrusov"
+ },
+ {
+  "id": "32560",
+  "name": "Spissky Stiavnik"
+ },
+ {
+  "id": "32341",
+  "name": "Spissky Stvrtok"
+ },
+ {
+  "id": "32495",
+  "name": "Stakcin"
+ },
+ {
+  "id": "32075",
+  "name": "Stankovany"
+ },
+ {
+  "id": "32469",
+  "name": "Stara Bystrica"
+ },
+ {
+  "id": "32599",
+  "name": "Stara Kremnicka"
+ },
+ {
+  "id": "34039",
+  "name": "Stara Lesna"
+ },
+ {
+  "id": "31512",
+  "name": "Stara Lubovna"
+ },
+ {
+  "id": "31405",
+  "name": "Stara Tura"
+ },
+ {
+  "id": "38160",
+  "name": "Stary Konus"
+ },
+ {
+  "id": "31500",
+  "name": "Stary Smokovec"
+ },
+ {
+  "id": "32367",
+  "name": "Stary Tekov"
+ },
+ {
+  "id": "32284",
+  "name": "Staskov"
+ },
+ {
+  "id": "38595",
+  "name": "Stefanikova chata"
+ },
+ {
+  "id": "32192",
+  "name": "Stefanov"
+ },
+ {
+  "id": "32069",
+  "name": "Stiavnik"
+ },
+ {
+  "id": "32506",
+  "name": "Stitnik"
+ },
+ {
+  "id": "34043",
+  "name": "Stos"
+ },
+ {
+  "id": "32309",
+  "name": "Stranavy"
+ },
+ {
+  "id": "32707",
+  "name": "Strane pod Tatrami"
+ },
+ {
+  "id": "31441",
+  "name": "Stranik"
+ },
+ {
+  "id": "38174",
+  "name": "Stratena"
+ },
+ {
+  "id": "31952",
+  "name": "Strazske"
+ },
+ {
+  "id": "32242",
+  "name": "Strba"
+ },
+ {
+  "id": "31494",
+  "name": "Strbske Pleso"
+ },
+ {
+  "id": "32213",
+  "name": "Strecno"
+ },
+ {
+  "id": "32502",
+  "name": "Streda nad Bodrogom"
+ },
+ {
+  "id": "32310",
+  "name": "Strekov"
+ },
+ {
+  "id": "31943",
+  "name": "Stropkov"
+ },
+ {
+  "id": "31999",
+  "name": "Studienka"
+ },
+ {
+  "id": "31922",
+  "name": "Stupava"
+ },
+ {
+  "id": "31434",
+  "name": "Sturovo"
+ },
+ {
+  "id": "32035",
+  "name": "Stvrtok na Ostrove"
+ },
+ {
+  "id": "31977",
+  "name": "Sucany"
+ },
+ {
+  "id": "32698",
+  "name": "Sucha Hora"
+ },
+ {
+  "id": "32561",
+  "name": "Sucha nad Parnou"
+ },
+ {
+  "id": "32005",
+  "name": "Sumiac"
+ },
+ {
+  "id": "32705",
+  "name": "Sunava"
+ },
+ {
+  "id": "31961",
+  "name": "Surany"
+ },
+ {
+  "id": "32048",
+  "name": "Surovce"
+ },
+ {
+  "id": "38081",
+  "name": "Sutovo"
+ },
+ {
+  "id": "32368",
+  "name": "Svatoplukovo"
+ },
+ {
+  "id": "32734",
+  "name": "Svaty Anton"
+ },
+ {
+  "id": "31944",
+  "name": "Svaty Jur"
+ },
+ {
+  "id": "32366",
+  "name": "Svaty Peter"
+ },
+ {
+  "id": "32062",
+  "name": "Svedlar"
+ },
+ {
+  "id": "32300",
+  "name": "Sverepec"
+ },
+ {
+  "id": "31528",
+  "name": "Svidnik"
+ },
+ {
+  "id": "32673",
+  "name": "Svinia"
+ },
+ {
+  "id": "32254",
+  "name": "Svinna"
+ },
+ {
+  "id": "32006",
+  "name": "Svit"
+ },
+ {
+  "id": "32635",
+  "name": "Svodin"
+ },
+ {
+  "id": "32186",
+  "name": "Svrcinovec"
+ },
+ {
+  "id": "34032",
+  "name": "Tale"
+ },
+ {
+  "id": "34034",
+  "name": "Tatranska Javorina"
+ },
+ {
+  "id": "34038",
+  "name": "Tatranska Lomnica"
+ },
+ {
+  "id": "31498",
+  "name": "Tatranske Zruby"
+ },
+ {
+  "id": "32190",
+  "name": "Tekovska Breznica"
+ },
+ {
+  "id": "32274",
+  "name": "Tekovske Luzany"
+ },
+ {
+  "id": "32527",
+  "name": "Tekovske Nemce"
+ },
+ {
+  "id": "31497",
+  "name": "Telgart"
+ },
+ {
+  "id": "32549",
+  "name": "Teplicka"
+ },
+ {
+  "id": "32091",
+  "name": "Teplicka nad Vahom"
+ },
+ {
+  "id": "31985",
+  "name": "Terchova"
+ },
+ {
+  "id": "32726",
+  "name": "Terna"
+ },
+ {
+  "id": "32686",
+  "name": "Tesarske Mlynany"
+ },
+ {
+  "id": "32255",
+  "name": "Tesedikovo"
+ },
+ {
+  "id": "31529",
+  "name": "Tisinec"
+ },
+ {
+  "id": "38172",
+  "name": "Tisovec"
+ },
+ {
+  "id": "32345",
+  "name": "Tlmace"
+ },
+ {
+  "id": "32047",
+  "name": "Tomasikovo"
+ },
+ {
+  "id": "31946",
+  "name": "Tomasov"
+ },
+ {
+  "id": "32672",
+  "name": "Tomasovce"
+ },
+ {
+  "id": "31418",
+  "name": "Topolcany"
+ },
+ {
+  "id": "32018",
+  "name": "Topolcianky"
+ },
+ {
+  "id": "32339",
+  "name": "Topolniky"
+ },
+ {
+  "id": "32623",
+  "name": "Toporec"
+ },
+ {
+  "id": "32482",
+  "name": "Tornala"
+ },
+ {
+  "id": "32697",
+  "name": "Torysa"
+ },
+ {
+  "id": "32252",
+  "name": "Tovarne"
+ },
+ {
+  "id": "32043",
+  "name": "Tovarniky"
+ },
+ {
+  "id": "32664",
+  "name": "Trakovice"
+ },
+ {
+  "id": "32514",
+  "name": "Travnica"
+ },
+ {
+  "id": "32574",
+  "name": "Trebatice"
+ },
+ {
+  "id": "32742",
+  "name": "Trebisov (centrum)"
+ },
+ {
+  "id": "32176",
+  "name": "Trencianska Tepla"
+ },
+ {
+  "id": "32152",
+  "name": "Trencianska Turna"
+ },
+ {
+  "id": "32138",
+  "name": "Trencianske Jastrabie"
+ },
+ {
+  "id": "32475",
+  "name": "Trencianske Stankovce"
+ },
+ {
+  "id": "32052",
+  "name": "Trencianske Teplice"
+ },
+ {
+  "id": "31363",
+  "name": "Trencin"
+ },
+ {
+  "id": "32350",
+  "name": "Trhova Hradska"
+ },
+ {
+  "id": "32525",
+  "name": "Trhoviste"
+ },
+ {
+  "id": "31527",
+  "name": "Tri Chotare"
+ },
+ {
+  "id": "31360",
+  "name": "Trnava"
+ },
+ {
+  "id": "32319",
+  "name": "Trnava Hora"
+ },
+ {
+  "id": "32019",
+  "name": "Trnovec nad Vahom"
+ },
+ {
+  "id": "32004",
+  "name": "Trstena"
+ },
+ {
+  "id": "32587",
+  "name": "Trstene pri Hornade"
+ },
+ {
+  "id": "32441",
+  "name": "Trstice"
+ },
+ {
+  "id": "32208",
+  "name": "Trstin"
+ },
+ {
+  "id": "32096",
+  "name": "Tulcik"
+ },
+ {
+  "id": "32050",
+  "name": "Turany"
+ },
+ {
+  "id": "48026",
+  "name": "Turcek"
+ },
+ {
+  "id": "31447",
+  "name": "Turcianske Klacany"
+ },
+ {
+  "id": "32458",
+  "name": "Turcianske Teplice (centrum)"
+ },
+ {
+  "id": "34026",
+  "name": "Turcianske Teplice (stanica)"
+ },
+ {
+  "id": "32193",
+  "name": "Turie"
+ },
+ {
+  "id": "32499",
+  "name": "Turna nad Bodvou"
+ },
+ {
+  "id": "32226",
+  "name": "Turzovka"
+ },
+ {
+  "id": "32465",
+  "name": "Tuzina"
+ },
+ {
+  "id": "31473",
+  "name": "Tvrdosin"
+ },
+ {
+  "id": "32078",
+  "name": "Tvrdosovce"
+ },
+ {
+  "id": "32234",
+  "name": "Udavske"
+ },
+ {
+  "id": "31945",
+  "name": "Udica"
+ },
+ {
+  "id": "32613",
+  "name": "Uhrovec"
+ },
+ {
+  "id": "32401",
+  "name": "Ulany nad Zitavou"
+ },
+ {
+  "id": "32685",
+  "name": "Ulic"
+ },
+ {
+  "id": "32298",
+  "name": "Unin"
+ },
+ {
+  "id": "32334",
+  "name": "Urmince"
+ },
+ {
+  "id": "32330",
+  "name": "Utekac"
+ },
+ {
+  "id": "32519",
+  "name": "Vahovce"
+ },
+ {
+  "id": "32531",
+  "name": "Valaliky"
+ },
+ {
+  "id": "32321",
+  "name": "Valaska"
+ },
+ {
+  "id": "32236",
+  "name": "Valaska Bela"
+ },
+ {
+  "id": "31439",
+  "name": "Valca"
+ },
+ {
+  "id": "32115",
+  "name": "Varin"
+ },
+ {
+  "id": "32569",
+  "name": "Vavrecka"
+ },
+ {
+  "id": "31492",
+  "name": "Vazec"
+ },
+ {
+  "id": "31516",
+  "name": "Vcelare"
+ },
+ {
+  "id": "32676",
+  "name": "Vechec"
+ },
+ {
+  "id": "32461",
+  "name": "Velka Ida"
+ },
+ {
+  "id": "31537",
+  "name": "Velka Kycera"
+ },
+ {
+  "id": "32683",
+  "name": "Velka Lehota"
+ },
+ {
+  "id": "32419",
+  "name": "Velka Lomnica"
+ },
+ {
+  "id": "31959",
+  "name": "Velka Maca"
+ },
+ {
+  "id": "31446",
+  "name": "Velka Raca"
+ },
+ {
+  "id": "31993",
+  "name": "Velke Blahovo"
+ },
+ {
+  "id": "32415",
+  "name": "Velke Kapusany"
+ },
+ {
+  "id": "32245",
+  "name": "Velke Kostolany"
+ },
+ {
+  "id": "32247",
+  "name": "Velke Levare"
+ },
+ {
+  "id": "32490",
+  "name": "Velke Lovce"
+ },
+ {
+  "id": "32448",
+  "name": "Velke Ludince"
+ },
+ {
+  "id": "32422",
+  "name": "Velke Ripnany"
+ },
+ {
+  "id": "31992",
+  "name": "Velke Rovne"
+ },
+ {
+  "id": "32711",
+  "name": "Velke Trakany"
+ },
+ {
+  "id": "32540",
+  "name": "Velke Uherce"
+ },
+ {
+  "id": "32064",
+  "name": "Velke Ulany"
+ },
+ {
+  "id": "32155",
+  "name": "Velke Zaluzie"
+ },
+ {
+  "id": "31937",
+  "name": "Velky Biel"
+ },
+ {
+  "id": "32223",
+  "name": "Velky Blh"
+ },
+ {
+  "id": "32346",
+  "name": "Velky Cetin"
+ },
+ {
+  "id": "32675",
+  "name": "Velky Dur"
+ },
+ {
+  "id": "32015",
+  "name": "Velky Grob"
+ },
+ {
+  "id": "32607",
+  "name": "Velky Hores"
+ },
+ {
+  "id": "38082",
+  "name": "Velky Kliz"
+ },
+ {
+  "id": "31372",
+  "name": "Velky Krtis"
+ },
+ {
+  "id": "32222",
+  "name": "Velky Kyr"
+ },
+ {
+  "id": "32355",
+  "name": "Velky Lapas"
+ },
+ {
+  "id": "32533",
+  "name": "Velky Lipnik"
+ },
+ {
+  "id": "32046",
+  "name": "Velky Meder"
+ },
+ {
+  "id": "32397",
+  "name": "Velky Saris"
+ },
+ {
+  "id": "32471",
+  "name": "Velky Slavkov"
+ },
+ {
+  "id": "32438",
+  "name": "Vesele"
+ },
+ {
+  "id": "32513",
+  "name": "Vidina"
+ },
+ {
+  "id": "32572",
+  "name": "Viglas"
+ },
+ {
+  "id": "31536",
+  "name": "Vihorlat"
+ },
+ {
+  "id": "32550",
+  "name": "Vikartovce"
+ },
+ {
+  "id": "32191",
+  "name": "Vinica"
+ },
+ {
+  "id": "31969",
+  "name": "Vinicne"
+ },
+ {
+  "id": "32378",
+  "name": "Vinne"
+ },
+ {
+  "id": "38159",
+  "name": "Vinne-Dlha"
+ },
+ {
+  "id": "32694",
+  "name": "Vinodol"
+ },
+ {
+  "id": "32287",
+  "name": "Vinohrady nad Vahom"
+ },
+ {
+  "id": "32288",
+  "name": "Visnove"
+ },
+ {
+  "id": "32393",
+  "name": "Vistuk"
+ },
+ {
+  "id": "32276",
+  "name": "Vitanova"
+ },
+ {
+  "id": "32451",
+  "name": "Vitaz"
+ },
+ {
+  "id": "32264",
+  "name": "Vlcany"
+ },
+ {
+  "id": "32322",
+  "name": "Vlckovce"
+ },
+ {
+  "id": "32040",
+  "name": "Voderady"
+ },
+ {
+  "id": "32127",
+  "name": "Vojcice"
+ },
+ {
+  "id": "38075",
+  "name": "Vojnianska hora - start"
+ },
+ {
+  "id": "32546",
+  "name": "Volkovce"
+ },
+ {
+  "id": "32446",
+  "name": "Vozokany"
+ },
+ {
+  "id": "31968",
+  "name": "Vrable"
+ },
+ {
+  "id": "32140",
+  "name": "Vrakun"
+ },
+ {
+  "id": "31530",
+  "name": "Vranov nad Toplou"
+ },
+ {
+  "id": "31450",
+  "name": "Vratna - Chleb"
+ },
+ {
+  "id": "32488",
+  "name": "Vrbov"
+ },
+ {
+  "id": "32445",
+  "name": "Vrbovce"
+ },
+ {
+  "id": "32162",
+  "name": "Vrbove"
+ },
+ {
+  "id": "34581",
+  "name": "Vrsatec"
+ },
+ {
+  "id": "34582",
+  "name": "Vrsatske podhradie"
+ },
+ {
+  "id": "31965",
+  "name": "Vrutky"
+ },
+ {
+  "id": "32260",
+  "name": "Vycapy-Opatovce"
+ },
+ {
+  "id": "31490",
+  "name": "Vychodna"
+ },
+ {
+  "id": "32413",
+  "name": "Vydrany"
+ },
+ {
+  "id": "32454",
+  "name": "Vyhne"
+ },
+ {
+  "id": "34033",
+  "name": "Vysna Boca"
+ },
+ {
+  "id": "48025",
+  "name": "Vysna Hutka"
+ },
+ {
+  "id": "32616",
+  "name": "Vysne Ruzbachy"
+ },
+ {
+  "id": "32594",
+  "name": "Vysny Zipov"
+ },
+ {
+  "id": "32545",
+  "name": "Vysoka nad Kysucou"
+ },
+ {
+  "id": "32105",
+  "name": "Vysoka pri Morave"
+ },
+ {
+  "id": "32584",
+  "name": "Zabokreky"
+ },
+ {
+  "id": "32586",
+  "name": "Zabokreky nad Nitrou"
+ },
+ {
+  "id": "32220",
+  "name": "Zahorska Ves"
+ },
+ {
+  "id": "31923",
+  "name": "Zakamenne"
+ },
+ {
+  "id": "32267",
+  "name": "Zakopcie"
+ },
+ {
+  "id": "32307",
+  "name": "Zaluzice"
+ },
+ {
+  "id": "32581",
+  "name": "Zamutov"
+ },
+ {
+  "id": "31435",
+  "name": "Zarnovica"
+ },
+ {
+  "id": "32129",
+  "name": "Zaskov"
+ },
+ {
+  "id": "32357",
+  "name": "Zavadka nad Hronom"
+ },
+ {
+  "id": "32408",
+  "name": "Zavar"
+ },
+ {
+  "id": "32501",
+  "name": "Zavazna Poruba"
+ },
+ {
+  "id": "32070",
+  "name": "Zavod"
+ },
+ {
+  "id": "32224",
+  "name": "Zazriva"
+ },
+ {
+  "id": "32178",
+  "name": "Zbehy"
+ },
+ {
+  "id": "32485",
+  "name": "Zborov"
+ },
+ {
+  "id": "32462",
+  "name": "Zborov nad Bystricou"
+ },
+ {
+  "id": "32562",
+  "name": "Zdana"
+ },
+ {
+  "id": "31986",
+  "name": "Zdiar"
+ },
+ {
+  "id": "32466",
+  "name": "Zehra"
+ },
+ {
+  "id": "32228",
+  "name": "Zelenec"
+ },
+ {
+  "id": "31433",
+  "name": "Zeliezovce"
+ },
+ {
+  "id": "32625",
+  "name": "Zelovce"
+ },
+ {
+  "id": "32477",
+  "name": "Zemberovce"
+ },
+ {
+  "id": "32410",
+  "name": "Zemianska Olca"
+ },
+ {
+  "id": "32433",
+  "name": "Zemianske Kostolany"
+ },
+ {
+  "id": "32232",
+  "name": "Zemne"
+ },
+ {
+  "id": "32329",
+  "name": "Zemplinska Teplica"
+ },
+ {
+  "id": "32712",
+  "name": "Zemplinske Hamre"
+ },
+ {
+  "id": "32604",
+  "name": "Zemplinske Hradiste"
+ },
+ {
+  "id": "31442",
+  "name": "Ziar nad Hronom"
+ },
+ {
+  "id": "38161",
+  "name": "Ziarska chata"
+ },
+ {
+  "id": "32369",
+  "name": "Ziharec"
+ },
+ {
+  "id": "31920",
+  "name": "Zilina"
+ },
+ {
+  "id": "32240",
+  "name": "Zirany"
+ },
+ {
+  "id": "32318",
+  "name": "Zlate Klasy"
+ },
+ {
+  "id": "31400",
+  "name": "Zlate Moravce"
+ },
+ {
+  "id": "32534",
+  "name": "Zlatna na Ostrove"
+ },
+ {
+  "id": "31580",
+  "name": "Zochova Chata - Piesok"
+ },
+ {
+  "id": "31940",
+  "name": "Zohor"
+ },
+ {
+  "id": "32054",
+  "name": "Zuberec"
+ },
+ {
+  "id": "32394",
+  "name": "Zubrohlava"
+ },
+ {
+  "id": "32498",
+  "name": "Zupcany"
+ },
+ {
+  "id": "31453",
+  "name": "Zvolen"
+ },
+ {
+  "id": "32314",
+  "name": "Zvolenska Slatina"
+ }
+]

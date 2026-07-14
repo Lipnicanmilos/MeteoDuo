@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MeteoDuo – dve predpovede vedľa seba</title>
+<meta name="description" content="Predpoveď počasia pre slovenské obce z dvoch zdrojov naraz: yr.no (MET Norway) a SHMÚ ALADIN meteogram.">
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --primary: #2563eb;
+    --accent:  #0ea5e9;
+    --grad:    linear-gradient(135deg, #2563eb, #0ea5e9);
+    --bg:      #f1f5f9;
+    --surface: #ffffff;
+    --text:    #0f172a;
+    --muted:   #64748b;
+    --border:  #e2e8f0;
+    --shadow:  0 4px 20px rgba(37,99,235,.08);
+  }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg); color: var(--text); min-height: 100vh;
+  }
+  header {
+    background: var(--grad); color: #fff;
+    padding: 1rem 1.5rem;
+    display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+  }
+  header h1 { font-size: 1.5rem; letter-spacing: -.02em; }
+  header .tagline { font-size: .85rem; opacity: .85; }
+  .city-picker { margin-left: auto; display: flex; align-items: center; gap: .5rem; }
+  .city-picker input {
+    padding: .55rem .9rem; border: none; border-radius: 10px;
+    font-size: .95rem; min-width: 260px; outline: none;
+  }
+  main {
+    display: grid; grid-template-columns: 1fr 1.1fr 1fr;
+    gap: 1.25rem; padding: 1.25rem; max-width: 1600px; margin: 0 auto;
+  }
+  @media (max-width: 1100px) { main { grid-template-columns: 1fr; } }
+  .panel {
+    background: var(--surface); border-radius: 16px; box-shadow: var(--shadow);
+    border: 1px solid var(--border); padding: 1.25rem; min-height: 300px;
+  }
+  .panel h2 {
+    font-size: 1.05rem; margin-bottom: 1rem; display: flex;
+    align-items: center; gap: .5rem; color: var(--primary);
+  }
+  .panel h2 .src { font-size: .72rem; color: var(--muted); font-weight: 400; }
+
+  /* stred */
+  .place { text-align: center; margin-bottom: 1.25rem; }
+  .place .name { font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; }
+  .place .coords { color: var(--muted); font-size: .8rem; }
+  .day-cards { display: flex; flex-direction: column; gap: .9rem; }
+  .day-card {
+    display: grid; grid-template-columns: 90px 56px 1fr auto;
+    align-items: center; gap: .9rem;
+    background: linear-gradient(135deg, #eff6ff, #f0f9ff);
+    border: 1px solid #dbeafe; border-radius: 14px; padding: 1rem 1.2rem;
+  }
+  .day-card .dayname { font-weight: 700; text-transform: capitalize; }
+  .day-card .dayname small { display: block; color: var(--muted); font-weight: 400; }
+  .day-card .emoji { font-size: 2.2rem; text-align: center; }
+  .day-card .temps { font-size: 1.35rem; font-weight: 700; }
+  .day-card .temps .min { color: var(--muted); font-weight: 400; font-size: 1.05rem; }
+  .day-card .precip { color: var(--primary); font-weight: 600; font-size: .9rem; white-space: nowrap; }
+
+  /* yr hodinovka */
+  .day-block { margin-bottom: 1.1rem; }
+  .day-block h3 { font-size: .85rem; color: var(--muted); text-transform: capitalize; margin-bottom: .4rem; }
+  table.hours { width: 100%; border-collapse: collapse; font-size: .87rem; }
+  table.hours td { padding: .3rem .35rem; border-top: 1px solid var(--border); }
+  table.hours td.h { color: var(--muted); width: 3.2rem; }
+  table.hours td.e { width: 2rem; text-align: center; }
+  table.hours td.t { font-weight: 700; width: 3.6rem; }
+  table.hours td.p { color: var(--primary); width: 4.5rem; }
+  table.hours td.w { color: var(--muted); text-align: right; }
+
+  /* meteogram */
+  .meteogram-wrap { text-align: center; }
+  .meteogram-wrap img { max-width: 100%; border-radius: 8px; }
+  .note { font-size: .75rem; color: var(--muted); margin-top: .6rem; line-height: 1.5; }
+
+  .status { text-align: center; color: var(--muted); padding: 2.5rem 1rem; }
+  .error { color: #b91c1c; background: #fef2f2; border: 1px solid #fecaca;
+           border-radius: 10px; padding: .8rem 1rem; font-size: .9rem; }
+  footer {
+    text-align: center; color: var(--muted); font-size: .78rem;
+    padding: 1.25rem; line-height: 1.6;
+  }
+  footer a { color: var(--primary); }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" data-presets="react">
+const { useState, useEffect, useMemo } = React;
+
+const DEFAULT_CITY = "32463"; // Babin
+
+const EMOJI = [
+  ["clearsky", "☀️"], ["fair", "🌤️"], ["partlycloudy", "⛅"], ["cloudy", "☁️"],
+  ["fog", "🌫️"], ["heavyrainandthunder", "⛈️"], ["rainandthunder", "⛈️"],
+  ["thunder", "⛈️"], ["heavyrain", "🌧️"], ["rain", "🌧️"], ["lightrain", "🌦️"],
+  ["rainshowers", "🌦️"], ["heavyrainshowers", "🌧️"], ["lightrainshowers", "🌦️"],
+  ["sleet", "🌨️"], ["snow", "❄️"], ["lightsnow", "🌨️"], ["heavysnow", "❄️"],
+];
+function symbolEmoji(code) {
+  if (!code) return "·";
+  const base = code.replace(/_(day|night|polartwilight)$/, "");
+  for (const [k, v] of EMOJI) if (base.includes(k)) return v;
+  return "🌡️";
+}
+
+const DAY_NAMES = ["nedeľa","pondelok","utorok","streda","štvrtok","piatok","sobota"];
+function dayLabel(dateStr, idx) {
+  if (idx === 0) return "dnes";
+  if (idx === 1) return "zajtra";
+  return DAY_NAMES[new Date(dateStr + "T12:00:00").getDay()];
+}
+function fmtDate(dateStr) {
+  const d = new Date(dateStr + "T12:00:00");
+  return d.getDate() + ". " + (d.getMonth() + 1) + ".";
+}
+function windArrow(deg) {
+  if (deg == null) return "";
+  const arrows = ["↓","↙","←","↖","↑","↗","→","↘"];
+  return arrows[Math.round(deg / 45) % 8];
+}
+
+function CityPicker({ cities, value, onChange }) {
+  const byName = useMemo(() => new Map(cities.map(c => [c.name.toLowerCase(), c.id])), [cities]);
+  const current = cities.find(c => c.id === value);
+  const [text, setText] = useState("");
+  useEffect(() => { setText(current ? current.name : ""); }, [current]);
+
+  function commit(t) {
+    const id = byName.get(t.trim().toLowerCase());
+    if (id) onChange(id);
+  }
+  return (
+    <div className="city-picker">
+      <label htmlFor="city">📍</label>
+      <input id="city" list="citylist" value={text}
+             placeholder="Vyber obec…"
+             onChange={e => { setText(e.target.value); commit(e.target.value); }}
+             onFocus={e => e.target.select()} />
+      <datalist id="citylist">
+        {cities.map(c => <option key={c.id} value={c.name} />)}
+      </datalist>
+    </div>
+  );
+}
+
+function DayCards({ days }) {
+  return (
+    <div className="day-cards">
+      {days.map((d, i) => (
+        <div className="day-card" key={d.date}>
+          <div className="dayname">{dayLabel(d.date, i)}<small>{fmtDate(d.date)}</small></div>
+          <div className="emoji">{symbolEmoji(d.symbol)}</div>
+          <div className="temps">{Math.round(d.temp_max)}° <span className="min">/ {Math.round(d.temp_min)}°</span></div>
+          <div className="precip">💧 {d.precip} mm</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function HourlyPanel({ hourly }) {
+  const byDay = useMemo(() => {
+    const m = new Map();
+    for (const h of hourly) {
+      const day = h.time.slice(0, 10);
+      if (!m.has(day)) m.set(day, []);
+      m.get(day).push(h);
+    }
+    return [...m.entries()].slice(0, 3);
+  }, [hourly]);
+
+  return (
+    <div>
+      {byDay.map(([day, rows], i) => (
+        <div className="day-block" key={day}>
+          <h3>{dayLabel(day, i)} {fmtDate(day)}</h3>
+          <table className="hours"><tbody>
+            {rows.filter(h => parseInt(h.time.slice(11, 13)) % 3 === 0).map(h => (
+              <tr key={h.time}>
+                <td className="h">{h.time.slice(11, 16)}</td>
+                <td className="e">{symbolEmoji(h.symbol)}</td>
+                <td className="t">{h.temp != null ? Math.round(h.temp) + "°" : "–"}</td>
+                <td className="p">{h.precip ? h.precip.toFixed(1) + " mm" : ""}</td>
+                <td className="w">{h.wind != null ? h.wind.toFixed(0) + " m/s " + windArrow(h.wind_dir) : ""}</td>
+              </tr>
+            ))}
+          </tbody></table>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function App() {
+  const [cities, setCities] = useState([]);
+  const [cityId, setCityId] = useState(localStorage.getItem("meteoduo_city") || DEFAULT_CITY);
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch("/api/cities").then(r => r.json()).then(setCities)
+      .catch(() => setError("Nepodarilo sa načítať zoznam obcí."));
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true); setError(null);
+    localStorage.setItem("meteoduo_city", cityId);
+    fetch("/api/forecast/" + cityId)
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(d => { if (!cancelled) { setData(d); setLoading(false); } })
+      .catch(() => { if (!cancelled) { setError("Predpoveď sa nepodarilo načítať."); setLoading(false); } });
+    return () => { cancelled = true; };
+  }, [cityId]);
+
+  return (
+    <React.Fragment>
+      <header>
+        <div>
+          <h1>⛅ MeteoDuo</h1>
+          <div className="tagline">dve predpovede vedľa seba · na 3 dni</div>
+        </div>
+        <CityPicker cities={cities} value={cityId} onChange={setCityId} />
+      </header>
+
+      <main>
+        <section className="panel">
+          <h2>🇳🇴 yr.no <span className="src">(MET Norway, hodinová predpoveď)</span></h2>
+          {loading && <div className="status">Načítavam…</div>}
+          {!loading && data && data.yr && <HourlyPanel hourly={data.yr.hourly} />}
+          {!loading && data && !data.yr && <div className="error">{data.yr_error || "Dáta nie sú dostupné."}</div>}
+        </section>
+
+        <section className="panel">
+          {loading && <div className="status">Načítavam…</div>}
+          {error && <div className="error">{error}</div>}
+          {!loading && data && (
+            <React.Fragment>
+              <div className="place">
+                <div className="name">{data.city.name}</div>
+                {data.city.lat && <div className="coords">{data.city.lat.toFixed(3)}°N, {data.city.lon.toFixed(3)}°E</div>}
+              </div>
+              {data.yr && <DayCards days={data.yr.days} />}
+              {!data.yr && <div className="status">Súhrn nie je dostupný.</div>}
+            </React.Fragment>
+          )}
+        </section>
+
+        <section className="panel">
+          <h2>🇸🇰 SHMÚ <span className="src">(model ALADIN, meteogram na 3 dni)</span></h2>
+          {loading && <div className="status">Načítavam…</div>}
+          {!loading && data && (
+            <div className="meteogram-wrap">
+              <img src={data.meteogram_url} alt={"ALADIN meteogram – " + data.city.name}
+                   onError={e => { e.target.style.display = "none"; e.target.nextSibling.style.display = "block"; }} />
+              <div className="error" style={{display: "none"}}>Meteogram sa nepodarilo načítať.</div>
+              <div className="note">Automatická predpoveď modelu ALADIN, aktualizovaná 4× denne.</div>
+            </div>
+          )}
+        </section>
+      </main>
+
+      <footer>
+        Meteorologické dáta: <a href="https://www.met.no/en" target="_blank" rel="noreferrer">MET Norway</a> (CC BY 4.0,
+        zobrazované aj na <a href="https://www.yr.no/en" target="_blank" rel="noreferrer">yr.no</a>) ·
+        <a href="https://www.shmu.sk" target="_blank" rel="noreferrer"> SHMÚ</a> (meteogram ALADIN).
+        MeteoDuo dáta iba zobrazuje, nie je ich autorom.
+      </footer>
+    </React.Fragment>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
