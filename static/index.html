@@ -116,8 +116,20 @@
 
   /* meteogram */
   .meteogram-wrap { text-align: center; }
-  .meteogram-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .meteogram-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; position: relative; }
   .meteogram-wrap img { max-width: 100%; border-radius: 8px; }
+
+  /* lupa — len zariadenia s myšou */
+  @media (hover: hover) and (pointer: fine) {
+    .meteogram-scroll img { cursor: zoom-in; }
+    .zoom-lens {
+      position: absolute; width: 240px; height: 240px; border-radius: 50%;
+      border: 3px solid var(--primary); pointer-events: none;
+      background-repeat: no-repeat; background-color: #fff;
+      box-shadow: 0 8px 30px rgba(15,23,42,.35), inset 0 0 8px rgba(15,23,42,.15);
+      z-index: 10;
+    }
+  }
   .note { font-size: .75rem; color: var(--muted); margin-top: .6rem; line-height: 1.5; }
 
   .status { text-align: center; color: var(--muted); padding: 2.5rem 1rem; }
@@ -261,6 +273,54 @@ function HourlyPanel({ hourly }) {
   );
 }
 
+const ZOOM = 2.5;
+
+function Meteogram({ src, alt }) {
+  const [lens, setLens] = useState(null);   // {x, y, bgX, bgY, bgW, bgH}
+  const [failed, setFailed] = useState(false);
+  useEffect(() => { setFailed(false); setLens(null); }, [src]);
+
+  function onMove(e) {
+    const img = e.currentTarget;
+    const rect = img.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    if (x < 0 || y < 0 || x > rect.width || y > rect.height) { setLens(null); return; }
+    const half = 120; // polovica priemeru lupy
+    setLens({
+      x: img.offsetLeft + x - half,
+      y: img.offsetTop + y - half,
+      bgX: -(x * ZOOM - half),
+      bgY: -(y * ZOOM - half),
+      bgW: rect.width * ZOOM,
+      bgH: rect.height * ZOOM,
+    });
+  }
+
+  return (
+    <div className="meteogram-wrap">
+      <div className="meteogram-scroll">
+        {!failed && (
+          <img src={src} alt={alt}
+               onMouseMove={onMove} onMouseLeave={() => setLens(null)}
+               onError={() => setFailed(true)} />
+        )}
+        {failed && <div className="error">Meteogram sa nepodarilo načítať.</div>}
+        {lens && !failed && (
+          <div className="zoom-lens" style={{
+            left: lens.x + "px", top: lens.y + "px",
+            backgroundImage: "url(" + src + ")",
+            backgroundSize: lens.bgW + "px " + lens.bgH + "px",
+            backgroundPosition: lens.bgX + "px " + lens.bgY + "px",
+          }} />
+        )}
+      </div>
+      <div className="note">Automatická predpoveď modelu ALADIN, aktualizovaná 4× denne.
+        Prejdením myšou sa zobrazí lupa.</div>
+    </div>
+  );
+}
+
 function loadFavs() {
   try { return JSON.parse(localStorage.getItem("meteoduo_favs")) || []; }
   catch { return []; }
@@ -360,14 +420,7 @@ function App() {
           <h2>🇸🇰 SHMÚ <span className="src">(model ALADIN, meteogram na 3 dni)</span></h2>
           {loading && <div className="status">Načítavam…</div>}
           {!loading && data && (
-            <div className="meteogram-wrap">
-              <div className="meteogram-scroll">
-                <img src={data.meteogram_url} alt={"ALADIN meteogram – " + data.city.name}
-                     onError={e => { e.target.style.display = "none"; e.target.nextSibling.style.display = "block"; }} />
-                <div className="error" style={{display: "none"}}>Meteogram sa nepodarilo načítať.</div>
-              </div>
-              <div className="note">Automatická predpoveď modelu ALADIN, aktualizovaná 4× denne.</div>
-            </div>
+            <Meteogram src={data.meteogram_url} alt={"ALADIN meteogram – " + data.city.name} />
           )}
         </section>
       </main>
