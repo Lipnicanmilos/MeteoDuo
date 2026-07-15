@@ -643,8 +643,11 @@ function App() {
 
       <footer>
         Meteorologické dáta: <a href="https://www.met.no/en" target="_blank" rel="noreferrer">MET Norway</a> (CC BY 4.0,
-        zobrazované aj na <a href="https://www.yr.no/en" target="_blank" rel="noreferrer">yr.no</a>) ·
-        <a href="https://www.shmu.sk" target="_blank" rel="noreferrer"> SHMÚ</a> (meteogram ALADIN).
+        zobrazované aj na <a href="https://www.yr.no/en" target="_blank" rel="noreferrer">yr.no</a>) ·{" "}
+        <a href="https://open-meteo.com/" target="_blank" rel="noreferrer">Open-Meteo</a> (modely ECMWF/ICON/GFS, slnko a UV; CC BY 4.0) ·{" "}
+        <a href="https://www.shmu.sk" target="_blank" rel="noreferrer">SHMÚ</a> (meteogramy) ·{" "}
+        <a href="https://meteoalarm.org" target="_blank" rel="noreferrer">Meteoalarm</a> (výstrahy, CC BY 4.0) ·{" "}
+        <a href="https://www.windy.com" target="_blank" rel="noreferrer">Windy</a> (mapa).
         MeteoDuo dáta iba zobrazuje, nie je ich autorom.
       </footer>
     </React.Fragment>

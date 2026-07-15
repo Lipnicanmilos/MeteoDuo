@@ -4,7 +4,12 @@
 
 - [ ] **Nasadenie** — Cloud Run alebo AWS; Dockerfile je hotový, appka zatiaľ
       beží len lokálne. Po nasadení skontrolovať User-Agent limity API
-      (MET Norway vyžaduje identifikáciu) a prípadne pridať rate-limit.
+      (MET Norway vyžaduje identifikáciu), pridať rate-limit a `--proxy-headers`
+      pre uvicorn za load balancerom.
+- [ ] **Testy** — pytest pre digest funkcie (yr._digest, openmeteo._digest_model,
+      warnings._digest) s uloženými JSON fixture — ochrana pri zmene formátu API.
+- [ ] **Logging** — chyby externých zdrojov v /api/forecast sa teraz zahadzujú
+      potichu (zámerne pre UX); po nasadení ich aspoň logovať pre diagnostiku.
 - [ ] **Migrácia na Vite** (voliteľné) — frontend zámerne beží cez React CDN
       a JSX kompiluje server (dukpy), bez Node/build kroku; zvážiť pri raste appky.
 
@@ -23,6 +28,11 @@
 - [x] **Sparkline grafy** — SVG trend teploty a zrážok pre každý model nad tabuľkou
 - [x] **Zdieľateľná URL** — ?obec=&dni= (init z URL + sync cez history.replaceState)
 - [x] **Tmavý režim** — prepínač auto/svetlý/tmavý, CSS premenné + prefers-color-scheme
+- [x] **Opravy z code review** — neúplné posledné dni modelov sa vynechávajú;
+      opravené typy výstrah (7/12/13); CAP bez onset/expires nezhodí render;
+      gzip; PNG cache meteogramov; evikcia cache; validácia ?obec=;
+      klávesnica pre obľúbené čipy; väčšie dotykové ciele na mobile;
+      atribúcia všetkých zdrojov vo footeri (CC BY 4.0)
 - [x] Fullscreen radar na /radar (Windy embed, overlay=radar, centrovaný na obec)
 - [x] Prepínač rozsahu 1 / 3 / 10 dní
 - [x] Porovnanie 4 modelov (yr.no, ECMWF, ICON, GFS) v spoločnej tabuľke

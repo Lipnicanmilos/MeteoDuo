@@ -51,6 +51,9 @@ Pod panelmi:
 - **Jednorazové skripty** — `scripts/geocode_cities.py` (súradnice obcí),
   `scripts/assign_okres.py` (okres pre výstrahy), `scripts/make_icons.py`
   (PWA ikony); spúšťajú sa len pri zmene zoznamu obcí
+- **Výkon** — gzip kompresia odpovedí; in-memory cache s TTL a evikciou:
+  predpovede 15 min, meteogramy (URL aj PNG) 10 min, výstrahy 10 min —
+  externé API sa nezaťažujú opakovanými requestami
 
 ## Lokálne spustenie
 
