@@ -7,8 +7,9 @@
 - [x] **2. Predkompilovať JSX** — hotové: JSX v static/app.jsx, kompiluje
       server cez dukpy (Babel v Pythone) na /app.js s auto-rekompiláciou
       pri zmene; Babel standalone z prehliadača odstránený
-- [ ] **3. PWA** — manifest + service worker; inštalácia na mobil,
-      posledná predpoveď dostupná offline
+- [x] **3. PWA** — hotové: manifest.webmanifest + sw.js (network-first,
+      posledná predpoveď/meteogram offline z cache; CDN cache-first),
+      ikony generované cez Pillow (scripts/make_icons.py)
 
 ## Funkcie
 

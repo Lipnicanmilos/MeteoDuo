@@ -7,6 +7,7 @@ import dukpy
 import httpx
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, Response
+from fastapi.staticfiles import StaticFiles
 
 from app.services import geocode, openmeteo, shmu, yr
 
@@ -24,6 +25,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="MeteoDuo", lifespan=lifespan)
+app.mount("/icons", StaticFiles(directory=STATIC_DIR / "icons"), name="icons")
 
 
 @app.get("/")
@@ -51,6 +53,20 @@ async def app_js():
             js = await asyncio.to_thread(dukpy.jsx_compile, src)
             APP_JS.write_text(js, encoding="utf-8")
     return FileResponse(APP_JS, media_type="application/javascript",
+                        headers={"Cache-Control": "no-cache"})
+
+
+@app.get("/manifest.webmanifest")
+async def manifest():
+    return FileResponse(STATIC_DIR / "manifest.webmanifest",
+                        media_type="application/manifest+json")
+
+
+@app.get("/sw.js")
+async def sw_js():
+    # no-cache: nová verzia workera sa musí prejaviť hneď pri ďalšej návšteve
+    return FileResponse(STATIC_DIR / "sw.js",
+                        media_type="application/javascript",
                         headers={"Cache-Control": "no-cache"})
 
 
