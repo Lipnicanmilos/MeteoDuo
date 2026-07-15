@@ -31,13 +31,13 @@ TYPES = {
     "4": ("🌫️", "hmla"),
     "5": ("🌡️", "vysoké teploty"),
     "6": ("🥶", "nízke teploty"),
-    "7": ("🌊", "povodne"),
+    "7": ("🌊", "pobrežné javy"),
     "8": ("🔥", "lesné požiare"),
     "9": ("🏔️", "lavíny"),
     "10": ("🌧️", "dážď"),
     "11": ("⚡", "iné"),
-    "12": ("🌊", "záplavy"),
-    "13": ("🌊", "pobrežné javy"),
+    "12": ("🌊", "povodne"),
+    "13": ("🌊", "prívalová povodeň"),
 }
 
 # cache celého feedu: (expires_utc, {norm_okres: [warning, ...]})

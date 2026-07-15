@@ -6,6 +6,7 @@ from pathlib import Path
 import dukpy
 import httpx
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 
@@ -25,6 +26,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="MeteoDuo", lifespan=lifespan)
+app.add_middleware(GZipMiddleware, minimum_size=1024)  # app.js, cities, forecast
 app.mount("/icons", StaticFiles(directory=STATIC_DIR / "icons"), name="icons")
 
 

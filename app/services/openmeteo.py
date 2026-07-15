@@ -132,7 +132,9 @@ def _digest_model(h: dict, model: str) -> list[dict]:
 
     day_list = []
     for d in list(days.values())[:FORECAST_DAYS]:
-        if not d["temps"]:
+        # neúplný chvost horizontu modelu (napr. ICON končí o polnoci
+        # posledného dňa) by dal skreslené min/max — deň vynecháme
+        if len(d["temps"]) < 18:
             continue
         pool = d["day_codes"] or d["all_codes"]
         day_list.append({

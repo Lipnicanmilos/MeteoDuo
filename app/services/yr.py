@@ -77,6 +77,13 @@ def _digest(timeseries: list[dict]) -> dict:
         if h["symbol"] and 9 <= hour <= 18:
             d["symbols"].append(h["symbol"])
 
+    # posledný deň horizontu býva odrezaný uprostred dňa -> skreslené max;
+    # nechávame ho, len ak dáta siahajú aspoň po 18:00 (po 60 h sú kroky 6 h)
+    last_day = max(days) if days else None
+    if last_day and not any(h["time"][:10] == last_day and h["time"][11:13] >= "18"
+                            for h in hourly):
+        del days[last_day]
+
     day_list = []
     for d in list(days.values())[:FORECAST_DAYS]:
         if not d["temps"]:

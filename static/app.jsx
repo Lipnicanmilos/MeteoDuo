@@ -123,6 +123,11 @@ function DayCards({ days, daily }) {
 }
 
 // farebný prúžok s výstrahami pre okres (bod 4)
+function fmtWhen(iso) {
+  // CAP negarantuje onset/expires — chýbajúci čas nesmie zhodiť render
+  return iso ? fmtDate(iso.slice(0, 10)) + " " + fmtTime(iso) : "?";
+}
+
 function WarnBar({ warnings }) {
   if (!warnings || !warnings.length) return null;
   return (
@@ -134,8 +139,7 @@ function WarnBar({ warnings }) {
             <b>{w.event || ("Výstraha – " + w.type)}</b>
             {w.headline && <span className="wmeta">{w.headline}</span>}
             <span className="wmeta">
-              {w.level} úroveň · {fmtDate(w.onset.slice(0, 10))} {fmtTime(w.onset)}
-              {" – "}{fmtDate(w.expires.slice(0, 10))} {fmtTime(w.expires)}
+              {w.level} úroveň · {fmtWhen(w.onset)} – {fmtWhen(w.expires)}
             </span>
           </span>
         </div>
