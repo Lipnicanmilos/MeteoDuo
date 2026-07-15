@@ -11,7 +11,8 @@ Pod panelmi:
 - **Porovnanie modelov** — spoločná tabuľka deň po dni: yr.no (MET Norway),
   ECMWF (model, ktorý predvolene zobrazuje Windy aj 10-dňový meteogram SHMÚ),
   ICON (DWD) a GFS (NOAA). Δ badge upozorní na veľký rozptyl medzi modelmi
-  (teplota ≥ 2 °C, zrážky ≥ 3 mm).
+  (teplota ≥ 2 °C, zrážky ≥ 3 mm). Nad tabuľkou **sparkline** trend teploty
+  a zrážok pre každý model.
 - **Windy** — interaktívna mapa (oficiálny embed widget) so značkou na
   vybranej obci a bodovou predpoveďou.
 
@@ -19,9 +20,17 @@ Pod panelmi:
 
 - Prepínač rozsahu **1 deň / 3 dni / 10 dní** (pri 1 dni hodinovka po hodine,
   pri 10 dňoch sa automaticky zvolí 10-dňový ECMWF meteogram SHMÚ)
+- **Výstrahy počasia** — farebný prúžok + ikonka pri obci, keď v jej okrese
+  platí (alebo o chvíľu začne) výstraha SHMÚ/Meteoalarm (vietor, búrky,
+  teploty, poľadovica…), so žltou/oranžovou/červenou úrovňou a platnosťou
+- **Východ/západ slnka + UV index** v dennom súhrne (UV farebne podľa škály WHO)
 - **4 typy SHMÚ meteogramov** prepínateľné čipmi: ALADIN (3 dni),
   A-LAEF ansámbel (3 dni), ECMWF EPS ansámbel (8 dní), ECMWF (10 dní)
 - **Obľúbené obce** — hviezdička + čipy na rýchle prepínanie (localStorage)
+- **Zdieľateľná URL** — obec a rozsah sú v adrese (`?obec=32463&dni=10`),
+  odkaz otvorí presne ten istý pohľad
+- **Tmavý režim** — prepínač automatický / svetlý / tmavý v hlavičke
+- **PWA** — inštalovateľná na mobil, posledná predpoveď dostupná offline
 - **Lupa** na meteograme (hover, desktop) a **lightbox** (klik = zväčšenie
   na stred obrazovky, Esc/klik zatvorí)
 - Responzívne mobilné zobrazenie (panely pod sebou)
@@ -30,13 +39,18 @@ Pod panelmi:
 
 - **Backend:** FastAPI (Python) — `app/`
   - `/api/cities` — zoznam 1068 slovenských obcí (podľa číselníka SHMÚ)
-  - `/api/forecast/{city_id}` — geokódovanie (Open-Meteo) + yr.no predpoveď
-    + 3 modely (ECMWF, ICON, GFS) cez Open-Meteo jedným requestom
+  - `/api/forecast/{city_id}` — yr.no predpoveď + 3 modely (ECMWF, ICON, GFS)
+    a denné údaje (slnko/UV) cez Open-Meteo + výstrahy Meteoalarm pre okres obce;
+    súradnice a okres sú predpočítané v `cities.json` (geokódovanie je fallback)
   - `/api/meteogram/{city_id}?type=aladin|laef|egram8|mgram10` — proxy
     najnovšieho meteogramu zo shmu.sk
+  - `/manifest.webmanifest`, `/sw.js`, `/icons/*` — PWA (inštalácia + offline cache)
 - **Frontend:** React 18 cez CDN, JSX v `static/app.jsx` — kompiluje ho
   server (dukpy/Babel v Pythone, žiadny Node) na route `/app.js`;
   prekompiluje sa automaticky pri zmene zdroja
+- **Jednorazové skripty** — `scripts/geocode_cities.py` (súradnice obcí),
+  `scripts/assign_okres.py` (okres pre výstrahy), `scripts/make_icons.py`
+  (PWA ikony); spúšťajú sa len pri zmene zoznamu obcí
 
 ## Lokálne spustenie
 
@@ -63,8 +77,9 @@ Otvorené úlohy sú v [TODO.md](TODO.md).
 
 - Predpoveď: [MET Norway](https://api.met.no) — Locationforecast 2.0, licencia
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (rovnaké dáta zobrazuje yr.no)
-- Modely ECMWF / ICON / GFS: [Open-Meteo](https://open-meteo.com/) — CC BY 4.0
+- Modely ECMWF / ICON / GFS + slnko/UV: [Open-Meteo](https://open-meteo.com/) — CC BY 4.0
 - Meteogramy: [SHMÚ](https://www.shmu.sk) — verejne dostupné meteogramy pre územie SR
+- Výstrahy: [Meteoalarm](https://meteoalarm.org) — feed SHMÚ, CC BY 4.0
 - Mapa: [Windy](https://www.windy.com) — oficiálny embed widget
 - Geokódovanie: [Open-Meteo Geocoding API](https://open-meteo.com/)
 
