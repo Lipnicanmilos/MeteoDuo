@@ -26,6 +26,9 @@ CITIES_FILE = Path(__file__).resolve().parent.parent / "data" / "cities.json"
 CITIES: list[dict] = json.loads(CITIES_FILE.read_text(encoding="utf-8"))
 CITY_IDS = {c["id"] for c in CITIES}
 CITY_NAMES = {c["id"]: c["name"] for c in CITIES}
+# predpočítané skriptom scripts/geocode_cities.py; pár bodov súradnice nemá
+CITY_COORDS = {c["id"]: (c["lat"], c["lon"])
+               for c in CITIES if c.get("lat") is not None}
 
 # cache: (city_id, mg_type) -> (expires_utc, image_url)
 _url_cache: dict[tuple[str, str], tuple[datetime, str]] = {}

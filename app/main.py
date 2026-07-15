@@ -47,7 +47,9 @@ async def forecast(city_id: str):
     client = app.state.http
     name = shmu.CITY_NAMES[city_id]
 
-    coords = await geocode.geocode(client, name)
+    # súradnice sú predpočítané v cities.json; API geokódovanie je len
+    # fallback pre pár bodov bez súradníc
+    coords = shmu.CITY_COORDS.get(city_id) or await geocode.geocode(client, name)
     yr_data, yr_error = None, None
     om_data, om_error = None, None
     if coords:

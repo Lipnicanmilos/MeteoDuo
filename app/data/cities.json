@@ -1,91 +1,135 @@
 [
  {
   "id": "32299",
-  "name": "Abraham"
+  "name": "Abraham",
+  "lat": 48.24838,
+  "lon": 17.61882
  },
  {
   "id": "32376",
-  "name": "Aleksince"
+  "name": "Aleksince",
+  "lat": 48.36641,
+  "lon": 17.9479
  },
  {
   "id": "32216",
-  "name": "Andovce"
+  "name": "Andovce",
+  "lat": 47.99337,
+  "lon": 18.10513
  },
  {
   "id": "32463",
-  "name": "Babin"
+  "name": "Babin",
+  "lat": 49.33075,
+  "lon": 19.38068
  },
  {
   "id": "32624",
-  "name": "Bacuch"
+  "name": "Bacuch",
+  "lat": 48.85907,
+  "lon": 19.80577
  },
  {
   "id": "32215",
-  "name": "Badin"
+  "name": "Badin",
+  "lat": 48.66375,
+  "lon": 19.12319
  },
  {
   "id": "31971",
-  "name": "Bahon"
+  "name": "Bahon",
+  "lat": 48.30944,
+  "lon": 17.44519
  },
  {
   "id": "32196",
-  "name": "Bajc"
+  "name": "Bajc",
+  "lat": 47.92624,
+  "lon": 18.20744
  },
  {
   "id": "32057",
-  "name": "Baka"
+  "name": "Baka",
+  "lat": 47.9076,
+  "lon": 17.52175
  },
  {
   "id": "38077",
-  "name": "Baldovce - start"
+  "name": "Baldovce - start",
+  "lat": 48.99229,
+  "lon": 20.71376
  },
  {
   "id": "48024",
-  "name": "Banikov"
+  "name": "Banikov",
+  "lat": 49.19756,
+  "lon": 19.70994
  },
  {
   "id": "32271",
-  "name": "Banka"
+  "name": "Banka",
+  "lat": 48.5855,
+  "lon": 17.85541
  },
  {
   "id": "32092",
-  "name": "Banov"
+  "name": "Banov",
+  "lat": 48.04662,
+  "lon": 18.18813
  },
  {
   "id": "31422",
-  "name": "Banovce nad Bebravou"
+  "name": "Banovce nad Bebravou",
+  "lat": 48.7213,
+  "lon": 18.25754
  },
  {
   "id": "32302",
-  "name": "Banska Bela"
+  "name": "Banska Bela",
+  "lat": 48.47466,
+  "lon": 18.93367
  },
  {
   "id": "31370",
-  "name": "Banska Bystrica"
+  "name": "Banska Bystrica",
+  "lat": 48.73947,
+  "lon": 19.14932
  },
  {
   "id": "31444",
-  "name": "Banska Stiavnica"
+  "name": "Banska Stiavnica",
+  "lat": 48.44858,
+  "lon": 18.91003
  },
  {
   "id": "32692",
-  "name": "Banske"
+  "name": "Banske",
+  "lat": 48.82985,
+  "lon": 21.57581
  },
  {
   "id": "31455",
-  "name": "Baranovo"
+  "name": "Baranovo",
+  "lat": 48.78,
+  "lon": 19.13806
  },
  {
   "id": "31454",
-  "name": "Baranovo - Zadky"
+  "name": "Baranovo - Zadky",
+  "lat": 48.78,
+  "lon": 19.13806
  },
  {
   "id": "34040",
-  "name": "Bardejov (centrum)"
+  "name": "Bardejov (centrum)",
+  "lat": 49.29175,
+  "lon": 21.27271
  },
  {
   "id": "31380",
-  "name": "Bardejov (meteo stanica)"
+  "name": "Bardejov (meteo stanica)",
+  "lat": 49.29175,
+  "lon": 21.27271
  },
  {
   "id": "38173",
@@ -93,223 +137,333 @@
  },
  {
   "id": "32025",
-  "name": "Batizovce"
+  "name": "Batizovce",
+  "lat": 49.07611,
+  "lon": 20.18497
  },
  {
   "id": "32279",
-  "name": "Batorove Kosihy"
+  "name": "Batorove Kosihy",
+  "lat": 47.8294,
+  "lon": 18.42016
  },
  {
   "id": "32398",
-  "name": "Batovce"
+  "name": "Batovce",
+  "lat": 48.29084,
+  "lon": 18.74568
  },
  {
   "id": "32036",
-  "name": "Beckov"
+  "name": "Beckov",
+  "lat": 48.79219,
+  "lon": 17.89319
  },
  {
   "id": "31996",
-  "name": "Bela"
+  "name": "Bela",
+  "lat": 49.23374,
+  "lon": 18.94576
  },
  {
   "id": "32551",
-  "name": "Bela nad Cirochou"
+  "name": "Bela nad Cirochou",
+  "lat": 48.97496,
+  "lon": 22.10759
  },
  {
   "id": "32681",
-  "name": "Bela-Dulice"
+  "name": "Bela-Dulice",
+  "lat": 49.00162,
+  "lon": 18.97991
  },
  {
   "id": "32452",
-  "name": "Beladice"
+  "name": "Beladice",
+  "lat": 48.34408,
+  "lon": 18.28988
  },
  {
   "id": "34580",
-  "name": "Belajky"
+  "name": "Belajky",
+  "lat": 49.36537,
+  "lon": 18.79132
  },
  {
   "id": "32093",
-  "name": "Belusa"
+  "name": "Belusa",
+  "lat": 49.0649,
+  "lon": 18.32685
  },
  {
   "id": "32237",
-  "name": "Benus"
+  "name": "Benus",
+  "lat": 48.82877,
+  "lon": 19.7616
  },
  {
   "id": "31932",
-  "name": "Bernolakovo"
+  "name": "Bernolakovo",
+  "lat": 48.20068,
+  "lon": 17.30186
  },
  {
   "id": "32130",
-  "name": "Besenov"
+  "name": "Besenov",
+  "lat": 48.04528,
+  "lon": 18.26416
  },
  {
   "id": "34030",
-  "name": "Besenova"
+  "name": "Besenova",
+  "lat": 49.10021,
+  "lon": 19.43472
  },
  {
   "id": "31939",
-  "name": "Betliar"
+  "name": "Betliar",
+  "lat": 48.70275,
+  "lon": 20.50805
  },
  {
   "id": "32163",
-  "name": "Bezovce"
+  "name": "Bezovce",
+  "lat": 48.62875,
+  "lon": 22.15354
  },
  {
   "id": "32541",
-  "name": "Bidovce"
+  "name": "Bidovce",
+  "lat": 48.73622,
+  "lon": 21.43948
  },
  {
   "id": "32065",
-  "name": "Biel"
+  "name": "Biel",
+  "lat": 48.40895,
+  "lon": 22.05915
  },
  {
   "id": "32316",
-  "name": "Biely Kostol"
+  "name": "Biely Kostol",
+  "lat": 48.36755,
+  "lon": 17.53036
  },
  {
   "id": "31925",
-  "name": "Bina"
+  "name": "Bina",
+  "lat": 47.92238,
+  "lon": 18.64157
  },
  {
   "id": "32620",
-  "name": "Biskupice"
+  "name": "Biskupice",
+  "lat": 48.70976,
+  "lon": 18.24257
  },
  {
   "id": "38079",
-  "name": "Blahova"
+  "name": "Blahova",
+  "lat": 48.08605,
+  "lon": 17.53842
  },
  {
   "id": "31978",
-  "name": "Blatne"
+  "name": "Blatne",
+  "lat": 48.2666,
+  "lon": 17.41919
  },
  {
   "id": "32085",
-  "name": "Bobrov"
+  "name": "Bobrov",
+  "lat": 49.42865,
+  "lon": 19.54124
  },
  {
   "id": "32331",
-  "name": "Bobrovec"
+  "name": "Bobrovec",
+  "lat": 49.12113,
+  "lon": 19.61411
  },
  {
   "id": "32553",
-  "name": "Bojna"
+  "name": "Bojna",
+  "lat": 48.5752,
+  "lon": 18.05512
  },
  {
   "id": "31431",
-  "name": "Bojnice (centrum)"
+  "name": "Bojnice (centrum)",
+  "lat": 48.78511,
+  "lon": 18.5864
  },
  {
   "id": "32579",
-  "name": "Bojnicky"
+  "name": "Bojnicky",
+  "lat": 48.39006,
+  "lon": 17.79781
  },
  {
   "id": "32056",
-  "name": "Boleraz"
+  "name": "Boleraz",
+  "lat": 48.46808,
+  "lon": 17.49478
  },
  {
   "id": "32405",
-  "name": "Bolesov"
+  "name": "Bolesov",
+  "lat": 48.9873,
+  "lon": 18.15509
  },
  {
   "id": "31165",
-  "name": "Borisov"
+  "name": "Borisov",
+  "lat": 48.94226,
+  "lon": 19.0893
  },
  {
   "id": "32437",
-  "name": "Borsa"
+  "name": "Borsa",
+  "lat": 48.39436,
+  "lon": 21.70416
  },
  {
   "id": "32217",
-  "name": "Borsky Mikulas"
+  "name": "Borsky Mikulas",
+  "lat": 48.6309,
+  "lon": 17.21448
  },
  {
   "id": "31975",
-  "name": "Borsky Svaty Jur"
+  "name": "Borsky Svaty Jur",
+  "lat": 48.61366,
+  "lon": 17.04658
  },
  {
   "id": "32108",
-  "name": "Bosaca"
+  "name": "Bosaca",
+  "lat": 48.82901,
+  "lon": 17.84037
  },
  {
   "id": "31948",
-  "name": "Bosany"
+  "name": "Bosany",
+  "lat": 48.57883,
+  "lon": 18.24864
  },
  {
   "id": "32468",
-  "name": "Botany"
+  "name": "Botany",
+  "lat": 48.4447,
+  "lon": 22.09259
  },
  {
   "id": "32124",
-  "name": "Branc"
+  "name": "Branc",
+  "lat": 48.21869,
+  "lon": 18.14423
  },
  {
   "id": "32737",
-  "name": "Bratislava (centrum)"
+  "name": "Bratislava (centrum)",
+  "lat": 48.14816,
+  "lon": 17.10674
  },
  {
   "id": "31357",
-  "name": "Bratislava (letisko)"
+  "name": "Bratislava (letisko)",
+  "lat": 48.14816,
+  "lon": 17.10674
  },
  {
   "id": "31176",
-  "name": "Bratislava - Koliba"
+  "name": "Bratislava - Koliba",
+  "lat": 48.14816,
+  "lon": 17.10674
  },
  {
   "id": "31175",
-  "name": "Bratislava - Lamac"
+  "name": "Bratislava - Lamac",
+  "lat": 48.14816,
+  "lon": 17.10674
  },
  {
   "id": "32628",
-  "name": "Brehy"
+  "name": "Brehy",
+  "lat": 48.40701,
+  "lon": 18.65163
  },
  {
   "id": "32320",
-  "name": "Brekov"
+  "name": "Brekov",
+  "lat": 48.90641,
+  "lon": 21.83606
  },
  {
   "id": "32424",
-  "name": "Brestovany"
+  "name": "Brestovany",
+  "lat": 48.38826,
+  "lon": 17.68806
  },
  {
   "id": "32088",
-  "name": "Breza"
+  "name": "Breza",
+  "lat": 49.38761,
+  "lon": 19.38435
  },
  {
   "id": "31479",
-  "name": "Brezno"
+  "name": "Brezno",
+  "lat": 48.80431,
+  "lon": 19.63631
  },
  {
   "id": "32104",
-  "name": "Brezova pod Bradlom"
+  "name": "Brezova pod Bradlom",
+  "lat": 48.66349,
+  "lon": 17.53905
  },
  {
   "id": "31963",
-  "name": "Brezovica"
+  "name": "Brezovica",
+  "lat": 49.15,
+  "lon": 20.85
  },
  {
   "id": "32098",
-  "name": "Brodske"
+  "name": "Brodske",
+  "lat": 48.69089,
+  "lon": 17.01448
  },
  {
   "id": "32160",
-  "name": "Brusno"
+  "name": "Brusno",
+  "lat": 48.79237,
+  "lon": 19.38219
  },
  {
   "id": "32439",
-  "name": "Brvniste"
+  "name": "Brvniste",
+  "lat": 49.21097,
+  "lon": 18.43069
  },
  {
   "id": "32145",
-  "name": "Brzotin"
+  "name": "Brzotin",
+  "lat": 48.631,
+  "lon": 20.49567
  },
  {
   "id": "32667",
-  "name": "Buc"
+  "name": "Buc",
+  "lat": 47.80762,
+  "lon": 18.44665
  },
  {
   "id": "32114",
-  "name": "Bucany"
+  "name": "Bucany",
+  "lat": 48.41582,
+  "lon": 17.69721
  },
  {
   "id": "31520",
@@ -317,19 +471,27 @@
  },
  {
   "id": "32372",
-  "name": "Budca"
+  "name": "Budca",
+  "lat": 48.57384,
+  "lon": 19.06937
  },
  {
   "id": "32575",
-  "name": "Budkovce"
+  "name": "Budkovce",
+  "lat": 48.63216,
+  "lon": 21.93057
  },
  {
   "id": "31960",
-  "name": "Budmerice"
+  "name": "Budmerice",
+  "lat": 48.35756,
+  "lon": 17.40715
  },
  {
   "id": "31397",
-  "name": "Bukova"
+  "name": "Bukova",
+  "lat": 49.26043,
+  "lon": 18.59377
  },
  {
   "id": "34553",
@@ -337,2307 +499,3459 @@
  },
  {
   "id": "31469",
-  "name": "Bukovina"
+  "name": "Bukovina",
+  "lat": 49.13478,
+  "lon": 19.47078
  },
  {
   "id": "32166",
-  "name": "Busince"
+  "name": "Busince",
+  "lat": 48.17455,
+  "lon": 19.50117
  },
  {
   "id": "32109",
-  "name": "Buzica"
+  "name": "Buzica",
+  "lat": 48.53221,
+  "lon": 21.07614
  },
  {
   "id": "32684",
-  "name": "Bystrany"
+  "name": "Bystrany",
+  "lat": 48.9487,
+  "lon": 20.75976
  },
  {
   "id": "32494",
-  "name": "Bystre"
+  "name": "Bystre",
+  "lat": 49.01128,
+  "lon": 21.54292
  },
  {
   "id": "32180",
-  "name": "Bystricany"
+  "name": "Bystricany",
+  "lat": 48.65967,
+  "lon": 18.51533
  },
  {
   "id": "32447",
-  "name": "Bystricka"
+  "name": "Bystricka",
+  "lat": 49.05,
+  "lon": 18.88333
  },
  {
   "id": "31430",
-  "name": "Bytca"
+  "name": "Bytca",
+  "lat": 49.22404,
+  "lon": 18.55878
  },
  {
   "id": "32045",
-  "name": "Bzince pod Javorinou"
+  "name": "Bzince pod Javorinou",
+  "lat": 48.78843,
+  "lon": 17.77449
  },
  {
   "id": "32668",
-  "name": "Cabaj-Capor"
+  "name": "Cabaj-Capor",
+  "lat": 48.24445,
+  "lon": 18.02899
  },
  {
   "id": "32071",
-  "name": "Cachtice"
+  "name": "Cachtice",
+  "lat": 48.71226,
+  "lon": 17.78704
  },
  {
   "id": "31438",
-  "name": "Cadca"
+  "name": "Cadca",
+  "lat": 49.43503,
+  "lon": 18.78895
  },
  {
   "id": "32597",
-  "name": "Cajkov"
+  "name": "Cajkov",
+  "lat": 48.28956,
+  "lon": 18.60058
  },
  {
   "id": "32555",
-  "name": "Cakajovce"
+  "name": "Cakajovce",
+  "lat": 48.37164,
+  "lon": 18.03829
  },
  {
   "id": "32600",
-  "name": "Caklov"
+  "name": "Caklov",
+  "lat": 48.90753,
+  "lon": 21.62988
  },
  {
   "id": "32636",
-  "name": "Calovec"
+  "name": "Calovec",
+  "lat": 47.81707,
+  "lon": 17.98771
  },
  {
   "id": "32194",
-  "name": "Cana"
+  "name": "Cana",
+  "lat": 48.60994,
+  "lon": 21.32622
  },
  {
   "id": "32086",
-  "name": "Cary"
+  "name": "Cary",
+  "lat": 48.6551,
+  "lon": 17.09134
  },
  {
   "id": "32000",
-  "name": "Casta"
+  "name": "Casta",
+  "lat": 48.3992,
+  "lon": 17.36349
  },
  {
   "id": "32099",
-  "name": "Castkovce"
+  "name": "Castkovce",
+  "lat": 48.69212,
+  "lon": 17.78624
  },
  {
   "id": "32659",
-  "name": "Cata"
+  "name": "Cata",
+  "lat": 47.95357,
+  "lon": 18.65147
  },
  {
   "id": "32225",
-  "name": "Cebovce"
+  "name": "Cebovce",
+  "lat": 48.18028,
+  "lon": 19.22931
  },
  {
   "id": "32414",
-  "name": "Cecejovce"
+  "name": "Cecejovce",
+  "lat": 48.59499,
+  "lon": 21.06514
  },
  {
   "id": "32544",
-  "name": "Cechynce"
+  "name": "Cechynce",
+  "lat": 48.25489,
+  "lon": 18.15958
  },
  {
   "id": "32646",
-  "name": "Cejkov"
+  "name": "Cejkov",
+  "lat": 48.46633,
+  "lon": 21.76051
  },
  {
   "id": "32537",
-  "name": "Cerenany"
+  "name": "Cerenany",
+  "lat": 48.64477,
+  "lon": 18.48735
  },
  {
   "id": "32539",
-  "name": "Cernik"
+  "name": "Cernik",
+  "lat": 48.1522,
+  "lon": 18.22613
  },
  {
   "id": "32483",
-  "name": "Cerova"
+  "name": "Cerova",
+  "lat": 48.56997,
+  "lon": 18.52066
  },
  {
   "id": "31525",
-  "name": "Cervenica pri Sabinove"
+  "name": "Cervenica pri Sabinove",
+  "lat": 49.14421,
+  "lon": 21.02129
  },
  {
   "id": "32381",
-  "name": "Cervenik"
+  "name": "Cervenik",
+  "lat": 48.45944,
+  "lon": 17.75694
  },
  {
   "id": "38612",
-  "name": "Chata Kosodrevina"
+  "name": "Chata Kosodrevina",
+  "lat": 48.9328,
+  "lon": 19.5994
  },
  {
   "id": "38171",
-  "name": "Chata pod Hrbom"
+  "name": "Chata pod Hrbom",
+  "lat": 48.73675,
+  "lon": 19.4538
  },
  {
   "id": "32732",
-  "name": "Chlebnice"
+  "name": "Chlebnice",
+  "lat": 49.23211,
+  "lon": 19.46236
  },
  {
   "id": "32406",
-  "name": "Chminianska Nova Ves"
+  "name": "Chminianska Nova Ves",
+  "lat": 49.00332,
+  "lon": 21.08251
  },
  {
   "id": "32709",
-  "name": "Chminianske Jakubovany"
+  "name": "Chminianske Jakubovany",
+  "lat": 48.99663,
+  "lon": 21.01989
  },
  {
   "id": "32578",
-  "name": "Chocholna Velcice"
+  "name": "Chocholna Velcice",
+  "lat": 48.86647,
+  "lon": 17.94506
  },
  {
   "id": "31477",
-  "name": "Chopok"
+  "name": "Chopok",
+  "lat": 48.94466,
+  "lon": 19.59021
  },
  {
   "id": "31475",
-  "name": "Chopok - Lukova"
+  "name": "Chopok - Lukova",
+  "lat": 48.94466,
+  "lon": 19.59021
  },
  {
   "id": "31476",
-  "name": "Chopok - Zahradky"
+  "name": "Chopok - Zahradky",
+  "lat": 48.94466,
+  "lon": 19.59021
  },
  {
   "id": "31941",
-  "name": "Chorvatsky Grob"
+  "name": "Chorvatsky Grob",
+  "lat": 48.22787,
+  "lon": 17.29094
  },
  {
   "id": "32360",
-  "name": "Chotin"
+  "name": "Chotin",
+  "lat": 47.80713,
+  "lon": 18.22691
  },
  {
   "id": "32564",
-  "name": "Chrenovec-Brusno"
+  "name": "Chrenovec-Brusno",
+  "lat": 48.77869,
+  "lon": 18.72674
  },
  {
   "id": "32359",
-  "name": "Chtelnica"
+  "name": "Chtelnica",
+  "lat": 48.56914,
+  "lon": 17.62311
  },
  {
   "id": "32455",
-  "name": "Chynorany"
+  "name": "Chynorany",
+  "lat": 48.60762,
+  "lon": 18.27648
  },
  {
   "id": "38080",
-  "name": "Cicmany"
+  "name": "Cicmany",
+  "lat": 48.95503,
+  "lon": 18.51608
  },
  {
   "id": "32677",
-  "name": "Cicov"
+  "name": "Cicov",
+  "lat": 47.7712,
+  "lon": 17.77305
  },
  {
   "id": "31513",
-  "name": "Cierna Kopa"
+  "name": "Cierna Kopa",
+  "lat": 49.18527,
+  "lon": 20.77615
  },
  {
   "id": "32121",
-  "name": "Cierna nad Tisou"
+  "name": "Cierna nad Tisou",
+  "lat": 48.41704,
+  "lon": 22.08865
  },
  {
   "id": "32473",
-  "name": "Cierna Voda"
+  "name": "Cierna Voda",
+  "lat": 48.12902,
+  "lon": 17.65145
  },
  {
   "id": "32030",
-  "name": "Cierne"
+  "name": "Cierne",
+  "lat": 49.49361,
+  "lon": 18.81954
  },
  {
   "id": "32277",
-  "name": "Cierne Klacany"
+  "name": "Cierne Klacany",
+  "lat": 48.3517,
+  "lon": 18.41827
  },
  {
   "id": "32128",
-  "name": "Cierny Balog"
+  "name": "Cierny Balog",
+  "lat": 48.74722,
+  "lon": 19.65125
  },
  {
   "id": "32159",
-  "name": "Cierny Brod"
+  "name": "Cierny Brod",
+  "lat": 48.14731,
+  "lon": 17.65319
  },
  {
   "id": "31468",
-  "name": "Ciertaz"
+  "name": "Ciertaz",
+  "lat": 49.07676,
+  "lon": 22.42888
  },
  {
   "id": "31926",
-  "name": "Cifer"
+  "name": "Cifer",
+  "lat": 48.3175,
+  "lon": 17.48987
  },
  {
   "id": "32420",
-  "name": "Cigel"
+  "name": "Cigel",
+  "lat": 48.71382,
+  "lon": 18.63997
  },
  {
   "id": "32666",
-  "name": "Cilizska Radvan"
+  "name": "Cilizska Radvan",
+  "lat": 47.83447,
+  "lon": 17.69614
  },
  {
   "id": "32042",
-  "name": "Cinobana"
+  "name": "Cinobana",
+  "lat": 48.44744,
+  "lon": 19.65268
  },
  {
   "id": "32663",
-  "name": "Circ"
+  "name": "Circ",
+  "lat": 49.2787,
+  "lon": 20.92419
  },
  {
   "id": "34041",
-  "name": "Ciz"
+  "name": "Ciz",
+  "lat": 48.31366,
+  "lon": 20.2804
  },
  {
   "id": "34579",
-  "name": "Cunovo - Divoka Voda"
+  "name": "Cunovo - Divoka Voda",
+  "lat": 48.03052,
+  "lon": 17.19978
  },
  {
   "id": "32619",
-  "name": "Dechtice"
+  "name": "Dechtice",
+  "lat": 48.54687,
+  "lon": 17.59666
  },
  {
   "id": "32652",
-  "name": "Demandice"
+  "name": "Demandice",
+  "lat": 48.1256,
+  "lon": 18.7831
  },
  {
   "id": "32637",
-  "name": "Demjata"
+  "name": "Demjata",
+  "lat": 49.10652,
+  "lon": 21.31389
  },
  {
   "id": "31467",
-  "name": "Detva"
+  "name": "Detva",
+  "lat": 48.56082,
+  "lon": 19.41954
  },
  {
   "id": "32161",
-  "name": "Diakovce"
+  "name": "Diakovce",
+  "lat": 48.1345,
+  "lon": 17.842
  },
  {
   "id": "32386",
-  "name": "Diviacka Nova Ves"
+  "name": "Diviacka Nova Ves",
+  "lat": 48.74787,
+  "lon": 18.4965
  },
  {
   "id": "32585",
-  "name": "Diviaky nad Nitricou"
+  "name": "Diviaky nad Nitricou",
+  "lat": 48.76691,
+  "lon": 18.49185
  },
  {
   "id": "32332",
-  "name": "Divin"
+  "name": "Divin",
+  "lat": 48.4499,
+  "lon": 19.53528
  },
  {
   "id": "32503",
-  "name": "Divina"
+  "name": "Divina",
+  "lat": 49.27178,
+  "lon": 18.69516
  },
  {
   "id": "32428",
-  "name": "Dlha nad Oravou"
+  "name": "Dlha nad Oravou",
+  "lat": 49.26667,
+  "lon": 19.45
  },
  {
   "id": "32543",
-  "name": "Dlhe Klcovo"
+  "name": "Dlhe Klcovo",
+  "lat": 48.8108,
+  "lon": 21.7399
  },
  {
   "id": "32695",
-  "name": "Dlhe nad Cirochou"
+  "name": "Dlhe nad Cirochou",
+  "lat": 48.9599,
+  "lon": 22.06226
  },
  {
   "id": "32328",
-  "name": "Dlhe Pole"
+  "name": "Dlhe Pole",
+  "lat": 49.3073,
+  "lon": 18.63166
  },
  {
   "id": "32197",
-  "name": "Dobra Niva"
+  "name": "Dobra Niva",
+  "lat": 48.47082,
+  "lon": 19.10562
  },
  {
   "id": "31504",
-  "name": "Dobsina"
+  "name": "Dobsina",
+  "lat": 48.82073,
+  "lon": 20.36988
  },
  {
   "id": "32511",
-  "name": "Dohnany"
+  "name": "Dohnany",
+  "lat": 49.14867,
+  "lon": 18.28571
  },
  {
   "id": "32352",
-  "name": "Dojc"
+  "name": "Dojc",
+  "lat": 48.6775,
+  "lon": 17.25432
  },
  {
   "id": "32032",
-  "name": "Dolany"
+  "name": "Dolany",
+  "lat": 48.41611,
+  "lon": 17.3757
  },
  {
   "id": "32275",
-  "name": "Dolna Krupa"
+  "name": "Dolna Krupa",
+  "lat": 48.48266,
+  "lon": 17.55112
  },
  {
   "id": "32214",
-  "name": "Dolna Marikova"
+  "name": "Dolna Marikova",
+  "lat": 49.25,
+  "lon": 18.36667
  },
  {
   "id": "32497",
-  "name": "Dolna Streda"
+  "name": "Dolna Streda",
+  "lat": 48.26914,
+  "lon": 17.74994
  },
  {
   "id": "32704",
-  "name": "Dolna Strehova"
+  "name": "Dolna Strehova",
+  "lat": 48.2508,
+  "lon": 19.4888
  },
  {
   "id": "32313",
-  "name": "Dolna Suca"
+  "name": "Dolna Suca",
+  "lat": 48.96079,
+  "lon": 18.03202
  },
  {
   "id": "32174",
-  "name": "Dolna Tizina"
+  "name": "Dolna Tizina",
+  "lat": 49.21558,
+  "lon": 18.91566
  },
  {
   "id": "32492",
-  "name": "Dolne Kockovce"
+  "name": "Dolne Kockovce",
+  "lat": 49.09435,
+  "lon": 18.32528
  },
  {
   "id": "32505",
-  "name": "Dolne Obdokovce"
+  "name": "Dolne Obdokovce",
+  "lat": 48.31325,
+  "lon": 18.21048
  },
  {
   "id": "32456",
-  "name": "Dolne Oresany"
+  "name": "Dolne Oresany",
+  "lat": 48.43966,
+  "lon": 17.42942
  },
  {
   "id": "32522",
-  "name": "Dolne Saliby"
+  "name": "Dolne Saliby",
+  "lat": 48.10724,
+  "lon": 17.78174
  },
  {
   "id": "32205",
-  "name": "Dolne Vestenice"
+  "name": "Dolne Vestenice",
+  "lat": 48.70344,
+  "lon": 18.39708
  },
  {
   "id": "31368",
-  "name": "Dolny Hricov"
+  "name": "Dolny Hricov",
+  "lat": 49.23192,
+  "lon": 18.63326
  },
  {
   "id": "31371",
-  "name": "Dolny Kubin"
+  "name": "Dolny Kubin",
+  "lat": 49.20983,
+  "lon": 19.30341
  },
  {
   "id": "32278",
-  "name": "Dolny Ohaj"
+  "name": "Dolny Ohaj",
+  "lat": 48.08214,
+  "lon": 18.25299
  },
  {
   "id": "32603",
-  "name": "Dolny Stal"
+  "name": "Dolny Stal",
+  "lat": 47.93333,
+  "lon": 17.71667
  },
  {
   "id": "32097",
-  "name": "Domaniza"
+  "name": "Domaniza",
+  "lat": 49.04434,
+  "lon": 18.55742
  },
  {
   "id": "31460",
-  "name": "Donovaly"
+  "name": "Donovaly",
+  "lat": 48.88013,
+  "lon": 19.22238
  },
  {
   "id": "31485",
-  "name": "Dovalovo"
+  "name": "Dovalovo",
+  "lat": 49.04974,
+  "lon": 19.76072
  },
  {
   "id": "32605",
-  "name": "Drahnov"
+  "name": "Drahnov",
+  "lat": 48.59319,
+  "lon": 21.96591
  },
  {
   "id": "32184",
-  "name": "Drahovce"
+  "name": "Drahovce",
+  "lat": 48.51591,
+  "lon": 17.80287
  },
  {
   "id": "32157",
-  "name": "Drienov"
+  "name": "Drienov",
+  "lat": 48.87318,
+  "lon": 21.27382
  },
  {
   "id": "32286",
-  "name": "Drienovec"
+  "name": "Drienovec",
+  "lat": 48.61028,
+  "lon": 20.94747
  },
  {
   "id": "31973",
-  "name": "Drietoma"
+  "name": "Drietoma",
+  "lat": 48.89421,
+  "lon": 17.95205
  },
  {
   "id": "32618",
-  "name": "Druzstevna pri Hornade"
+  "name": "Druzstevna pri Hornade",
+  "lat": 48.79221,
+  "lon": 21.24084
  },
  {
   "id": "38073",
-  "name": "Dubina - start"
+  "name": "Dubina - start",
+  "lat": 48.77774,
+  "lon": 21.15346
  },
  {
   "id": "31928",
-  "name": "Dubnica nad Vahom"
+  "name": "Dubnica nad Vahom",
+  "lat": 48.95981,
+  "lon": 18.16634
  },
  {
   "id": "32661",
-  "name": "Dubnik"
+  "name": "Dubnik",
+  "lat": 48.91167,
+  "lon": 21.46518
  },
  {
   "id": "31521",
-  "name": "Dubovica"
+  "name": "Dubovica",
+  "lat": 49.13629,
+  "lon": 20.95403
  },
  {
   "id": "32066",
-  "name": "Dubrava"
+  "name": "Dubrava",
+  "lat": 48.99023,
+  "lon": 21.49341
  },
  {
   "id": "34028",
-  "name": "Dudince (centrum)"
+  "name": "Dudince (centrum)",
+  "lat": 48.17135,
+  "lon": 18.88782
  },
  {
   "id": "31443",
-  "name": "Dudince (meteo stanica)"
+  "name": "Dudince (meteo stanica)",
+  "lat": 48.17135,
+  "lon": 18.88782
  },
  {
   "id": "32259",
-  "name": "Dulovce"
+  "name": "Dulovce",
+  "lat": 47.86915,
+  "lon": 18.27284
  },
  {
   "id": "31954",
-  "name": "Dunajska Luzna"
+  "name": "Dunajska Luzna",
+  "lat": 48.08347,
+  "lon": 17.26072
  },
  {
   "id": "34022",
-  "name": "Dunajska Streda (centrum)"
+  "name": "Dunajska Streda (centrum)",
+  "lat": 47.99268,
+  "lon": 17.61211
  },
  {
   "id": "32644",
-  "name": "Durcina"
+  "name": "Durcina",
+  "lat": 49.06367,
+  "lon": 18.65222
  },
  {
   "id": "32340",
-  "name": "Durkov"
+  "name": "Durkov",
+  "lat": 49.24078,
+  "lon": 20.87122
  },
  {
   "id": "31542",
-  "name": "Durkovec"
+  "name": "Durkovec",
+  "lat": 49.09848,
+  "lon": 22.42846
  },
  {
   "id": "32474",
-  "name": "Dvorniky"
+  "name": "Dvorniky",
+  "lat": 48.60113,
+  "lon": 20.83962
  },
  {
   "id": "31935",
-  "name": "Dvory nad Zitavou"
+  "name": "Dvory nad Zitavou",
+  "lat": 47.98946,
+  "lon": 18.26717
  },
  {
   "id": "31930",
-  "name": "Farna"
+  "name": "Farna",
+  "lat": 48.00577,
+  "lon": 18.5112
  },
  {
   "id": "31983",
-  "name": "Filakovo"
+  "name": "Filakovo",
+  "lat": 48.26757,
+  "lon": 19.82473
  },
  {
   "id": "32596",
-  "name": "Fintice"
+  "name": "Fintice",
+  "lat": 49.05188,
+  "lon": 21.28664
  },
  {
   "id": "32258",
-  "name": "Fricovce"
+  "name": "Fricovce",
+  "lat": 49.0167,
+  "lon": 20.96302
  },
  {
   "id": "32364",
-  "name": "Gabcikovo"
+  "name": "Gabcikovo",
+  "lat": 47.89211,
+  "lon": 17.57884
  },
  {
   "id": "32044",
-  "name": "Gajary"
+  "name": "Gajary",
+  "lat": 48.46667,
+  "lon": 16.93333
  },
  {
   "id": "31406",
-  "name": "Galanta"
+  "name": "Galanta",
+  "lat": 48.19001,
+  "lon": 17.72747
  },
  {
   "id": "32243",
-  "name": "Ganovce"
+  "name": "Ganovce",
+  "lat": 49.03011,
+  "lon": 20.32751
  },
  {
   "id": "32496",
-  "name": "Gbelany"
+  "name": "Gbelany",
+  "lat": 49.21216,
+  "lon": 18.84453
  },
  {
   "id": "31429",
-  "name": "Gbelce"
+  "name": "Gbelce",
+  "lat": 47.85185,
+  "lon": 18.51277
  },
  {
   "id": "32031",
-  "name": "Gbely"
+  "name": "Gbely",
+  "lat": 48.718,
+  "lon": 17.11628
  },
  {
   "id": "32588",
-  "name": "Geca"
+  "name": "Geca",
+  "lat": 48.62785,
+  "lon": 21.30991
  },
  {
   "id": "31519",
-  "name": "Gelnica"
+  "name": "Gelnica",
+  "lat": 48.85584,
+  "lon": 20.93713
  },
  {
   "id": "32007",
-  "name": "Gemerska Horka"
+  "name": "Gemerska Horka",
+  "lat": 48.53499,
+  "lon": 20.37822
  },
  {
   "id": "31949",
-  "name": "Gemerska Poloma"
+  "name": "Gemerska Poloma",
+  "lat": 48.7121,
+  "lon": 20.47735
  },
  {
   "id": "31376",
-  "name": "Gemerske Michalovce"
+  "name": "Gemerske Michalovce",
+  "lat": 48.43766,
+  "lon": 20.21192
  },
  {
   "id": "34036",
-  "name": "Gerlachov"
+  "name": "Gerlachov",
+  "lat": 49.31963,
+  "lon": 21.11582
  },
  {
   "id": "31172",
-  "name": "Gerlachovsky stit"
+  "name": "Gerlachovsky stit",
+  "lat": 49.16436,
+  "lon": 20.13369
  },
  {
   "id": "32457",
-  "name": "Giraltovce"
+  "name": "Giraltovce",
+  "lat": 49.11398,
+  "lon": 21.51731
  },
  {
   "id": "32169",
-  "name": "Golianovo"
+  "name": "Golianovo",
+  "lat": 48.27189,
+  "lon": 18.19185
  },
  {
   "id": "32431",
-  "name": "Habovka"
+  "name": "Habovka",
+  "lat": 49.27254,
+  "lon": 19.60589
  },
  {
   "id": "31518",
-  "name": "Haj - Start"
+  "name": "Haj - Start",
+  "lat": 48.62971,
+  "lon": 20.85257
  },
  {
   "id": "32565",
-  "name": "Hajnacka"
+  "name": "Hajnacka",
+  "lat": 48.21837,
+  "lon": 19.95776
  },
  {
   "id": "31411",
-  "name": "Hajske"
+  "name": "Hajske",
+  "lat": 48.25,
+  "lon": 17.86667
  },
  {
   "id": "32116",
-  "name": "Halic"
+  "name": "Halic",
+  "lat": 48.35387,
+  "lon": 19.57631
  },
  {
   "id": "31936",
-  "name": "Handlova"
+  "name": "Handlova",
+  "lat": 48.7276,
+  "lon": 18.76012
  },
  {
   "id": "32509",
-  "name": "Haniska"
+  "name": "Haniska",
+  "lat": 48.95436,
+  "lon": 21.23893
  },
  {
   "id": "31931",
-  "name": "Hanusovce nad Toplou"
+  "name": "Hanusovce nad Toplou",
+  "lat": 49.02691,
+  "lon": 21.50414
  },
  {
   "id": "32617",
-  "name": "Harichovce"
+  "name": "Harichovce",
+  "lat": 48.96187,
+  "lon": 20.58259
  },
  {
   "id": "32662",
-  "name": "Hazlin"
+  "name": "Hazlin",
+  "lat": 49.3012,
+  "lon": 21.42006
  },
  {
   "id": "32493",
-  "name": "Helcmanovce"
+  "name": "Helcmanovce",
+  "lat": 48.8307,
+  "lon": 20.86767
  },
  {
   "id": "32009",
-  "name": "Helpa"
+  "name": "Helpa",
+  "lat": 48.86099,
+  "lon": 19.9692
  },
  {
   "id": "32699",
-  "name": "Hencovce"
+  "name": "Hencovce",
+  "lat": 48.87645,
+  "lon": 21.73399
  },
  {
   "id": "32106",
-  "name": "Hermanovce"
+  "name": "Hermanovce",
+  "lat": 49.04584,
+  "lon": 21.01629
  },
  {
   "id": "34537",
-  "name": "Hertnik"
+  "name": "Hertnik",
+  "lat": 49.20715,
+  "lon": 21.2376
  },
  {
   "id": "34536",
-  "name": "Hervartov"
+  "name": "Hervartov",
+  "lat": 49.24667,
+  "lon": 21.20546
  },
  {
   "id": "31984",
-  "name": "Hlinik nad Hronom"
+  "name": "Hlinik nad Hronom",
+  "lat": 48.53536,
+  "lon": 18.78734
  },
  {
   "id": "32722",
-  "name": "Hlinne"
+  "name": "Hlinne",
+  "lat": 48.9507,
+  "lon": 21.57884
  },
  {
   "id": "31408",
-  "name": "Hlohovec"
+  "name": "Hlohovec",
+  "lat": 48.43174,
+  "lon": 17.8031
  },
  {
   "id": "32611",
-  "name": "Hniezdne"
+  "name": "Hniezdne",
+  "lat": 49.30265,
+  "lon": 20.63293
  },
  {
   "id": "31929",
-  "name": "Hnusta"
+  "name": "Hnusta",
+  "lat": 48.57257,
+  "lon": 19.95395
  },
  {
   "id": "32670",
-  "name": "Hodejov"
+  "name": "Hodejov",
+  "lat": 48.30117,
+  "lon": 19.98982
  },
  {
   "id": "32702",
-  "name": "Hodrusa-Hamre"
+  "name": "Hodrusa-Hamre",
+  "lat": 48.45985,
+  "lon": 18.76654
  },
  {
   "id": "31979",
-  "name": "Holic"
+  "name": "Holic",
+  "lat": 48.81105,
+  "lon": 17.16238
  },
  {
   "id": "32614",
-  "name": "Holice"
+  "name": "Holice",
+  "lat": 47.99305,
+  "lon": 17.48179
  },
  {
   "id": "32209",
-  "name": "Hontianske Nemce"
+  "name": "Hontianske Nemce",
+  "lat": 48.28627,
+  "lon": 18.98953
  },
  {
   "id": "32678",
-  "name": "Horka"
+  "name": "Horka",
+  "lat": 49.01667,
+  "lon": 20.03333
  },
  {
   "id": "32117",
-  "name": "Horna Kralova"
+  "name": "Horna Kralova",
+  "lat": 48.24531,
+  "lon": 17.91311
  },
  {
   "id": "32417",
-  "name": "Horna Poruba"
+  "name": "Horna Poruba",
+  "lat": 48.94147,
+  "lon": 18.30497
  },
  {
   "id": "32303",
-  "name": "Horna Poton"
+  "name": "Horna Poton",
+  "lat": 48.0389,
+  "lon": 17.49038
  },
  {
   "id": "32344",
-  "name": "Horna Streda"
+  "name": "Horna Streda",
+  "lat": 48.65643,
+  "lon": 17.8428
  },
  {
   "id": "32504",
-  "name": "Horna Stubna"
+  "name": "Horna Stubna",
+  "lat": 48.82505,
+  "lon": 18.88462
  },
  {
   "id": "32218",
-  "name": "Horna Suca"
+  "name": "Horna Suca",
+  "lat": 48.97289,
+  "lon": 17.97706
  },
  {
   "id": "32375",
-  "name": "Horna Ves"
+  "name": "Horna Ves",
+  "lat": 48.67674,
+  "lon": 18.91012
  },
  {
   "id": "32293",
-  "name": "Horne Obdokovce"
+  "name": "Horne Obdokovce",
+  "lat": 48.49467,
+  "lon": 18.04854
  },
  {
   "id": "32112",
-  "name": "Horne Oresany"
+  "name": "Horne Oresany",
+  "lat": 48.46738,
+  "lon": 17.44101
  },
  {
   "id": "32072",
-  "name": "Horne Saliby"
+  "name": "Horne Saliby",
+  "lat": 48.12311,
+  "lon": 17.7589
  },
  {
   "id": "31966",
-  "name": "Horne Srnie"
+  "name": "Horne Srnie",
+  "lat": 48.99183,
+  "lon": 18.10012
  },
  {
   "id": "32481",
-  "name": "Horny Bar"
+  "name": "Horny Bar",
+  "lat": 47.94834,
+  "lon": 17.46275
  },
  {
   "id": "32427",
-  "name": "Horny Vadicov"
+  "name": "Horny Vadicov",
+  "lat": 49.27501,
+  "lon": 18.89366
  },
  {
   "id": "32470",
-  "name": "Hostie"
+  "name": "Hostie",
+  "lat": 48.45289,
+  "lon": 18.43826
  },
  {
   "id": "31466",
-  "name": "Hrabovo"
+  "name": "Hrabovo",
+  "lat": 48.3899,
+  "lon": 19.71804
  },
  {
   "id": "32125",
-  "name": "Hrabusice"
+  "name": "Hrabusice",
+  "lat": 48.9756,
+  "lon": 20.40865
  },
  {
   "id": "32508",
-  "name": "Hradiste"
+  "name": "Hradiste",
+  "lat": 48.68431,
+  "lon": 18.37454
  },
  {
   "id": "32589",
-  "name": "Hran"
+  "name": "Hran",
+  "lat": 48.545,
+  "lon": 21.78467
  },
  {
   "id": "31998",
-  "name": "Hranovnica"
+  "name": "Hranovnica",
+  "lat": 48.98947,
+  "lon": 20.30903
  },
  {
   "id": "31514",
-  "name": "Hrhov"
+  "name": "Hrhov",
+  "lat": 48.60629,
+  "lon": 20.75067
  },
  {
   "id": "31471",
-  "name": "Hrinova"
+  "name": "Hrinova",
+  "lat": 48.57787,
+  "lon": 19.52574
  },
  {
   "id": "32170",
-  "name": "Hrnciarovce nad Parnou"
+  "name": "Hrnciarovce nad Parnou",
+  "lat": 48.34261,
+  "lon": 17.56767
  },
  {
   "id": "32235",
-  "name": "Hrochot"
+  "name": "Hrochot",
+  "lat": 48.65567,
+  "lon": 19.31284
  },
  {
   "id": "31474",
-  "name": "Hronec"
+  "name": "Hronec",
+  "lat": 48.79499,
+  "lon": 19.5824
  },
  {
   "id": "32730",
-  "name": "Hronovce"
+  "name": "Hronovce",
+  "lat": 48.00703,
+  "lon": 18.65504
  },
  {
   "id": "32354",
-  "name": "Hronske Klacany"
+  "name": "Hronske Klacany",
+  "lat": 48.24012,
+  "lon": 18.56971
  },
  {
   "id": "32049",
-  "name": "Hronsky Benadik"
+  "name": "Hronsky Benadik",
+  "lat": 48.3456,
+  "lon": 18.55926
  },
  {
   "id": "32390",
-  "name": "Hrusovany"
+  "name": "Hrusovany",
+  "lat": 48.43729,
+  "lon": 18.09316
  },
  {
   "id": "32263",
-  "name": "Hrustin"
+  "name": "Hrustin",
+  "lat": 49.32393,
+  "lon": 19.34695
  },
  {
   "id": "32639",
-  "name": "Hubova"
+  "name": "Hubova",
+  "lat": 49.11689,
+  "lon": 19.1902
  },
  {
   "id": "32429",
-  "name": "Hul"
+  "name": "Hul",
+  "lat": 48.09907,
+  "lon": 18.2633
  },
  {
   "id": "31533",
-  "name": "Humenne"
+  "name": "Humenne",
+  "lat": 48.93707,
+  "lon": 21.91625
  },
  {
   "id": "32487",
-  "name": "Huncovce"
+  "name": "Huncovce",
+  "lat": 49.11501,
+  "lon": 20.37672
  },
  {
   "id": "31366",
-  "name": "Hurbanovo"
+  "name": "Hurbanovo",
+  "lat": 47.86984,
+  "lon": 18.19233
  },
  {
   "id": "32720",
-  "name": "Hvozdnica"
+  "name": "Hvozdnica",
+  "lat": 49.2104,
+  "lon": 18.48942
  },
  {
   "id": "32559",
-  "name": "Hybe"
+  "name": "Hybe",
+  "lat": 49.04439,
+  "lon": 19.82895
  },
  {
   "id": "32671",
-  "name": "Ihlany"
+  "name": "Ihlany",
+  "lat": 49.18539,
+  "lon": 20.53784
  },
  {
   "id": "31420",
-  "name": "Ilava"
+  "name": "Ilava",
+  "lat": 48.99769,
+  "lon": 18.2353
  },
  {
   "id": "31508",
-  "name": "Iliasovce"
+  "name": "Iliasovce",
+  "lat": 48.99156,
+  "lon": 20.52651
  },
  {
   "id": "32558",
-  "name": "Imel"
+  "name": "Imel",
+  "lat": 47.90403,
+  "lon": 18.14169
  },
  {
   "id": "31416",
-  "name": "Inovec"
+  "name": "Inovec",
+  "lat": 48.41009,
+  "lon": 18.54335
  },
  {
   "id": "32343",
-  "name": "Istebne"
+  "name": "Istebne",
+  "lat": 49.21511,
+  "lon": 19.22166
  },
  {
   "id": "31924",
-  "name": "Ivanka pri Dunaji"
+  "name": "Ivanka pri Dunaji",
+  "lat": 48.18675,
+  "lon": 17.2554
  },
  {
   "id": "32285",
-  "name": "Ivanka pri Nitre"
+  "name": "Ivanka pri Nitre",
+  "lat": 48.24295,
+  "lon": 18.11617
  },
  {
   "id": "31953",
-  "name": "Iza"
+  "name": "Iza",
+  "lat": 47.75198,
+  "lon": 18.22763
  },
  {
   "id": "32101",
-  "name": "Jablonica"
+  "name": "Jablonica",
+  "lat": 48.55826,
+  "lon": 20.60861
  },
  {
   "id": "32358",
-  "name": "Jablonove"
+  "name": "Jablonove",
+  "lat": 48.34752,
+  "lon": 17.09949
  },
  {
   "id": "31981",
-  "name": "Jacovce"
+  "name": "Jacovce",
+  "lat": 48.59446,
+  "lon": 18.1347
  },
  {
   "id": "32580",
-  "name": "Jahodna"
+  "name": "Jahodna",
+  "lat": 48.05297,
+  "lon": 17.70744
  },
  {
   "id": "32073",
-  "name": "Jaklovce"
+  "name": "Jaklovce",
+  "lat": 48.87172,
+  "lon": 20.98801
  },
  {
   "id": "32489",
-  "name": "Jakubany"
+  "name": "Jakubany",
+  "lat": 49.24813,
+  "lon": 20.6959
  },
  {
   "id": "32026",
-  "name": "Jakubov"
+  "name": "Jakubov",
+  "lat": 48.41667,
+  "lon": 16.93333
  },
  {
   "id": "38619",
-  "name": "Jakubovany"
+  "name": "Jakubovany",
+  "lat": 49.1031,
+  "lon": 19.72484
  },
  {
   "id": "31511",
-  "name": "Jamnik"
+  "name": "Jamnik",
+  "lat": 48.94374,
+  "lon": 20.66284
  },
  {
   "id": "32315",
-  "name": "Janovce"
+  "name": "Janovce",
+  "lat": 49.18969,
+  "lon": 21.30616
  },
  {
   "id": "31991",
-  "name": "Jarok"
+  "name": "Jarok",
+  "lat": 48.27541,
+  "lon": 17.95913
  },
  {
   "id": "32374",
-  "name": "Jarovnice"
+  "name": "Jarovnice",
+  "lat": 49.05801,
+  "lon": 21.05806
  },
  {
   "id": "32338",
-  "name": "Jasenie"
+  "name": "Jasenie",
+  "lat": 48.83878,
+  "lon": 19.4597
  },
  {
   "id": "31970",
-  "name": "Jasenov"
+  "name": "Jasenov",
+  "lat": 48.90463,
+  "lon": 21.90325
  },
  {
   "id": "31449",
-  "name": "Jasenska Dolina"
+  "name": "Jasenska Dolina",
+  "lat": 48.87648,
+  "lon": 19.45046
  },
  {
   "id": "31404",
-  "name": "Jaslovske Bohunice"
+  "name": "Jaslovske Bohunice",
+  "lat": 48.47553,
+  "lon": 17.64736
  },
  {
   "id": "34031",
-  "name": "Jasna"
+  "name": "Jasna",
+  "lat": 49.04794,
+  "lon": 19.50686
  },
  {
   "id": "32566",
-  "name": "Jasov"
+  "name": "Jasov",
+  "lat": 48.68259,
+  "lon": 20.97566
  },
  {
   "id": "31426",
-  "name": "Jasova"
+  "name": "Jasova",
+  "lat": 47.989,
+  "lon": 18.39712
  },
  {
   "id": "31535",
-  "name": "Javornik"
+  "name": "Javornik",
+  "lat": 49.32223,
+  "lon": 18.37756
  },
  {
   "id": "32648",
-  "name": "Jedlove Kostolany"
+  "name": "Jedlove Kostolany",
+  "lat": 48.46939,
+  "lon": 18.49762
  },
  {
   "id": "32265",
-  "name": "Jelenec"
+  "name": "Jelenec",
+  "lat": 48.37844,
+  "lon": 18.22351
  },
  {
   "id": "31947",
-  "name": "Jelka"
+  "name": "Jelka",
+  "lat": 48.14545,
+  "lon": 17.51126
  },
  {
   "id": "31958",
-  "name": "Jelsava"
+  "name": "Jelsava",
+  "lat": 48.62908,
+  "lon": 20.24141
  },
  {
   "id": "32055",
-  "name": "Jesenske"
+  "name": "Jesenske",
+  "lat": 48.30635,
+  "lon": 20.07081
  },
  {
   "id": "32251",
-  "name": "Kajal"
+  "name": "Kajal",
+  "lat": 48.18618,
+  "lon": 17.78424
  },
  {
   "id": "32053",
-  "name": "Kalinovo"
+  "name": "Kalinovo",
+  "lat": 48.39241,
+  "lon": 19.70703
  },
  {
   "id": "32638",
-  "name": "Kalna nad Hronom"
+  "name": "Kalna nad Hronom",
+  "lat": 48.19784,
+  "lon": 18.51976
  },
  {
   "id": "32425",
-  "name": "Kalnica"
+  "name": "Kalnica",
+  "lat": 48.76321,
+  "lon": 17.92195
  },
  {
   "id": "32023",
-  "name": "Kamenec pod Vtacnikom"
+  "name": "Kamenec pod Vtacnikom",
+  "lat": 48.67187,
+  "lon": 18.5473
  },
  {
   "id": "32729",
-  "name": "Kamenica"
+  "name": "Kamenica",
+  "lat": 49.18895,
+  "lon": 20.9593
  },
  {
   "id": "31534",
-  "name": "Kamenica nad Cirochou"
+  "name": "Kamenica nad Cirochou",
+  "lat": 48.93144,
+  "lon": 21.99701
  },
  {
   "id": "32713",
-  "name": "Kamenica nad Hronom"
+  "name": "Kamenica nad Hronom",
+  "lat": 47.83106,
+  "lon": 18.72798
  },
  {
   "id": "31522",
-  "name": "Kamenicky Hrad"
+  "name": "Kamenicky Hrad",
+  "lat": 49.19589,
+  "lon": 20.97006
  },
  {
   "id": "32385",
-  "name": "Kamenicna"
+  "name": "Kamenicna",
+  "lat": 47.81886,
+  "lon": 18.03861
  },
  {
   "id": "32507",
-  "name": "Kamenin"
+  "name": "Kamenin",
+  "lat": 47.88844,
+  "lon": 18.64313
  },
  {
   "id": "32079",
-  "name": "Kamenna Poruba"
+  "name": "Kamenna Poruba",
+  "lat": 48.84763,
+  "lon": 21.64909
  },
  {
   "id": "32626",
-  "name": "Kamenny Most"
+  "name": "Kamenny Most",
+  "lat": 47.85124,
+  "lon": 18.65639
  },
  {
   "id": "32526",
-  "name": "Kamienka (okres Stara Lubovna)"
+  "name": "Kamienka (okres Stara Lubovna)",
+  "lat": 48.90622,
+  "lon": 22.00095
  },
  {
   "id": "32202",
-  "name": "Kanianka"
+  "name": "Kanianka",
+  "lat": 48.8164,
+  "lon": 18.58541
  },
  {
   "id": "32388",
-  "name": "Kapusany"
+  "name": "Kapusany",
+  "lat": 49.04516,
+  "lon": 21.33352
  },
  {
   "id": "32591",
-  "name": "Katlovce"
+  "name": "Katlovce",
+  "lat": 48.5243,
+  "lon": 17.60985
  },
  {
   "id": "32517",
-  "name": "Kecerovce"
+  "name": "Kecerovce",
+  "lat": 48.82523,
+  "lon": 21.41483
  },
  {
   "id": "32535",
-  "name": "Kendice"
+  "name": "Kendice",
+  "lat": 48.92487,
+  "lon": 21.24146
  },
  {
   "id": "31506",
-  "name": "Kezmarok"
+  "name": "Kezmarok",
+  "lat": 49.13571,
+  "lon": 20.43352
  },
  {
   "id": "32478",
-  "name": "Klacno"
+  "name": "Klacno",
+  "lat": 48.91582,
+  "lon": 18.659
  },
  {
   "id": "32132",
-  "name": "Klasov"
+  "name": "Klasov",
+  "lat": 48.27625,
+  "lon": 18.25937
  },
  {
   "id": "32436",
-  "name": "Klastor pod Znievom"
+  "name": "Klastor pod Znievom",
+  "lat": 48.97619,
+  "lon": 18.80264
  },
  {
   "id": "32291",
-  "name": "Klatova Nova Ves"
+  "name": "Klatova Nova Ves",
+  "lat": 48.56558,
+  "lon": 18.30455
  },
  {
   "id": "31489",
-  "name": "Klenovec"
+  "name": "Klenovec",
+  "lat": 48.59564,
+  "lon": 19.89073
  },
  {
   "id": "31484",
-  "name": "Klenovsky Vepor"
+  "name": "Klenovsky Vepor",
+  "lat": 48.68913,
+  "lon": 19.76976
  },
  {
   "id": "32256",
-  "name": "Klin"
+  "name": "Klin",
+  "lat": 49.43682,
+  "lon": 19.49254
  },
  {
   "id": "32642",
-  "name": "Klokocov"
+  "name": "Klokocov",
+  "lat": 48.81358,
+  "lon": 22.02985
  },
  {
   "id": "32351",
-  "name": "Kluknava"
+  "name": "Kluknava",
+  "lat": 48.92441,
+  "lon": 20.94143
  },
  {
   "id": "32011",
-  "name": "Kocovce"
+  "name": "Kocovce",
+  "lat": 48.74421,
+  "lon": 17.88751
  },
  {
   "id": "31524",
-  "name": "Kohut"
+  "name": "Kohut",
+  "lat": 48.73038,
+  "lon": 20.18285
  },
  {
   "id": "31523",
-  "name": "Kojsovska hola"
+  "name": "Kojsovska hola",
+  "lat": 48.78207,
+  "lon": 20.98788
  },
  {
   "id": "31980",
-  "name": "Kokava nad Rimavicou"
+  "name": "Kokava nad Rimavicou",
+  "lat": 48.56893,
+  "lon": 19.84346
  },
  {
   "id": "32602",
-  "name": "Koksov-Baksa"
+  "name": "Koksov-Baksa",
+  "lat": 48.64549,
+  "lon": 21.32398
  },
  {
   "id": "32103",
-  "name": "Kolackov"
+  "name": "Kolackov",
+  "lat": 49.26091,
+  "lon": 20.62878
  },
  {
   "id": "32348",
-  "name": "Kolarovice"
+  "name": "Kolarovice",
+  "lat": 49.2723,
+  "lon": 18.53329
  },
  {
   "id": "32033",
-  "name": "Kolarovo"
+  "name": "Kolarovo",
+  "lat": 47.92294,
+  "lon": 17.98467
  },
  {
   "id": "32111",
-  "name": "Kolinany"
+  "name": "Kolinany",
+  "lat": 48.36059,
+  "lon": 18.19693
  },
  {
   "id": "32022",
-  "name": "Kolta"
+  "name": "Kolta",
+  "lat": 48.01742,
+  "lon": 18.41244
  },
  {
   "id": "31364",
-  "name": "Komarno"
+  "name": "Komarno",
+  "lat": 48.11667,
+  "lon": 18.31667
  },
  {
   "id": "32241",
-  "name": "Komjatice"
+  "name": "Komjatice",
+  "lat": 48.15704,
+  "lon": 18.17027
  },
  {
   "id": "32724",
-  "name": "Komjatna"
+  "name": "Komjatna",
+  "lat": 49.14694,
+  "lon": 19.24355
  },
  {
   "id": "32530",
-  "name": "Konska"
+  "name": "Konska",
+  "lat": 49.11791,
+  "lon": 19.71774
  },
  {
   "id": "31459",
-  "name": "Kopa"
+  "name": "Kopa",
+  "lat": 49.13632,
+  "lon": 19.13696
  },
  {
   "id": "32257",
-  "name": "Kopcany"
+  "name": "Kopcany",
+  "lat": 48.78718,
+  "lon": 17.11347
  },
  {
   "id": "32733",
-  "name": "Korna"
+  "name": "Korna",
+  "lat": 49.41427,
+  "lon": 18.5471
  },
  {
   "id": "32687",
-  "name": "Korytarky"
+  "name": "Korytarky",
+  "lat": 48.54692,
+  "lon": 19.47127
  },
  {
   "id": "32335",
-  "name": "Koseca"
+  "name": "Koseca",
+  "lat": 49.00888,
+  "lon": 18.26061
  },
  {
   "id": "32120",
-  "name": "Kosecke Podhradie"
+  "name": "Kosecke Podhradie",
+  "lat": 48.97266,
+  "lon": 18.30632
  },
  {
   "id": "32738",
-  "name": "Kosice (centrum)"
+  "name": "Kosice (centrum)",
+  "lat": 48.71441,
+  "lon": 21.25802
  },
  {
   "id": "31378",
-  "name": "Kosice (letisko)"
+  "name": "Kosice (letisko)",
+  "lat": 48.71441,
+  "lon": 21.25802
  },
  {
   "id": "32003",
-  "name": "Kosicke Olsany"
+  "name": "Kosicke Olsany",
+  "lat": 48.73203,
+  "lon": 21.34461
  },
  {
   "id": "32207",
-  "name": "Kostany nad Turcom"
+  "name": "Kostany nad Turcom",
+  "lat": 49.02989,
+  "lon": 18.90437
  },
  {
   "id": "32689",
-  "name": "Kostolne Kracany"
+  "name": "Kostolne Kracany",
+  "lat": 47.98258,
+  "lon": 17.57607
  },
  {
   "id": "32188",
-  "name": "Kosuty"
+  "name": "Kosuty",
+  "lat": 49.08675,
+  "lon": 18.93708
  },
  {
   "id": "32305",
-  "name": "Kotesova"
+  "name": "Kotesova",
+  "lat": 49.24141,
+  "lon": 18.59911
  },
  {
   "id": "32336",
-  "name": "Kovacova"
+  "name": "Kovacova",
+  "lat": 48.60148,
+  "lon": 19.10252
  },
  {
   "id": "32432",
-  "name": "Kovarce"
+  "name": "Kovarce",
+  "lat": 48.49568,
+  "lon": 18.1566
  },
  {
   "id": "32400",
-  "name": "Kozarovce"
+  "name": "Kozarovce",
+  "lat": 48.31742,
+  "lon": 18.52551
  },
  {
   "id": "32181",
-  "name": "Kracunovce"
+  "name": "Kracunovce",
+  "lat": 49.09517,
+  "lon": 21.48803
  },
  {
   "id": "32516",
-  "name": "Krajne"
+  "name": "Krajne",
+  "lat": 48.7024,
+  "lon": 17.68528
  },
  {
   "id": "32100",
-  "name": "Krakovany"
+  "name": "Krakovany",
+  "lat": 48.61198,
+  "lon": 17.7523
  },
  {
   "id": "32571",
-  "name": "Kralov Brod"
+  "name": "Kralov Brod",
+  "lat": 48.06021,
+  "lon": 17.82808
  },
  {
   "id": "31496",
-  "name": "Kralova hola"
+  "name": "Kralova hola",
+  "lat": 48.88333,
+  "lon": 20.1395
  },
  {
   "id": "32037",
-  "name": "Kralova nad Vahom"
+  "name": "Kralova nad Vahom",
+  "lat": 48.16923,
+  "lon": 17.84221
  },
  {
   "id": "32027",
-  "name": "Kralova pri Senci"
+  "name": "Kralova pri Senci",
+  "lat": 48.19621,
+  "lon": 17.45019
  },
  {
   "id": "32592",
-  "name": "Kralovce"
+  "name": "Kralovce",
+  "lat": 48.8025,
+  "lon": 21.32864
  },
  {
   "id": "31382",
-  "name": "Kralovsky Chlmec"
+  "name": "Kralovsky Chlmec",
+  "lat": 48.42336,
+  "lon": 21.97944
  },
  {
   "id": "32008",
-  "name": "Krasnany"
+  "name": "Krasnany",
+  "lat": 49.21491,
+  "lon": 18.88718
  },
  {
   "id": "32270",
-  "name": "Krasno nad Kysucou"
+  "name": "Krasno nad Kysucou",
+  "lat": 49.39572,
+  "lon": 18.83431
  },
  {
   "id": "32280",
-  "name": "Krasnohorske Podhradie"
+  "name": "Krasnohorske Podhradie",
+  "lat": 48.65292,
+  "lon": 20.59866
  },
  {
   "id": "32041",
-  "name": "Kremnica"
+  "name": "Kremnica",
+  "lat": 48.70519,
+  "lon": 18.91834
  },
  {
   "id": "31171",
-  "name": "Krivan"
+  "name": "Krivan",
+  "lat": 48.52823,
+  "lon": 19.44834
  },
  {
   "id": "32323",
-  "name": "Krivan - obec"
+  "name": "Krivan - obec",
+  "lat": 48.52823,
+  "lon": 19.44834
  },
  {
   "id": "32688",
-  "name": "Krivany"
+  "name": "Krivany",
+  "lat": 49.16945,
+  "lon": 20.91197
  },
  {
   "id": "31532",
-  "name": "Krivostianka"
+  "name": "Krivostianka",
+  "lat": 48.89245,
+  "lon": 21.86876
  },
  {
   "id": "31168",
-  "name": "Krizna"
+  "name": "Krizna",
+  "lat": 48.41766,
+  "lon": 18.86022
  },
  {
   "id": "32721",
-  "name": "Krizova Ves"
+  "name": "Krizova Ves",
+  "lat": 49.18983,
+  "lon": 20.48649
  },
  {
   "id": "32389",
-  "name": "Krizovany nad Dudvahom"
+  "name": "Krizovany nad Dudvahom",
+  "lat": 48.33333,
+  "lon": 17.66667
  },
  {
   "id": "32524",
-  "name": "Krnca"
+  "name": "Krnca",
+  "lat": 48.54429,
+  "lon": 18.24943
  },
  {
   "id": "31989",
-  "name": "Krompachy"
+  "name": "Krompachy",
+  "lat": 48.91447,
+  "lon": 20.87514
  },
  {
   "id": "32567",
-  "name": "Krpelany"
+  "name": "Krpelany",
+  "lat": 49.12519,
+  "lon": 19.09042
  },
  {
   "id": "31451",
-  "name": "Krupina"
+  "name": "Krupina",
+  "lat": 48.3554,
+  "lon": 19.06474
  },
  {
   "id": "32411",
-  "name": "Krusovce"
+  "name": "Krusovce",
+  "lat": 48.58794,
+  "lon": 18.20467
  },
  {
   "id": "31170",
-  "name": "Kubinska hola"
+  "name": "Kubinska hola",
+  "lat": 49.27571,
+  "lon": 19.28234
  },
  {
   "id": "38078",
-  "name": "Kubinska hola - start"
+  "name": "Kubinska hola - start",
+  "lat": 49.27571,
+  "lon": 19.28234
  },
  {
   "id": "31395",
-  "name": "Kuchyna"
+  "name": "Kuchyna",
+  "lat": 48.406,
+  "lon": 17.15727
  },
  {
   "id": "31436",
-  "name": "Kunerad"
+  "name": "Kunerad",
+  "lat": 49.09786,
+  "lon": 18.7131
  },
  {
   "id": "32198",
-  "name": "Kurima"
+  "name": "Kurima",
+  "lat": 49.22631,
+  "lon": 21.45361
  },
  {
   "id": "32136",
-  "name": "Kuty"
+  "name": "Kuty",
+  "lat": 48.66,
+  "lon": 17.02819
  },
  {
   "id": "32201",
-  "name": "Kuzmice"
+  "name": "Kuzmice",
+  "lat": 48.57971,
+  "lon": 21.56963
  },
  {
   "id": "32479",
-  "name": "Kysak"
+  "name": "Kysak",
+  "lat": 48.85561,
+  "lon": 21.21967
  },
  {
   "id": "31437",
-  "name": "Kysucke Nove Mesto"
+  "name": "Kysucke Nove Mesto",
+  "lat": 49.3,
+  "lon": 18.78333
  },
  {
   "id": "32153",
-  "name": "Kysucky Lieskovec"
+  "name": "Kysucky Lieskovec",
+  "lat": 49.33884,
+  "lon": 18.81608
  },
  {
   "id": "32002",
-  "name": "Lab"
+  "name": "Lab",
+  "lat": 48.36667,
+  "lon": 16.98333
  },
  {
   "id": "32080",
-  "name": "Ladce"
+  "name": "Ladce",
+  "lat": 49.04002,
+  "lon": 18.28746
  },
  {
   "id": "32139",
-  "name": "Laksarska Nova Ves"
+  "name": "Laksarska Nova Ves",
+  "lat": 48.57692,
+  "lon": 17.1854
  },
  {
   "id": "32645",
-  "name": "Lastomir"
+  "name": "Lastomir",
+  "lat": 48.70278,
+  "lon": 21.92529
  },
  {
   "id": "32715",
-  "name": "Lastovce"
+  "name": "Lastovce",
+  "lat": 48.5391,
+  "lon": 21.62814
  },
  {
   "id": "34539",
-  "name": "Latky"
+  "name": "Latky",
+  "lat": 48.73333,
+  "lon": 19.7
  },
  {
   "id": "32183",
-  "name": "Lazany"
+  "name": "Lazany",
+  "lat": 48.82076,
+  "lon": 18.61946
  },
  {
   "id": "32747",
-  "name": "Lazany"
+  "name": "Lazany",
+  "lat": 48.82076,
+  "lon": 18.61946
  },
  {
   "id": "32606",
-  "name": "Lazy pod Makytou"
+  "name": "Lazy pod Makytou",
+  "lat": 49.22537,
+  "lon": 18.21391
  },
  {
   "id": "32640",
-  "name": "Lednica"
+  "name": "Lednica",
+  "lat": 49.10615,
+  "lon": 18.21592
  },
  {
   "id": "32010",
-  "name": "Lednicke Rovne"
+  "name": "Lednicke Rovne",
+  "lat": 49.0665,
+  "lon": 18.28479
  },
  {
   "id": "32657",
-  "name": "Lefantovce"
+  "name": "Lefantovce",
+  "lat": 48.42399,
+  "lon": 18.14372
  },
  {
   "id": "32244",
-  "name": "Lehnice"
+  "name": "Lehnice",
+  "lat": 48.05577,
+  "lon": 17.46337
  },
  {
   "id": "32317",
-  "name": "Lehota"
+  "name": "Lehota",
+  "lat": 48.31157,
+  "lon": 17.98948
  },
  {
   "id": "32403",
-  "name": "Lehota pod Vtacnikom"
+  "name": "Lehota pod Vtacnikom",
+  "lat": 48.69138,
+  "lon": 18.59944
  },
  {
   "id": "32082",
-  "name": "Lekarovce"
+  "name": "Lekarovce",
+  "lat": 48.60316,
+  "lon": 22.15601
  },
  {
   "id": "32327",
-  "name": "Leles"
+  "name": "Leles",
+  "lat": 48.46303,
+  "lon": 22.02898
  },
  {
   "id": "32402",
-  "name": "Lemesany"
+  "name": "Lemesany",
+  "lat": 48.84991,
+  "lon": 21.27113
  },
  {
   "id": "32081",
-  "name": "Lendak"
+  "name": "Lendak",
+  "lat": 49.23441,
+  "lon": 20.35646
  },
  {
   "id": "34552",
-  "name": "Lendak - start"
+  "name": "Lendak - start",
+  "lat": 49.23441,
+  "lon": 20.35646
  },
  {
   "id": "32076",
-  "name": "Leopoldov"
+  "name": "Leopoldov",
+  "lat": 48.44575,
+  "lon": 17.76458
  },
  {
   "id": "32701",
-  "name": "Letanovce"
+  "name": "Letanovce",
+  "lat": 48.97647,
+  "lon": 20.46485
  },
  {
   "id": "31367",
-  "name": "Levice"
+  "name": "Levice",
+  "lat": 48.21563,
+  "lon": 18.60705
  },
  {
   "id": "31510",
-  "name": "Levoca"
+  "name": "Levoca",
+  "lat": 49.02173,
+  "lon": 20.59212
  },
  {
   "id": "31174",
-  "name": "Licartovce"
+  "name": "Licartovce",
+  "lat": 48.8761,
+  "lon": 21.2467
  },
  {
   "id": "31481",
-  "name": "Liesek"
+  "name": "Liesek",
+  "lat": 49.36122,
+  "lon": 19.67491
  },
  {
   "id": "32326",
-  "name": "Lieskovec"
+  "name": "Lieskovec",
+  "lat": 48.95197,
+  "lon": 21.81682
  },
  {
   "id": "32641",
-  "name": "Liestany"
+  "name": "Liestany",
+  "lat": 48.82524,
+  "lon": 18.47879
  },
  {
   "id": "32304",
-  "name": "Lietava"
+  "name": "Lietava",
+  "lat": 49.16981,
+  "lon": 18.67509
  },
  {
   "id": "32262",
-  "name": "Lietavska Lucka"
+  "name": "Lietavska Lucka",
+  "lat": 49.17315,
+  "lon": 18.71385
  },
  {
   "id": "32629",
-  "name": "Lietavska Svinna-Babkov"
+  "name": "Lietavska Svinna-Babkov",
+  "lat": 49.1511,
+  "lon": 18.65128
  },
  {
   "id": "32165",
-  "name": "Likavka"
+  "name": "Likavka",
+  "lat": 49.09256,
+  "lon": 19.31162
  },
  {
   "id": "32189",
-  "name": "Limbach"
+  "name": "Limbach",
+  "lat": 48.2897,
+  "lon": 17.22344
  },
  {
   "id": "32051",
-  "name": "Lipany"
+  "name": "Lipany",
+  "lat": 49.15376,
+  "lon": 20.96382
  },
  {
   "id": "32736",
-  "name": "Lipova"
+  "name": "Lipova",
+  "lat": 49.26229,
+  "lon": 21.48243
  },
  {
   "id": "32391",
-  "name": "Liptovska Kokava"
+  "name": "Liptovska Kokava",
+  "lat": 49.08924,
+  "lon": 19.8175
  },
  {
   "id": "31465",
-  "name": "Liptovska Luzna"
+  "name": "Liptovska Luzna",
+  "lat": 48.94096,
+  "lon": 19.32376
  },
  {
   "id": "32655",
-  "name": "Liptovska Osada"
+  "name": "Liptovska Osada",
+  "lat": 48.94956,
+  "lon": 19.26178
  },
  {
   "id": "32363",
-  "name": "Liptovska Porubka"
+  "name": "Liptovska Porubka",
+  "lat": 49.03096,
+  "lon": 19.73593
  },
  {
   "id": "32156",
-  "name": "Liptovska Teplicka"
+  "name": "Liptovska Teplicka",
+  "lat": 48.96641,
+  "lon": 20.08884
  },
  {
   "id": "31458",
-  "name": "Liptovske Revuce"
+  "name": "Liptovske Revuce",
+  "lat": 48.92058,
+  "lon": 19.17985
  },
  {
   "id": "32654",
-  "name": "Liptovske Sliace"
+  "name": "Liptovske Sliace",
+  "lat": 49.06299,
+  "lon": 19.39236
  },
  {
   "id": "31483",
-  "name": "Liptovsky Hradok"
+  "name": "Liptovsky Hradok",
+  "lat": 49.03962,
+  "lon": 19.72335
  },
  {
   "id": "31480",
-  "name": "Liptovsky Jan"
+  "name": "Liptovsky Jan",
+  "lat": 49.04864,
+  "lon": 19.67853
  },
  {
   "id": "31582",
-  "name": "Liptovsky Jan - START"
+  "name": "Liptovsky Jan - START",
+  "lat": 49.04864,
+  "lon": 19.67853
  },
  {
   "id": "32743",
-  "name": "Liptovsky Mikulas (centrum)"
+  "name": "Liptovsky Mikulas (centrum)",
+  "lat": 49.08061,
+  "lon": 19.62218
  },
  {
   "id": "31373",
-  "name": "Liptovsky Ondrej (meteo stanica)"
+  "name": "Liptovsky Ondrej (meteo stanica)",
+  "lat": 49.09736,
+  "lon": 19.71299
  },
  {
   "id": "32435",
-  "name": "Liptovsky Peter"
+  "name": "Liptovsky Peter",
+  "lat": 49.05348,
+  "lon": 19.73352
  },
  {
   "id": "31472",
-  "name": "Liptovsky Trnovec"
+  "name": "Liptovsky Trnovec",
+  "lat": 49.12038,
+  "lon": 19.54709
  },
  {
   "id": "32467",
-  "name": "Liskova"
+  "name": "Liskova",
+  "lat": 49.09021,
+  "lon": 19.35374
  },
  {
   "id": "32233",
-  "name": "Lok"
+  "name": "Lok",
+  "lat": 48.18363,
+  "lon": 18.46056
  },
  {
   "id": "32392",
-  "name": "Lokca"
+  "name": "Lokca",
+  "lat": 49.36778,
+  "lon": 19.41345
  },
  {
   "id": "38162",
-  "name": "Lom nad Rimavicou"
+  "name": "Lom nad Rimavicou",
+  "lat": 48.64155,
+  "lon": 19.64953
  },
  {
   "id": "32727",
-  "name": "Lomnicka"
+  "name": "Lomnicka",
+  "lat": 49.24972,
+  "lon": 20.56955
  },
  {
   "id": "31499",
-  "name": "Lomnicky stit"
+  "name": "Lomnicky stit",
+  "lat": 49.19528,
+  "lon": 20.21326
  },
  {
   "id": "32512",
-  "name": "Lovcica-Trubin"
+  "name": "Lovcica-Trubin",
+  "lat": 48.61674,
+  "lon": 18.79014
  },
  {
   "id": "32520",
-  "name": "Lovinobana"
+  "name": "Lovinobana",
+  "lat": 48.43741,
+  "lon": 19.59085
  },
  {
   "id": "31942",
-  "name": "Lozorno"
+  "name": "Lozorno",
+  "lat": 48.33364,
+  "lon": 17.04322
  },
  {
   "id": "32187",
-  "name": "Lubela"
+  "name": "Lubela",
+  "lat": 49.05216,
+  "lon": 19.47926
  },
  {
   "id": "32622",
-  "name": "Lubenik"
+  "name": "Lubenik",
+  "lat": 48.65491,
+  "lon": 20.1961
  },
  {
   "id": "32380",
-  "name": "Lubina"
+  "name": "Lubina",
+  "lat": 48.78446,
+  "lon": 17.73561
  },
  {
   "id": "32515",
-  "name": "Lubochna"
+  "name": "Lubochna",
+  "lat": 49.12011,
+  "lon": 19.16891
  },
  {
   "id": "32423",
-  "name": "Lubotice"
+  "name": "Lubotice",
+  "lat": 49.0116,
+  "lon": 21.27366
  },
  {
   "id": "32094",
-  "name": "Lubotin"
+  "name": "Lubotin",
+  "lat": 49.2634,
+  "lon": 20.87694
  },
  {
   "id": "32741",
-  "name": "Lucenec (centrum)"
+  "name": "Lucenec (centrum)",
+  "lat": 48.33249,
+  "lon": 19.66708
  },
  {
   "id": "31374",
-  "name": "Lucenec (meteo stanica)"
+  "name": "Lucenec (meteo stanica)",
+  "lat": 48.33249,
+  "lon": 19.66708
  },
  {
   "id": "32383",
-  "name": "Lucky"
+  "name": "Lucky",
+  "lat": 49.12944,
+  "lon": 19.40228
  },
  {
   "id": "32609",
-  "name": "Ludanice"
+  "name": "Ludanice",
+  "lat": 48.49564,
+  "lon": 18.11597
  },
  {
   "id": "32735",
-  "name": "Lukacovce (okres Humenne)"
+  "name": "Lukacovce (okres Humenne)",
+  "lat": 48.39552,
+  "lon": 17.93784
  },
  {
   "id": "31413",
-  "name": "Lukacovce (okres Nitra)"
+  "name": "Lukacovce (okres Nitra)",
+  "lat": 48.39552,
+  "lon": 17.93784
  },
  {
   "id": "32325",
-  "name": "Lutila"
+  "name": "Lutila",
+  "lat": 48.61384,
+  "lon": 18.84492
  },
  {
   "id": "32150",
-  "name": "Luzianky"
+  "name": "Luzianky",
+  "lat": 48.34908,
+  "lon": 18.029
  },
  {
   "id": "32521",
-  "name": "Lysa pod Makytou"
+  "name": "Lysa pod Makytou",
+  "lat": 49.19713,
+  "lon": 18.19636
  },
  {
   "id": "38072",
-  "name": "Lysak"
+  "name": "Lysak",
+  "lat": 48.88116,
+  "lon": 22.18627
  },
  {
   "id": "32500",
-  "name": "Machulince"
+  "name": "Machulince",
+  "lat": 48.41182,
+  "lon": 18.43223
  },
  {
   "id": "32177",
-  "name": "Madunice"
+  "name": "Madunice",
+  "lat": 48.47717,
+  "lon": 17.78026
  },
  {
   "id": "31540",
-  "name": "Magurica"
+  "name": "Magurica",
+  "lat": 48.99164,
+  "lon": 22.19779
  },
  {
   "id": "32074",
-  "name": "Majcichov"
+  "name": "Majcichov",
+  "lat": 48.28462,
+  "lon": 17.63032
  },
  {
   "id": "32143",
-  "name": "Makov"
+  "name": "Makov",
+  "lat": 49.37053,
+  "lon": 18.48044
  },
  {
   "id": "32563",
-  "name": "Mala Ida"
+  "name": "Mala Ida",
+  "lat": 48.67475,
+  "lon": 21.16789
  },
  {
   "id": "32631",
-  "name": "Mala Lehota"
+  "name": "Mala Lehota",
+  "lat": 48.76592,
+  "lon": 18.66643
  },
  {
   "id": "31393",
-  "name": "Malacky"
+  "name": "Malacky",
+  "lat": 48.43604,
+  "lon": 17.02188
  },
  {
   "id": "32395",
-  "name": "Malcice"
+  "name": "Malcice",
+  "lat": 48.5779,
+  "lon": 21.85238
  },
  {
   "id": "32484",
-  "name": "Malcov"
+  "name": "Malcov",
+  "lat": 49.30469,
+  "lon": 21.05964
  },
  {
   "id": "32442",
-  "name": "Male Levare"
+  "name": "Male Levare",
+  "lat": 48.5,
+  "lon": 16.98333
  },
  {
   "id": "32182",
-  "name": "Male Trakany"
+  "name": "Male Trakany",
+  "lat": 48.39938,
+  "lon": 22.10575
  },
  {
   "id": "32653",
-  "name": "Malinec"
+  "name": "Malinec",
+  "lat": 48.49797,
+  "lon": 19.6818
  },
  {
   "id": "31526",
-  "name": "Maliniak"
+  "name": "Maliniak",
+  "lat": 49.07075,
+  "lon": 21.25971
  },
  {
   "id": "31463",
-  "name": "Malino Brdo"
+  "name": "Malino Brdo",
+  "lat": 49.05492,
+  "lon": 19.25954
  },
  {
   "id": "32038",
-  "name": "Malinovo"
+  "name": "Malinovo",
+  "lat": 48.15446,
+  "lon": 17.29677
  },
  {
   "id": "32634",
-  "name": "Maly Hores"
+  "name": "Maly Hores",
+  "lat": 48.39875,
+  "lon": 21.94635
  },
  {
   "id": "34555",
-  "name": "Maly Javornik"
+  "name": "Maly Javornik",
+  "lat": 48.26059,
+  "lon": 17.16333
  },
  {
   "id": "32669",
-  "name": "Maly Saris"
+  "name": "Maly Saris",
+  "lat": 49.00995,
+  "lon": 21.18303
  },
  {
   "id": "32440",
-  "name": "Malzenice"
+  "name": "Malzenice",
+  "lat": 48.45014,
+  "lon": 17.675
  },
  {
   "id": "32679",
-  "name": "Mana"
+  "name": "Mana",
+  "lat": 48.14867,
+  "lon": 18.27662
  },
  {
   "id": "32337",
-  "name": "Marcelova"
+  "name": "Marcelova",
+  "lat": 47.7879,
+  "lon": 18.28262
  },
  {
   "id": "32460",
-  "name": "Margecany"
+  "name": "Margecany",
+  "lat": 48.89245,
+  "lon": 21.01197
  },
  {
   "id": "32154",
-  "name": "Markusovce"
+  "name": "Markusovce",
+  "lat": 48.91193,
+  "lon": 20.6307
  },
  {
   "id": "31445",
-  "name": "Martin"
+  "name": "Martin",
+  "lat": 49.06651,
+  "lon": 18.92399
  },
  {
   "id": "31440",
-  "name": "Martinske hole"
+  "name": "Martinske hole",
+  "lat": 49.07965,
+  "lon": 18.80626
  },
  {
   "id": "32266",
-  "name": "Matuskovo"
+  "name": "Matuskovo",
+  "lat": 48.16835,
+  "lon": 17.73183
  },
  {
   "id": "32246",
-  "name": "Medzev"
+  "name": "Medzev",
+  "lat": 48.70041,
+  "lon": 20.89367
  },
  {
   "id": "32311",
-  "name": "Medzibrod"
+  "name": "Medzibrod",
+  "lat": 48.7943,
+  "lon": 19.35372
  },
  {
   "id": "31381",
-  "name": "Medzilaborce"
+  "name": "Medzilaborce",
+  "lat": 49.27195,
+  "lon": 21.90073
  },
  {
   "id": "32430",
-  "name": "Melcice-Lieskove"
+  "name": "Melcice-Lieskove",
+  "lat": 48.8429,
+  "lon": 17.91181
  },
  {
   "id": "32239",
-  "name": "Michalany"
+  "name": "Michalany",
+  "lat": 48.51595,
+  "lon": 21.62335
  },
  {
   "id": "32373",
-  "name": "Michalova"
+  "name": "Michalova",
+  "lat": 48.76793,
+  "lon": 19.78092
  },
  {
   "id": "31933",
-  "name": "Michalovce"
+  "name": "Michalovce",
+  "lat": 48.75434,
+  "lon": 21.9195
  },
  {
   "id": "32308",
-  "name": "Mikusovce"
+  "name": "Mikusovce",
+  "lat": 49.06356,
+  "lon": 18.20655
  },
  {
   "id": "31531",
-  "name": "Milhostov (meteo stanica)"
+  "name": "Milhostov (meteo stanica)",
+  "lat": 48.6648,
+  "lon": 21.71207
  },
  {
   "id": "31502",
-  "name": "Mlynica"
+  "name": "Mlynica",
+  "lat": 49.10088,
+  "lon": 20.3137
  },
  {
   "id": "32434",
-  "name": "Mnichova Lehota"
+  "name": "Mnichova Lehota",
+  "lat": 48.83565,
+  "lon": 18.06074
  },
  {
   "id": "32017",
-  "name": "Mnisek nad Hnilcom"
+  "name": "Mnisek nad Hnilcom",
+  "lat": 48.80409,
+  "lon": 20.80476
  },
  {
   "id": "32718",
-  "name": "Moca"
+  "name": "Moca",
+  "lat": 47.76095,
+  "lon": 18.40786
  },
  {
   "id": "32123",
-  "name": "Mocenok"
+  "name": "Mocenok",
+  "lat": 48.22774,
+  "lon": 17.93075
  },
  {
   "id": "31427",
-  "name": "Mochovce"
+  "name": "Mochovce",
+  "lat": 48.26451,
+  "lon": 18.45036
  },
  {
   "id": "31934",
-  "name": "Modra"
+  "name": "Modra",
+  "lat": 48.33397,
+  "lon": 17.30711
  },
  {
   "id": "32573",
-  "name": "Modra nad Cirochou"
+  "name": "Modra nad Cirochou",
+  "lat": 48.94356,
+  "lon": 22.04275
  },
  {
   "id": "32731",
-  "name": "Modrany"
+  "name": "Modrany",
+  "lat": 47.82356,
+  "lon": 18.35201
  },
  {
   "id": "32273",
-  "name": "Modry Kamen"
+  "name": "Modry Kamen",
+  "lat": 48.2413,
+  "lon": 19.33495
  },
  {
   "id": "32147",
-  "name": "Mojmirovce"
+  "name": "Mojmirovce",
+  "lat": 48.20735,
+  "lon": 18.06581
  },
  {
   "id": "32135",
-  "name": "Mojzesovo"
+  "name": "Mojzesovo",
+  "lat": 48.13333,
+  "lon": 18.23333
  },
  {
   "id": "32486",
-  "name": "Mokrance"
+  "name": "Mokrance",
+  "lat": 48.59604,
+  "lon": 21.02039
  },
  {
   "id": "32204",
-  "name": "Moldava nad Bodvou"
+  "name": "Moldava nad Bodvou",
+  "lat": 48.61428,
+  "lon": 20.99957
  },
  {
   "id": "32696",
-  "name": "Moravany"
+  "name": "Moravany",
+  "lat": 48.74054,
+  "lon": 21.78508
  },
  {
   "id": "32203",
-  "name": "Moravany nad Vahom"
+  "name": "Moravany nad Vahom",
+  "lat": 48.60117,
+  "lon": 17.85827
  },
  {
   "id": "32416",
-  "name": "Moravske Lieskove"
+  "name": "Moravske Lieskove",
+  "lat": 48.81931,
+  "lon": 17.79533
  },
  {
   "id": "32294",
-  "name": "Moravsky Svaty Jan"
+  "name": "Moravsky Svaty Jan",
+  "lat": 48.59158,
+  "lon": 17.00223
  },
  {
   "id": "32480",
-  "name": "Mosovce"
+  "name": "Mosovce",
+  "lat": 48.90944,
+  "lon": 18.88484
  },
  {
   "id": "31982",
-  "name": "Most pri Bratislave"
+  "name": "Most pri Bratislave",
+  "lat": 48.14204,
+  "lon": 17.27085
  },
  {
   "id": "32324",
-  "name": "Mostova"
+  "name": "Mostova",
+  "lat": 48.1401,
+  "lon": 17.67625
  },
  {
   "id": "32087",
-  "name": "Muran"
+  "name": "Muran",
+  "lat": 48.74097,
+  "lon": 20.04961
  },
  {
   "id": "32269",
-  "name": "Mutne"
+  "name": "Mutne",
+  "lat": 49.46231,
+  "lon": 19.31964
  },
  {
   "id": "32131",
-  "name": "Muzla"
+  "name": "Muzla",
+  "lat": 47.79302,
+  "lon": 18.59931
  },
  {
   "id": "31402",
-  "name": "Myjava"
+  "name": "Myjava",
+  "lat": 48.75876,
+  "lon": 17.56866
  },
  {
   "id": "32144",
-  "name": "Mytna"
+  "name": "Mytna",
+  "lat": 48.46771,
+  "lon": 19.55248
  },
  {
   "id": "31478",
-  "name": "Myto pod Dumbierom"
+  "name": "Myto pod Dumbierom",
+  "lat": 48.85171,
+  "lon": 19.63247
  },
  {
   "id": "32680",
-  "name": "Nacina Ves"
+  "name": "Nacina Ves",
+  "lat": 48.81891,
+  "lon": 21.8546
  },
  {
   "id": "32060",
-  "name": "Nalepkovo"
+  "name": "Nalepkovo",
+  "lat": 48.84236,
+  "lon": 20.62032
  },
  {
   "id": "31470",
-  "name": "Namestovo"
+  "name": "Namestovo",
+  "lat": 49.4079,
+  "lon": 19.48032
  },
  {
   "id": "32693",
-  "name": "Nana"
+  "name": "Nana",
+  "lat": 47.81357,
+  "lon": 18.69646
  },
  {
   "id": "31962",
-  "name": "Neded"
+  "name": "Neded",
+  "lat": 48.02116,
+  "lon": 17.96175
  },
  {
   "id": "32710",
-  "name": "Nedozery-Brezany"
+  "name": "Nedozery-Brezany",
+  "lat": 48.82429,
+  "lon": 18.64458
  },
  {
   "id": "32630",
-  "name": "Nemce"
+  "name": "Nemce",
+  "lat": 48.76222,
+  "lon": 19.18532
  },
  {
   "id": "31938",
-  "name": "Nemecka"
+  "name": "Nemecka",
+  "lat": 48.81253,
+  "lon": 19.41485
  },
  {
   "id": "32173",
-  "name": "Nemsova"
+  "name": "Nemsova",
+  "lat": 48.96702,
+  "lon": 18.11892
  },
  {
   "id": "32633",
-  "name": "Nenince"
+  "name": "Nenince",
+  "lat": 48.14642,
+  "lon": 19.25956
  },
  {
   "id": "32297",
-  "name": "Neslusa"
+  "name": "Neslusa",
+  "lat": 49.3177,
+  "lon": 18.74154
  },
  {
   "id": "32029",
-  "name": "Nesvady"
+  "name": "Nesvady",
+  "lat": 47.92819,
+  "lon": 18.12675
  },
  {
   "id": "34042",
-  "name": "Nimnica"
+  "name": "Nimnica",
+  "lat": 49.1396,
+  "lon": 18.35663
  },
  {
   "id": "32739",
-  "name": "Nitra (centrum)"
+  "name": "Nitra (centrum)",
+  "lat": 48.30763,
+  "lon": 18.08453
  },
  {
   "id": "31365",
-  "name": "Nitra (meteo stanica)"
+  "name": "Nitra (meteo stanica)",
+  "lat": 48.30763,
+  "lon": 18.08453
  },
  {
   "id": "32113",
-  "name": "Nitrianska Blatnica"
+  "name": "Nitrianska Blatnica",
+  "lat": 48.55438,
+  "lon": 17.96639
  },
  {
   "id": "32077",
-  "name": "Nitrianske Hrnciarovce"
+  "name": "Nitrianske Hrnciarovce",
+  "lat": 48.33277,
+  "lon": 18.12835
  },
  {
   "id": "32016",
-  "name": "Nitrianske Pravno"
+  "name": "Nitrianske Pravno",
+  "lat": 48.86839,
+  "lon": 18.63364
  },
  {
   "id": "32306",
-  "name": "Nitrianske Rudno"
+  "name": "Nitrianske Rudno",
+  "lat": 48.79537,
+  "lon": 18.47741
  },
  {
   "id": "32384",
-  "name": "Nitrianske Sucany"
+  "name": "Nitrianske Sucany",
+  "lat": 48.73352,
+  "lon": 18.46843
  },
  {
   "id": "32719",
-  "name": "Nitrica"
+  "name": "Nitrica",
+  "lat": 48.80176,
+  "lon": 18.48068
  },
  {
   "id": "32148",
-  "name": "Nizna"
+  "name": "Nizna",
+  "lat": 49.31046,
+  "lon": 19.52428
  },
  {
   "id": "32379",
-  "name": "Nizna Mysla"
+  "name": "Nizna Mysla",
+  "lat": 48.62394,
+  "lon": 21.36508
  },
  {
   "id": "32621",
-  "name": "Nizna Slana"
+  "name": "Nizna Slana",
+  "lat": 48.72521,
+  "lon": 20.40932
  },
  {
   "id": "32548",
-  "name": "Nizny Hrabovec"
+  "name": "Nizny Hrabovec",
+  "lat": 48.85344,
+  "lon": 21.75645
  },
  {
   "id": "32658",
-  "name": "Nizny Hrusov"
+  "name": "Nizny Hrusov",
+  "lat": 48.80745,
+  "lon": 21.77304
  },
  {
   "id": "32590",
-  "name": "Nizny Zipov"
+  "name": "Nizny Zipov",
+  "lat": 48.58214,
+  "lon": 21.63775
  },
  {
   "id": "32195",
-  "name": "Nova Bana"
+  "name": "Nova Bana",
+  "lat": 48.42305,
+  "lon": 18.64037
  },
  {
   "id": "31407",
-  "name": "Nova Bosaca"
+  "name": "Nova Bosaca",
+  "lat": 48.87993,
+  "lon": 17.79707
  },
  {
   "id": "32249",
-  "name": "Nova Bystrica"
+  "name": "Nova Bystrica",
+  "lat": 49.34496,
+  "lon": 19.01446
  },
  {
   "id": "32708",
-  "name": "Nova Dedina"
+  "name": "Nova Dedina",
+  "lat": 48.28231,
+  "lon": 18.64733
  },
  {
   "id": "32536",
-  "name": "Nova Dedinka"
+  "name": "Nova Dedinka",
+  "lat": 48.1861,
+  "lon": 17.35629
  },
  {
   "id": "31957",
-  "name": "Nova Dubnica"
+  "name": "Nova Dubnica",
+  "lat": 48.93479,
+  "lon": 18.14632
  },
  {
   "id": "31461",
-  "name": "Nova Hola"
+  "name": "Nova Hola",
+  "lat": 48.88972,
+  "lon": 19.23062
  },
  {
   "id": "31927",
-  "name": "Nova Lesna"
+  "name": "Nova Lesna",
+  "lat": 49.12253,
+  "lon": 20.26737
  },
  {
   "id": "32210",
-  "name": "Nova Lubovna"
+  "name": "Nova Lubovna",
+  "lat": 49.27024,
+  "lon": 20.68352
  },
  {
   "id": "32347",
-  "name": "Nova Ves nad Zitavou"
+  "name": "Nova Ves nad Zitavou",
+  "lat": 48.2903,
+  "lon": 18.32306
  },
  {
   "id": "32067",
-  "name": "Novaky"
+  "name": "Novaky",
+  "lat": 48.71106,
+  "lon": 18.53389
  },
  {
   "id": "31409",
-  "name": "Nove Mesto nad Vahom"
+  "name": "Nove Mesto nad Vahom",
+  "lat": 48.75763,
+  "lon": 17.8309
  },
  {
   "id": "32230",
-  "name": "Nove Sady"
+  "name": "Nove Sady",
+  "lat": 48.41725,
+  "lon": 17.98191
  },
  {
   "id": "31412",
-  "name": "Nove Zamky"
+  "name": "Nove Zamky",
+  "lat": 47.98544,
+  "lon": 18.16195
  },
  {
   "id": "32583",
-  "name": "Novot"
+  "name": "Novot",
+  "lat": 49.42853,
+  "lon": 19.26542
  },
  {
   "id": "34037",
-  "name": "Novy Smokovec"
+  "name": "Novy Smokovec",
+  "lat": 49.13432,
+  "lon": 20.20861
  },
  {
   "id": "32491",
-  "name": "Novy Zivot"
+  "name": "Novy Zivot",
+  "lat": 48.11532,
+  "lon": 17.46658
  },
  {
   "id": "32554",
-  "name": "Obid"
+  "name": "Obid",
+  "lat": 47.77804,
+  "lon": 18.6471
  },
  {
   "id": "32090",
-  "name": "Obyce"
+  "name": "Obyce",
+  "lat": 48.42738,
+  "lon": 18.45632
  },
  {
   "id": "32356",
-  "name": "Ochodnica"
+  "name": "Ochodnica",
+  "lat": 49.34891,
+  "lon": 18.78962
  },
  {
   "id": "32248",
-  "name": "Ocova"
+  "name": "Ocova",
+  "lat": 48.60039,
+  "lon": 19.28843
  },
  {
   "id": "32418",
-  "name": "Ohrady"
+  "name": "Ohrady",
+  "lat": 47.98333,
+  "lon": 17.7
  },
  {
   "id": "32382",
-  "name": "Okoc"
+  "name": "Okoc",
+  "lat": 47.88757,
+  "lon": 17.80867
  },
  {
   "id": "32690",
-  "name": "Okolicna na Ostrove"
+  "name": "Okolicna na Ostrove",
+  "lat": 47.80382,
+  "lon": 17.92093
  },
  {
   "id": "32598",
-  "name": "Olesna"
+  "name": "Olesna",
+  "lat": 49.4236,
+  "lon": 18.67624
  },
  {
   "id": "32118",
-  "name": "Omsenie"
+  "name": "Omsenie",
+  "lat": 48.90071,
+  "lon": 18.22555
  },
  {
   "id": "32577",
-  "name": "Opatovce nad Nitrou"
+  "name": "Opatovce nad Nitrou",
+  "lat": 48.76448,
+  "lon": 18.57169
  },
  {
   "id": "32453",
-  "name": "Oravska Jasenica"
+  "name": "Oravska Jasenica",
+  "lat": 49.3864,
+  "lon": 19.43718
  },
  {
   "id": "32122",
-  "name": "Oravska Lesna"
+  "name": "Oravska Lesna",
+  "lat": 49.36672,
+  "lon": 19.18093
  },
  {
   "id": "31955",
-  "name": "Oravska Polhora"
+  "name": "Oravska Polhora",
+  "lat": 49.52721,
+  "lon": 19.44069
  },
  {
   "id": "32268",
-  "name": "Oravske Vesele"
+  "name": "Oravske Vesele",
+  "lat": 49.46601,
+  "lon": 19.38338
  },
  {
   "id": "32547",
-  "name": "Oravsky Podzamok"
+  "name": "Oravsky Podzamok",
+  "lat": 49.25939,
+  "lon": 19.3569
  },
  {
   "id": "32399",
-  "name": "Orechova Poton"
+  "name": "Orechova Poton",
+  "lat": 48.01708,
+  "lon": 17.53806
  },
  {
   "id": "31399",
-  "name": "Oresany (Slepy vrch)"
+  "name": "Oresany (Slepy vrch)",
+  "lat": 48.51118,
+  "lon": 17.90274
  },
  {
   "id": "32001",
-  "name": "Oscadnica"
+  "name": "Oscadnica",
+  "lat": 49.43572,
+  "lon": 18.8819
  },
  {
   "id": "32407",
-  "name": "Oslany"
+  "name": "Oslany",
+  "lat": 48.63138,
+  "lon": 18.47027
  },
  {
   "id": "31515",
-  "name": "Ostra Hora"
+  "name": "Ostra Hora",
+  "lat": 49.0652,
+  "lon": 18.24911
  },
  {
   "id": "31167",
-  "name": "Ostredok"
+  "name": "Ostredok",
+  "lat": 48.90321,
+  "lon": 19.07913
  },
  {
   "id": "32426",
-  "name": "Ostrov"
+  "name": "Ostrov",
+  "lat": 48.71829,
+  "lon": 22.1635
  },
  {
   "id": "32660",
-  "name": "Ostrovany"
+  "name": "Ostrovany",
+  "lat": 49.06322,
+  "lon": 21.11772
  },
  {
   "id": "32199",
-  "name": "Ozdany"
+  "name": "Ozdany",
+  "lat": 48.37815,
+  "lon": 19.89163
  },
  {
   "id": "31972",
-  "name": "Palarikovo"
+  "name": "Palarikovo",
+  "lat": 48.04366,
+  "lon": 18.07199
  },
  {
   "id": "31457",
-  "name": "Pansky Diel"
+  "name": "Pansky Diel",
+  "lat": 48.79844,
+  "lon": 19.14963
  },
  {
   "id": "32706",
-  "name": "Papin"
+  "name": "Papin",
+  "lat": 49.09385,
+  "lon": 22.06009
  },
  {
   "id": "32377",
-  "name": "Papradno"
+  "name": "Papradno",
+  "lat": 49.22972,
+  "lon": 18.41152
  },
  {
   "id": "32024",
-  "name": "Parchovany"
+  "name": "Parchovany",
+  "lat": 48.75216,
+  "lon": 21.71596
  },
  {
   "id": "32421",
-  "name": "Partizanska Lupca"
+  "name": "Partizanska Lupca",
+  "lat": 49.06476,
+  "lon": 19.43515
  },
  {
   "id": "31425",
-  "name": "Partizanske"
+  "name": "Partizanske",
+  "lat": 48.62861,
+  "lon": 18.38455
  },
  {
   "id": "37493",
-  "name": "Pastovce"
+  "name": "Pastovce",
+  "lat": 47.96728,
+  "lon": 18.75739
  },
  {
   "id": "32083",
-  "name": "Pata"
+  "name": "Pata",
+  "lat": 48.27746,
+  "lon": 17.82298
  },
  {
   "id": "34023",
-  "name": "Patince"
+  "name": "Patince",
+  "lat": 47.73892,
+  "lon": 18.28956
  },
  {
   "id": "32518",
-  "name": "Pavlovce nad Uhom"
+  "name": "Pavlovce nad Uhom",
+  "lat": 48.61092,
+  "lon": 22.06902
  },
  {
   "id": "32665",
-  "name": "Pecovska Nova Ves"
+  "name": "Pecovska Nova Ves",
+  "lat": 49.12377,
+  "lon": 21.04372
  },
  {
   "id": "32703",
-  "name": "Perin-Chym"
+  "name": "Perin-Chym",
+  "lat": 48.53341,
+  "lon": 21.17779
  },
  {
   "id": "32656",
-  "name": "Petrova Ves"
+  "name": "Petrova Ves",
+  "lat": 48.71943,
+  "lon": 17.1619
  },
  {
   "id": "32529",
-  "name": "Petrovany"
+  "name": "Petrovany",
+  "lat": 48.91737,
+  "lon": 21.26052
  },
  {
   "id": "32370",
-  "name": "Petrovice"
+  "name": "Petrovice",
+  "lat": 49.25787,
+  "lon": 18.52349
  },
  {
   "id": "31396",
-  "name": "Pezinok"
+  "name": "Pezinok",
+  "lat": 48.28986,
+  "lon": 17.26664
  },
  {
   "id": "31581",
-  "name": "Pezinska Baba"
+  "name": "Pezinska Baba",
+  "lat": 48.34316,
+  "lon": 17.19372
  },
  {
   "id": "32740",
-  "name": "Piestany (centrum)"
+  "name": "Piestany (centrum)",
+  "lat": 48.59479,
+  "lon": 17.82591
  },
  {
   "id": "31362",
-  "name": "Piestany (meteo stanica)"
+  "name": "Piestany (meteo stanica)",
+  "lat": 48.59479,
+  "lon": 17.82591
  },
  {
   "id": "32171",
-  "name": "Plastovce"
+  "name": "Plastovce",
+  "lat": 48.15897,
+  "lon": 18.97848
  },
  {
   "id": "32158",
-  "name": "Plavec"
+  "name": "Plavec",
+  "lat": 49.26268,
+  "lon": 20.84225
  },
  {
   "id": "32253",
-  "name": "Plavecky Stvrtok"
+  "name": "Plavecky Stvrtok",
+  "lat": 48.37512,
+  "lon": 16.99863
  },
  {
   "id": "32290",
-  "name": "Plavnica"
+  "name": "Plavnica",
+  "lat": 49.27309,
+  "lon": 20.77985
  },
  {
   "id": "32371",
-  "name": "Plesivec"
+  "name": "Plesivec",
+  "lat": 48.5458,
+  "lon": 20.40218
  },
  {
   "id": "32172",
-  "name": "Plevnik - Drienove"
+  "name": "Plevnik - Drienove",
+  "lat": 49.16947,
+  "lon": 18.49681
  },
  {
   "id": "32028",
-  "name": "Pliesovce"
+  "name": "Pliesovce",
+  "lat": 48.4263,
+  "lon": 19.15561
  },
  {
   "id": "31166",
-  "name": "Ploska"
+  "name": "Ploska",
+  "lat": 48.73293,
+  "lon": 21.52677
  },
  {
   "id": "32443",
-  "name": "Pobedim"
+  "name": "Pobedim",
+  "lat": 48.64982,
+  "lon": 17.80139
  },
  {
   "id": "32472",
-  "name": "Podbiel"
+  "name": "Podbiel",
+  "lat": 49.30816,
+  "lon": 19.48504
  },
  {
   "id": "32084",
-  "name": "Podbrezova"
+  "name": "Podbrezova",
+  "lat": 48.80928,
+  "lon": 19.52596
  },
  {
   "id": "32532",
-  "name": "Podhajska"
+  "name": "Podhajska",
+  "lat": 48.10204,
+  "lon": 18.3397
  },
  {
   "id": "32649",
-  "name": "Podhorany"
+  "name": "Podhorany",
+  "lat": 49.23973,
+  "lon": 20.4801
  },
  {
   "id": "38074",
-  "name": "Podhorod - Paprtny"
+  "name": "Podhorod - Paprtny",
+  "lat": 48.81831,
+  "lon": 22.30081
  },
  {
   "id": "31462",
-  "name": "Podkonice/Plese"
+  "name": "Podkonice/Plese",
+  "lat": 48.81453,
+  "lon": 19.24379
  },
  {
   "id": "32301",
-  "name": "Podolie"
+  "name": "Podolie",
+  "lat": 48.67186,
+  "lon": 17.77122
  },
  {
   "id": "32059",
-  "name": "Podolinec"
+  "name": "Podolinec",
+  "lat": 49.25869,
+  "lon": 20.536
  },
  {
   "id": "32185",
-  "name": "Podvysoka"
+  "name": "Podvysoka",
+  "lat": 49.41269,
+  "lon": 18.66458
  },
  {
   "id": "31493",
-  "name": "Pohorela"
+  "name": "Pohorela",
+  "lat": 48.86178,
+  "lon": 20.01623
  },
  {
   "id": "32211",
-  "name": "Pohranice"
+  "name": "Pohranice",
+  "lat": 48.33095,
+  "lon": 18.17912
  },
  {
   "id": "32292",
-  "name": "Pohronska Polhora"
+  "name": "Pohronska Polhora",
+  "lat": 48.7572,
+  "lon": 19.7932
  },
  {
   "id": "32632",
-  "name": "Pohronsky Ruskov"
+  "name": "Pohronsky Ruskov",
+  "lat": 47.97364,
+  "lon": 18.6563
  },
  {
   "id": "34118",
@@ -2645,1630 +3959,2444 @@
  },
  {
   "id": "32746",
-  "name": "Polomka"
+  "name": "Polomka",
+  "lat": 48.85229,
+  "lon": 19.85247
  },
  {
   "id": "31486",
-  "name": "Poltar"
+  "name": "Poltar",
+  "lat": 48.43094,
+  "lon": 19.79408
  },
  {
   "id": "32450",
-  "name": "Poniky"
+  "name": "Poniky",
+  "lat": 48.71239,
+  "lon": 19.29275
  },
  {
   "id": "34035",
-  "name": "Poprad (centrum)"
+  "name": "Poprad (centrum)",
+  "lat": 49.06144,
+  "lon": 20.29798
  },
  {
   "id": "31377",
-  "name": "Poprad (letisko)"
+  "name": "Poprad (letisko)",
+  "lat": 49.06144,
+  "lon": 20.29798
  },
  {
   "id": "31997",
-  "name": "Poproc"
+  "name": "Poproc",
+  "lat": 48.71169,
+  "lon": 20.97524
  },
  {
   "id": "32593",
-  "name": "Porac"
+  "name": "Porac",
+  "lat": 48.88418,
+  "lon": 20.72387
  },
  {
   "id": "32227",
-  "name": "Poruba"
+  "name": "Poruba",
+  "lat": 48.83218,
+  "lon": 18.5913
  },
  {
   "id": "32557",
-  "name": "Povazany"
+  "name": "Povazany",
+  "lat": 48.70756,
+  "lon": 17.84533
  },
  {
   "id": "31428",
-  "name": "Povazska Bystrica"
+  "name": "Povazska Bystrica",
+  "lat": 49.12153,
+  "lon": 18.42169
  },
  {
   "id": "32110",
-  "name": "Povina"
+  "name": "Povina",
+  "lat": 49.31173,
+  "lon": 18.81
  },
  {
   "id": "32647",
-  "name": "Pozdisovce"
+  "name": "Pozdisovce",
+  "lat": 48.7246,
+  "lon": 21.85463
  },
  {
   "id": "31987",
-  "name": "Prakovce"
+  "name": "Prakovce",
+  "lat": 48.81588,
+  "lon": 20.89607
  },
  {
   "id": "31990",
-  "name": "Prasice"
+  "name": "Prasice",
+  "lat": 48.64293,
+  "lon": 18.11093
  },
  {
   "id": "32206",
-  "name": "Pravenec"
+  "name": "Pravenec",
+  "lat": 48.85613,
+  "lon": 18.64901
  },
  {
   "id": "32601",
-  "name": "Precin"
+  "name": "Precin",
+  "lat": 49.08422,
+  "lon": 18.52085
  },
  {
   "id": "31994",
-  "name": "Predajna"
+  "name": "Predajna",
+  "lat": 48.81688,
+  "lon": 19.46092
  },
  {
   "id": "32556",
-  "name": "Predmier"
+  "name": "Predmier",
+  "lat": 49.19855,
+  "lon": 18.53274
  },
  {
   "id": "32459",
-  "name": "Preselany"
+  "name": "Preselany",
+  "lat": 48.45145,
+  "lon": 18.09873
  },
  {
   "id": "31379",
-  "name": "Presov"
+  "name": "Presov",
+  "lat": 48.99923,
+  "lon": 21.2355
  },
  {
   "id": "32134",
-  "name": "Pribeta"
+  "name": "Pribeta",
+  "lat": 47.89977,
+  "lon": 18.31505
  },
  {
   "id": "32141",
-  "name": "Pribylina"
+  "name": "Pribylina",
+  "lat": 49.0995,
+  "lon": 19.79427
  },
  {
   "id": "31432",
-  "name": "Prievidza"
+  "name": "Prievidza",
+  "lat": 48.77446,
+  "lon": 18.6275
  },
  {
   "id": "32281",
-  "name": "Pruske"
+  "name": "Pruske",
+  "lat": 49.02636,
+  "lon": 18.21257
  },
  {
   "id": "32126",
-  "name": "Pruzina"
+  "name": "Pruzina",
+  "lat": 49.01633,
+  "lon": 18.47997
  },
  {
   "id": "31424",
-  "name": "Puchov"
+  "name": "Puchov",
+  "lat": 49.12494,
+  "lon": 18.32597
  },
  {
   "id": "32404",
-  "name": "Pukanec"
+  "name": "Pukanec",
+  "lat": 48.35404,
+  "lon": 18.72392
  },
  {
   "id": "32061",
-  "name": "Puste Ulany"
+  "name": "Puste Ulany",
+  "lat": 48.23151,
+  "lon": 17.57389
  },
  {
   "id": "32107",
-  "name": "Rabca"
+  "name": "Rabca",
+  "lat": 49.48602,
+  "lon": 19.47618
  },
  {
   "id": "32412",
-  "name": "Rabcice"
+  "name": "Rabcice",
+  "lat": 49.50735,
+  "lon": 19.52377
  },
  {
   "id": "32261",
-  "name": "Radola"
+  "name": "Radola",
+  "lat": 49.2942,
+  "lon": 18.79244
  },
  {
   "id": "32095",
-  "name": "Radosina"
+  "name": "Radosina",
+  "lat": 48.54591,
+  "lon": 17.93846
  },
  {
   "id": "32444",
-  "name": "Radosovce"
+  "name": "Radosovce",
+  "lat": 48.77189,
+  "lon": 17.28118
  },
  {
   "id": "32651",
-  "name": "Radzovce"
+  "name": "Radzovce",
+  "lat": 48.22107,
+  "lon": 19.82893
  },
  {
   "id": "32012",
-  "name": "Rajec"
+  "name": "Rajec",
+  "lat": 49.08899,
+  "lon": 18.64007
  },
  {
   "id": "32068",
-  "name": "Rajecka Lesna"
+  "name": "Rajecka Lesna",
+  "lat": 49.04441,
+  "lon": 18.63566
  },
  {
   "id": "34025",
-  "name": "Rajecke Teplice (centrum)"
+  "name": "Rajecke Teplice (centrum)",
+  "lat": 49.12716,
+  "lon": 18.68653
  },
  {
   "id": "32296",
-  "name": "Rakova"
+  "name": "Rakova",
+  "lat": 49.44481,
+  "lon": 18.73792
  },
  {
   "id": "32552",
-  "name": "Rakovec nad Ondavou"
+  "name": "Rakovec nad Ondavou",
+  "lat": 48.76874,
+  "lon": 21.78268
  },
  {
   "id": "32700",
-  "name": "Rakusy"
+  "name": "Rakusy",
+  "lat": 49.18844,
+  "lon": 20.38181
  },
  {
   "id": "32595",
-  "name": "Raslavice"
+  "name": "Raslavice",
+  "lat": 49.15055,
+  "lon": 21.31541
  },
  {
   "id": "32576",
-  "name": "Raznany"
+  "name": "Raznany",
+  "lat": 49.08225,
+  "lon": 21.08504
  },
  {
   "id": "32449",
-  "name": "Raztocno"
+  "name": "Raztocno",
+  "lat": 48.76941,
+  "lon": 18.75913
  },
  {
   "id": "31988",
-  "name": "Reca"
+  "name": "Reca",
+  "lat": 48.2311,
+  "lon": 17.45399
  },
  {
   "id": "31495",
-  "name": "Revuca"
+  "name": "Revuca",
+  "lat": 48.68346,
+  "lon": 20.11734
  },
  {
   "id": "32200",
-  "name": "Richnava"
+  "name": "Richnava",
+  "lat": 48.92653,
+  "lon": 20.92146
  },
  {
   "id": "32674",
-  "name": "Richvald"
+  "name": "Richvald",
+  "lat": 49.27558,
+  "lon": 21.19076
  },
  {
   "id": "32615",
-  "name": "Rimavska Sec"
+  "name": "Rimavska Sec",
+  "lat": 48.30508,
+  "lon": 20.23492
  },
  {
   "id": "31375",
-  "name": "Rimavska Sobota"
+  "name": "Rimavska Sobota",
+  "lat": 48.38284,
+  "lon": 20.02239
  },
  {
   "id": "32682",
-  "name": "Rimavske Janovce"
+  "name": "Rimavske Janovce",
+  "lat": 48.3417,
+  "lon": 20.0628
  },
  {
   "id": "32221",
-  "name": "Risnovce"
+  "name": "Risnovce",
+  "lat": 48.36857,
+  "lon": 17.89328
  },
  {
   "id": "31482",
-  "name": "Rohace - Spalena"
+  "name": "Rohace - Spalena",
+  "lat": 49.22858,
+  "lon": 19.70228
  },
  {
   "id": "32231",
-  "name": "Rohovce"
+  "name": "Rohovce",
+  "lat": 47.99612,
+  "lon": 17.41142
  },
  {
   "id": "31921",
-  "name": "Rohoznik"
+  "name": "Rohoznik",
+  "lat": 48.45682,
+  "lon": 17.16763
  },
  {
   "id": "31967",
-  "name": "Rosina"
+  "name": "Rosina",
+  "lat": 49.18333,
+  "lon": 18.76667
  },
  {
   "id": "31950",
-  "name": "Rovinka"
+  "name": "Rovinka",
+  "lat": 48.09783,
+  "lon": 17.23632
  },
  {
   "id": "32021",
-  "name": "Rozhanovce"
+  "name": "Rozhanovce",
+  "lat": 48.75032,
+  "lon": 21.34462
  },
  {
   "id": "32717",
-  "name": "Rozkovany"
+  "name": "Rozkovany",
+  "lat": 49.13789,
+  "lon": 20.98986
  },
  {
   "id": "31507",
-  "name": "Roznava"
+  "name": "Roznava",
+  "lat": 48.66009,
+  "lon": 20.53758
  },
  {
   "id": "32361",
-  "name": "Rudina"
+  "name": "Rudina",
+  "lat": 49.2888,
+  "lon": 18.73545
  },
  {
   "id": "32212",
-  "name": "Rudnany"
+  "name": "Rudnany",
+  "lat": 48.8816,
+  "lon": 20.68015
  },
  {
   "id": "32137",
-  "name": "Ruskov"
+  "name": "Ruskov",
+  "lat": 48.68188,
+  "lon": 21.43239
  },
  {
   "id": "32282",
-  "name": "Ruzindol"
+  "name": "Ruzindol",
+  "lat": 48.37177,
+  "lon": 17.49113
  },
  {
   "id": "31464",
-  "name": "Ruzomberok"
+  "name": "Ruzomberok",
+  "lat": 49.0748,
+  "lon": 19.30751
  },
  {
   "id": "32312",
-  "name": "Rybany"
+  "name": "Rybany",
+  "lat": 48.66648,
+  "lon": 18.25938
  },
  {
   "id": "32179",
-  "name": "Rybnik"
+  "name": "Rybnik",
+  "lat": 48.5487,
+  "lon": 20.12449
  },
  {
   "id": "32744",
-  "name": "Sabinov"
+  "name": "Sabinov",
+  "lat": 49.10309,
+  "lon": 21.0988
  },
  {
   "id": "32643",
-  "name": "Sacurov"
+  "name": "Sacurov",
+  "lat": 48.82044,
+  "lon": 21.69405
  },
  {
   "id": "32723",
-  "name": "Sady nad Torysou"
+  "name": "Sady nad Torysou",
+  "lat": 48.70697,
+  "lon": 21.3402
  },
  {
   "id": "31369",
-  "name": "Sahy"
+  "name": "Sahy",
+  "lat": 48.07408,
+  "lon": 18.94946
  },
  {
   "id": "31976",
-  "name": "Sajdikove Humence"
+  "name": "Sajdikove Humence",
+  "lat": 48.65425,
+  "lon": 17.26762
  },
  {
   "id": "31410",
-  "name": "Sala"
+  "name": "Sala",
+  "lat": 48.15127,
+  "lon": 17.88062
  },
  {
   "id": "32728",
-  "name": "Salka"
+  "name": "Salka",
+  "lat": 47.88593,
+  "lon": 18.75646
  },
  {
   "id": "31419",
-  "name": "Samorin"
+  "name": "Samorin",
+  "lat": 48.03015,
+  "lon": 17.30972
  },
  {
   "id": "38559",
-  "name": "Santovka"
+  "name": "Santovka",
+  "lat": 48.15704,
+  "lon": 18.76715
  },
  {
   "id": "32725",
-  "name": "Sarisske Dravce"
+  "name": "Sarisske Dravce",
+  "lat": 49.17516,
+  "lon": 20.86521
  },
  {
   "id": "32238",
-  "name": "Sarisske Jastrabie"
+  "name": "Sarisske Jastrabie",
+  "lat": 49.24292,
+  "lon": 20.90886
  },
  {
   "id": "32175",
-  "name": "Sarisske Michalany"
+  "name": "Sarisske Michalany",
+  "lat": 49.06794,
+  "lon": 21.13543
  },
  {
   "id": "31491",
-  "name": "Sarkanica"
+  "name": "Sarkanica",
+  "lat": 48.71744,
+  "lon": 19.9654
  },
  {
   "id": "32167",
-  "name": "Sarovce"
+  "name": "Sarovce",
+  "lat": 48.1041,
+  "lon": 18.63534
  },
  {
   "id": "32349",
-  "name": "Sastin-Straze"
+  "name": "Sastin-Straze",
+  "lat": 48.63721,
+  "lon": 17.1453
  },
  {
   "id": "32142",
-  "name": "Sebechleby"
+  "name": "Sebechleby",
+  "lat": 48.27538,
+  "lon": 18.95239
  },
  {
   "id": "32133",
-  "name": "Sebedrazie"
+  "name": "Sebedrazie",
+  "lat": 48.72947,
+  "lon": 18.62257
  },
  {
   "id": "32409",
-  "name": "Secovce"
+  "name": "Secovce",
+  "lat": 48.70074,
+  "lon": 21.66104
  },
  {
   "id": "32608",
-  "name": "Secovska Polianka"
+  "name": "Secovska Polianka",
+  "lat": 48.78245,
+  "lon": 21.68392
  },
  {
   "id": "32538",
-  "name": "Sedlice"
+  "name": "Sedlice",
+  "lat": 48.91816,
+  "lon": 21.11813
  },
  {
   "id": "32691",
-  "name": "Sedliska"
+  "name": "Sedliska",
+  "lat": 48.90601,
+  "lon": 21.72266
  },
  {
   "id": "32164",
-  "name": "Sekule"
+  "name": "Sekule",
+  "lat": 48.601,
+  "lon": 17.00379
  },
  {
   "id": "31956",
-  "name": "Selce"
+  "name": "Selce",
+  "lat": 48.76263,
+  "lon": 19.20302
  },
  {
   "id": "32058",
-  "name": "Selice"
+  "name": "Selice",
+  "lat": 48.09584,
+  "lon": 17.9643
  },
  {
   "id": "32510",
-  "name": "Semerovo"
+  "name": "Semerovo",
+  "lat": 48.01129,
+  "lon": 18.35249
  },
  {
   "id": "32568",
-  "name": "Sena"
+  "name": "Sena",
+  "lat": 48.55904,
+  "lon": 21.26138
  },
  {
   "id": "31398",
-  "name": "Senec"
+  "name": "Senec",
+  "lat": 48.21951,
+  "lon": 17.40043
  },
  {
   "id": "31359",
-  "name": "Senica"
+  "name": "Senica",
+  "lat": 48.67922,
+  "lon": 17.36697
  },
  {
   "id": "32063",
-  "name": "Senkvice"
+  "name": "Senkvice",
+  "lat": 48.29817,
+  "lon": 17.34959
  },
  {
   "id": "31951",
-  "name": "Sered"
+  "name": "Sered",
+  "lat": 48.29117,
+  "lon": 17.73331
  },
  {
   "id": "34535",
-  "name": "Siba"
+  "name": "Siba",
+  "lat": 49.23235,
+  "lon": 21.22841
  },
  {
   "id": "32353",
-  "name": "Sid"
+  "name": "Sid",
+  "lat": 48.27532,
+  "lon": 19.87937
  },
  {
   "id": "32289",
-  "name": "Sielnica"
+  "name": "Sielnica",
+  "lat": 49.14309,
+  "lon": 19.51421
  },
  {
   "id": "32365",
-  "name": "Sihelne"
+  "name": "Sihelne",
+  "lat": 49.50817,
+  "lon": 19.41155
  },
  {
   "id": "34554",
-  "name": "Siminy"
+  "name": "Siminy",
+  "lat": 49.20382,
+  "lon": 20.72745
  },
  {
   "id": "32295",
-  "name": "Sintava"
+  "name": "Sintava",
+  "lat": 48.28364,
+  "lon": 17.75827
  },
  {
   "id": "32362",
-  "name": "Sirk"
+  "name": "Sirk",
+  "lat": 48.61881,
+  "lon": 20.09905
  },
  {
   "id": "32333",
-  "name": "Siroke"
+  "name": "Siroke",
+  "lat": 48.99786,
+  "lon": 20.94068
  },
  {
   "id": "34119",
-  "name": "Sivy vrch (vrchol)"
+  "name": "Sivy vrch (vrchol)",
+  "lat": 49.21088,
+  "lon": 19.64227
  },
  {
   "id": "32570",
-  "name": "Skacany"
+  "name": "Skacany",
+  "lat": 48.66192,
+  "lon": 18.38155
  },
  {
   "id": "31358",
-  "name": "Skalica"
+  "name": "Skalica",
+  "lat": 48.8449,
+  "lon": 17.22635
  },
  {
   "id": "32219",
-  "name": "Skalite"
+  "name": "Skalite",
+  "lat": 49.49664,
+  "lon": 18.89706
  },
  {
   "id": "31448",
-  "name": "Skalka"
+  "name": "Skalka",
+  "lat": 48.92994,
+  "lon": 19.51859
  },
  {
   "id": "31501",
-  "name": "Skalnate Pleso"
+  "name": "Skalnate Pleso",
+  "lat": 49.18855,
+  "lon": 20.23209
  },
  {
   "id": "32610",
-  "name": "Skaros"
+  "name": "Skaros",
+  "lat": 48.58762,
+  "lon": 21.37613
  },
  {
   "id": "34027",
-  "name": "Sklene Teplice"
+  "name": "Sklene Teplice",
+  "lat": 48.52849,
+  "lon": 18.86221
  },
  {
   "id": "32342",
-  "name": "Skycov"
+  "name": "Skycov",
+  "lat": 48.50289,
+  "lon": 18.42078
  },
  {
   "id": "32020",
-  "name": "Sladkovicovo"
+  "name": "Sladkovicovo",
+  "lat": 48.20137,
+  "lon": 17.63852
  },
  {
   "id": "32464",
-  "name": "Slanec"
+  "name": "Slanec",
+  "lat": 48.63588,
+  "lon": 21.47721
  },
  {
   "id": "32523",
-  "name": "Slavosovce"
+  "name": "Slavosovce",
+  "lat": 48.71303,
+  "lon": 20.28219
  },
  {
   "id": "32714",
-  "name": "Slazany"
+  "name": "Slazany",
+  "lat": 48.38365,
+  "lon": 18.32563
  },
  {
   "id": "34029",
-  "name": "Sliac (centrum)"
+  "name": "Sliac (centrum)",
+  "lat": 48.61668,
+  "lon": 19.13715
  },
  {
   "id": "32745",
-  "name": "Sliac (kupele)"
+  "name": "Sliac (kupele)",
+  "lat": 48.61668,
+  "lon": 19.13715
  },
  {
   "id": "31456",
-  "name": "Sliac (meteo stanica)"
+  "name": "Sliac (meteo stanica)",
+  "lat": 48.61668,
+  "lon": 19.13715
  },
  {
   "id": "48022",
-  "name": "Sliezsky dom"
+  "name": "Sliezsky dom",
+  "lat": 49.15599,
+  "lon": 20.1565
  },
  {
   "id": "32034",
-  "name": "Slovenska Lupca"
+  "name": "Slovenska Lupca",
+  "lat": 48.76532,
+  "lon": 19.27549
  },
  {
   "id": "32528",
-  "name": "Slovenska Ves"
+  "name": "Slovenska Ves",
+  "lat": 49.22481,
+  "lon": 20.42511
  },
  {
   "id": "32716",
-  "name": "Slovenske Nove Mesto"
+  "name": "Slovenske Nove Mesto",
+  "lat": 48.40105,
+  "lon": 21.66719
  },
  {
   "id": "31995",
-  "name": "Slovensky Grob"
+  "name": "Slovensky Grob",
+  "lat": 48.2576,
+  "lon": 17.27428
  },
  {
   "id": "31505",
-  "name": "Slovensky raj"
+  "name": "Slovensky raj",
+  "lat": 48.93375,
+  "lon": 20.38184
  },
  {
   "id": "32612",
-  "name": "Slovinky"
+  "name": "Slovinky",
+  "lat": 48.88098,
+  "lon": 20.83704
  },
  {
   "id": "31517",
-  "name": "Slubica"
+  "name": "Slubica",
+  "lat": 48.97342,
+  "lon": 20.87208
  },
  {
   "id": "32168",
-  "name": "Smizany"
+  "name": "Smizany",
+  "lat": 48.95446,
+  "lon": 20.52341
  },
  {
   "id": "31964",
-  "name": "Smolenice"
+  "name": "Smolenice",
+  "lat": 48.50478,
+  "lon": 17.43067
  },
  {
   "id": "32272",
-  "name": "Smolnik"
+  "name": "Smolnik",
+  "lat": 49.1,
+  "lon": 22.28333
  },
  {
   "id": "34021",
-  "name": "Smrdaky"
+  "name": "Smrdaky",
+  "lat": 48.72234,
+  "lon": 17.30235
  },
  {
   "id": "38076",
-  "name": "Smrekovica - Branisko"
+  "name": "Smrekovica - Branisko",
+  "lat": 49.04648,
+  "lon": 20.87138
  },
  {
   "id": "48023",
-  "name": "Snilovske sedlo"
+  "name": "Snilovske sedlo",
+  "lat": 49.19153,
+  "lon": 19.03819
  },
  {
   "id": "31538",
-  "name": "Snina"
+  "name": "Snina",
+  "lat": 48.98857,
+  "lon": 22.15099
  },
  {
   "id": "32039",
-  "name": "Soblahov"
+  "name": "Soblahov",
+  "lat": 48.8644,
+  "lon": 18.07262
  },
  {
   "id": "32149",
-  "name": "Sobotiste"
+  "name": "Sobotiste",
+  "lat": 48.73511,
+  "lon": 17.40732
  },
  {
   "id": "31539",
-  "name": "Sobrance"
+  "name": "Sobrance",
+  "lat": 48.74455,
+  "lon": 22.18136
  },
  {
   "id": "32396",
-  "name": "Sokolany"
+  "name": "Sokolany",
+  "lat": 48.60891,
+  "lon": 21.22943
  },
  {
   "id": "32542",
-  "name": "Sokolce"
+  "name": "Sokolce",
+  "lat": 47.8517,
+  "lon": 17.82763
  },
  {
   "id": "32283",
-  "name": "Sokolovce"
+  "name": "Sokolovce",
+  "lat": 48.53562,
+  "lon": 17.84362
  },
  {
   "id": "31974",
-  "name": "Sol"
+  "name": "Sol",
+  "lat": 48.92777,
+  "lon": 21.59946
  },
  {
   "id": "32102",
-  "name": "Solcany"
+  "name": "Solcany",
+  "lat": 48.53802,
+  "lon": 18.20258
  },
  {
   "id": "32151",
-  "name": "Solosnica"
+  "name": "Solosnica",
+  "lat": 48.46521,
+  "lon": 17.23073
  },
  {
   "id": "32650",
-  "name": "Somotor"
+  "name": "Somotor",
+  "lat": 48.40253,
+  "lon": 21.80793
  },
  {
   "id": "32250",
-  "name": "Soporna"
+  "name": "Soporna",
+  "lat": 48.2537,
+  "lon": 17.81659
  },
  {
   "id": "32089",
-  "name": "Spacince"
+  "name": "Spacince",
+  "lat": 48.44019,
+  "lon": 17.60735
  },
  {
   "id": "31169",
-  "name": "Spani laz"
+  "name": "Spani laz",
+  "lat": 48.23305,
+  "lon": 19.25655
  },
  {
   "id": "32013",
-  "name": "Spisska Bela"
+  "name": "Spisska Bela",
+  "lat": 49.18725,
+  "lon": 20.45948
  },
  {
   "id": "31509",
-  "name": "Spisska Nova Ves"
+  "name": "Spisska Nova Ves",
+  "lat": 48.94464,
+  "lon": 20.56153
  },
  {
   "id": "31503",
-  "name": "Spisska Stara Ves"
+  "name": "Spisska Stara Ves",
+  "lat": 49.38297,
+  "lon": 20.35959
  },
  {
   "id": "32146",
-  "name": "Spisska Teplica"
+  "name": "Spisska Teplica",
+  "lat": 49.04598,
+  "lon": 20.24866
  },
  {
   "id": "32119",
-  "name": "Spisske Bystre"
+  "name": "Spisske Bystre",
+  "lat": 48.99113,
+  "lon": 20.24364
  },
  {
   "id": "32229",
-  "name": "Spisske Podhradie"
+  "name": "Spisske Podhradie",
+  "lat": 49.00088,
+  "lon": 20.75307
  },
  {
   "id": "32476",
-  "name": "Spisske Tomasovce"
+  "name": "Spisske Tomasovce",
+  "lat": 48.96196,
+  "lon": 20.47234
  },
  {
   "id": "32014",
-  "name": "Spisske Vlachy"
+  "name": "Spisske Vlachy",
+  "lat": 48.94746,
+  "lon": 20.79574
  },
  {
   "id": "32627",
-  "name": "Spissky Hrusov"
+  "name": "Spissky Hrusov",
+  "lat": 48.94746,
+  "lon": 20.7059
  },
  {
   "id": "32560",
-  "name": "Spissky Stiavnik"
+  "name": "Spissky Stiavnik",
+  "lat": 48.99373,
+  "lon": 20.35852
  },
  {
   "id": "32341",
-  "name": "Spissky Stvrtok"
+  "name": "Spissky Stvrtok",
+  "lat": 49.0012,
+  "lon": 20.46707
  },
  {
   "id": "32495",
-  "name": "Stakcin"
+  "name": "Stakcin",
+  "lat": 49.00167,
+  "lon": 22.22963
  },
  {
   "id": "32075",
-  "name": "Stankovany"
+  "name": "Stankovany",
+  "lat": 49.14225,
+  "lon": 19.17389
  },
  {
   "id": "32469",
-  "name": "Stara Bystrica"
+  "name": "Stara Bystrica",
+  "lat": 49.3474,
+  "lon": 18.94906
  },
  {
   "id": "32599",
-  "name": "Stara Kremnicka"
+  "name": "Stara Kremnicka",
+  "lat": 48.60528,
+  "lon": 18.88944
  },
  {
   "id": "34039",
-  "name": "Stara Lesna"
+  "name": "Stara Lesna",
+  "lat": 49.13676,
+  "lon": 20.30464
  },
  {
   "id": "31512",
-  "name": "Stara Lubovna"
+  "name": "Stara Lubovna",
+  "lat": 49.29859,
+  "lon": 20.6862
  },
  {
   "id": "31405",
-  "name": "Stara Tura"
+  "name": "Stara Tura",
+  "lat": 48.77721,
+  "lon": 17.69433
  },
  {
   "id": "38160",
-  "name": "Stary Konus"
+  "name": "Stary Konus",
+  "lat": 48.78895,
+  "lon": 22.33931
  },
  {
   "id": "31500",
-  "name": "Stary Smokovec"
+  "name": "Stary Smokovec",
+  "lat": 49.13905,
+  "lon": 20.22034
  },
  {
   "id": "32367",
-  "name": "Stary Tekov"
+  "name": "Stary Tekov",
+  "lat": 48.24471,
+  "lon": 18.53667
  },
  {
   "id": "32284",
-  "name": "Staskov"
+  "name": "Staskov",
+  "lat": 49.421,
+  "lon": 18.68694
  },
  {
   "id": "38595",
-  "name": "Stefanikova chata"
+  "name": "Stefanikova chata",
+  "lat": 48.92664,
+  "lon": 19.64971
  },
  {
   "id": "32192",
-  "name": "Stefanov"
+  "name": "Stefanov",
+  "lat": 48.67918,
+  "lon": 17.20105
  },
  {
   "id": "32069",
-  "name": "Stiavnik"
+  "name": "Stiavnik",
+  "lat": 49.23838,
+  "lon": 18.46714
  },
  {
   "id": "32506",
-  "name": "Stitnik"
+  "name": "Stitnik",
+  "lat": 48.65898,
+  "lon": 20.36401
  },
  {
   "id": "34043",
-  "name": "Stos"
+  "name": "Stos",
+  "lat": 48.70818,
+  "lon": 20.79094
  },
  {
   "id": "32309",
-  "name": "Stranavy"
+  "name": "Stranavy",
+  "lat": 49.17147,
+  "lon": 18.82183
  },
  {
   "id": "32707",
-  "name": "Strane pod Tatrami"
+  "name": "Strane pod Tatrami",
+  "lat": 49.15891,
+  "lon": 20.36704
  },
  {
   "id": "31441",
-  "name": "Stranik"
+  "name": "Stranik",
+  "lat": 49.23825,
+  "lon": 18.82767
  },
  {
   "id": "38174",
-  "name": "Stratena"
+  "name": "Stratena",
+  "lat": 48.87115,
+  "lon": 20.33844
  },
  {
   "id": "31952",
-  "name": "Strazske"
+  "name": "Strazske",
+  "lat": 48.8735,
+  "lon": 21.83668
  },
  {
   "id": "32242",
-  "name": "Strba"
+  "name": "Strba",
+  "lat": 49.05913,
+  "lon": 20.07975
  },
  {
   "id": "31494",
-  "name": "Strbske Pleso"
+  "name": "Strbske Pleso",
+  "lat": 49.11939,
+  "lon": 20.06292
  },
  {
   "id": "32213",
-  "name": "Strecno"
+  "name": "Strecno",
+  "lat": 49.18801,
+  "lon": 18.86445
  },
  {
   "id": "32502",
-  "name": "Streda nad Bodrogom"
+  "name": "Streda nad Bodrogom",
+  "lat": 48.37217,
+  "lon": 21.75423
  },
  {
   "id": "32310",
-  "name": "Strekov"
+  "name": "Strekov",
+  "lat": 47.9042,
+  "lon": 18.41652
  },
  {
   "id": "31943",
-  "name": "Stropkov"
+  "name": "Stropkov",
+  "lat": 49.20211,
+  "lon": 21.65216
  },
  {
   "id": "31999",
-  "name": "Studienka"
+  "name": "Studienka",
+  "lat": 48.52647,
+  "lon": 17.13733
  },
  {
   "id": "31922",
-  "name": "Stupava"
+  "name": "Stupava",
+  "lat": 48.27474,
+  "lon": 17.03173
  },
  {
   "id": "31434",
-  "name": "Sturovo"
+  "name": "Sturovo",
+  "lat": 47.79495,
+  "lon": 18.7175
  },
  {
   "id": "32035",
-  "name": "Stvrtok na Ostrove"
+  "name": "Stvrtok na Ostrove",
+  "lat": 48.09924,
+  "lon": 17.35395
  },
  {
   "id": "31977",
-  "name": "Sucany"
+  "name": "Sucany",
+  "lat": 49.09988,
+  "lon": 18.99073
  },
  {
   "id": "32698",
-  "name": "Sucha Hora"
+  "name": "Sucha Hora",
+  "lat": 49.36628,
+  "lon": 19.7899
  },
  {
   "id": "32561",
-  "name": "Sucha nad Parnou"
+  "name": "Sucha nad Parnou",
+  "lat": 48.41104,
+  "lon": 17.48696
  },
  {
   "id": "32005",
-  "name": "Sumiac"
+  "name": "Sumiac",
+  "lat": 48.84009,
+  "lon": 20.1297
  },
  {
   "id": "32705",
-  "name": "Sunava"
+  "name": "Sunava",
+  "lat": 49.03016,
+  "lon": 20.09064
  },
  {
   "id": "31961",
-  "name": "Surany"
+  "name": "Surany",
+  "lat": 48.08613,
+  "lon": 18.18447
  },
  {
   "id": "32048",
-  "name": "Surovce"
+  "name": "Surovce",
+  "lat": 48.3312,
+  "lon": 17.71859
  },
  {
   "id": "38081",
-  "name": "Sutovo"
+  "name": "Sutovo",
+  "lat": 49.15,
+  "lon": 19.08333
  },
  {
   "id": "32368",
-  "name": "Svatoplukovo"
+  "name": "Svatoplukovo",
+  "lat": 48.22817,
+  "lon": 18.05582
  },
  {
   "id": "32734",
-  "name": "Svaty Anton"
+  "name": "Svaty Anton",
+  "lat": 48.41923,
+  "lon": 18.9401
  },
  {
   "id": "31944",
-  "name": "Svaty Jur"
+  "name": "Svaty Jur",
+  "lat": 48.25216,
+  "lon": 17.21539
  },
  {
   "id": "32366",
-  "name": "Svaty Peter"
+  "name": "Svaty Peter",
+  "lat": 47.84151,
+  "lon": 18.25413
  },
  {
   "id": "32062",
-  "name": "Svedlar"
+  "name": "Svedlar",
+  "lat": 48.81335,
+  "lon": 20.71378
  },
  {
   "id": "32300",
-  "name": "Sverepec"
+  "name": "Sverepec",
+  "lat": 49.08009,
+  "lon": 18.40795
  },
  {
   "id": "31528",
-  "name": "Svidnik"
+  "name": "Svidnik",
+  "lat": 49.30819,
+  "lon": 21.5703
  },
  {
   "id": "32673",
-  "name": "Svinia"
+  "name": "Svinia",
+  "lat": 49.01266,
+  "lon": 21.1217
  },
  {
   "id": "32254",
-  "name": "Svinna"
+  "name": "Svinna",
+  "lat": 48.78782,
+  "lon": 18.16372
  },
  {
   "id": "32006",
-  "name": "Svit"
+  "name": "Svit",
+  "lat": 49.06014,
+  "lon": 20.20695
  },
  {
   "id": "32635",
-  "name": "Svodin"
+  "name": "Svodin",
+  "lat": 47.91054,
+  "lon": 18.49967
  },
  {
   "id": "32186",
-  "name": "Svrcinovec"
+  "name": "Svrcinovec",
+  "lat": 49.48091,
+  "lon": 18.79623
  },
  {
   "id": "34032",
-  "name": "Tale"
+  "name": "Tale",
+  "lat": 48.87411,
+  "lon": 19.60012
  },
  {
   "id": "34034",
-  "name": "Tatranska Javorina"
+  "name": "Tatranska Javorina",
+  "lat": 49.26763,
+  "lon": 20.14319
  },
  {
   "id": "34038",
-  "name": "Tatranska Lomnica"
+  "name": "Tatranska Lomnica",
+  "lat": 49.16616,
+  "lon": 20.28128
  },
  {
   "id": "31498",
-  "name": "Tatranske Zruby"
+  "name": "Tatranske Zruby",
+  "lat": 49.12902,
+  "lon": 20.19864
  },
  {
   "id": "32190",
-  "name": "Tekovska Breznica"
+  "name": "Tekovska Breznica",
+  "lat": 48.38649,
+  "lon": 18.61866
  },
  {
   "id": "32274",
-  "name": "Tekovske Luzany"
+  "name": "Tekovske Luzany",
+  "lat": 48.09865,
+  "lon": 18.53787
  },
  {
   "id": "32527",
-  "name": "Tekovske Nemce"
+  "name": "Tekovske Nemce",
+  "lat": 48.3561,
+  "lon": 18.53014
  },
  {
   "id": "31497",
-  "name": "Telgart"
+  "name": "Telgart",
+  "lat": 48.85156,
+  "lon": 20.18849
  },
  {
   "id": "32549",
-  "name": "Teplicka"
+  "name": "Teplicka",
+  "lat": 48.90916,
+  "lon": 20.58967
  },
  {
   "id": "32091",
-  "name": "Teplicka nad Vahom"
+  "name": "Teplicka nad Vahom",
+  "lat": 49.22435,
+  "lon": 18.79995
  },
  {
   "id": "31985",
-  "name": "Terchova"
+  "name": "Terchova",
+  "lat": 49.25895,
+  "lon": 19.02935
  },
  {
   "id": "32726",
-  "name": "Terna"
+  "name": "Terna",
+  "lat": 49.10968,
+  "lon": 21.23868
  },
  {
   "id": "32686",
-  "name": "Tesarske Mlynany"
+  "name": "Tesarske Mlynany",
+  "lat": 48.33405,
+  "lon": 18.35358
  },
  {
   "id": "32255",
-  "name": "Tesedikovo"
+  "name": "Tesedikovo",
+  "lat": 48.10609,
+  "lon": 17.8519
  },
  {
   "id": "31529",
-  "name": "Tisinec"
+  "name": "Tisinec",
+  "lat": 49.22133,
+  "lon": 21.63704
  },
  {
   "id": "38172",
-  "name": "Tisovec"
+  "name": "Tisovec",
+  "lat": 48.67738,
+  "lon": 19.94364
  },
  {
   "id": "32345",
-  "name": "Tlmace"
+  "name": "Tlmace",
+  "lat": 48.28926,
+  "lon": 18.53152
  },
  {
   "id": "32047",
-  "name": "Tomasikovo"
+  "name": "Tomasikovo",
+  "lat": 48.08442,
+  "lon": 17.69149
  },
  {
   "id": "31946",
-  "name": "Tomasov"
+  "name": "Tomasov",
+  "lat": 48.14249,
+  "lon": 17.33565
  },
  {
   "id": "32672",
-  "name": "Tomasovce"
+  "name": "Tomasovce",
+  "lat": 48.39305,
+  "lon": 20.15297
  },
  {
   "id": "31418",
-  "name": "Topolcany"
+  "name": "Topolcany",
+  "lat": 48.56361,
+  "lon": 18.16712
  },
  {
   "id": "32018",
-  "name": "Topolcianky"
+  "name": "Topolcianky",
+  "lat": 48.41615,
+  "lon": 18.41282
  },
  {
   "id": "32339",
-  "name": "Topolniky"
+  "name": "Topolniky",
+  "lat": 47.96748,
+  "lon": 17.79016
  },
  {
   "id": "32623",
-  "name": "Toporec"
+  "name": "Toporec",
+  "lat": 49.26408,
+  "lon": 20.49286
  },
  {
   "id": "32482",
-  "name": "Tornala"
+  "name": "Tornala",
+  "lat": 48.41915,
+  "lon": 20.32566
  },
  {
   "id": "32697",
-  "name": "Torysa"
+  "name": "Torysa",
+  "lat": 49.16078,
+  "lon": 20.8846
  },
  {
   "id": "32252",
-  "name": "Tovarne"
+  "name": "Tovarne",
+  "lat": 48.91323,
+  "lon": 21.75853
  },
  {
   "id": "32043",
-  "name": "Tovarniky"
+  "name": "Tovarniky",
+  "lat": 48.57836,
+  "lon": 18.1429
  },
  {
   "id": "32664",
-  "name": "Trakovice"
+  "name": "Trakovice",
+  "lat": 48.43929,
+  "lon": 17.71165
  },
  {
   "id": "32514",
-  "name": "Travnica"
+  "name": "Travnica",
+  "lat": 48.13973,
+  "lon": 18.33909
  },
  {
   "id": "32574",
-  "name": "Trebatice"
+  "name": "Trebatice",
+  "lat": 48.59654,
+  "lon": 17.75154
  },
  {
   "id": "32742",
-  "name": "Trebisov (centrum)"
+  "name": "Trebisov (centrum)",
+  "lat": 48.62858,
+  "lon": 21.71954
  },
  {
   "id": "32176",
-  "name": "Trencianska Tepla"
+  "name": "Trencianska Tepla",
+  "lat": 48.93655,
+  "lon": 18.1174
  },
  {
   "id": "32152",
-  "name": "Trencianska Turna"
+  "name": "Trencianska Turna",
+  "lat": 48.85141,
+  "lon": 18.01974
  },
  {
   "id": "32138",
-  "name": "Trencianske Jastrabie"
+  "name": "Trencianske Jastrabie",
+  "lat": 48.80129,
+  "lon": 18.10852
  },
  {
   "id": "32475",
-  "name": "Trencianske Stankovce"
+  "name": "Trencianske Stankovce",
+  "lat": 48.83976,
+  "lon": 17.98513
  },
  {
   "id": "32052",
-  "name": "Trencianske Teplice"
+  "name": "Trencianske Teplice",
+  "lat": 48.91063,
+  "lon": 18.16691
  },
  {
   "id": "31363",
-  "name": "Trencin"
+  "name": "Trencin",
+  "lat": 48.89452,
+  "lon": 18.04436
  },
  {
   "id": "32350",
-  "name": "Trhova Hradska"
+  "name": "Trhova Hradska",
+  "lat": 47.98995,
+  "lon": 17.76109
  },
  {
   "id": "32525",
-  "name": "Trhoviste"
+  "name": "Trhoviste",
+  "lat": 48.69822,
+  "lon": 21.80465
  },
  {
   "id": "31527",
-  "name": "Tri Chotare"
+  "name": "Tri Chotare",
+  "lat": 48.19444,
+  "lon": 19.80501
  },
  {
   "id": "31360",
-  "name": "Trnava"
+  "name": "Trnava",
+  "lat": 48.37773,
+  "lon": 17.58603
  },
  {
   "id": "32319",
-  "name": "Trnava Hora"
+  "name": "Trnava Hora",
+  "lat": 48.58979,
+  "lon": 18.95434
  },
  {
   "id": "32019",
-  "name": "Trnovec nad Vahom"
+  "name": "Trnovec nad Vahom",
+  "lat": 48.1493,
+  "lon": 17.93104
  },
  {
   "id": "32004",
-  "name": "Trstena"
+  "name": "Trstena",
+  "lat": 49.36101,
+  "lon": 19.61249
  },
  {
   "id": "32587",
-  "name": "Trstene pri Hornade"
+  "name": "Trstene pri Hornade",
+  "lat": 48.57552,
+  "lon": 21.33429
  },
  {
   "id": "32441",
-  "name": "Trstice"
+  "name": "Trstice",
+  "lat": 48.01446,
+  "lon": 17.80843
  },
  {
   "id": "32208",
-  "name": "Trstin"
+  "name": "Trstin",
+  "lat": 48.52684,
+  "lon": 17.4657
  },
  {
   "id": "32096",
-  "name": "Tulcik"
+  "name": "Tulcik",
+  "lat": 49.08902,
+  "lon": 21.30967
  },
  {
   "id": "32050",
-  "name": "Turany"
+  "name": "Turany",
+  "lat": 49.11754,
+  "lon": 19.04029
  },
  {
   "id": "48026",
-  "name": "Turcek"
+  "name": "Turcek",
+  "lat": 48.75735,
+  "lon": 18.92318
  },
  {
   "id": "31447",
-  "name": "Turcianske Klacany"
+  "name": "Turcianske Klacany",
+  "lat": 49.11627,
+  "lon": 18.94921
  },
  {
   "id": "32458",
-  "name": "Turcianske Teplice (centrum)"
+  "name": "Turcianske Teplice (centrum)",
+  "lat": 48.86225,
+  "lon": 18.86048
  },
  {
   "id": "34026",
-  "name": "Turcianske Teplice (stanica)"
+  "name": "Turcianske Teplice (stanica)",
+  "lat": 48.86225,
+  "lon": 18.86048
  },
  {
   "id": "32193",
-  "name": "Turie"
+  "name": "Turie",
+  "lat": 49.14907,
+  "lon": 18.74983
  },
  {
   "id": "32499",
-  "name": "Turna nad Bodvou"
+  "name": "Turna nad Bodvou",
+  "lat": 48.59999,
+  "lon": 20.88093
  },
  {
   "id": "32226",
-  "name": "Turzovka"
+  "name": "Turzovka",
+  "lat": 49.40429,
+  "lon": 18.62258
  },
  {
   "id": "32465",
-  "name": "Tuzina"
+  "name": "Tuzina",
+  "lat": 48.89491,
+  "lon": 18.61566
  },
  {
   "id": "31473",
-  "name": "Tvrdosin"
+  "name": "Tvrdosin",
+  "lat": 49.337,
+  "lon": 19.556
  },
  {
   "id": "32078",
-  "name": "Tvrdosovce"
+  "name": "Tvrdosovce",
+  "lat": 48.0945,
+  "lon": 18.06686
  },
  {
   "id": "32234",
-  "name": "Udavske"
+  "name": "Udavske",
+  "lat": 48.97559,
+  "lon": 21.96514
  },
  {
   "id": "31945",
-  "name": "Udica"
+  "name": "Udica",
+  "lat": 49.16667,
+  "lon": 18.4
  },
  {
   "id": "32613",
-  "name": "Uhrovec"
+  "name": "Uhrovec",
+  "lat": 48.74884,
+  "lon": 18.33844
  },
  {
   "id": "32401",
-  "name": "Ulany nad Zitavou"
+  "name": "Ulany nad Zitavou",
+  "lat": 48.1059,
+  "lon": 18.23704
  },
  {
   "id": "32685",
-  "name": "Ulic"
+  "name": "Ulic",
+  "lat": 48.95881,
+  "lon": 22.42807
  },
  {
   "id": "32298",
-  "name": "Unin"
+  "name": "Unin",
+  "lat": 48.72525,
+  "lon": 17.21452
  },
  {
   "id": "32334",
-  "name": "Urmince"
+  "name": "Urmince",
+  "lat": 48.53504,
+  "lon": 18.09791
  },
  {
   "id": "32330",
-  "name": "Utekac"
+  "name": "Utekac",
+  "lat": 48.60499,
+  "lon": 19.80413
  },
  {
   "id": "32519",
-  "name": "Vahovce"
+  "name": "Vahovce",
+  "lat": 48.24925,
+  "lon": 17.78536
  },
  {
   "id": "32531",
-  "name": "Valaliky"
+  "name": "Valaliky",
+  "lat": 48.63575,
+  "lon": 21.29876
  },
  {
   "id": "32321",
-  "name": "Valaska"
+  "name": "Valaska",
+  "lat": 48.80756,
+  "lon": 19.57096
  },
  {
   "id": "32236",
-  "name": "Valaska Bela"
+  "name": "Valaska Bela",
+  "lat": 48.88803,
+  "lon": 18.39519
  },
  {
   "id": "31439",
-  "name": "Valca"
+  "name": "Valca",
+  "lat": 49.00185,
+  "lon": 18.84496
  },
  {
   "id": "32115",
-  "name": "Varin"
+  "name": "Varin",
+  "lat": 49.20229,
+  "lon": 18.87073
  },
  {
   "id": "32569",
-  "name": "Vavrecka"
+  "name": "Vavrecka",
+  "lat": 49.38568,
+  "lon": 19.46649
  },
  {
   "id": "31492",
-  "name": "Vazec"
+  "name": "Vazec",
+  "lat": 49.05969,
+  "lon": 19.98035
  },
  {
   "id": "31516",
-  "name": "Vcelare"
+  "name": "Vcelare",
+  "lat": 48.58888,
+  "lon": 20.80783
  },
  {
   "id": "32676",
-  "name": "Vechec"
+  "name": "Vechec",
+  "lat": 48.87295,
+  "lon": 21.63012
  },
  {
   "id": "32461",
-  "name": "Velka Ida"
+  "name": "Velka Ida",
+  "lat": 48.59595,
+  "lon": 21.16795
  },
  {
   "id": "31537",
-  "name": "Velka Kycera"
+  "name": "Velka Kycera",
+  "lat": 49.14463,
+  "lon": 22.11228
  },
  {
   "id": "32683",
-  "name": "Velka Lehota"
+  "name": "Velka Lehota",
+  "lat": 48.46077,
+  "lon": 18.56066
  },
  {
   "id": "32419",
-  "name": "Velka Lomnica"
+  "name": "Velka Lomnica",
+  "lat": 49.11253,
+  "lon": 20.36007
  },
  {
   "id": "31959",
-  "name": "Velka Maca"
+  "name": "Velka Maca",
+  "lat": 48.24146,
+  "lon": 17.68991
  },
  {
   "id": "31446",
-  "name": "Velka Raca"
+  "name": "Velka Raca",
+  "lat": 49.41793,
+  "lon": 18.93344
  },
  {
   "id": "31993",
-  "name": "Velke Blahovo"
+  "name": "Velke Blahovo",
+  "lat": 48.00371,
+  "lon": 17.57641
  },
  {
   "id": "32415",
-  "name": "Velke Kapusany"
+  "name": "Velke Kapusany",
+  "lat": 48.55197,
+  "lon": 22.08036
  },
  {
   "id": "32245",
-  "name": "Velke Kostolany"
+  "name": "Velke Kostolany",
+  "lat": 48.50989,
+  "lon": 17.72189
  },
  {
   "id": "32247",
-  "name": "Velke Levare"
+  "name": "Velke Levare",
+  "lat": 48.50403,
+  "lon": 17.00358
  },
  {
   "id": "32490",
-  "name": "Velke Lovce"
+  "name": "Velke Lovce",
+  "lat": 48.06229,
+  "lon": 18.33853
  },
  {
   "id": "32448",
-  "name": "Velke Ludince"
+  "name": "Velke Ludince",
+  "lat": 47.96271,
+  "lon": 18.5114
  },
  {
   "id": "32422",
-  "name": "Velke Ripnany"
+  "name": "Velke Ripnany",
+  "lat": 48.50293,
+  "lon": 17.97871
  },
  {
   "id": "31992",
-  "name": "Velke Rovne"
+  "name": "Velke Rovne",
+  "lat": 49.29127,
+  "lon": 18.58427
  },
  {
   "id": "32711",
-  "name": "Velke Trakany"
+  "name": "Velke Trakany",
+  "lat": 48.39147,
+  "lon": 22.08858
  },
  {
   "id": "32540",
-  "name": "Velke Uherce"
+  "name": "Velke Uherce",
+  "lat": 48.60685,
+  "lon": 18.4405
  },
  {
   "id": "32064",
-  "name": "Velke Ulany"
+  "name": "Velke Ulany",
+  "lat": 48.16647,
+  "lon": 17.57519
  },
  {
   "id": "32155",
-  "name": "Velke Zaluzie"
+  "name": "Velke Zaluzie",
+  "lat": 48.30841,
+  "lon": 17.93874
  },
  {
   "id": "31937",
-  "name": "Velky Biel"
+  "name": "Velky Biel",
+  "lat": 48.21335,
+  "lon": 17.3608
  },
  {
   "id": "32223",
-  "name": "Velky Blh"
+  "name": "Velky Blh",
+  "lat": 48.44527,
+  "lon": 20.11649
  },
  {
   "id": "32346",
-  "name": "Velky Cetin"
+  "name": "Velky Cetin",
+  "lat": 48.22033,
+  "lon": 18.19087
  },
  {
   "id": "32675",
-  "name": "Velky Dur"
+  "name": "Velky Dur",
+  "lat": 48.21158,
+  "lon": 18.44435
  },
  {
   "id": "32015",
-  "name": "Velky Grob"
+  "name": "Velky Grob",
+  "lat": 48.24973,
+  "lon": 17.49613
  },
  {
   "id": "32607",
-  "name": "Velky Hores"
+  "name": "Velky Hores",
+  "lat": 48.38464,
+  "lon": 21.90898
  },
  {
   "id": "38082",
-  "name": "Velky Kliz"
+  "name": "Velky Kliz",
+  "lat": 48.5508,
+  "lon": 18.36713
  },
  {
   "id": "31372",
-  "name": "Velky Krtis"
+  "name": "Velky Krtis",
+  "lat": 48.21059,
+  "lon": 19.35043
  },
  {
   "id": "32222",
-  "name": "Velky Kyr"
+  "name": "Velky Kyr",
+  "lat": 48.18245,
+  "lon": 18.15733
  },
  {
   "id": "32355",
-  "name": "Velky Lapas"
+  "name": "Velky Lapas",
+  "lat": 48.29105,
+  "lon": 18.181
  },
  {
   "id": "32533",
-  "name": "Velky Lipnik"
+  "name": "Velky Lipnik",
+  "lat": 49.37354,
+  "lon": 20.50272
  },
  {
   "id": "32046",
-  "name": "Velky Meder"
+  "name": "Velky Meder",
+  "lat": 47.85798,
+  "lon": 17.76884
  },
  {
   "id": "32397",
-  "name": "Velky Saris"
+  "name": "Velky Saris",
+  "lat": 49.04114,
+  "lon": 21.1993
  },
  {
   "id": "32471",
-  "name": "Velky Slavkov"
+  "name": "Velky Slavkov",
+  "lat": 49.09331,
+  "lon": 20.28258
  },
  {
   "id": "32438",
-  "name": "Vesele"
+  "name": "Vesele",
+  "lat": 49.46601,
+  "lon": 19.38338
  },
  {
   "id": "32513",
-  "name": "Vidina"
+  "name": "Vidina",
+  "lat": 48.35912,
+  "lon": 19.65428
  },
  {
   "id": "32572",
-  "name": "Viglas"
+  "name": "Viglas",
+  "lat": 48.56315,
+  "lon": 19.3029
  },
  {
   "id": "31536",
-  "name": "Vihorlat"
+  "name": "Vihorlat",
+  "lat": 48.83333,
+  "lon": 22.25
  },
  {
   "id": "32550",
-  "name": "Vikartovce"
+  "name": "Vikartovce",
+  "lat": 48.99345,
+  "lon": 20.1509
  },
  {
   "id": "32191",
-  "name": "Vinica"
+  "name": "Vinica",
+  "lat": 48.11728,
+  "lon": 19.11862
  },
  {
   "id": "31969",
-  "name": "Vinicne"
+  "name": "Vinicne",
+  "lat": 48.27188,
+  "lon": 17.30227
  },
  {
   "id": "32378",
-  "name": "Vinne"
+  "name": "Vinne",
+  "lat": 48.80965,
+  "lon": 21.96757
  },
  {
   "id": "38159",
-  "name": "Vinne-Dlha"
+  "name": "Vinne-Dlha",
+  "lat": 48.83653,
+  "lon": 21.96995
  },
  {
   "id": "32694",
-  "name": "Vinodol"
+  "name": "Vinodol",
+  "lat": 48.18607,
+  "lon": 18.20629
  },
  {
   "id": "32287",
-  "name": "Vinohrady nad Vahom"
+  "name": "Vinohrady nad Vahom",
+  "lat": 48.30749,
+  "lon": 17.76415
  },
  {
   "id": "32288",
-  "name": "Visnove"
+  "name": "Visnove",
+  "lat": 49.16083,
+  "lon": 18.78427
  },
  {
   "id": "32393",
-  "name": "Vistuk"
+  "name": "Vistuk",
+  "lat": 48.33343,
+  "lon": 17.39945
  },
  {
   "id": "32276",
-  "name": "Vitanova"
+  "name": "Vitanova",
+  "lat": 49.35479,
+  "lon": 19.73057
  },
  {
   "id": "32451",
-  "name": "Vitaz"
+  "name": "Vitaz",
+  "lat": 48.97137,
+  "lon": 20.95654
  },
  {
   "id": "32264",
-  "name": "Vlcany"
+  "name": "Vlcany",
+  "lat": 48.03097,
+  "lon": 17.95214
  },
  {
   "id": "32322",
-  "name": "Vlckovce"
+  "name": "Vlckovce",
+  "lat": 48.31701,
+  "lon": 17.6497
  },
  {
   "id": "32040",
-  "name": "Voderady"
+  "name": "Voderady",
+  "lat": 48.27701,
+  "lon": 17.5594
  },
  {
   "id": "32127",
-  "name": "Vojcice"
+  "name": "Vojcice",
+  "lat": 48.67838,
+  "lon": 21.71581
  },
  {
   "id": "38075",
-  "name": "Vojnianska hora - start"
+  "name": "Vojnianska hora - start",
+  "lat": 49.26291,
+  "lon": 20.45233
  },
  {
   "id": "32546",
-  "name": "Volkovce"
+  "name": "Volkovce",
+  "lat": 48.33994,
+  "lon": 18.4575
  },
  {
   "id": "32446",
-  "name": "Vozokany"
+  "name": "Vozokany",
+  "lat": 48.56562,
+  "lon": 17.99455
  },
  {
   "id": "31968",
-  "name": "Vrable"
+  "name": "Vrable",
+  "lat": 48.24371,
+  "lon": 18.30846
  },
  {
   "id": "32140",
-  "name": "Vrakun"
+  "name": "Vrakun",
+  "lat": 47.94293,
+  "lon": 17.60113
  },
  {
   "id": "31530",
-  "name": "Vranov nad Toplou"
+  "name": "Vranov nad Toplou",
+  "lat": 48.88836,
+  "lon": 21.68479
  },
  {
   "id": "31450",
-  "name": "Vratna - Chleb"
+  "name": "Vratna - Chleb",
+  "lat": 48.90126,
+  "lon": 21.36221
  },
  {
   "id": "32488",
-  "name": "Vrbov"
+  "name": "Vrbov",
+  "lat": 49.08764,
+  "lon": 20.4253
  },
  {
   "id": "32445",
-  "name": "Vrbovce"
+  "name": "Vrbovce",
+  "lat": 48.73631,
+  "lon": 21.95151
  },
  {
   "id": "32162",
-  "name": "Vrbove"
+  "name": "Vrbove",
+  "lat": 48.61973,
+  "lon": 17.7226
  },
  {
   "id": "34581",
-  "name": "Vrsatec"
+  "name": "Vrsatec",
+  "lat": 49.06598,
+  "lon": 18.15089
  },
  {
   "id": "34582",
-  "name": "Vrsatske podhradie"
+  "name": "Vrsatske podhradie",
+  "lat": 49.06528,
+  "lon": 18.15425
  },
  {
   "id": "31965",
-  "name": "Vrutky"
+  "name": "Vrutky",
+  "lat": 49.11328,
+  "lon": 18.91714
  },
  {
   "id": "32260",
-  "name": "Vycapy-Opatovce"
+  "name": "Vycapy-Opatovce",
+  "lat": 48.41149,
+  "lon": 18.08223
  },
  {
   "id": "31490",
-  "name": "Vychodna"
+  "name": "Vychodna",
+  "lat": 49.05913,
+  "lon": 19.89006
  },
  {
   "id": "32413",
-  "name": "Vydrany"
+  "name": "Vydrany",
+  "lat": 48.01806,
+  "lon": 17.58588
  },
  {
   "id": "32454",
-  "name": "Vyhne"
+  "name": "Vyhne",
+  "lat": 48.50571,
+  "lon": 18.80137
  },
  {
   "id": "34033",
-  "name": "Vysna Boca"
+  "name": "Vysna Boca",
+  "lat": 48.92663,
+  "lon": 19.75273
  },
  {
   "id": "48025",
-  "name": "Vysna Hutka"
+  "name": "Vysna Hutka",
+  "lat": 48.67595,
+  "lon": 21.35406
  },
  {
   "id": "32616",
-  "name": "Vysne Ruzbachy"
+  "name": "Vysne Ruzbachy",
+  "lat": 49.30387,
+  "lon": 20.56558
  },
  {
   "id": "32594",
-  "name": "Vysny Zipov"
+  "name": "Vysny Zipov",
+  "lat": 48.98469,
+  "lon": 21.58775
  },
  {
   "id": "32545",
-  "name": "Vysoka nad Kysucou"
+  "name": "Vysoka nad Kysucou",
+  "lat": 49.37852,
+  "lon": 18.54408
  },
  {
   "id": "32105",
-  "name": "Vysoka pri Morave"
+  "name": "Vysoka pri Morave",
+  "lat": 48.32944,
+  "lon": 16.91191
  },
  {
   "id": "32584",
-  "name": "Zabokreky"
+  "name": "Zabokreky",
+  "lat": 49.02427,
+  "lon": 18.92382
  },
  {
   "id": "32586",
-  "name": "Zabokreky nad Nitrou"
+  "name": "Zabokreky nad Nitrou",
+  "lat": 48.6242,
+  "lon": 18.30253
  },
  {
   "id": "32220",
-  "name": "Zahorska Ves"
+  "name": "Zahorska Ves",
+  "lat": 48.38071,
+  "lon": 16.84882
  },
  {
   "id": "31923",
-  "name": "Zakamenne"
+  "name": "Zakamenne",
+  "lat": 49.38859,
+  "lon": 19.29294
  },
  {
   "id": "32267",
-  "name": "Zakopcie"
+  "name": "Zakopcie",
+  "lat": 49.40728,
+  "lon": 18.73178
  },
  {
   "id": "32307",
-  "name": "Zaluzice"
+  "name": "Zaluzice",
+  "lat": 48.76034,
+  "lon": 21.98661
  },
  {
   "id": "32581",
-  "name": "Zamutov"
+  "name": "Zamutov",
+  "lat": 48.90144,
+  "lon": 21.55698
  },
  {
   "id": "31435",
-  "name": "Zarnovica"
+  "name": "Zarnovica",
+  "lat": 48.48123,
+  "lon": 18.71565
  },
  {
   "id": "32129",
-  "name": "Zaskov"
+  "name": "Zaskov",
+  "lat": 49.17236,
+  "lon": 19.2174
  },
  {
   "id": "32357",
-  "name": "Zavadka nad Hronom"
+  "name": "Zavadka nad Hronom",
+  "lat": 48.85048,
+  "lon": 19.91152
  },
  {
   "id": "32408",
-  "name": "Zavar"
+  "name": "Zavar",
+  "lat": 48.35277,
+  "lon": 17.67377
  },
  {
   "id": "32501",
-  "name": "Zavazna Poruba"
+  "name": "Zavazna Poruba",
+  "lat": 49.05396,
+  "lon": 19.64913
  },
  {
   "id": "32070",
-  "name": "Zavod"
+  "name": "Zavod",
+  "lat": 48.54494,
+  "lon": 17.03028
  },
  {
   "id": "32224",
-  "name": "Zazriva"
+  "name": "Zazriva",
+  "lat": 49.2748,
+  "lon": 19.15303
  },
  {
   "id": "32178",
-  "name": "Zbehy"
+  "name": "Zbehy",
+  "lat": 48.36558,
+  "lon": 18.01814
  },
  {
   "id": "32485",
-  "name": "Zborov"
+  "name": "Zborov",
+  "lat": 49.36871,
+  "lon": 21.308
  },
  {
   "id": "32462",
-  "name": "Zborov nad Bystricou"
+  "name": "Zborov nad Bystricou",
+  "lat": 49.37967,
+  "lon": 18.88661
  },
  {
   "id": "32562",
-  "name": "Zdana"
+  "name": "Zdana",
+  "lat": 48.60131,
+  "lon": 21.3491
  },
  {
   "id": "31986",
-  "name": "Zdiar"
+  "name": "Zdiar",
+  "lat": 49.271,
+  "lon": 20.26239
  },
  {
   "id": "32466",
-  "name": "Zehra"
+  "name": "Zehra",
+  "lat": 48.9796,
+  "lon": 20.7917
  },
  {
   "id": "32228",
-  "name": "Zelenec"
+  "name": "Zelenec",
+  "lat": 48.32897,
+  "lon": 17.59535
  },
  {
   "id": "31433",
-  "name": "Zeliezovce"
+  "name": "Zeliezovce",
+  "lat": 48.05075,
+  "lon": 18.65421
  },
  {
   "id": "32625",
-  "name": "Zelovce"
+  "name": "Zelovce",
+  "lat": 48.12362,
+  "lon": 19.35593
  },
  {
   "id": "32477",
-  "name": "Zemberovce"
+  "name": "Zemberovce",
+  "lat": 48.25839,
+  "lon": 18.74006
  },
  {
   "id": "32410",
-  "name": "Zemianska Olca"
+  "name": "Zemianska Olca",
+  "lat": 47.80808,
+  "lon": 17.86652
  },
  {
   "id": "32433",
-  "name": "Zemianske Kostolany"
+  "name": "Zemianske Kostolany",
+  "lat": 48.68761,
+  "lon": 18.52677
  },
  {
   "id": "32232",
-  "name": "Zemne"
+  "name": "Zemne",
+  "lat": 47.9836,
+  "lon": 17.99492
  },
  {
   "id": "32329",
-  "name": "Zemplinska Teplica"
+  "name": "Zemplinska Teplica",
+  "lat": 48.64661,
+  "lon": 21.57211
  },
  {
   "id": "32712",
-  "name": "Zemplinske Hamre"
+  "name": "Zemplinske Hamre",
+  "lat": 48.94951,
+  "lon": 22.15571
  },
  {
   "id": "32604",
-  "name": "Zemplinske Hradiste"
+  "name": "Zemplinske Hradiste",
+  "lat": 48.58357,
+  "lon": 21.73722
  },
  {
   "id": "31442",
-  "name": "Ziar nad Hronom"
+  "name": "Ziar nad Hronom",
+  "lat": 48.59184,
+  "lon": 18.84958
  },
  {
   "id": "38161",
-  "name": "Ziarska chata"
+  "name": "Ziarska chata",
+  "lat": 49.18108,
+  "lon": 19.71956
  },
  {
   "id": "32369",
-  "name": "Ziharec"
+  "name": "Ziharec",
+  "lat": 48.07231,
+  "lon": 17.88674
  },
  {
   "id": "31920",
-  "name": "Zilina"
+  "name": "Zilina",
+  "lat": 49.22315,
+  "lon": 18.73941
  },
  {
   "id": "32240",
-  "name": "Zirany"
+  "name": "Zirany",
+  "lat": 48.37766,
+  "lon": 18.17514
  },
  {
   "id": "32318",
-  "name": "Zlate Klasy"
+  "name": "Zlate Klasy",
+  "lat": 48.11667,
+  "lon": 17.41667
  },
  {
   "id": "31400",
-  "name": "Zlate Moravce"
+  "name": "Zlate Moravce",
+  "lat": 48.38553,
+  "lon": 18.40063
  },
  {
   "id": "32534",
-  "name": "Zlatna na Ostrove"
+  "name": "Zlatna na Ostrove",
+  "lat": 47.76667,
+  "lon": 17.96667
  },
  {
   "id": "31580",
-  "name": "Zochova Chata - Piesok"
+  "name": "Zochova Chata - Piesok",
+  "lat": 48.38336,
+  "lon": 17.2704
  },
  {
   "id": "31940",
-  "name": "Zohor"
+  "name": "Zohor",
+  "lat": 48.31667,
+  "lon": 16.98333
  },
  {
   "id": "32054",
-  "name": "Zuberec"
+  "name": "Zuberec",
+  "lat": 49.26164,
+  "lon": 19.61473
  },
  {
   "id": "32394",
-  "name": "Zubrohlava"
+  "name": "Zubrohlava",
+  "lat": 49.44544,
+  "lon": 19.5117
  },
  {
   "id": "32498",
-  "name": "Zupcany"
+  "name": "Zupcany",
+  "lat": 49.01205,
+  "lon": 21.15874
  },
  {
   "id": "31453",
-  "name": "Zvolen"
+  "name": "Zvolen",
+  "lat": 48.57442,
+  "lon": 19.15324
  },
  {
   "id": "32314",
-  "name": "Zvolenska Slatina"
+  "name": "Zvolenska Slatina",
+  "lat": 48.56353,
+  "lon": 19.25989
  }
 ]
