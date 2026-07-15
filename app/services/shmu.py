@@ -29,6 +29,8 @@ CITY_NAMES = {c["id"]: c["name"] for c in CITIES}
 # predpočítané skriptom scripts/geocode_cities.py; pár bodov súradnice nemá
 CITY_COORDS = {c["id"]: (c["lat"], c["lon"])
                for c in CITIES if c.get("lat") is not None}
+# okres pre priradenie výstrah (scripts/assign_okres.py); pár bodov ho nemá
+CITY_OKRES = {c["id"]: c["okres"] for c in CITIES if c.get("okres")}
 
 # cache: (city_id, mg_type) -> (expires_utc, image_url)
 _url_cache: dict[tuple[str, str], tuple[datetime, str]] = {}

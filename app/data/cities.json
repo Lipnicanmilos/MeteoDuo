@@ -3,109 +3,127 @@
   "id": "32299",
   "name": "Abraham",
   "lat": 48.24838,
-  "lon": 17.61882
+  "lon": 17.61882,
+  "okres": "Galanta"
  },
  {
   "id": "32376",
   "name": "Aleksince",
   "lat": 48.36641,
-  "lon": 17.9479
+  "lon": 17.9479,
+  "okres": "Nitra"
  },
  {
   "id": "32216",
   "name": "Andovce",
   "lat": 47.99337,
-  "lon": 18.10513
+  "lon": 18.10513,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32463",
   "name": "Babin",
   "lat": 49.33075,
-  "lon": 19.38068
+  "lon": 19.38068,
+  "okres": "Namestovo"
  },
  {
   "id": "32624",
   "name": "Bacuch",
   "lat": 48.85907,
-  "lon": 19.80577
+  "lon": 19.80577,
+  "okres": "Brezno"
  },
  {
   "id": "32215",
   "name": "Badin",
   "lat": 48.66375,
-  "lon": 19.12319
+  "lon": 19.12319,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "31971",
   "name": "Bahon",
   "lat": 48.30944,
-  "lon": 17.44519
+  "lon": 17.44519,
+  "okres": "Pezinok"
  },
  {
   "id": "32196",
   "name": "Bajc",
   "lat": 47.92624,
-  "lon": 18.20744
+  "lon": 18.20744,
+  "okres": "Komárno"
  },
  {
   "id": "32057",
   "name": "Baka",
   "lat": 47.9076,
-  "lon": 17.52175
+  "lon": 17.52175,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "38077",
   "name": "Baldovce - start",
   "lat": 48.99229,
-  "lon": 20.71376
+  "lon": 20.71376,
+  "okres": "Levoča"
  },
  {
   "id": "48024",
   "name": "Banikov",
   "lat": 49.19756,
-  "lon": 19.70994
+  "lon": 19.70994,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32271",
   "name": "Banka",
   "lat": 48.5855,
-  "lon": 17.85541
+  "lon": 17.85541,
+  "okres": "Piešťany"
  },
  {
   "id": "32092",
   "name": "Banov",
   "lat": 48.04662,
-  "lon": 18.18813
+  "lon": 18.18813,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31422",
   "name": "Banovce nad Bebravou",
   "lat": 48.7213,
-  "lon": 18.25754
+  "lon": 18.25754,
+  "okres": "Bánovce nad Bebravou"
  },
  {
   "id": "32302",
   "name": "Banska Bela",
   "lat": 48.47466,
-  "lon": 18.93367
+  "lon": 18.93367,
+  "okres": "Banská Štiavnica"
  },
  {
   "id": "31370",
   "name": "Banska Bystrica",
   "lat": 48.73947,
-  "lon": 19.14932
+  "lon": 19.14932,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "31444",
   "name": "Banska Stiavnica",
   "lat": 48.44858,
-  "lon": 18.91003
+  "lon": 18.91003,
+  "okres": "Banská Štiavnica"
  },
  {
   "id": "32692",
   "name": "Banske",
   "lat": 48.82985,
-  "lon": 21.57581
+  "lon": 21.57581,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "31455",
@@ -123,13 +141,15 @@
   "id": "34040",
   "name": "Bardejov (centrum)",
   "lat": 49.29175,
-  "lon": 21.27271
+  "lon": 21.27271,
+  "okres": "Bardejov"
  },
  {
   "id": "31380",
   "name": "Bardejov (meteo stanica)",
   "lat": 49.29175,
-  "lon": 21.27271
+  "lon": 21.27271,
+  "okres": "Bardejov"
  },
  {
   "id": "38173",
@@ -139,127 +159,148 @@
   "id": "32025",
   "name": "Batizovce",
   "lat": 49.07611,
-  "lon": 20.18497
+  "lon": 20.18497,
+  "okres": "Poprad"
  },
  {
   "id": "32279",
   "name": "Batorove Kosihy",
   "lat": 47.8294,
-  "lon": 18.42016
+  "lon": 18.42016,
+  "okres": "Komárno"
  },
  {
   "id": "32398",
   "name": "Batovce",
   "lat": 48.29084,
-  "lon": 18.74568
+  "lon": 18.74568,
+  "okres": "Levice"
  },
  {
   "id": "32036",
   "name": "Beckov",
   "lat": 48.79219,
-  "lon": 17.89319
+  "lon": 17.89319,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "31996",
   "name": "Bela",
   "lat": 49.23374,
-  "lon": 18.94576
+  "lon": 18.94576,
+  "okres": "Žilina"
  },
  {
   "id": "32551",
   "name": "Bela nad Cirochou",
   "lat": 48.97496,
-  "lon": 22.10759
+  "lon": 22.10759,
+  "okres": "Snina"
  },
  {
   "id": "32681",
   "name": "Bela-Dulice",
   "lat": 49.00162,
-  "lon": 18.97991
+  "lon": 18.97991,
+  "okres": "Martin"
  },
  {
   "id": "32452",
   "name": "Beladice",
   "lat": 48.34408,
-  "lon": 18.28988
+  "lon": 18.28988,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "34580",
   "name": "Belajky",
   "lat": 49.36537,
-  "lon": 18.79132
+  "lon": 18.79132,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32093",
   "name": "Belusa",
   "lat": 49.0649,
-  "lon": 18.32685
+  "lon": 18.32685,
+  "okres": "Púchov"
  },
  {
   "id": "32237",
   "name": "Benus",
   "lat": 48.82877,
-  "lon": 19.7616
+  "lon": 19.7616,
+  "okres": "Brezno"
  },
  {
   "id": "31932",
   "name": "Bernolakovo",
   "lat": 48.20068,
-  "lon": 17.30186
+  "lon": 17.30186,
+  "okres": "Senec"
  },
  {
   "id": "32130",
   "name": "Besenov",
   "lat": 48.04528,
-  "lon": 18.26416
+  "lon": 18.26416,
+  "okres": "Nové Zámky"
  },
  {
   "id": "34030",
   "name": "Besenova",
   "lat": 49.10021,
-  "lon": 19.43472
+  "lon": 19.43472,
+  "okres": "Ružomberok"
  },
  {
   "id": "31939",
   "name": "Betliar",
   "lat": 48.70275,
-  "lon": 20.50805
+  "lon": 20.50805,
+  "okres": "Rožňava"
  },
  {
   "id": "32163",
   "name": "Bezovce",
   "lat": 48.62875,
-  "lon": 22.15354
+  "lon": 22.15354,
+  "okres": "Sobrance"
  },
  {
   "id": "32541",
   "name": "Bidovce",
   "lat": 48.73622,
-  "lon": 21.43948
+  "lon": 21.43948,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32065",
   "name": "Biel",
   "lat": 48.40895,
-  "lon": 22.05915
+  "lon": 22.05915,
+  "okres": "Trebišov"
  },
  {
   "id": "32316",
   "name": "Biely Kostol",
   "lat": 48.36755,
-  "lon": 17.53036
+  "lon": 17.53036,
+  "okres": "Trnava"
  },
  {
   "id": "31925",
   "name": "Bina",
   "lat": 47.92238,
-  "lon": 18.64157
+  "lon": 18.64157,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32620",
   "name": "Biskupice",
   "lat": 48.70976,
-  "lon": 18.24257
+  "lon": 18.24257,
+  "okres": "Bánovce nad Bebravou"
  },
  {
   "id": "38079",
@@ -271,199 +312,232 @@
   "id": "31978",
   "name": "Blatne",
   "lat": 48.2666,
-  "lon": 17.41919
+  "lon": 17.41919,
+  "okres": "Senec"
  },
  {
   "id": "32085",
   "name": "Bobrov",
   "lat": 49.42865,
-  "lon": 19.54124
+  "lon": 19.54124,
+  "okres": "Namestovo"
  },
  {
   "id": "32331",
   "name": "Bobrovec",
   "lat": 49.12113,
-  "lon": 19.61411
+  "lon": 19.61411,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32553",
   "name": "Bojna",
   "lat": 48.5752,
-  "lon": 18.05512
+  "lon": 18.05512,
+  "okres": "Topoľčany"
  },
  {
   "id": "31431",
   "name": "Bojnice (centrum)",
   "lat": 48.78511,
-  "lon": 18.5864
+  "lon": 18.5864,
+  "okres": "Prievidza"
  },
  {
   "id": "32579",
   "name": "Bojnicky",
   "lat": 48.39006,
-  "lon": 17.79781
+  "lon": 17.79781,
+  "okres": "Hlohovec"
  },
  {
   "id": "32056",
   "name": "Boleraz",
   "lat": 48.46808,
-  "lon": 17.49478
+  "lon": 17.49478,
+  "okres": "Trnava"
  },
  {
   "id": "32405",
   "name": "Bolesov",
   "lat": 48.9873,
-  "lon": 18.15509
+  "lon": 18.15509,
+  "okres": "Ilava"
  },
  {
   "id": "31165",
   "name": "Borisov",
   "lat": 48.94226,
-  "lon": 19.0893
+  "lon": 19.0893,
+  "okres": "Martin"
  },
  {
   "id": "32437",
   "name": "Borsa",
   "lat": 48.39436,
-  "lon": 21.70416
+  "lon": 21.70416,
+  "okres": "Trebišov"
  },
  {
   "id": "32217",
   "name": "Borsky Mikulas",
   "lat": 48.6309,
-  "lon": 17.21448
+  "lon": 17.21448,
+  "okres": "Senica"
  },
  {
   "id": "31975",
   "name": "Borsky Svaty Jur",
   "lat": 48.61366,
-  "lon": 17.04658
+  "lon": 17.04658,
+  "okres": "Senica"
  },
  {
   "id": "32108",
   "name": "Bosaca",
   "lat": 48.82901,
-  "lon": 17.84037
+  "lon": 17.84037,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "31948",
   "name": "Bosany",
   "lat": 48.57883,
-  "lon": 18.24864
+  "lon": 18.24864,
+  "okres": "Partizánske"
  },
  {
   "id": "32468",
   "name": "Botany",
   "lat": 48.4447,
-  "lon": 22.09259
+  "lon": 22.09259,
+  "okres": "Trebišov"
  },
  {
   "id": "32124",
   "name": "Branc",
   "lat": 48.21869,
-  "lon": 18.14423
+  "lon": 18.14423,
+  "okres": "Nitra"
  },
  {
   "id": "32737",
   "name": "Bratislava (centrum)",
   "lat": 48.14816,
-  "lon": 17.10674
+  "lon": 17.10674,
+  "okres": "Bratislava I"
  },
  {
   "id": "31357",
   "name": "Bratislava (letisko)",
   "lat": 48.14816,
-  "lon": 17.10674
+  "lon": 17.10674,
+  "okres": "Bratislava I"
  },
  {
   "id": "31176",
   "name": "Bratislava - Koliba",
   "lat": 48.14816,
-  "lon": 17.10674
+  "lon": 17.10674,
+  "okres": "Bratislava I"
  },
  {
   "id": "31175",
   "name": "Bratislava - Lamac",
   "lat": 48.14816,
-  "lon": 17.10674
+  "lon": 17.10674,
+  "okres": "Bratislava I"
  },
  {
   "id": "32628",
   "name": "Brehy",
   "lat": 48.40701,
-  "lon": 18.65163
+  "lon": 18.65163,
+  "okres": "Žarnovica"
  },
  {
   "id": "32320",
   "name": "Brekov",
   "lat": 48.90641,
-  "lon": 21.83606
+  "lon": 21.83606,
+  "okres": "Humenné"
  },
  {
   "id": "32424",
   "name": "Brestovany",
   "lat": 48.38826,
-  "lon": 17.68806
+  "lon": 17.68806,
+  "okres": "Trnava"
  },
  {
   "id": "32088",
   "name": "Breza",
   "lat": 49.38761,
-  "lon": 19.38435
+  "lon": 19.38435,
+  "okres": "Namestovo"
  },
  {
   "id": "31479",
   "name": "Brezno",
   "lat": 48.80431,
-  "lon": 19.63631
+  "lon": 19.63631,
+  "okres": "Brezno"
  },
  {
   "id": "32104",
   "name": "Brezova pod Bradlom",
   "lat": 48.66349,
-  "lon": 17.53905
+  "lon": 17.53905,
+  "okres": "Myjava"
  },
  {
   "id": "31963",
   "name": "Brezovica",
   "lat": 49.15,
-  "lon": 20.85
+  "lon": 20.85,
+  "okres": "Sabinov"
  },
  {
   "id": "32098",
   "name": "Brodske",
   "lat": 48.69089,
-  "lon": 17.01448
+  "lon": 17.01448,
+  "okres": "Skalica"
  },
  {
   "id": "32160",
   "name": "Brusno",
   "lat": 48.79237,
-  "lon": 19.38219
+  "lon": 19.38219,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "32439",
   "name": "Brvniste",
   "lat": 49.21097,
-  "lon": 18.43069
+  "lon": 18.43069,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "32145",
   "name": "Brzotin",
   "lat": 48.631,
-  "lon": 20.49567
+  "lon": 20.49567,
+  "okres": "Rožňava"
  },
  {
   "id": "32667",
   "name": "Buc",
   "lat": 47.80762,
-  "lon": 18.44665
+  "lon": 18.44665,
+  "okres": "Komárno"
  },
  {
   "id": "32114",
   "name": "Bucany",
   "lat": 48.41582,
-  "lon": 17.69721
+  "lon": 17.69721,
+  "okres": "Trnava"
  },
  {
   "id": "31520",
@@ -473,25 +547,29 @@
   "id": "32372",
   "name": "Budca",
   "lat": 48.57384,
-  "lon": 19.06937
+  "lon": 19.06937,
+  "okres": "Zvolen"
  },
  {
   "id": "32575",
   "name": "Budkovce",
   "lat": 48.63216,
-  "lon": 21.93057
+  "lon": 21.93057,
+  "okres": "Michalovce"
  },
  {
   "id": "31960",
   "name": "Budmerice",
   "lat": 48.35756,
-  "lon": 17.40715
+  "lon": 17.40715,
+  "okres": "Pezinok"
  },
  {
   "id": "31397",
   "name": "Bukova",
   "lat": 49.26043,
-  "lon": 18.59377
+  "lon": 18.59377,
+  "okres": "Bytča"
  },
  {
   "id": "34553",
@@ -501,169 +579,197 @@
   "id": "31469",
   "name": "Bukovina",
   "lat": 49.13478,
-  "lon": 19.47078
+  "lon": 19.47078,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32166",
   "name": "Busince",
   "lat": 48.17455,
-  "lon": 19.50117
+  "lon": 19.50117,
+  "okres": "Veľký Krtíš"
  },
  {
   "id": "32109",
   "name": "Buzica",
   "lat": 48.53221,
-  "lon": 21.07614
+  "lon": 21.07614,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32684",
   "name": "Bystrany",
   "lat": 48.9487,
-  "lon": 20.75976
+  "lon": 20.75976,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32494",
   "name": "Bystre",
   "lat": 49.01128,
-  "lon": 21.54292
+  "lon": 21.54292,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32180",
   "name": "Bystricany",
   "lat": 48.65967,
-  "lon": 18.51533
+  "lon": 18.51533,
+  "okres": "Prievidza"
  },
  {
   "id": "32447",
   "name": "Bystricka",
   "lat": 49.05,
-  "lon": 18.88333
+  "lon": 18.88333,
+  "okres": "Martin"
  },
  {
   "id": "31430",
   "name": "Bytca",
   "lat": 49.22404,
-  "lon": 18.55878
+  "lon": 18.55878,
+  "okres": "Bytča"
  },
  {
   "id": "32045",
   "name": "Bzince pod Javorinou",
   "lat": 48.78843,
-  "lon": 17.77449
+  "lon": 17.77449,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32668",
   "name": "Cabaj-Capor",
   "lat": 48.24445,
-  "lon": 18.02899
+  "lon": 18.02899,
+  "okres": "Nitra"
  },
  {
   "id": "32071",
   "name": "Cachtice",
   "lat": 48.71226,
-  "lon": 17.78704
+  "lon": 17.78704,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "31438",
   "name": "Cadca",
   "lat": 49.43503,
-  "lon": 18.78895
+  "lon": 18.78895,
+  "okres": "Čadca"
  },
  {
   "id": "32597",
   "name": "Cajkov",
   "lat": 48.28956,
-  "lon": 18.60058
+  "lon": 18.60058,
+  "okres": "Levice"
  },
  {
   "id": "32555",
   "name": "Cakajovce",
   "lat": 48.37164,
-  "lon": 18.03829
+  "lon": 18.03829,
+  "okres": "Nitra"
  },
  {
   "id": "32600",
   "name": "Caklov",
   "lat": 48.90753,
-  "lon": 21.62988
+  "lon": 21.62988,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32636",
   "name": "Calovec",
   "lat": 47.81707,
-  "lon": 17.98771
+  "lon": 17.98771,
+  "okres": "Komárno"
  },
  {
   "id": "32194",
   "name": "Cana",
   "lat": 48.60994,
-  "lon": 21.32622
+  "lon": 21.32622,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32086",
   "name": "Cary",
   "lat": 48.6551,
-  "lon": 17.09134
+  "lon": 17.09134,
+  "okres": "Senica"
  },
  {
   "id": "32000",
   "name": "Casta",
   "lat": 48.3992,
-  "lon": 17.36349
+  "lon": 17.36349,
+  "okres": "Pezinok"
  },
  {
   "id": "32099",
   "name": "Castkovce",
   "lat": 48.69212,
-  "lon": 17.78624
+  "lon": 17.78624,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32659",
   "name": "Cata",
   "lat": 47.95357,
-  "lon": 18.65147
+  "lon": 18.65147,
+  "okres": "Levice"
  },
  {
   "id": "32225",
   "name": "Cebovce",
   "lat": 48.18028,
-  "lon": 19.22931
+  "lon": 19.22931,
+  "okres": "Veľký Krtíš"
  },
  {
   "id": "32414",
   "name": "Cecejovce",
   "lat": 48.59499,
-  "lon": 21.06514
+  "lon": 21.06514,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32544",
   "name": "Cechynce",
   "lat": 48.25489,
-  "lon": 18.15958
+  "lon": 18.15958,
+  "okres": "Nitra"
  },
  {
   "id": "32646",
   "name": "Cejkov",
   "lat": 48.46633,
-  "lon": 21.76051
+  "lon": 21.76051,
+  "okres": "Trebišov"
  },
  {
   "id": "32537",
   "name": "Cerenany",
   "lat": 48.64477,
-  "lon": 18.48735
+  "lon": 18.48735,
+  "okres": "Prievidza"
  },
  {
   "id": "32539",
   "name": "Cernik",
   "lat": 48.1522,
-  "lon": 18.22613
+  "lon": 18.22613,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32483",
   "name": "Cerova",
   "lat": 48.56997,
-  "lon": 18.52066
+  "lon": 18.52066,
+  "okres": "Prievidza"
  },
  {
   "id": "31525",
@@ -675,7 +781,8 @@
   "id": "32381",
   "name": "Cervenik",
   "lat": 48.45944,
-  "lon": 17.75694
+  "lon": 17.75694,
+  "okres": "Hlohovec"
  },
  {
   "id": "38612",
@@ -693,19 +800,22 @@
   "id": "32732",
   "name": "Chlebnice",
   "lat": 49.23211,
-  "lon": 19.46236
+  "lon": 19.46236,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "32406",
   "name": "Chminianska Nova Ves",
   "lat": 49.00332,
-  "lon": 21.08251
+  "lon": 21.08251,
+  "okres": "Prešov"
  },
  {
   "id": "32709",
   "name": "Chminianske Jakubovany",
   "lat": 48.99663,
-  "lon": 21.01989
+  "lon": 21.01989,
+  "okres": "Prešov"
  },
  {
   "id": "32578",
@@ -717,61 +827,71 @@
   "id": "31477",
   "name": "Chopok",
   "lat": 48.94466,
-  "lon": 19.59021
+  "lon": 19.59021,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31475",
   "name": "Chopok - Lukova",
   "lat": 48.94466,
-  "lon": 19.59021
+  "lon": 19.59021,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31476",
   "name": "Chopok - Zahradky",
   "lat": 48.94466,
-  "lon": 19.59021
+  "lon": 19.59021,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31941",
   "name": "Chorvatsky Grob",
   "lat": 48.22787,
-  "lon": 17.29094
+  "lon": 17.29094,
+  "okres": "Senec"
  },
  {
   "id": "32360",
   "name": "Chotin",
   "lat": 47.80713,
-  "lon": 18.22691
+  "lon": 18.22691,
+  "okres": "Komárno"
  },
  {
   "id": "32564",
   "name": "Chrenovec-Brusno",
   "lat": 48.77869,
-  "lon": 18.72674
+  "lon": 18.72674,
+  "okres": "Prievidza"
  },
  {
   "id": "32359",
   "name": "Chtelnica",
   "lat": 48.56914,
-  "lon": 17.62311
+  "lon": 17.62311,
+  "okres": "Piešťany"
  },
  {
   "id": "32455",
   "name": "Chynorany",
   "lat": 48.60762,
-  "lon": 18.27648
+  "lon": 18.27648,
+  "okres": "Partizánske"
  },
  {
   "id": "38080",
   "name": "Cicmany",
   "lat": 48.95503,
-  "lon": 18.51608
+  "lon": 18.51608,
+  "okres": "Žilina"
  },
  {
   "id": "32677",
   "name": "Cicov",
   "lat": 47.7712,
-  "lon": 17.77305
+  "lon": 17.77305,
+  "okres": "Komárno"
  },
  {
   "id": "31513",
@@ -783,37 +903,43 @@
   "id": "32121",
   "name": "Cierna nad Tisou",
   "lat": 48.41704,
-  "lon": 22.08865
+  "lon": 22.08865,
+  "okres": "Trebišov"
  },
  {
   "id": "32473",
   "name": "Cierna Voda",
   "lat": 48.12902,
-  "lon": 17.65145
+  "lon": 17.65145,
+  "okres": "Galanta"
  },
  {
   "id": "32030",
   "name": "Cierne",
   "lat": 49.49361,
-  "lon": 18.81954
+  "lon": 18.81954,
+  "okres": "Čadca"
  },
  {
   "id": "32277",
   "name": "Cierne Klacany",
   "lat": 48.3517,
-  "lon": 18.41827
+  "lon": 18.41827,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32128",
   "name": "Cierny Balog",
   "lat": 48.74722,
-  "lon": 19.65125
+  "lon": 19.65125,
+  "okres": "Brezno"
  },
  {
   "id": "32159",
   "name": "Cierny Brod",
   "lat": 48.14731,
-  "lon": 17.65319
+  "lon": 17.65319,
+  "okres": "Galanta"
  },
  {
   "id": "31468",
@@ -825,367 +951,428 @@
   "id": "31926",
   "name": "Cifer",
   "lat": 48.3175,
-  "lon": 17.48987
+  "lon": 17.48987,
+  "okres": "Trnava"
  },
  {
   "id": "32420",
   "name": "Cigel",
   "lat": 48.71382,
-  "lon": 18.63997
+  "lon": 18.63997,
+  "okres": "Prievidza"
  },
  {
   "id": "32666",
   "name": "Cilizska Radvan",
   "lat": 47.83447,
-  "lon": 17.69614
+  "lon": 17.69614,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32042",
   "name": "Cinobana",
   "lat": 48.44744,
-  "lon": 19.65268
+  "lon": 19.65268,
+  "okres": "Poltár"
  },
  {
   "id": "32663",
   "name": "Circ",
   "lat": 49.2787,
-  "lon": 20.92419
+  "lon": 20.92419,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "34041",
   "name": "Ciz",
   "lat": 48.31366,
-  "lon": 20.2804
+  "lon": 20.2804,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "34579",
   "name": "Cunovo - Divoka Voda",
   "lat": 48.03052,
-  "lon": 17.19978
+  "lon": 17.19978,
+  "okres": "Bratislava V"
  },
  {
   "id": "32619",
   "name": "Dechtice",
   "lat": 48.54687,
-  "lon": 17.59666
+  "lon": 17.59666,
+  "okres": "Trnava"
  },
  {
   "id": "32652",
   "name": "Demandice",
   "lat": 48.1256,
-  "lon": 18.7831
+  "lon": 18.7831,
+  "okres": "Levice"
  },
  {
   "id": "32637",
   "name": "Demjata",
   "lat": 49.10652,
-  "lon": 21.31389
+  "lon": 21.31389,
+  "okres": "Prešov"
  },
  {
   "id": "31467",
   "name": "Detva",
   "lat": 48.56082,
-  "lon": 19.41954
+  "lon": 19.41954,
+  "okres": "Detva"
  },
  {
   "id": "32161",
   "name": "Diakovce",
   "lat": 48.1345,
-  "lon": 17.842
+  "lon": 17.842,
+  "okres": "Šaľa"
  },
  {
   "id": "32386",
   "name": "Diviacka Nova Ves",
   "lat": 48.74787,
-  "lon": 18.4965
+  "lon": 18.4965,
+  "okres": "Prievidza"
  },
  {
   "id": "32585",
   "name": "Diviaky nad Nitricou",
   "lat": 48.76691,
-  "lon": 18.49185
+  "lon": 18.49185,
+  "okres": "Prievidza"
  },
  {
   "id": "32332",
   "name": "Divin",
   "lat": 48.4499,
-  "lon": 19.53528
+  "lon": 19.53528,
+  "okres": "Lučenec"
  },
  {
   "id": "32503",
   "name": "Divina",
   "lat": 49.27178,
-  "lon": 18.69516
+  "lon": 18.69516,
+  "okres": "Žilina"
  },
  {
   "id": "32428",
   "name": "Dlha nad Oravou",
   "lat": 49.26667,
-  "lon": 19.45
+  "lon": 19.45,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "32543",
   "name": "Dlhe Klcovo",
   "lat": 48.8108,
-  "lon": 21.7399
+  "lon": 21.7399,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32695",
   "name": "Dlhe nad Cirochou",
   "lat": 48.9599,
-  "lon": 22.06226
+  "lon": 22.06226,
+  "okres": "Snina"
  },
  {
   "id": "32328",
   "name": "Dlhe Pole",
   "lat": 49.3073,
-  "lon": 18.63166
+  "lon": 18.63166,
+  "okres": "Žilina"
  },
  {
   "id": "32197",
   "name": "Dobra Niva",
   "lat": 48.47082,
-  "lon": 19.10562
+  "lon": 19.10562,
+  "okres": "Zvolen"
  },
  {
   "id": "31504",
   "name": "Dobsina",
   "lat": 48.82073,
-  "lon": 20.36988
+  "lon": 20.36988,
+  "okres": "Rožňava"
  },
  {
   "id": "32511",
   "name": "Dohnany",
   "lat": 49.14867,
-  "lon": 18.28571
+  "lon": 18.28571,
+  "okres": "Púchov"
  },
  {
   "id": "32352",
   "name": "Dojc",
   "lat": 48.6775,
-  "lon": 17.25432
+  "lon": 17.25432,
+  "okres": "Senica"
  },
  {
   "id": "32032",
   "name": "Dolany",
   "lat": 48.41611,
-  "lon": 17.3757
+  "lon": 17.3757,
+  "okres": "Pezinok"
  },
  {
   "id": "32275",
   "name": "Dolna Krupa",
   "lat": 48.48266,
-  "lon": 17.55112
+  "lon": 17.55112,
+  "okres": "Trnava"
  },
  {
   "id": "32214",
   "name": "Dolna Marikova",
   "lat": 49.25,
-  "lon": 18.36667
+  "lon": 18.36667,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "32497",
   "name": "Dolna Streda",
   "lat": 48.26914,
-  "lon": 17.74994
+  "lon": 17.74994,
+  "okres": "Galanta"
  },
  {
   "id": "32704",
   "name": "Dolna Strehova",
   "lat": 48.2508,
-  "lon": 19.4888
+  "lon": 19.4888,
+  "okres": "Veľký Krtíš"
  },
  {
   "id": "32313",
   "name": "Dolna Suca",
   "lat": 48.96079,
-  "lon": 18.03202
+  "lon": 18.03202,
+  "okres": "Trenčín"
  },
  {
   "id": "32174",
   "name": "Dolna Tizina",
   "lat": 49.21558,
-  "lon": 18.91566
+  "lon": 18.91566,
+  "okres": "Žilina"
  },
  {
   "id": "32492",
   "name": "Dolne Kockovce",
   "lat": 49.09435,
-  "lon": 18.32528
+  "lon": 18.32528,
+  "okres": "Púchov"
  },
  {
   "id": "32505",
   "name": "Dolne Obdokovce",
   "lat": 48.31325,
-  "lon": 18.21048
+  "lon": 18.21048,
+  "okres": "Nitra"
  },
  {
   "id": "32456",
   "name": "Dolne Oresany",
   "lat": 48.43966,
-  "lon": 17.42942
+  "lon": 17.42942,
+  "okres": "Trnava"
  },
  {
   "id": "32522",
   "name": "Dolne Saliby",
   "lat": 48.10724,
-  "lon": 17.78174
+  "lon": 17.78174,
+  "okres": "Galanta"
  },
  {
   "id": "32205",
   "name": "Dolne Vestenice",
   "lat": 48.70344,
-  "lon": 18.39708
+  "lon": 18.39708,
+  "okres": "Prievidza"
  },
  {
   "id": "31368",
   "name": "Dolny Hricov",
   "lat": 49.23192,
-  "lon": 18.63326
+  "lon": 18.63326,
+  "okres": "Žilina"
  },
  {
   "id": "31371",
   "name": "Dolny Kubin",
   "lat": 49.20983,
-  "lon": 19.30341
+  "lon": 19.30341,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "32278",
   "name": "Dolny Ohaj",
   "lat": 48.08214,
-  "lon": 18.25299
+  "lon": 18.25299,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32603",
   "name": "Dolny Stal",
   "lat": 47.93333,
-  "lon": 17.71667
+  "lon": 17.71667,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32097",
   "name": "Domaniza",
   "lat": 49.04434,
-  "lon": 18.55742
+  "lon": 18.55742,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "31460",
   "name": "Donovaly",
   "lat": 48.88013,
-  "lon": 19.22238
+  "lon": 19.22238,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "31485",
   "name": "Dovalovo",
   "lat": 49.04974,
-  "lon": 19.76072
+  "lon": 19.76072,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32605",
   "name": "Drahnov",
   "lat": 48.59319,
-  "lon": 21.96591
+  "lon": 21.96591,
+  "okres": "Michalovce"
  },
  {
   "id": "32184",
   "name": "Drahovce",
   "lat": 48.51591,
-  "lon": 17.80287
+  "lon": 17.80287,
+  "okres": "Piešťany"
  },
  {
   "id": "32157",
   "name": "Drienov",
   "lat": 48.87318,
-  "lon": 21.27382
+  "lon": 21.27382,
+  "okres": "Prešov"
  },
  {
   "id": "32286",
   "name": "Drienovec",
   "lat": 48.61028,
-  "lon": 20.94747
+  "lon": 20.94747,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31973",
   "name": "Drietoma",
   "lat": 48.89421,
-  "lon": 17.95205
+  "lon": 17.95205,
+  "okres": "Trenčín"
  },
  {
   "id": "32618",
   "name": "Druzstevna pri Hornade",
   "lat": 48.79221,
-  "lon": 21.24084
+  "lon": 21.24084,
+  "okres": "Košice–okolie"
  },
  {
   "id": "38073",
   "name": "Dubina - start",
   "lat": 48.77774,
-  "lon": 21.15346
+  "lon": 21.15346,
+  "okres": "Košice I"
  },
  {
   "id": "31928",
   "name": "Dubnica nad Vahom",
   "lat": 48.95981,
-  "lon": 18.16634
+  "lon": 18.16634,
+  "okres": "Ilava"
  },
  {
   "id": "32661",
   "name": "Dubnik",
   "lat": 48.91167,
-  "lon": 21.46518
+  "lon": 21.46518,
+  "okres": "Prešov"
  },
  {
   "id": "31521",
   "name": "Dubovica",
   "lat": 49.13629,
-  "lon": 20.95403
+  "lon": 20.95403,
+  "okres": "Sabinov"
  },
  {
   "id": "32066",
   "name": "Dubrava",
   "lat": 48.99023,
-  "lon": 21.49341
+  "lon": 21.49341,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "34028",
   "name": "Dudince (centrum)",
   "lat": 48.17135,
-  "lon": 18.88782
+  "lon": 18.88782,
+  "okres": "Krupina"
  },
  {
   "id": "31443",
   "name": "Dudince (meteo stanica)",
   "lat": 48.17135,
-  "lon": 18.88782
+  "lon": 18.88782,
+  "okres": "Krupina"
  },
  {
   "id": "32259",
   "name": "Dulovce",
   "lat": 47.86915,
-  "lon": 18.27284
+  "lon": 18.27284,
+  "okres": "Komárno"
  },
  {
   "id": "31954",
   "name": "Dunajska Luzna",
   "lat": 48.08347,
-  "lon": 17.26072
+  "lon": 17.26072,
+  "okres": "Senec"
  },
  {
   "id": "34022",
   "name": "Dunajska Streda (centrum)",
   "lat": 47.99268,
-  "lon": 17.61211
+  "lon": 17.61211,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32644",
   "name": "Durcina",
   "lat": 49.06367,
-  "lon": 18.65222
+  "lon": 18.65222,
+  "okres": "Žilina"
  },
  {
   "id": "32340",
   "name": "Durkov",
   "lat": 49.24078,
-  "lon": 20.87122
+  "lon": 20.87122,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "31542",
@@ -1197,97 +1384,113 @@
   "id": "32474",
   "name": "Dvorniky",
   "lat": 48.60113,
-  "lon": 20.83962
+  "lon": 20.83962,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31935",
   "name": "Dvory nad Zitavou",
   "lat": 47.98946,
-  "lon": 18.26717
+  "lon": 18.26717,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31930",
   "name": "Farna",
   "lat": 48.00577,
-  "lon": 18.5112
+  "lon": 18.5112,
+  "okres": "Levice"
  },
  {
   "id": "31983",
   "name": "Filakovo",
   "lat": 48.26757,
-  "lon": 19.82473
+  "lon": 19.82473,
+  "okres": "Lučenec"
  },
  {
   "id": "32596",
   "name": "Fintice",
   "lat": 49.05188,
-  "lon": 21.28664
+  "lon": 21.28664,
+  "okres": "Prešov"
  },
  {
   "id": "32258",
   "name": "Fricovce",
   "lat": 49.0167,
-  "lon": 20.96302
+  "lon": 20.96302,
+  "okres": "Prešov"
  },
  {
   "id": "32364",
   "name": "Gabcikovo",
   "lat": 47.89211,
-  "lon": 17.57884
+  "lon": 17.57884,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32044",
   "name": "Gajary",
   "lat": 48.46667,
-  "lon": 16.93333
+  "lon": 16.93333,
+  "okres": "Malacky"
  },
  {
   "id": "31406",
   "name": "Galanta",
   "lat": 48.19001,
-  "lon": 17.72747
+  "lon": 17.72747,
+  "okres": "Galanta"
  },
  {
   "id": "32243",
   "name": "Ganovce",
   "lat": 49.03011,
-  "lon": 20.32751
+  "lon": 20.32751,
+  "okres": "Poprad"
  },
  {
   "id": "32496",
   "name": "Gbelany",
   "lat": 49.21216,
-  "lon": 18.84453
+  "lon": 18.84453,
+  "okres": "Žilina"
  },
  {
   "id": "31429",
   "name": "Gbelce",
   "lat": 47.85185,
-  "lon": 18.51277
+  "lon": 18.51277,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32031",
   "name": "Gbely",
   "lat": 48.718,
-  "lon": 17.11628
+  "lon": 17.11628,
+  "okres": "Skalica"
  },
  {
   "id": "32588",
   "name": "Geca",
   "lat": 48.62785,
-  "lon": 21.30991
+  "lon": 21.30991,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31519",
   "name": "Gelnica",
   "lat": 48.85584,
-  "lon": 20.93713
+  "lon": 20.93713,
+  "okres": "Gelnica"
  },
  {
   "id": "32007",
   "name": "Gemerska Horka",
   "lat": 48.53499,
-  "lon": 20.37822
+  "lon": 20.37822,
+  "okres": "Rožňava"
  },
  {
   "id": "31949",
@@ -1299,163 +1502,190 @@
   "id": "31376",
   "name": "Gemerske Michalovce",
   "lat": 48.43766,
-  "lon": 20.21192
+  "lon": 20.21192,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "34036",
   "name": "Gerlachov",
   "lat": 49.31963,
-  "lon": 21.11582
+  "lon": 21.11582,
+  "okres": "Bardejov"
  },
  {
   "id": "31172",
   "name": "Gerlachovsky stit",
   "lat": 49.16436,
-  "lon": 20.13369
+  "lon": 20.13369,
+  "okres": "Poprad"
  },
  {
   "id": "32457",
   "name": "Giraltovce",
   "lat": 49.11398,
-  "lon": 21.51731
+  "lon": 21.51731,
+  "okres": "Svidník"
  },
  {
   "id": "32169",
   "name": "Golianovo",
   "lat": 48.27189,
-  "lon": 18.19185
+  "lon": 18.19185,
+  "okres": "Nitra"
  },
  {
   "id": "32431",
   "name": "Habovka",
   "lat": 49.27254,
-  "lon": 19.60589
+  "lon": 19.60589,
+  "okres": "Tvrdošín"
  },
  {
   "id": "31518",
   "name": "Haj - Start",
   "lat": 48.62971,
-  "lon": 20.85257
+  "lon": 20.85257,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32565",
   "name": "Hajnacka",
   "lat": 48.21837,
-  "lon": 19.95776
+  "lon": 19.95776,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "31411",
   "name": "Hajske",
   "lat": 48.25,
-  "lon": 17.86667
+  "lon": 17.86667,
+  "okres": "Šaľa"
  },
  {
   "id": "32116",
   "name": "Halic",
   "lat": 48.35387,
-  "lon": 19.57631
+  "lon": 19.57631,
+  "okres": "Lučenec"
  },
  {
   "id": "31936",
   "name": "Handlova",
   "lat": 48.7276,
-  "lon": 18.76012
+  "lon": 18.76012,
+  "okres": "Prievidza"
  },
  {
   "id": "32509",
   "name": "Haniska",
   "lat": 48.95436,
-  "lon": 21.23893
+  "lon": 21.23893,
+  "okres": "Prešov"
  },
  {
   "id": "31931",
   "name": "Hanusovce nad Toplou",
   "lat": 49.02691,
-  "lon": 21.50414
+  "lon": 21.50414,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32617",
   "name": "Harichovce",
   "lat": 48.96187,
-  "lon": 20.58259
+  "lon": 20.58259,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32662",
   "name": "Hazlin",
   "lat": 49.3012,
-  "lon": 21.42006
+  "lon": 21.42006,
+  "okres": "Bardejov"
  },
  {
   "id": "32493",
   "name": "Helcmanovce",
   "lat": 48.8307,
-  "lon": 20.86767
+  "lon": 20.86767,
+  "okres": "Gelnica"
  },
  {
   "id": "32009",
   "name": "Helpa",
   "lat": 48.86099,
-  "lon": 19.9692
+  "lon": 19.9692,
+  "okres": "Brezno"
  },
  {
   "id": "32699",
   "name": "Hencovce",
   "lat": 48.87645,
-  "lon": 21.73399
+  "lon": 21.73399,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32106",
   "name": "Hermanovce",
   "lat": 49.04584,
-  "lon": 21.01629
+  "lon": 21.01629,
+  "okres": "Prešov"
  },
  {
   "id": "34537",
   "name": "Hertnik",
   "lat": 49.20715,
-  "lon": 21.2376
+  "lon": 21.2376,
+  "okres": "Bardejov"
  },
  {
   "id": "34536",
   "name": "Hervartov",
   "lat": 49.24667,
-  "lon": 21.20546
+  "lon": 21.20546,
+  "okres": "Bardejov"
  },
  {
   "id": "31984",
   "name": "Hlinik nad Hronom",
   "lat": 48.53536,
-  "lon": 18.78734
+  "lon": 18.78734,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "32722",
   "name": "Hlinne",
   "lat": 48.9507,
-  "lon": 21.57884
+  "lon": 21.57884,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "31408",
   "name": "Hlohovec",
   "lat": 48.43174,
-  "lon": 17.8031
+  "lon": 17.8031,
+  "okres": "Hlohovec"
  },
  {
   "id": "32611",
   "name": "Hniezdne",
   "lat": 49.30265,
-  "lon": 20.63293
+  "lon": 20.63293,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "31929",
   "name": "Hnusta",
   "lat": 48.57257,
-  "lon": 19.95395
+  "lon": 19.95395,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "32670",
   "name": "Hodejov",
   "lat": 48.30117,
-  "lon": 19.98982
+  "lon": 19.98982,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "32702",
@@ -1467,67 +1697,78 @@
   "id": "31979",
   "name": "Holic",
   "lat": 48.81105,
-  "lon": 17.16238
+  "lon": 17.16238,
+  "okres": "Skalica"
  },
  {
   "id": "32614",
   "name": "Holice",
   "lat": 47.99305,
-  "lon": 17.48179
+  "lon": 17.48179,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32209",
   "name": "Hontianske Nemce",
   "lat": 48.28627,
-  "lon": 18.98953
+  "lon": 18.98953,
+  "okres": "Krupina"
  },
  {
   "id": "32678",
   "name": "Horka",
   "lat": 49.01667,
-  "lon": 20.03333
+  "lon": 20.03333,
+  "okres": "Poprad"
  },
  {
   "id": "32117",
   "name": "Horna Kralova",
   "lat": 48.24531,
-  "lon": 17.91311
+  "lon": 17.91311,
+  "okres": "Šaľa"
  },
  {
   "id": "32417",
   "name": "Horna Poruba",
   "lat": 48.94147,
-  "lon": 18.30497
+  "lon": 18.30497,
+  "okres": "Ilava"
  },
  {
   "id": "32303",
   "name": "Horna Poton",
   "lat": 48.0389,
-  "lon": 17.49038
+  "lon": 17.49038,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32344",
   "name": "Horna Streda",
   "lat": 48.65643,
-  "lon": 17.8428
+  "lon": 17.8428,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32504",
   "name": "Horna Stubna",
   "lat": 48.82505,
-  "lon": 18.88462
+  "lon": 18.88462,
+  "okres": "Turčianske Teplice"
  },
  {
   "id": "32218",
   "name": "Horna Suca",
   "lat": 48.97289,
-  "lon": 17.97706
+  "lon": 17.97706,
+  "okres": "Trenčín"
  },
  {
   "id": "32375",
   "name": "Horna Ves",
   "lat": 48.67674,
-  "lon": 18.91012
+  "lon": 18.91012,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "32293",
@@ -1539,97 +1780,113 @@
   "id": "32112",
   "name": "Horne Oresany",
   "lat": 48.46738,
-  "lon": 17.44101
+  "lon": 17.44101,
+  "okres": "Trnava"
  },
  {
   "id": "32072",
   "name": "Horne Saliby",
   "lat": 48.12311,
-  "lon": 17.7589
+  "lon": 17.7589,
+  "okres": "Galanta"
  },
  {
   "id": "31966",
   "name": "Horne Srnie",
   "lat": 48.99183,
-  "lon": 18.10012
+  "lon": 18.10012,
+  "okres": "Trenčín"
  },
  {
   "id": "32481",
   "name": "Horny Bar",
   "lat": 47.94834,
-  "lon": 17.46275
+  "lon": 17.46275,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32427",
   "name": "Horny Vadicov",
   "lat": 49.27501,
-  "lon": 18.89366
+  "lon": 18.89366,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32470",
   "name": "Hostie",
   "lat": 48.45289,
-  "lon": 18.43826
+  "lon": 18.43826,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "31466",
   "name": "Hrabovo",
   "lat": 48.3899,
-  "lon": 19.71804
+  "lon": 19.71804,
+  "okres": "Poltár"
  },
  {
   "id": "32125",
   "name": "Hrabusice",
   "lat": 48.9756,
-  "lon": 20.40865
+  "lon": 20.40865,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32508",
   "name": "Hradiste",
   "lat": 48.68431,
-  "lon": 18.37454
+  "lon": 18.37454,
+  "okres": "Partizánske"
  },
  {
   "id": "32589",
   "name": "Hran",
   "lat": 48.545,
-  "lon": 21.78467
+  "lon": 21.78467,
+  "okres": "Trebišov"
  },
  {
   "id": "31998",
   "name": "Hranovnica",
   "lat": 48.98947,
-  "lon": 20.30903
+  "lon": 20.30903,
+  "okres": "Poprad"
  },
  {
   "id": "31514",
   "name": "Hrhov",
   "lat": 48.60629,
-  "lon": 20.75067
+  "lon": 20.75067,
+  "okres": "Rožňava"
  },
  {
   "id": "31471",
   "name": "Hrinova",
   "lat": 48.57787,
-  "lon": 19.52574
+  "lon": 19.52574,
+  "okres": "Detva"
  },
  {
   "id": "32170",
   "name": "Hrnciarovce nad Parnou",
   "lat": 48.34261,
-  "lon": 17.56767
+  "lon": 17.56767,
+  "okres": "Trnava"
  },
  {
   "id": "32235",
   "name": "Hrochot",
   "lat": 48.65567,
-  "lon": 19.31284
+  "lon": 19.31284,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "31474",
   "name": "Hronec",
   "lat": 48.79499,
-  "lon": 19.5824
+  "lon": 19.5824,
+  "okres": "Brezno"
  },
  {
   "id": "32730",
@@ -1641,7 +1898,8 @@
   "id": "32354",
   "name": "Hronske Klacany",
   "lat": 48.24012,
-  "lon": 18.56971
+  "lon": 18.56971,
+  "okres": "Levice"
  },
  {
   "id": "32049",
@@ -1653,55 +1911,64 @@
   "id": "32390",
   "name": "Hrusovany",
   "lat": 48.43729,
-  "lon": 18.09316
+  "lon": 18.09316,
+  "okres": "Topoľčany"
  },
  {
   "id": "32263",
   "name": "Hrustin",
   "lat": 49.32393,
-  "lon": 19.34695
+  "lon": 19.34695,
+  "okres": "Namestovo"
  },
  {
   "id": "32639",
   "name": "Hubova",
   "lat": 49.11689,
-  "lon": 19.1902
+  "lon": 19.1902,
+  "okres": "Ružomberok"
  },
  {
   "id": "32429",
   "name": "Hul",
   "lat": 48.09907,
-  "lon": 18.2633
+  "lon": 18.2633,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31533",
   "name": "Humenne",
   "lat": 48.93707,
-  "lon": 21.91625
+  "lon": 21.91625,
+  "okres": "Humenné"
  },
  {
   "id": "32487",
   "name": "Huncovce",
   "lat": 49.11501,
-  "lon": 20.37672
+  "lon": 20.37672,
+  "okres": "Kežmarok"
  },
  {
   "id": "31366",
   "name": "Hurbanovo",
   "lat": 47.86984,
-  "lon": 18.19233
+  "lon": 18.19233,
+  "okres": "Komárno"
  },
  {
   "id": "32720",
   "name": "Hvozdnica",
   "lat": 49.2104,
-  "lon": 18.48942
+  "lon": 18.48942,
+  "okres": "Bytča"
  },
  {
   "id": "32559",
   "name": "Hybe",
   "lat": 49.04439,
-  "lon": 19.82895
+  "lon": 19.82895,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32671",
@@ -1713,133 +1980,155 @@
   "id": "31420",
   "name": "Ilava",
   "lat": 48.99769,
-  "lon": 18.2353
+  "lon": 18.2353,
+  "okres": "Ilava"
  },
  {
   "id": "31508",
   "name": "Iliasovce",
   "lat": 48.99156,
-  "lon": 20.52651
+  "lon": 20.52651,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32558",
   "name": "Imel",
   "lat": 47.90403,
-  "lon": 18.14169
+  "lon": 18.14169,
+  "okres": "Komárno"
  },
  {
   "id": "31416",
   "name": "Inovec",
   "lat": 48.41009,
-  "lon": 18.54335
+  "lon": 18.54335,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32343",
   "name": "Istebne",
   "lat": 49.21511,
-  "lon": 19.22166
+  "lon": 19.22166,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "31924",
   "name": "Ivanka pri Dunaji",
   "lat": 48.18675,
-  "lon": 17.2554
+  "lon": 17.2554,
+  "okres": "Senec"
  },
  {
   "id": "32285",
   "name": "Ivanka pri Nitre",
   "lat": 48.24295,
-  "lon": 18.11617
+  "lon": 18.11617,
+  "okres": "Nitra"
  },
  {
   "id": "31953",
   "name": "Iza",
   "lat": 47.75198,
-  "lon": 18.22763
+  "lon": 18.22763,
+  "okres": "Komárno"
  },
  {
   "id": "32101",
   "name": "Jablonica",
   "lat": 48.55826,
-  "lon": 20.60861
+  "lon": 20.60861,
+  "okres": "Rožňava"
  },
  {
   "id": "32358",
   "name": "Jablonove",
   "lat": 48.34752,
-  "lon": 17.09949
+  "lon": 17.09949,
+  "okres": "Malacky"
  },
  {
   "id": "31981",
   "name": "Jacovce",
   "lat": 48.59446,
-  "lon": 18.1347
+  "lon": 18.1347,
+  "okres": "Topoľčany"
  },
  {
   "id": "32580",
   "name": "Jahodna",
   "lat": 48.05297,
-  "lon": 17.70744
+  "lon": 17.70744,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32073",
   "name": "Jaklovce",
   "lat": 48.87172,
-  "lon": 20.98801
+  "lon": 20.98801,
+  "okres": "Gelnica"
  },
  {
   "id": "32489",
   "name": "Jakubany",
   "lat": 49.24813,
-  "lon": 20.6959
+  "lon": 20.6959,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32026",
   "name": "Jakubov",
   "lat": 48.41667,
-  "lon": 16.93333
+  "lon": 16.93333,
+  "okres": "Malacky"
  },
  {
   "id": "38619",
   "name": "Jakubovany",
   "lat": 49.1031,
-  "lon": 19.72484
+  "lon": 19.72484,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31511",
   "name": "Jamnik",
   "lat": 48.94374,
-  "lon": 20.66284
+  "lon": 20.66284,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32315",
   "name": "Janovce",
   "lat": 49.18969,
-  "lon": 21.30616
+  "lon": 21.30616,
+  "okres": "Bardejov"
  },
  {
   "id": "31991",
   "name": "Jarok",
   "lat": 48.27541,
-  "lon": 17.95913
+  "lon": 17.95913,
+  "okres": "Nitra"
  },
  {
   "id": "32374",
   "name": "Jarovnice",
   "lat": 49.05801,
-  "lon": 21.05806
+  "lon": 21.05806,
+  "okres": "Sabinov"
  },
  {
   "id": "32338",
   "name": "Jasenie",
   "lat": 48.83878,
-  "lon": 19.4597
+  "lon": 19.4597,
+  "okres": "Brezno"
  },
  {
   "id": "31970",
   "name": "Jasenov",
   "lat": 48.90463,
-  "lon": 21.90325
+  "lon": 21.90325,
+  "okres": "Humenné"
  },
  {
   "id": "31449",
@@ -1851,25 +2140,29 @@
   "id": "31404",
   "name": "Jaslovske Bohunice",
   "lat": 48.47553,
-  "lon": 17.64736
+  "lon": 17.64736,
+  "okres": "Trnava"
  },
  {
   "id": "34031",
   "name": "Jasna",
   "lat": 49.04794,
-  "lon": 19.50686
+  "lon": 19.50686,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32566",
   "name": "Jasov",
   "lat": 48.68259,
-  "lon": 20.97566
+  "lon": 20.97566,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31426",
   "name": "Jasova",
   "lat": 47.989,
-  "lon": 18.39712
+  "lon": 18.39712,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31535",
@@ -1881,55 +2174,64 @@
   "id": "32648",
   "name": "Jedlove Kostolany",
   "lat": 48.46939,
-  "lon": 18.49762
+  "lon": 18.49762,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32265",
   "name": "Jelenec",
   "lat": 48.37844,
-  "lon": 18.22351
+  "lon": 18.22351,
+  "okres": "Nitra"
  },
  {
   "id": "31947",
   "name": "Jelka",
   "lat": 48.14545,
-  "lon": 17.51126
+  "lon": 17.51126,
+  "okres": "Galanta"
  },
  {
   "id": "31958",
   "name": "Jelsava",
   "lat": 48.62908,
-  "lon": 20.24141
+  "lon": 20.24141,
+  "okres": "Revúca"
  },
  {
   "id": "32055",
   "name": "Jesenske",
   "lat": 48.30635,
-  "lon": 20.07081
+  "lon": 20.07081,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "32251",
   "name": "Kajal",
   "lat": 48.18618,
-  "lon": 17.78424
+  "lon": 17.78424,
+  "okres": "Galanta"
  },
  {
   "id": "32053",
   "name": "Kalinovo",
   "lat": 48.39241,
-  "lon": 19.70703
+  "lon": 19.70703,
+  "okres": "Poltár"
  },
  {
   "id": "32638",
   "name": "Kalna nad Hronom",
   "lat": 48.19784,
-  "lon": 18.51976
+  "lon": 18.51976,
+  "okres": "Levice"
  },
  {
   "id": "32425",
   "name": "Kalnica",
   "lat": 48.76321,
-  "lon": 17.92195
+  "lon": 17.92195,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32023",
@@ -1941,19 +2243,22 @@
   "id": "32729",
   "name": "Kamenica",
   "lat": 49.18895,
-  "lon": 20.9593
+  "lon": 20.9593,
+  "okres": "Sabinov"
  },
  {
   "id": "31534",
   "name": "Kamenica nad Cirochou",
   "lat": 48.93144,
-  "lon": 21.99701
+  "lon": 21.99701,
+  "okres": "Humenné"
  },
  {
   "id": "32713",
   "name": "Kamenica nad Hronom",
   "lat": 47.83106,
-  "lon": 18.72798
+  "lon": 18.72798,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31522",
@@ -1965,97 +2270,113 @@
   "id": "32385",
   "name": "Kamenicna",
   "lat": 47.81886,
-  "lon": 18.03861
+  "lon": 18.03861,
+  "okres": "Komárno"
  },
  {
   "id": "32507",
   "name": "Kamenin",
   "lat": 47.88844,
-  "lon": 18.64313
+  "lon": 18.64313,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32079",
   "name": "Kamenna Poruba",
   "lat": 48.84763,
-  "lon": 21.64909
+  "lon": 21.64909,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32626",
   "name": "Kamenny Most",
   "lat": 47.85124,
-  "lon": 18.65639
+  "lon": 18.65639,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32526",
   "name": "Kamienka (okres Stara Lubovna)",
   "lat": 48.90622,
-  "lon": 22.00095
+  "lon": 22.00095,
+  "okres": "Humenné"
  },
  {
   "id": "32202",
   "name": "Kanianka",
   "lat": 48.8164,
-  "lon": 18.58541
+  "lon": 18.58541,
+  "okres": "Prievidza"
  },
  {
   "id": "32388",
   "name": "Kapusany",
   "lat": 49.04516,
-  "lon": 21.33352
+  "lon": 21.33352,
+  "okres": "Prešov"
  },
  {
   "id": "32591",
   "name": "Katlovce",
   "lat": 48.5243,
-  "lon": 17.60985
+  "lon": 17.60985,
+  "okres": "Trnava"
  },
  {
   "id": "32517",
   "name": "Kecerovce",
   "lat": 48.82523,
-  "lon": 21.41483
+  "lon": 21.41483,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32535",
   "name": "Kendice",
   "lat": 48.92487,
-  "lon": 21.24146
+  "lon": 21.24146,
+  "okres": "Prešov"
  },
  {
   "id": "31506",
   "name": "Kezmarok",
   "lat": 49.13571,
-  "lon": 20.43352
+  "lon": 20.43352,
+  "okres": "Kežmarok"
  },
  {
   "id": "32478",
   "name": "Klacno",
   "lat": 48.91582,
-  "lon": 18.659
+  "lon": 18.659,
+  "okres": "Prievidza"
  },
  {
   "id": "32132",
   "name": "Klasov",
   "lat": 48.27625,
-  "lon": 18.25937
+  "lon": 18.25937,
+  "okres": "Nitra"
  },
  {
   "id": "32436",
   "name": "Klastor pod Znievom",
   "lat": 48.97619,
-  "lon": 18.80264
+  "lon": 18.80264,
+  "okres": "Martin"
  },
  {
   "id": "32291",
   "name": "Klatova Nova Ves",
   "lat": 48.56558,
-  "lon": 18.30455
+  "lon": 18.30455,
+  "okres": "Partizánske"
  },
  {
   "id": "31489",
   "name": "Klenovec",
   "lat": 48.59564,
-  "lon": 19.89073
+  "lon": 19.89073,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "31484",
@@ -2067,31 +2388,36 @@
   "id": "32256",
   "name": "Klin",
   "lat": 49.43682,
-  "lon": 19.49254
+  "lon": 19.49254,
+  "okres": "Namestovo"
  },
  {
   "id": "32642",
   "name": "Klokocov",
   "lat": 48.81358,
-  "lon": 22.02985
+  "lon": 22.02985,
+  "okres": "Michalovce"
  },
  {
   "id": "32351",
   "name": "Kluknava",
   "lat": 48.92441,
-  "lon": 20.94143
+  "lon": 20.94143,
+  "okres": "Gelnica"
  },
  {
   "id": "32011",
   "name": "Kocovce",
   "lat": 48.74421,
-  "lon": 17.88751
+  "lon": 17.88751,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "31524",
   "name": "Kohut",
   "lat": 48.73038,
-  "lon": 20.18285
+  "lon": 20.18285,
+  "okres": "Revúca"
  },
  {
   "id": "31523",
@@ -2103,79 +2429,92 @@
   "id": "31980",
   "name": "Kokava nad Rimavicou",
   "lat": 48.56893,
-  "lon": 19.84346
+  "lon": 19.84346,
+  "okres": "Poltár"
  },
  {
   "id": "32602",
   "name": "Koksov-Baksa",
   "lat": 48.64549,
-  "lon": 21.32398
+  "lon": 21.32398,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32103",
   "name": "Kolackov",
   "lat": 49.26091,
-  "lon": 20.62878
+  "lon": 20.62878,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32348",
   "name": "Kolarovice",
   "lat": 49.2723,
-  "lon": 18.53329
+  "lon": 18.53329,
+  "okres": "Bytča"
  },
  {
   "id": "32033",
   "name": "Kolarovo",
   "lat": 47.92294,
-  "lon": 17.98467
+  "lon": 17.98467,
+  "okres": "Komárno"
  },
  {
   "id": "32111",
   "name": "Kolinany",
   "lat": 48.36059,
-  "lon": 18.19693
+  "lon": 18.19693,
+  "okres": "Nitra"
  },
  {
   "id": "32022",
   "name": "Kolta",
   "lat": 48.01742,
-  "lon": 18.41244
+  "lon": 18.41244,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31364",
   "name": "Komarno",
   "lat": 48.11667,
-  "lon": 18.31667
+  "lon": 18.31667,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32241",
   "name": "Komjatice",
   "lat": 48.15704,
-  "lon": 18.17027
+  "lon": 18.17027,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32724",
   "name": "Komjatna",
   "lat": 49.14694,
-  "lon": 19.24355
+  "lon": 19.24355,
+  "okres": "Ružomberok"
  },
  {
   "id": "32530",
   "name": "Konska",
   "lat": 49.11791,
-  "lon": 19.71774
+  "lon": 19.71774,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31459",
   "name": "Kopa",
   "lat": 49.13632,
-  "lon": 19.13696
+  "lon": 19.13696,
+  "okres": "Martin"
  },
  {
   "id": "32257",
   "name": "Kopcany",
   "lat": 48.78718,
-  "lon": 17.11347
+  "lon": 17.11347,
+  "okres": "Skalica"
  },
  {
   "id": "32733",
@@ -2193,169 +2532,197 @@
   "id": "32335",
   "name": "Koseca",
   "lat": 49.00888,
-  "lon": 18.26061
+  "lon": 18.26061,
+  "okres": "Ilava"
  },
  {
   "id": "32120",
   "name": "Kosecke Podhradie",
   "lat": 48.97266,
-  "lon": 18.30632
+  "lon": 18.30632,
+  "okres": "Ilava"
  },
  {
   "id": "32738",
   "name": "Kosice (centrum)",
   "lat": 48.71441,
-  "lon": 21.25802
+  "lon": 21.25802,
+  "okres": "Košice IV"
  },
  {
   "id": "31378",
   "name": "Kosice (letisko)",
   "lat": 48.71441,
-  "lon": 21.25802
+  "lon": 21.25802,
+  "okres": "Košice IV"
  },
  {
   "id": "32003",
   "name": "Kosicke Olsany",
   "lat": 48.73203,
-  "lon": 21.34461
+  "lon": 21.34461,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32207",
   "name": "Kostany nad Turcom",
   "lat": 49.02989,
-  "lon": 18.90437
+  "lon": 18.90437,
+  "okres": "Martin"
  },
  {
   "id": "32689",
   "name": "Kostolne Kracany",
   "lat": 47.98258,
-  "lon": 17.57607
+  "lon": 17.57607,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32188",
   "name": "Kosuty",
   "lat": 49.08675,
-  "lon": 18.93708
+  "lon": 18.93708,
+  "okres": "Martin"
  },
  {
   "id": "32305",
   "name": "Kotesova",
   "lat": 49.24141,
-  "lon": 18.59911
+  "lon": 18.59911,
+  "okres": "Bytča"
  },
  {
   "id": "32336",
   "name": "Kovacova",
   "lat": 48.60148,
-  "lon": 19.10252
+  "lon": 19.10252,
+  "okres": "Zvolen"
  },
  {
   "id": "32432",
   "name": "Kovarce",
   "lat": 48.49568,
-  "lon": 18.1566
+  "lon": 18.1566,
+  "okres": "Topoľčany"
  },
  {
   "id": "32400",
   "name": "Kozarovce",
   "lat": 48.31742,
-  "lon": 18.52551
+  "lon": 18.52551,
+  "okres": "Levice"
  },
  {
   "id": "32181",
   "name": "Kracunovce",
   "lat": 49.09517,
-  "lon": 21.48803
+  "lon": 21.48803,
+  "okres": "Svidník"
  },
  {
   "id": "32516",
   "name": "Krajne",
   "lat": 48.7024,
-  "lon": 17.68528
+  "lon": 17.68528,
+  "okres": "Myjava"
  },
  {
   "id": "32100",
   "name": "Krakovany",
   "lat": 48.61198,
-  "lon": 17.7523
+  "lon": 17.7523,
+  "okres": "Piešťany"
  },
  {
   "id": "32571",
   "name": "Kralov Brod",
   "lat": 48.06021,
-  "lon": 17.82808
+  "lon": 17.82808,
+  "okres": "Galanta"
  },
  {
   "id": "31496",
   "name": "Kralova hola",
   "lat": 48.88333,
-  "lon": 20.1395
+  "lon": 20.1395,
+  "okres": "Brezno"
  },
  {
   "id": "32037",
   "name": "Kralova nad Vahom",
   "lat": 48.16923,
-  "lon": 17.84221
+  "lon": 17.84221,
+  "okres": "Šaľa"
  },
  {
   "id": "32027",
   "name": "Kralova pri Senci",
   "lat": 48.19621,
-  "lon": 17.45019
+  "lon": 17.45019,
+  "okres": "Senec"
  },
  {
   "id": "32592",
   "name": "Kralovce",
   "lat": 48.8025,
-  "lon": 21.32864
+  "lon": 21.32864,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31382",
   "name": "Kralovsky Chlmec",
   "lat": 48.42336,
-  "lon": 21.97944
+  "lon": 21.97944,
+  "okres": "Trebišov"
  },
  {
   "id": "32008",
   "name": "Krasnany",
   "lat": 49.21491,
-  "lon": 18.88718
+  "lon": 18.88718,
+  "okres": "Žilina"
  },
  {
   "id": "32270",
   "name": "Krasno nad Kysucou",
   "lat": 49.39572,
-  "lon": 18.83431
+  "lon": 18.83431,
+  "okres": "Čadca"
  },
  {
   "id": "32280",
   "name": "Krasnohorske Podhradie",
   "lat": 48.65292,
-  "lon": 20.59866
+  "lon": 20.59866,
+  "okres": "Rožňava"
  },
  {
   "id": "32041",
   "name": "Kremnica",
   "lat": 48.70519,
-  "lon": 18.91834
+  "lon": 18.91834,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "31171",
   "name": "Krivan",
   "lat": 48.52823,
-  "lon": 19.44834
+  "lon": 19.44834,
+  "okres": "Detva"
  },
  {
   "id": "32323",
   "name": "Krivan - obec",
   "lat": 48.52823,
-  "lon": 19.44834
+  "lon": 19.44834,
+  "okres": "Detva"
  },
  {
   "id": "32688",
   "name": "Krivany",
   "lat": 49.16945,
-  "lon": 20.91197
+  "lon": 20.91197,
+  "okres": "Sabinov"
  },
  {
   "id": "31532",
@@ -2367,175 +2734,204 @@
   "id": "31168",
   "name": "Krizna",
   "lat": 48.41766,
-  "lon": 18.86022
+  "lon": 18.86022,
+  "okres": "Banská Štiavnica"
  },
  {
   "id": "32721",
   "name": "Krizova Ves",
   "lat": 49.18983,
-  "lon": 20.48649
+  "lon": 20.48649,
+  "okres": "Kežmarok"
  },
  {
   "id": "32389",
   "name": "Krizovany nad Dudvahom",
   "lat": 48.33333,
-  "lon": 17.66667
+  "lon": 17.66667,
+  "okres": "Trnava"
  },
  {
   "id": "32524",
   "name": "Krnca",
   "lat": 48.54429,
-  "lon": 18.24943
+  "lon": 18.24943,
+  "okres": "Topoľčany"
  },
  {
   "id": "31989",
   "name": "Krompachy",
   "lat": 48.91447,
-  "lon": 20.87514
+  "lon": 20.87514,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32567",
   "name": "Krpelany",
   "lat": 49.12519,
-  "lon": 19.09042
+  "lon": 19.09042,
+  "okres": "Martin"
  },
  {
   "id": "31451",
   "name": "Krupina",
   "lat": 48.3554,
-  "lon": 19.06474
+  "lon": 19.06474,
+  "okres": "Krupina"
  },
  {
   "id": "32411",
   "name": "Krusovce",
   "lat": 48.58794,
-  "lon": 18.20467
+  "lon": 18.20467,
+  "okres": "Topoľčany"
  },
  {
   "id": "31170",
   "name": "Kubinska hola",
   "lat": 49.27571,
-  "lon": 19.28234
+  "lon": 19.28234,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "38078",
   "name": "Kubinska hola - start",
   "lat": 49.27571,
-  "lon": 19.28234
+  "lon": 19.28234,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "31395",
   "name": "Kuchyna",
   "lat": 48.406,
-  "lon": 17.15727
+  "lon": 17.15727,
+  "okres": "Malacky"
  },
  {
   "id": "31436",
   "name": "Kunerad",
   "lat": 49.09786,
-  "lon": 18.7131
+  "lon": 18.7131,
+  "okres": "Žilina"
  },
  {
   "id": "32198",
   "name": "Kurima",
   "lat": 49.22631,
-  "lon": 21.45361
+  "lon": 21.45361,
+  "okres": "Bardejov"
  },
  {
   "id": "32136",
   "name": "Kuty",
   "lat": 48.66,
-  "lon": 17.02819
+  "lon": 17.02819,
+  "okres": "Senica"
  },
  {
   "id": "32201",
   "name": "Kuzmice",
   "lat": 48.57971,
-  "lon": 21.56963
+  "lon": 21.56963,
+  "okres": "Trebišov"
  },
  {
   "id": "32479",
   "name": "Kysak",
   "lat": 48.85561,
-  "lon": 21.21967
+  "lon": 21.21967,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31437",
   "name": "Kysucke Nove Mesto",
   "lat": 49.3,
-  "lon": 18.78333
+  "lon": 18.78333,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32153",
   "name": "Kysucky Lieskovec",
   "lat": 49.33884,
-  "lon": 18.81608
+  "lon": 18.81608,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32002",
   "name": "Lab",
   "lat": 48.36667,
-  "lon": 16.98333
+  "lon": 16.98333,
+  "okres": "Malacky"
  },
  {
   "id": "32080",
   "name": "Ladce",
   "lat": 49.04002,
-  "lon": 18.28746
+  "lon": 18.28746,
+  "okres": "Ilava"
  },
  {
   "id": "32139",
   "name": "Laksarska Nova Ves",
   "lat": 48.57692,
-  "lon": 17.1854
+  "lon": 17.1854,
+  "okres": "Senica"
  },
  {
   "id": "32645",
   "name": "Lastomir",
   "lat": 48.70278,
-  "lon": 21.92529
+  "lon": 21.92529,
+  "okres": "Michalovce"
  },
  {
   "id": "32715",
   "name": "Lastovce",
   "lat": 48.5391,
-  "lon": 21.62814
+  "lon": 21.62814,
+  "okres": "Trebišov"
  },
  {
   "id": "34539",
   "name": "Latky",
   "lat": 48.73333,
-  "lon": 19.7
+  "lon": 19.7,
+  "okres": "Brezno"
  },
  {
   "id": "32183",
   "name": "Lazany",
   "lat": 48.82076,
-  "lon": 18.61946
+  "lon": 18.61946,
+  "okres": "Prievidza"
  },
  {
   "id": "32747",
   "name": "Lazany",
   "lat": 48.82076,
-  "lon": 18.61946
+  "lon": 18.61946,
+  "okres": "Prievidza"
  },
  {
   "id": "32606",
   "name": "Lazy pod Makytou",
   "lat": 49.22537,
-  "lon": 18.21391
+  "lon": 18.21391,
+  "okres": "Púchov"
  },
  {
   "id": "32640",
   "name": "Lednica",
   "lat": 49.10615,
-  "lon": 18.21592
+  "lon": 18.21592,
+  "okres": "Púchov"
  },
  {
   "id": "32010",
   "name": "Lednicke Rovne",
   "lat": 49.0665,
-  "lon": 18.28479
+  "lon": 18.28479,
+  "okres": "Púchov"
  },
  {
   "id": "32657",
@@ -2547,109 +2943,127 @@
   "id": "32244",
   "name": "Lehnice",
   "lat": 48.05577,
-  "lon": 17.46337
+  "lon": 17.46337,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32317",
   "name": "Lehota",
   "lat": 48.31157,
-  "lon": 17.98948
+  "lon": 17.98948,
+  "okres": "Nitra"
  },
  {
   "id": "32403",
   "name": "Lehota pod Vtacnikom",
   "lat": 48.69138,
-  "lon": 18.59944
+  "lon": 18.59944,
+  "okres": "Prievidza"
  },
  {
   "id": "32082",
   "name": "Lekarovce",
   "lat": 48.60316,
-  "lon": 22.15601
+  "lon": 22.15601,
+  "okres": "Sobrance"
  },
  {
   "id": "32327",
   "name": "Leles",
   "lat": 48.46303,
-  "lon": 22.02898
+  "lon": 22.02898,
+  "okres": "Trebišov"
  },
  {
   "id": "32402",
   "name": "Lemesany",
   "lat": 48.84991,
-  "lon": 21.27113
+  "lon": 21.27113,
+  "okres": "Prešov"
  },
  {
   "id": "32081",
   "name": "Lendak",
   "lat": 49.23441,
-  "lon": 20.35646
+  "lon": 20.35646,
+  "okres": "Kežmarok"
  },
  {
   "id": "34552",
   "name": "Lendak - start",
   "lat": 49.23441,
-  "lon": 20.35646
+  "lon": 20.35646,
+  "okres": "Kežmarok"
  },
  {
   "id": "32076",
   "name": "Leopoldov",
   "lat": 48.44575,
-  "lon": 17.76458
+  "lon": 17.76458,
+  "okres": "Hlohovec"
  },
  {
   "id": "32701",
   "name": "Letanovce",
   "lat": 48.97647,
-  "lon": 20.46485
+  "lon": 20.46485,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "31367",
   "name": "Levice",
   "lat": 48.21563,
-  "lon": 18.60705
+  "lon": 18.60705,
+  "okres": "Levice"
  },
  {
   "id": "31510",
   "name": "Levoca",
   "lat": 49.02173,
-  "lon": 20.59212
+  "lon": 20.59212,
+  "okres": "Levoča"
  },
  {
   "id": "31174",
   "name": "Licartovce",
   "lat": 48.8761,
-  "lon": 21.2467
+  "lon": 21.2467,
+  "okres": "Prešov"
  },
  {
   "id": "31481",
   "name": "Liesek",
   "lat": 49.36122,
-  "lon": 19.67491
+  "lon": 19.67491,
+  "okres": "Tvrdošín"
  },
  {
   "id": "32326",
   "name": "Lieskovec",
   "lat": 48.95197,
-  "lon": 21.81682
+  "lon": 21.81682,
+  "okres": "Humenné"
  },
  {
   "id": "32641",
   "name": "Liestany",
   "lat": 48.82524,
-  "lon": 18.47879
+  "lon": 18.47879,
+  "okres": "Prievidza"
  },
  {
   "id": "32304",
   "name": "Lietava",
   "lat": 49.16981,
-  "lon": 18.67509
+  "lon": 18.67509,
+  "okres": "Žilina"
  },
  {
   "id": "32262",
   "name": "Lietavska Lucka",
   "lat": 49.17315,
-  "lon": 18.71385
+  "lon": 18.71385,
+  "okres": "Žilina"
  },
  {
   "id": "32629",
@@ -2661,97 +3075,113 @@
   "id": "32165",
   "name": "Likavka",
   "lat": 49.09256,
-  "lon": 19.31162
+  "lon": 19.31162,
+  "okres": "Ružomberok"
  },
  {
   "id": "32189",
   "name": "Limbach",
   "lat": 48.2897,
-  "lon": 17.22344
+  "lon": 17.22344,
+  "okres": "Pezinok"
  },
  {
   "id": "32051",
   "name": "Lipany",
   "lat": 49.15376,
-  "lon": 20.96382
+  "lon": 20.96382,
+  "okres": "Sabinov"
  },
  {
   "id": "32736",
   "name": "Lipova",
   "lat": 49.26229,
-  "lon": 21.48243
+  "lon": 21.48243,
+  "okres": "Bardejov"
  },
  {
   "id": "32391",
   "name": "Liptovska Kokava",
   "lat": 49.08924,
-  "lon": 19.8175
+  "lon": 19.8175,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31465",
   "name": "Liptovska Luzna",
   "lat": 48.94096,
-  "lon": 19.32376
+  "lon": 19.32376,
+  "okres": "Ružomberok"
  },
  {
   "id": "32655",
   "name": "Liptovska Osada",
   "lat": 48.94956,
-  "lon": 19.26178
+  "lon": 19.26178,
+  "okres": "Ružomberok"
  },
  {
   "id": "32363",
   "name": "Liptovska Porubka",
   "lat": 49.03096,
-  "lon": 19.73593
+  "lon": 19.73593,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32156",
   "name": "Liptovska Teplicka",
   "lat": 48.96641,
-  "lon": 20.08884
+  "lon": 20.08884,
+  "okres": "Poprad"
  },
  {
   "id": "31458",
   "name": "Liptovske Revuce",
   "lat": 48.92058,
-  "lon": 19.17985
+  "lon": 19.17985,
+  "okres": "Ružomberok"
  },
  {
   "id": "32654",
   "name": "Liptovske Sliace",
   "lat": 49.06299,
-  "lon": 19.39236
+  "lon": 19.39236,
+  "okres": "Ružomberok"
  },
  {
   "id": "31483",
   "name": "Liptovsky Hradok",
   "lat": 49.03962,
-  "lon": 19.72335
+  "lon": 19.72335,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31480",
   "name": "Liptovsky Jan",
   "lat": 49.04864,
-  "lon": 19.67853
+  "lon": 19.67853,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31582",
   "name": "Liptovsky Jan - START",
   "lat": 49.04864,
-  "lon": 19.67853
+  "lon": 19.67853,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32743",
   "name": "Liptovsky Mikulas (centrum)",
   "lat": 49.08061,
-  "lon": 19.62218
+  "lon": 19.62218,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31373",
   "name": "Liptovsky Ondrej (meteo stanica)",
   "lat": 49.09736,
-  "lon": 19.71299
+  "lon": 19.71299,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32435",
@@ -2763,43 +3193,50 @@
   "id": "31472",
   "name": "Liptovsky Trnovec",
   "lat": 49.12038,
-  "lon": 19.54709
+  "lon": 19.54709,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32467",
   "name": "Liskova",
   "lat": 49.09021,
-  "lon": 19.35374
+  "lon": 19.35374,
+  "okres": "Ružomberok"
  },
  {
   "id": "32233",
   "name": "Lok",
   "lat": 48.18363,
-  "lon": 18.46056
+  "lon": 18.46056,
+  "okres": "Levice"
  },
  {
   "id": "32392",
   "name": "Lokca",
   "lat": 49.36778,
-  "lon": 19.41345
+  "lon": 19.41345,
+  "okres": "Namestovo"
  },
  {
   "id": "38162",
   "name": "Lom nad Rimavicou",
   "lat": 48.64155,
-  "lon": 19.64953
+  "lon": 19.64953,
+  "okres": "Brezno"
  },
  {
   "id": "32727",
   "name": "Lomnicka",
   "lat": 49.24972,
-  "lon": 20.56955
+  "lon": 20.56955,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "31499",
   "name": "Lomnicky stit",
   "lat": 49.19528,
-  "lon": 20.21326
+  "lon": 20.21326,
+  "okres": "Poprad"
  },
  {
   "id": "32512",
@@ -2811,121 +3248,141 @@
   "id": "32520",
   "name": "Lovinobana",
   "lat": 48.43741,
-  "lon": 19.59085
+  "lon": 19.59085,
+  "okres": "Lučenec"
  },
  {
   "id": "31942",
   "name": "Lozorno",
   "lat": 48.33364,
-  "lon": 17.04322
+  "lon": 17.04322,
+  "okres": "Malacky"
  },
  {
   "id": "32187",
   "name": "Lubela",
   "lat": 49.05216,
-  "lon": 19.47926
+  "lon": 19.47926,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32622",
   "name": "Lubenik",
   "lat": 48.65491,
-  "lon": 20.1961
+  "lon": 20.1961,
+  "okres": "Revúca"
  },
  {
   "id": "32380",
   "name": "Lubina",
   "lat": 48.78446,
-  "lon": 17.73561
+  "lon": 17.73561,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32515",
   "name": "Lubochna",
   "lat": 49.12011,
-  "lon": 19.16891
+  "lon": 19.16891,
+  "okres": "Ružomberok"
  },
  {
   "id": "32423",
   "name": "Lubotice",
   "lat": 49.0116,
-  "lon": 21.27366
+  "lon": 21.27366,
+  "okres": "Prešov"
  },
  {
   "id": "32094",
   "name": "Lubotin",
   "lat": 49.2634,
-  "lon": 20.87694
+  "lon": 20.87694,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32741",
   "name": "Lucenec (centrum)",
   "lat": 48.33249,
-  "lon": 19.66708
+  "lon": 19.66708,
+  "okres": "Lučenec"
  },
  {
   "id": "31374",
   "name": "Lucenec (meteo stanica)",
   "lat": 48.33249,
-  "lon": 19.66708
+  "lon": 19.66708,
+  "okres": "Lučenec"
  },
  {
   "id": "32383",
   "name": "Lucky",
   "lat": 49.12944,
-  "lon": 19.40228
+  "lon": 19.40228,
+  "okres": "Ružomberok"
  },
  {
   "id": "32609",
   "name": "Ludanice",
   "lat": 48.49564,
-  "lon": 18.11597
+  "lon": 18.11597,
+  "okres": "Topoľčany"
  },
  {
   "id": "32735",
   "name": "Lukacovce (okres Humenne)",
   "lat": 48.39552,
-  "lon": 17.93784
+  "lon": 17.93784,
+  "okres": "Nitra"
  },
  {
   "id": "31413",
   "name": "Lukacovce (okres Nitra)",
   "lat": 48.39552,
-  "lon": 17.93784
+  "lon": 17.93784,
+  "okres": "Nitra"
  },
  {
   "id": "32325",
   "name": "Lutila",
   "lat": 48.61384,
-  "lon": 18.84492
+  "lon": 18.84492,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "32150",
   "name": "Luzianky",
   "lat": 48.34908,
-  "lon": 18.029
+  "lon": 18.029,
+  "okres": "Nitra"
  },
  {
   "id": "32521",
   "name": "Lysa pod Makytou",
   "lat": 49.19713,
-  "lon": 18.19636
+  "lon": 18.19636,
+  "okres": "Púchov"
  },
  {
   "id": "38072",
   "name": "Lysak",
   "lat": 48.88116,
-  "lon": 22.18627
+  "lon": 22.18627,
+  "okres": "Sobrance"
  },
  {
   "id": "32500",
   "name": "Machulince",
   "lat": 48.41182,
-  "lon": 18.43223
+  "lon": 18.43223,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32177",
   "name": "Madunice",
   "lat": 48.47717,
-  "lon": 17.78026
+  "lon": 17.78026,
+  "okres": "Hlohovec"
  },
  {
   "id": "31540",
@@ -2937,67 +3394,78 @@
   "id": "32074",
   "name": "Majcichov",
   "lat": 48.28462,
-  "lon": 17.63032
+  "lon": 17.63032,
+  "okres": "Trnava"
  },
  {
   "id": "32143",
   "name": "Makov",
   "lat": 49.37053,
-  "lon": 18.48044
+  "lon": 18.48044,
+  "okres": "Čadca"
  },
  {
   "id": "32563",
   "name": "Mala Ida",
   "lat": 48.67475,
-  "lon": 21.16789
+  "lon": 21.16789,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32631",
   "name": "Mala Lehota",
   "lat": 48.76592,
-  "lon": 18.66643
+  "lon": 18.66643,
+  "okres": "Prievidza"
  },
  {
   "id": "31393",
   "name": "Malacky",
   "lat": 48.43604,
-  "lon": 17.02188
+  "lon": 17.02188,
+  "okres": "Malacky"
  },
  {
   "id": "32395",
   "name": "Malcice",
   "lat": 48.5779,
-  "lon": 21.85238
+  "lon": 21.85238,
+  "okres": "Michalovce"
  },
  {
   "id": "32484",
   "name": "Malcov",
   "lat": 49.30469,
-  "lon": 21.05964
+  "lon": 21.05964,
+  "okres": "Bardejov"
  },
  {
   "id": "32442",
   "name": "Male Levare",
   "lat": 48.5,
-  "lon": 16.98333
+  "lon": 16.98333,
+  "okres": "Malacky"
  },
  {
   "id": "32182",
   "name": "Male Trakany",
   "lat": 48.39938,
-  "lon": 22.10575
+  "lon": 22.10575,
+  "okres": "Trebišov"
  },
  {
   "id": "32653",
   "name": "Malinec",
   "lat": 48.49797,
-  "lon": 19.6818
+  "lon": 19.6818,
+  "okres": "Poltár"
  },
  {
   "id": "31526",
   "name": "Maliniak",
   "lat": 49.07075,
-  "lon": 21.25971
+  "lon": 21.25971,
+  "okres": "Prešov"
  },
  {
   "id": "31463",
@@ -3009,31 +3477,36 @@
   "id": "32038",
   "name": "Malinovo",
   "lat": 48.15446,
-  "lon": 17.29677
+  "lon": 17.29677,
+  "okres": "Senec"
  },
  {
   "id": "32634",
   "name": "Maly Hores",
   "lat": 48.39875,
-  "lon": 21.94635
+  "lon": 21.94635,
+  "okres": "Trebišov"
  },
  {
   "id": "34555",
   "name": "Maly Javornik",
   "lat": 48.26059,
-  "lon": 17.16333
+  "lon": 17.16333,
+  "okres": "Pezinok"
  },
  {
   "id": "32669",
   "name": "Maly Saris",
   "lat": 49.00995,
-  "lon": 21.18303
+  "lon": 21.18303,
+  "okres": "Prešov"
  },
  {
   "id": "32440",
   "name": "Malzenice",
   "lat": 48.45014,
-  "lon": 17.675
+  "lon": 17.675,
+  "okres": "Trnava"
  },
  {
   "id": "32679",
@@ -3045,55 +3518,64 @@
   "id": "32337",
   "name": "Marcelova",
   "lat": 47.7879,
-  "lon": 18.28262
+  "lon": 18.28262,
+  "okres": "Komárno"
  },
  {
   "id": "32460",
   "name": "Margecany",
   "lat": 48.89245,
-  "lon": 21.01197
+  "lon": 21.01197,
+  "okres": "Gelnica"
  },
  {
   "id": "32154",
   "name": "Markusovce",
   "lat": 48.91193,
-  "lon": 20.6307
+  "lon": 20.6307,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "31445",
   "name": "Martin",
   "lat": 49.06651,
-  "lon": 18.92399
+  "lon": 18.92399,
+  "okres": "Martin"
  },
  {
   "id": "31440",
   "name": "Martinske hole",
   "lat": 49.07965,
-  "lon": 18.80626
+  "lon": 18.80626,
+  "okres": "Žilina"
  },
  {
   "id": "32266",
   "name": "Matuskovo",
   "lat": 48.16835,
-  "lon": 17.73183
+  "lon": 17.73183,
+  "okres": "Galanta"
  },
  {
   "id": "32246",
   "name": "Medzev",
   "lat": 48.70041,
-  "lon": 20.89367
+  "lon": 20.89367,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32311",
   "name": "Medzibrod",
   "lat": 48.7943,
-  "lon": 19.35372
+  "lon": 19.35372,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "31381",
   "name": "Medzilaborce",
   "lat": 49.27195,
-  "lon": 21.90073
+  "lon": 21.90073,
+  "okres": "Medzilaborce"
  },
  {
   "id": "32430",
@@ -3105,313 +3587,365 @@
   "id": "32239",
   "name": "Michalany",
   "lat": 48.51595,
-  "lon": 21.62335
+  "lon": 21.62335,
+  "okres": "Trebišov"
  },
  {
   "id": "32373",
   "name": "Michalova",
   "lat": 48.76793,
-  "lon": 19.78092
+  "lon": 19.78092,
+  "okres": "Brezno"
  },
  {
   "id": "31933",
   "name": "Michalovce",
   "lat": 48.75434,
-  "lon": 21.9195
+  "lon": 21.9195,
+  "okres": "Michalovce"
  },
  {
   "id": "32308",
   "name": "Mikusovce",
   "lat": 49.06356,
-  "lon": 18.20655
+  "lon": 18.20655,
+  "okres": "Ilava"
  },
  {
   "id": "31531",
   "name": "Milhostov (meteo stanica)",
   "lat": 48.6648,
-  "lon": 21.71207
+  "lon": 21.71207,
+  "okres": "Trebišov"
  },
  {
   "id": "31502",
   "name": "Mlynica",
   "lat": 49.10088,
-  "lon": 20.3137
+  "lon": 20.3137,
+  "okres": "Poprad"
  },
  {
   "id": "32434",
   "name": "Mnichova Lehota",
   "lat": 48.83565,
-  "lon": 18.06074
+  "lon": 18.06074,
+  "okres": "Trenčín"
  },
  {
   "id": "32017",
   "name": "Mnisek nad Hnilcom",
   "lat": 48.80409,
-  "lon": 20.80476
+  "lon": 20.80476,
+  "okres": "Gelnica"
  },
  {
   "id": "32718",
   "name": "Moca",
   "lat": 47.76095,
-  "lon": 18.40786
+  "lon": 18.40786,
+  "okres": "Komárno"
  },
  {
   "id": "32123",
   "name": "Mocenok",
   "lat": 48.22774,
-  "lon": 17.93075
+  "lon": 17.93075,
+  "okres": "Šaľa"
  },
  {
   "id": "31427",
   "name": "Mochovce",
   "lat": 48.26451,
-  "lon": 18.45036
+  "lon": 18.45036,
+  "okres": "Levice"
  },
  {
   "id": "31934",
   "name": "Modra",
   "lat": 48.33397,
-  "lon": 17.30711
+  "lon": 17.30711,
+  "okres": "Pezinok"
  },
  {
   "id": "32573",
   "name": "Modra nad Cirochou",
   "lat": 48.94356,
-  "lon": 22.04275
+  "lon": 22.04275,
+  "okres": "Humenné"
  },
  {
   "id": "32731",
   "name": "Modrany",
   "lat": 47.82356,
-  "lon": 18.35201
+  "lon": 18.35201,
+  "okres": "Komárno"
  },
  {
   "id": "32273",
   "name": "Modry Kamen",
   "lat": 48.2413,
-  "lon": 19.33495
+  "lon": 19.33495,
+  "okres": "Veľký Krtíš"
  },
  {
   "id": "32147",
   "name": "Mojmirovce",
   "lat": 48.20735,
-  "lon": 18.06581
+  "lon": 18.06581,
+  "okres": "Nitra"
  },
  {
   "id": "32135",
   "name": "Mojzesovo",
   "lat": 48.13333,
-  "lon": 18.23333
+  "lon": 18.23333,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32486",
   "name": "Mokrance",
   "lat": 48.59604,
-  "lon": 21.02039
+  "lon": 21.02039,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32204",
   "name": "Moldava nad Bodvou",
   "lat": 48.61428,
-  "lon": 20.99957
+  "lon": 20.99957,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32696",
   "name": "Moravany",
   "lat": 48.74054,
-  "lon": 21.78508
+  "lon": 21.78508,
+  "okres": "Michalovce"
  },
  {
   "id": "32203",
   "name": "Moravany nad Vahom",
   "lat": 48.60117,
-  "lon": 17.85827
+  "lon": 17.85827,
+  "okres": "Piešťany"
  },
  {
   "id": "32416",
   "name": "Moravske Lieskove",
   "lat": 48.81931,
-  "lon": 17.79533
+  "lon": 17.79533,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32294",
   "name": "Moravsky Svaty Jan",
   "lat": 48.59158,
-  "lon": 17.00223
+  "lon": 17.00223,
+  "okres": "Senica"
  },
  {
   "id": "32480",
   "name": "Mosovce",
   "lat": 48.90944,
-  "lon": 18.88484
+  "lon": 18.88484,
+  "okres": "Turčianske Teplice"
  },
  {
   "id": "31982",
   "name": "Most pri Bratislave",
   "lat": 48.14204,
-  "lon": 17.27085
+  "lon": 17.27085,
+  "okres": "Senec"
  },
  {
   "id": "32324",
   "name": "Mostova",
   "lat": 48.1401,
-  "lon": 17.67625
+  "lon": 17.67625,
+  "okres": "Galanta"
  },
  {
   "id": "32087",
   "name": "Muran",
   "lat": 48.74097,
-  "lon": 20.04961
+  "lon": 20.04961,
+  "okres": "Revúca"
  },
  {
   "id": "32269",
   "name": "Mutne",
   "lat": 49.46231,
-  "lon": 19.31964
+  "lon": 19.31964,
+  "okres": "Namestovo"
  },
  {
   "id": "32131",
   "name": "Muzla",
   "lat": 47.79302,
-  "lon": 18.59931
+  "lon": 18.59931,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31402",
   "name": "Myjava",
   "lat": 48.75876,
-  "lon": 17.56866
+  "lon": 17.56866,
+  "okres": "Myjava"
  },
  {
   "id": "32144",
   "name": "Mytna",
   "lat": 48.46771,
-  "lon": 19.55248
+  "lon": 19.55248,
+  "okres": "Lučenec"
  },
  {
   "id": "31478",
   "name": "Myto pod Dumbierom",
   "lat": 48.85171,
-  "lon": 19.63247
+  "lon": 19.63247,
+  "okres": "Brezno"
  },
  {
   "id": "32680",
   "name": "Nacina Ves",
   "lat": 48.81891,
-  "lon": 21.8546
+  "lon": 21.8546,
+  "okres": "Michalovce"
  },
  {
   "id": "32060",
   "name": "Nalepkovo",
   "lat": 48.84236,
-  "lon": 20.62032
+  "lon": 20.62032,
+  "okres": "Gelnica"
  },
  {
   "id": "31470",
   "name": "Namestovo",
   "lat": 49.4079,
-  "lon": 19.48032
+  "lon": 19.48032,
+  "okres": "Namestovo"
  },
  {
   "id": "32693",
   "name": "Nana",
   "lat": 47.81357,
-  "lon": 18.69646
+  "lon": 18.69646,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31962",
   "name": "Neded",
   "lat": 48.02116,
-  "lon": 17.96175
+  "lon": 17.96175,
+  "okres": "Šaľa"
  },
  {
   "id": "32710",
   "name": "Nedozery-Brezany",
   "lat": 48.82429,
-  "lon": 18.64458
+  "lon": 18.64458,
+  "okres": "Prievidza"
  },
  {
   "id": "32630",
   "name": "Nemce",
   "lat": 48.76222,
-  "lon": 19.18532
+  "lon": 19.18532,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "31938",
   "name": "Nemecka",
   "lat": 48.81253,
-  "lon": 19.41485
+  "lon": 19.41485,
+  "okres": "Brezno"
  },
  {
   "id": "32173",
   "name": "Nemsova",
   "lat": 48.96702,
-  "lon": 18.11892
+  "lon": 18.11892,
+  "okres": "Trenčín"
  },
  {
   "id": "32633",
   "name": "Nenince",
   "lat": 48.14642,
-  "lon": 19.25956
+  "lon": 19.25956,
+  "okres": "Veľký Krtíš"
  },
  {
   "id": "32297",
   "name": "Neslusa",
   "lat": 49.3177,
-  "lon": 18.74154
+  "lon": 18.74154,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32029",
   "name": "Nesvady",
   "lat": 47.92819,
-  "lon": 18.12675
+  "lon": 18.12675,
+  "okres": "Komárno"
  },
  {
   "id": "34042",
   "name": "Nimnica",
   "lat": 49.1396,
-  "lon": 18.35663
+  "lon": 18.35663,
+  "okres": "Púchov"
  },
  {
   "id": "32739",
   "name": "Nitra (centrum)",
   "lat": 48.30763,
-  "lon": 18.08453
+  "lon": 18.08453,
+  "okres": "Nitra"
  },
  {
   "id": "31365",
   "name": "Nitra (meteo stanica)",
   "lat": 48.30763,
-  "lon": 18.08453
+  "lon": 18.08453,
+  "okres": "Nitra"
  },
  {
   "id": "32113",
   "name": "Nitrianska Blatnica",
   "lat": 48.55438,
-  "lon": 17.96639
+  "lon": 17.96639,
+  "okres": "Topoľčany"
  },
  {
   "id": "32077",
   "name": "Nitrianske Hrnciarovce",
   "lat": 48.33277,
-  "lon": 18.12835
+  "lon": 18.12835,
+  "okres": "Nitra"
  },
  {
   "id": "32016",
   "name": "Nitrianske Pravno",
   "lat": 48.86839,
-  "lon": 18.63364
+  "lon": 18.63364,
+  "okres": "Prievidza"
  },
  {
   "id": "32306",
   "name": "Nitrianske Rudno",
   "lat": 48.79537,
-  "lon": 18.47741
+  "lon": 18.47741,
+  "okres": "Prievidza"
  },
  {
   "id": "32384",
   "name": "Nitrianske Sucany",
   "lat": 48.73352,
-  "lon": 18.46843
+  "lon": 18.46843,
+  "okres": "Prievidza"
  },
  {
   "id": "32719",
@@ -3423,43 +3957,50 @@
   "id": "32148",
   "name": "Nizna",
   "lat": 49.31046,
-  "lon": 19.52428
+  "lon": 19.52428,
+  "okres": "Tvrdošín"
  },
  {
   "id": "32379",
   "name": "Nizna Mysla",
   "lat": 48.62394,
-  "lon": 21.36508
+  "lon": 21.36508,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32621",
   "name": "Nizna Slana",
   "lat": 48.72521,
-  "lon": 20.40932
+  "lon": 20.40932,
+  "okres": "Rožňava"
  },
  {
   "id": "32548",
   "name": "Nizny Hrabovec",
   "lat": 48.85344,
-  "lon": 21.75645
+  "lon": 21.75645,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32658",
   "name": "Nizny Hrusov",
   "lat": 48.80745,
-  "lon": 21.77304
+  "lon": 21.77304,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32590",
   "name": "Nizny Zipov",
   "lat": 48.58214,
-  "lon": 21.63775
+  "lon": 21.63775,
+  "okres": "Trebišov"
  },
  {
   "id": "32195",
   "name": "Nova Bana",
   "lat": 48.42305,
-  "lon": 18.64037
+  "lon": 18.64037,
+  "okres": "Žarnovica"
  },
  {
   "id": "31407",
@@ -3471,7 +4012,8 @@
   "id": "32249",
   "name": "Nova Bystrica",
   "lat": 49.34496,
-  "lon": 19.01446
+  "lon": 19.01446,
+  "okres": "Čadca"
  },
  {
   "id": "32708",
@@ -3483,73 +4025,85 @@
   "id": "32536",
   "name": "Nova Dedinka",
   "lat": 48.1861,
-  "lon": 17.35629
+  "lon": 17.35629,
+  "okres": "Senec"
  },
  {
   "id": "31957",
   "name": "Nova Dubnica",
   "lat": 48.93479,
-  "lon": 18.14632
+  "lon": 18.14632,
+  "okres": "Ilava"
  },
  {
   "id": "31461",
   "name": "Nova Hola",
   "lat": 48.88972,
-  "lon": 19.23062
+  "lon": 19.23062,
+  "okres": "Ružomberok"
  },
  {
   "id": "31927",
   "name": "Nova Lesna",
   "lat": 49.12253,
-  "lon": 20.26737
+  "lon": 20.26737,
+  "okres": "Poprad"
  },
  {
   "id": "32210",
   "name": "Nova Lubovna",
   "lat": 49.27024,
-  "lon": 20.68352
+  "lon": 20.68352,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32347",
   "name": "Nova Ves nad Zitavou",
   "lat": 48.2903,
-  "lon": 18.32306
+  "lon": 18.32306,
+  "okres": "Nitra"
  },
  {
   "id": "32067",
   "name": "Novaky",
   "lat": 48.71106,
-  "lon": 18.53389
+  "lon": 18.53389,
+  "okres": "Prievidza"
  },
  {
   "id": "31409",
   "name": "Nove Mesto nad Vahom",
   "lat": 48.75763,
-  "lon": 17.8309
+  "lon": 17.8309,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32230",
   "name": "Nove Sady",
   "lat": 48.41725,
-  "lon": 17.98191
+  "lon": 17.98191,
+  "okres": "Topoľčany"
  },
  {
   "id": "31412",
   "name": "Nove Zamky",
   "lat": 47.98544,
-  "lon": 18.16195
+  "lon": 18.16195,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32583",
   "name": "Novot",
   "lat": 49.42853,
-  "lon": 19.26542
+  "lon": 19.26542,
+  "okres": "Namestovo"
  },
  {
   "id": "34037",
   "name": "Novy Smokovec",
   "lat": 49.13432,
-  "lon": 20.20861
+  "lon": 20.20861,
+  "okres": "Poprad"
  },
  {
   "id": "32491",
@@ -3561,61 +4115,71 @@
   "id": "32554",
   "name": "Obid",
   "lat": 47.77804,
-  "lon": 18.6471
+  "lon": 18.6471,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32090",
   "name": "Obyce",
   "lat": 48.42738,
-  "lon": 18.45632
+  "lon": 18.45632,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32356",
   "name": "Ochodnica",
   "lat": 49.34891,
-  "lon": 18.78962
+  "lon": 18.78962,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32248",
   "name": "Ocova",
   "lat": 48.60039,
-  "lon": 19.28843
+  "lon": 19.28843,
+  "okres": "Zvolen"
  },
  {
   "id": "32418",
   "name": "Ohrady",
   "lat": 47.98333,
-  "lon": 17.7
+  "lon": 17.7,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32382",
   "name": "Okoc",
   "lat": 47.88757,
-  "lon": 17.80867
+  "lon": 17.80867,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32690",
   "name": "Okolicna na Ostrove",
   "lat": 47.80382,
-  "lon": 17.92093
+  "lon": 17.92093,
+  "okres": "Komárno"
  },
  {
   "id": "32598",
   "name": "Olesna",
   "lat": 49.4236,
-  "lon": 18.67624
+  "lon": 18.67624,
+  "okres": "Čadca"
  },
  {
   "id": "32118",
   "name": "Omsenie",
   "lat": 48.90071,
-  "lon": 18.22555
+  "lon": 18.22555,
+  "okres": "Trenčín"
  },
  {
   "id": "32577",
   "name": "Opatovce nad Nitrou",
   "lat": 48.76448,
-  "lon": 18.57169
+  "lon": 18.57169,
+  "okres": "Prievidza"
  },
  {
   "id": "32453",
@@ -3627,151 +4191,176 @@
   "id": "32122",
   "name": "Oravska Lesna",
   "lat": 49.36672,
-  "lon": 19.18093
+  "lon": 19.18093,
+  "okres": "Namestovo"
  },
  {
   "id": "31955",
   "name": "Oravska Polhora",
   "lat": 49.52721,
-  "lon": 19.44069
+  "lon": 19.44069,
+  "okres": "Namestovo"
  },
  {
   "id": "32268",
   "name": "Oravske Vesele",
   "lat": 49.46601,
-  "lon": 19.38338
+  "lon": 19.38338,
+  "okres": "Namestovo"
  },
  {
   "id": "32547",
   "name": "Oravsky Podzamok",
   "lat": 49.25939,
-  "lon": 19.3569
+  "lon": 19.3569,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "32399",
   "name": "Orechova Poton",
   "lat": 48.01708,
-  "lon": 17.53806
+  "lon": 17.53806,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "31399",
   "name": "Oresany (Slepy vrch)",
   "lat": 48.51118,
-  "lon": 17.90274
+  "lon": 17.90274,
+  "okres": "Topoľčany"
  },
  {
   "id": "32001",
   "name": "Oscadnica",
   "lat": 49.43572,
-  "lon": 18.8819
+  "lon": 18.8819,
+  "okres": "Čadca"
  },
  {
   "id": "32407",
   "name": "Oslany",
   "lat": 48.63138,
-  "lon": 18.47027
+  "lon": 18.47027,
+  "okres": "Prievidza"
  },
  {
   "id": "31515",
   "name": "Ostra Hora",
   "lat": 49.0652,
-  "lon": 18.24911
+  "lon": 18.24911,
+  "okres": "Púchov"
  },
  {
   "id": "31167",
   "name": "Ostredok",
   "lat": 48.90321,
-  "lon": 19.07913
+  "lon": 19.07913,
+  "okres": "Martin"
  },
  {
   "id": "32426",
   "name": "Ostrov",
   "lat": 48.71829,
-  "lon": 22.1635
+  "lon": 22.1635,
+  "okres": "Sobrance"
  },
  {
   "id": "32660",
   "name": "Ostrovany",
   "lat": 49.06322,
-  "lon": 21.11772
+  "lon": 21.11772,
+  "okres": "Sabinov"
  },
  {
   "id": "32199",
   "name": "Ozdany",
   "lat": 48.37815,
-  "lon": 19.89163
+  "lon": 19.89163,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "31972",
   "name": "Palarikovo",
   "lat": 48.04366,
-  "lon": 18.07199
+  "lon": 18.07199,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31457",
   "name": "Pansky Diel",
   "lat": 48.79844,
-  "lon": 19.14963
+  "lon": 19.14963,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "32706",
   "name": "Papin",
   "lat": 49.09385,
-  "lon": 22.06009
+  "lon": 22.06009,
+  "okres": "Humenné"
  },
  {
   "id": "32377",
   "name": "Papradno",
   "lat": 49.22972,
-  "lon": 18.41152
+  "lon": 18.41152,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "32024",
   "name": "Parchovany",
   "lat": 48.75216,
-  "lon": 21.71596
+  "lon": 21.71596,
+  "okres": "Trebišov"
  },
  {
   "id": "32421",
   "name": "Partizanska Lupca",
   "lat": 49.06476,
-  "lon": 19.43515
+  "lon": 19.43515,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31425",
   "name": "Partizanske",
   "lat": 48.62861,
-  "lon": 18.38455
+  "lon": 18.38455,
+  "okres": "Partizánske"
  },
  {
   "id": "37493",
   "name": "Pastovce",
   "lat": 47.96728,
-  "lon": 18.75739
+  "lon": 18.75739,
+  "okres": "Levice"
  },
  {
   "id": "32083",
   "name": "Pata",
   "lat": 48.27746,
-  "lon": 17.82298
+  "lon": 17.82298,
+  "okres": "Galanta"
  },
  {
   "id": "34023",
   "name": "Patince",
   "lat": 47.73892,
-  "lon": 18.28956
+  "lon": 18.28956,
+  "okres": "Komárno"
  },
  {
   "id": "32518",
   "name": "Pavlovce nad Uhom",
   "lat": 48.61092,
-  "lon": 22.06902
+  "lon": 22.06902,
+  "okres": "Michalovce"
  },
  {
   "id": "32665",
   "name": "Pecovska Nova Ves",
   "lat": 49.12377,
-  "lon": 21.04372
+  "lon": 21.04372,
+  "okres": "Sabinov"
  },
  {
   "id": "32703",
@@ -3783,25 +4372,29 @@
   "id": "32656",
   "name": "Petrova Ves",
   "lat": 48.71943,
-  "lon": 17.1619
+  "lon": 17.1619,
+  "okres": "Skalica"
  },
  {
   "id": "32529",
   "name": "Petrovany",
   "lat": 48.91737,
-  "lon": 21.26052
+  "lon": 21.26052,
+  "okres": "Prešov"
  },
  {
   "id": "32370",
   "name": "Petrovice",
   "lat": 49.25787,
-  "lon": 18.52349
+  "lon": 18.52349,
+  "okres": "Bytča"
  },
  {
   "id": "31396",
   "name": "Pezinok",
   "lat": 48.28986,
-  "lon": 17.26664
+  "lon": 17.26664,
+  "okres": "Pezinok"
  },
  {
   "id": "31581",
@@ -3813,97 +4406,113 @@
   "id": "32740",
   "name": "Piestany (centrum)",
   "lat": 48.59479,
-  "lon": 17.82591
+  "lon": 17.82591,
+  "okres": "Piešťany"
  },
  {
   "id": "31362",
   "name": "Piestany (meteo stanica)",
   "lat": 48.59479,
-  "lon": 17.82591
+  "lon": 17.82591,
+  "okres": "Piešťany"
  },
  {
   "id": "32171",
   "name": "Plastovce",
   "lat": 48.15897,
-  "lon": 18.97848
+  "lon": 18.97848,
+  "okres": "Levice"
  },
  {
   "id": "32158",
   "name": "Plavec",
   "lat": 49.26268,
-  "lon": 20.84225
+  "lon": 20.84225,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32253",
   "name": "Plavecky Stvrtok",
   "lat": 48.37512,
-  "lon": 16.99863
+  "lon": 16.99863,
+  "okres": "Malacky"
  },
  {
   "id": "32290",
   "name": "Plavnica",
   "lat": 49.27309,
-  "lon": 20.77985
+  "lon": 20.77985,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32371",
   "name": "Plesivec",
   "lat": 48.5458,
-  "lon": 20.40218
+  "lon": 20.40218,
+  "okres": "Rožňava"
  },
  {
   "id": "32172",
   "name": "Plevnik - Drienove",
   "lat": 49.16947,
-  "lon": 18.49681
+  "lon": 18.49681,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "32028",
   "name": "Pliesovce",
   "lat": 48.4263,
-  "lon": 19.15561
+  "lon": 19.15561,
+  "okres": "Zvolen"
  },
  {
   "id": "31166",
   "name": "Ploska",
   "lat": 48.73293,
-  "lon": 21.52677
+  "lon": 21.52677,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32443",
   "name": "Pobedim",
   "lat": 48.64982,
-  "lon": 17.80139
+  "lon": 17.80139,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32472",
   "name": "Podbiel",
   "lat": 49.30816,
-  "lon": 19.48504
+  "lon": 19.48504,
+  "okres": "Tvrdošín"
  },
  {
   "id": "32084",
   "name": "Podbrezova",
   "lat": 48.80928,
-  "lon": 19.52596
+  "lon": 19.52596,
+  "okres": "Brezno"
  },
  {
   "id": "32532",
   "name": "Podhajska",
   "lat": 48.10204,
-  "lon": 18.3397
+  "lon": 18.3397,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32649",
   "name": "Podhorany",
   "lat": 49.23973,
-  "lon": 20.4801
+  "lon": 20.4801,
+  "okres": "Kežmarok"
  },
  {
   "id": "38074",
   "name": "Podhorod - Paprtny",
   "lat": 48.81831,
-  "lon": 22.30081
+  "lon": 22.30081,
+  "okres": "Sobrance"
  },
  {
   "id": "31462",
@@ -3915,43 +4524,50 @@
   "id": "32301",
   "name": "Podolie",
   "lat": 48.67186,
-  "lon": 17.77122
+  "lon": 17.77122,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "32059",
   "name": "Podolinec",
   "lat": 49.25869,
-  "lon": 20.536
+  "lon": 20.536,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32185",
   "name": "Podvysoka",
   "lat": 49.41269,
-  "lon": 18.66458
+  "lon": 18.66458,
+  "okres": "Čadca"
  },
  {
   "id": "31493",
   "name": "Pohorela",
   "lat": 48.86178,
-  "lon": 20.01623
+  "lon": 20.01623,
+  "okres": "Brezno"
  },
  {
   "id": "32211",
   "name": "Pohranice",
   "lat": 48.33095,
-  "lon": 18.17912
+  "lon": 18.17912,
+  "okres": "Nitra"
  },
  {
   "id": "32292",
   "name": "Pohronska Polhora",
   "lat": 48.7572,
-  "lon": 19.7932
+  "lon": 19.7932,
+  "okres": "Brezno"
  },
  {
   "id": "32632",
   "name": "Pohronsky Ruskov",
   "lat": 47.97364,
-  "lon": 18.6563
+  "lon": 18.6563,
+  "okres": "Levice"
  },
  {
   "id": "34118",
@@ -3961,49 +4577,57 @@
   "id": "32746",
   "name": "Polomka",
   "lat": 48.85229,
-  "lon": 19.85247
+  "lon": 19.85247,
+  "okres": "Brezno"
  },
  {
   "id": "31486",
   "name": "Poltar",
   "lat": 48.43094,
-  "lon": 19.79408
+  "lon": 19.79408,
+  "okres": "Poltár"
  },
  {
   "id": "32450",
   "name": "Poniky",
   "lat": 48.71239,
-  "lon": 19.29275
+  "lon": 19.29275,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "34035",
   "name": "Poprad (centrum)",
   "lat": 49.06144,
-  "lon": 20.29798
+  "lon": 20.29798,
+  "okres": "Poprad"
  },
  {
   "id": "31377",
   "name": "Poprad (letisko)",
   "lat": 49.06144,
-  "lon": 20.29798
+  "lon": 20.29798,
+  "okres": "Poprad"
  },
  {
   "id": "31997",
   "name": "Poproc",
   "lat": 48.71169,
-  "lon": 20.97524
+  "lon": 20.97524,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32593",
   "name": "Porac",
   "lat": 48.88418,
-  "lon": 20.72387
+  "lon": 20.72387,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32227",
   "name": "Poruba",
   "lat": 48.83218,
-  "lon": 18.5913
+  "lon": 18.5913,
+  "okres": "Prievidza"
  },
  {
   "id": "32557",
@@ -4015,253 +4639,295 @@
   "id": "31428",
   "name": "Povazska Bystrica",
   "lat": 49.12153,
-  "lon": 18.42169
+  "lon": 18.42169,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "32110",
   "name": "Povina",
   "lat": 49.31173,
-  "lon": 18.81
+  "lon": 18.81,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32647",
   "name": "Pozdisovce",
   "lat": 48.7246,
-  "lon": 21.85463
+  "lon": 21.85463,
+  "okres": "Michalovce"
  },
  {
   "id": "31987",
   "name": "Prakovce",
   "lat": 48.81588,
-  "lon": 20.89607
+  "lon": 20.89607,
+  "okres": "Gelnica"
  },
  {
   "id": "31990",
   "name": "Prasice",
   "lat": 48.64293,
-  "lon": 18.11093
+  "lon": 18.11093,
+  "okres": "Topoľčany"
  },
  {
   "id": "32206",
   "name": "Pravenec",
   "lat": 48.85613,
-  "lon": 18.64901
+  "lon": 18.64901,
+  "okres": "Prievidza"
  },
  {
   "id": "32601",
   "name": "Precin",
   "lat": 49.08422,
-  "lon": 18.52085
+  "lon": 18.52085,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "31994",
   "name": "Predajna",
   "lat": 48.81688,
-  "lon": 19.46092
+  "lon": 19.46092,
+  "okres": "Brezno"
  },
  {
   "id": "32556",
   "name": "Predmier",
   "lat": 49.19855,
-  "lon": 18.53274
+  "lon": 18.53274,
+  "okres": "Bytča"
  },
  {
   "id": "32459",
   "name": "Preselany",
   "lat": 48.45145,
-  "lon": 18.09873
+  "lon": 18.09873,
+  "okres": "Topoľčany"
  },
  {
   "id": "31379",
   "name": "Presov",
   "lat": 48.99923,
-  "lon": 21.2355
+  "lon": 21.2355,
+  "okres": "Prešov"
  },
  {
   "id": "32134",
   "name": "Pribeta",
   "lat": 47.89977,
-  "lon": 18.31505
+  "lon": 18.31505,
+  "okres": "Komárno"
  },
  {
   "id": "32141",
   "name": "Pribylina",
   "lat": 49.0995,
-  "lon": 19.79427
+  "lon": 19.79427,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31432",
   "name": "Prievidza",
   "lat": 48.77446,
-  "lon": 18.6275
+  "lon": 18.6275,
+  "okres": "Prievidza"
  },
  {
   "id": "32281",
   "name": "Pruske",
   "lat": 49.02636,
-  "lon": 18.21257
+  "lon": 18.21257,
+  "okres": "Ilava"
  },
  {
   "id": "32126",
   "name": "Pruzina",
   "lat": 49.01633,
-  "lon": 18.47997
+  "lon": 18.47997,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "31424",
   "name": "Puchov",
   "lat": 49.12494,
-  "lon": 18.32597
+  "lon": 18.32597,
+  "okres": "Púchov"
  },
  {
   "id": "32404",
   "name": "Pukanec",
   "lat": 48.35404,
-  "lon": 18.72392
+  "lon": 18.72392,
+  "okres": "Levice"
  },
  {
   "id": "32061",
   "name": "Puste Ulany",
   "lat": 48.23151,
-  "lon": 17.57389
+  "lon": 17.57389,
+  "okres": "Galanta"
  },
  {
   "id": "32107",
   "name": "Rabca",
   "lat": 49.48602,
-  "lon": 19.47618
+  "lon": 19.47618,
+  "okres": "Namestovo"
  },
  {
   "id": "32412",
   "name": "Rabcice",
   "lat": 49.50735,
-  "lon": 19.52377
+  "lon": 19.52377,
+  "okres": "Namestovo"
  },
  {
   "id": "32261",
   "name": "Radola",
   "lat": 49.2942,
-  "lon": 18.79244
+  "lon": 18.79244,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32095",
   "name": "Radosina",
   "lat": 48.54591,
-  "lon": 17.93846
+  "lon": 17.93846,
+  "okres": "Topoľčany"
  },
  {
   "id": "32444",
   "name": "Radosovce",
   "lat": 48.77189,
-  "lon": 17.28118
+  "lon": 17.28118,
+  "okres": "Skalica"
  },
  {
   "id": "32651",
   "name": "Radzovce",
   "lat": 48.22107,
-  "lon": 19.82893
+  "lon": 19.82893,
+  "okres": "Lučenec"
  },
  {
   "id": "32012",
   "name": "Rajec",
   "lat": 49.08899,
-  "lon": 18.64007
+  "lon": 18.64007,
+  "okres": "Žilina"
  },
  {
   "id": "32068",
   "name": "Rajecka Lesna",
   "lat": 49.04441,
-  "lon": 18.63566
+  "lon": 18.63566,
+  "okres": "Žilina"
  },
  {
   "id": "34025",
   "name": "Rajecke Teplice (centrum)",
   "lat": 49.12716,
-  "lon": 18.68653
+  "lon": 18.68653,
+  "okres": "Žilina"
  },
  {
   "id": "32296",
   "name": "Rakova",
   "lat": 49.44481,
-  "lon": 18.73792
+  "lon": 18.73792,
+  "okres": "Čadca"
  },
  {
   "id": "32552",
   "name": "Rakovec nad Ondavou",
   "lat": 48.76874,
-  "lon": 21.78268
+  "lon": 21.78268,
+  "okres": "Michalovce"
  },
  {
   "id": "32700",
   "name": "Rakusy",
   "lat": 49.18844,
-  "lon": 20.38181
+  "lon": 20.38181,
+  "okres": "Kežmarok"
  },
  {
   "id": "32595",
   "name": "Raslavice",
   "lat": 49.15055,
-  "lon": 21.31541
+  "lon": 21.31541,
+  "okres": "Bardejov"
  },
  {
   "id": "32576",
   "name": "Raznany",
   "lat": 49.08225,
-  "lon": 21.08504
+  "lon": 21.08504,
+  "okres": "Sabinov"
  },
  {
   "id": "32449",
   "name": "Raztocno",
   "lat": 48.76941,
-  "lon": 18.75913
+  "lon": 18.75913,
+  "okres": "Prievidza"
  },
  {
   "id": "31988",
   "name": "Reca",
   "lat": 48.2311,
-  "lon": 17.45399
+  "lon": 17.45399,
+  "okres": "Senec"
  },
  {
   "id": "31495",
   "name": "Revuca",
   "lat": 48.68346,
-  "lon": 20.11734
+  "lon": 20.11734,
+  "okres": "Revúca"
  },
  {
   "id": "32200",
   "name": "Richnava",
   "lat": 48.92653,
-  "lon": 20.92146
+  "lon": 20.92146,
+  "okres": "Gelnica"
  },
  {
   "id": "32674",
   "name": "Richvald",
   "lat": 49.27558,
-  "lon": 21.19076
+  "lon": 21.19076,
+  "okres": "Bardejov"
  },
  {
   "id": "32615",
   "name": "Rimavska Sec",
   "lat": 48.30508,
-  "lon": 20.23492
+  "lon": 20.23492,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "31375",
   "name": "Rimavska Sobota",
   "lat": 48.38284,
-  "lon": 20.02239
+  "lon": 20.02239,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "32682",
   "name": "Rimavske Janovce",
   "lat": 48.3417,
-  "lon": 20.0628
+  "lon": 20.0628,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "32221",
   "name": "Risnovce",
   "lat": 48.36857,
-  "lon": 17.89328
+  "lon": 17.89328,
+  "okres": "Nitra"
  },
  {
   "id": "31482",
@@ -4273,97 +4939,113 @@
   "id": "32231",
   "name": "Rohovce",
   "lat": 47.99612,
-  "lon": 17.41142
+  "lon": 17.41142,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "31921",
   "name": "Rohoznik",
   "lat": 48.45682,
-  "lon": 17.16763
+  "lon": 17.16763,
+  "okres": "Malacky"
  },
  {
   "id": "31967",
   "name": "Rosina",
   "lat": 49.18333,
-  "lon": 18.76667
+  "lon": 18.76667,
+  "okres": "Žilina"
  },
  {
   "id": "31950",
   "name": "Rovinka",
   "lat": 48.09783,
-  "lon": 17.23632
+  "lon": 17.23632,
+  "okres": "Senec"
  },
  {
   "id": "32021",
   "name": "Rozhanovce",
   "lat": 48.75032,
-  "lon": 21.34462
+  "lon": 21.34462,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32717",
   "name": "Rozkovany",
   "lat": 49.13789,
-  "lon": 20.98986
+  "lon": 20.98986,
+  "okres": "Sabinov"
  },
  {
   "id": "31507",
   "name": "Roznava",
   "lat": 48.66009,
-  "lon": 20.53758
+  "lon": 20.53758,
+  "okres": "Rožňava"
  },
  {
   "id": "32361",
   "name": "Rudina",
   "lat": 49.2888,
-  "lon": 18.73545
+  "lon": 18.73545,
+  "okres": "Kysucké Nové Mesto"
  },
  {
   "id": "32212",
   "name": "Rudnany",
   "lat": 48.8816,
-  "lon": 20.68015
+  "lon": 20.68015,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32137",
   "name": "Ruskov",
   "lat": 48.68188,
-  "lon": 21.43239
+  "lon": 21.43239,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32282",
   "name": "Ruzindol",
   "lat": 48.37177,
-  "lon": 17.49113
+  "lon": 17.49113,
+  "okres": "Trnava"
  },
  {
   "id": "31464",
   "name": "Ruzomberok",
   "lat": 49.0748,
-  "lon": 19.30751
+  "lon": 19.30751,
+  "okres": "Ružomberok"
  },
  {
   "id": "32312",
   "name": "Rybany",
   "lat": 48.66648,
-  "lon": 18.25938
+  "lon": 18.25938,
+  "okres": "Bánovce nad Bebravou"
  },
  {
   "id": "32179",
   "name": "Rybnik",
   "lat": 48.5487,
-  "lon": 20.12449
+  "lon": 20.12449,
+  "okres": "Revúca"
  },
  {
   "id": "32744",
   "name": "Sabinov",
   "lat": 49.10309,
-  "lon": 21.0988
+  "lon": 21.0988,
+  "okres": "Sabinov"
  },
  {
   "id": "32643",
   "name": "Sacurov",
   "lat": 48.82044,
-  "lon": 21.69405
+  "lon": 21.69405,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32723",
@@ -4375,49 +5057,57 @@
   "id": "31369",
   "name": "Sahy",
   "lat": 48.07408,
-  "lon": 18.94946
+  "lon": 18.94946,
+  "okres": "Levice"
  },
  {
   "id": "31976",
   "name": "Sajdikove Humence",
   "lat": 48.65425,
-  "lon": 17.26762
+  "lon": 17.26762,
+  "okres": "Senica"
  },
  {
   "id": "31410",
   "name": "Sala",
   "lat": 48.15127,
-  "lon": 17.88062
+  "lon": 17.88062,
+  "okres": "Šaľa"
  },
  {
   "id": "32728",
   "name": "Salka",
   "lat": 47.88593,
-  "lon": 18.75646
+  "lon": 18.75646,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31419",
   "name": "Samorin",
   "lat": 48.03015,
-  "lon": 17.30972
+  "lon": 17.30972,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "38559",
   "name": "Santovka",
   "lat": 48.15704,
-  "lon": 18.76715
+  "lon": 18.76715,
+  "okres": "Levice"
  },
  {
   "id": "32725",
   "name": "Sarisske Dravce",
   "lat": 49.17516,
-  "lon": 20.86521
+  "lon": 20.86521,
+  "okres": "Sabinov"
  },
  {
   "id": "32238",
   "name": "Sarisske Jastrabie",
   "lat": 49.24292,
-  "lon": 20.90886
+  "lon": 20.90886,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32175",
@@ -4429,133 +5119,155 @@
   "id": "31491",
   "name": "Sarkanica",
   "lat": 48.71744,
-  "lon": 19.9654
+  "lon": 19.9654,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "32167",
   "name": "Sarovce",
   "lat": 48.1041,
-  "lon": 18.63534
+  "lon": 18.63534,
+  "okres": "Levice"
  },
  {
   "id": "32349",
   "name": "Sastin-Straze",
   "lat": 48.63721,
-  "lon": 17.1453
+  "lon": 17.1453,
+  "okres": "Senica"
  },
  {
   "id": "32142",
   "name": "Sebechleby",
   "lat": 48.27538,
-  "lon": 18.95239
+  "lon": 18.95239,
+  "okres": "Krupina"
  },
  {
   "id": "32133",
   "name": "Sebedrazie",
   "lat": 48.72947,
-  "lon": 18.62257
+  "lon": 18.62257,
+  "okres": "Prievidza"
  },
  {
   "id": "32409",
   "name": "Secovce",
   "lat": 48.70074,
-  "lon": 21.66104
+  "lon": 21.66104,
+  "okres": "Trebišov"
  },
  {
   "id": "32608",
   "name": "Secovska Polianka",
   "lat": 48.78245,
-  "lon": 21.68392
+  "lon": 21.68392,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32538",
   "name": "Sedlice",
   "lat": 48.91816,
-  "lon": 21.11813
+  "lon": 21.11813,
+  "okres": "Prešov"
  },
  {
   "id": "32691",
   "name": "Sedliska",
   "lat": 48.90601,
-  "lon": 21.72266
+  "lon": 21.72266,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32164",
   "name": "Sekule",
   "lat": 48.601,
-  "lon": 17.00379
+  "lon": 17.00379,
+  "okres": "Senica"
  },
  {
   "id": "31956",
   "name": "Selce",
   "lat": 48.76263,
-  "lon": 19.20302
+  "lon": 19.20302,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "32058",
   "name": "Selice",
   "lat": 48.09584,
-  "lon": 17.9643
+  "lon": 17.9643,
+  "okres": "Šaľa"
  },
  {
   "id": "32510",
   "name": "Semerovo",
   "lat": 48.01129,
-  "lon": 18.35249
+  "lon": 18.35249,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32568",
   "name": "Sena",
   "lat": 48.55904,
-  "lon": 21.26138
+  "lon": 21.26138,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31398",
   "name": "Senec",
   "lat": 48.21951,
-  "lon": 17.40043
+  "lon": 17.40043,
+  "okres": "Senec"
  },
  {
   "id": "31359",
   "name": "Senica",
   "lat": 48.67922,
-  "lon": 17.36697
+  "lon": 17.36697,
+  "okres": "Senica"
  },
  {
   "id": "32063",
   "name": "Senkvice",
   "lat": 48.29817,
-  "lon": 17.34959
+  "lon": 17.34959,
+  "okres": "Pezinok"
  },
  {
   "id": "31951",
   "name": "Sered",
   "lat": 48.29117,
-  "lon": 17.73331
+  "lon": 17.73331,
+  "okres": "Galanta"
  },
  {
   "id": "34535",
   "name": "Siba",
   "lat": 49.23235,
-  "lon": 21.22841
+  "lon": 21.22841,
+  "okres": "Bardejov"
  },
  {
   "id": "32353",
   "name": "Sid",
   "lat": 48.27532,
-  "lon": 19.87937
+  "lon": 19.87937,
+  "okres": "Lučenec"
  },
  {
   "id": "32289",
   "name": "Sielnica",
   "lat": 49.14309,
-  "lon": 19.51421
+  "lon": 19.51421,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32365",
   "name": "Sihelne",
   "lat": 49.50817,
-  "lon": 19.41155
+  "lon": 19.41155,
+  "okres": "Namestovo"
  },
  {
   "id": "34554",
@@ -4567,49 +5279,57 @@
   "id": "32295",
   "name": "Sintava",
   "lat": 48.28364,
-  "lon": 17.75827
+  "lon": 17.75827,
+  "okres": "Galanta"
  },
  {
   "id": "32362",
   "name": "Sirk",
   "lat": 48.61881,
-  "lon": 20.09905
+  "lon": 20.09905,
+  "okres": "Revúca"
  },
  {
   "id": "32333",
   "name": "Siroke",
   "lat": 48.99786,
-  "lon": 20.94068
+  "lon": 20.94068,
+  "okres": "Prešov"
  },
  {
   "id": "34119",
   "name": "Sivy vrch (vrchol)",
   "lat": 49.21088,
-  "lon": 19.64227
+  "lon": 19.64227,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32570",
   "name": "Skacany",
   "lat": 48.66192,
-  "lon": 18.38155
+  "lon": 18.38155,
+  "okres": "Partizánske"
  },
  {
   "id": "31358",
   "name": "Skalica",
   "lat": 48.8449,
-  "lon": 17.22635
+  "lon": 17.22635,
+  "okres": "Skalica"
  },
  {
   "id": "32219",
   "name": "Skalite",
   "lat": 49.49664,
-  "lon": 18.89706
+  "lon": 18.89706,
+  "okres": "Čadca"
  },
  {
   "id": "31448",
   "name": "Skalka",
   "lat": 48.92994,
-  "lon": 19.51859
+  "lon": 19.51859,
+  "okres": "Brezno"
  },
  {
   "id": "31501",
@@ -4621,61 +5341,71 @@
   "id": "32610",
   "name": "Skaros",
   "lat": 48.58762,
-  "lon": 21.37613
+  "lon": 21.37613,
+  "okres": "Košice–okolie"
  },
  {
   "id": "34027",
   "name": "Sklene Teplice",
   "lat": 48.52849,
-  "lon": 18.86221
+  "lon": 18.86221,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "32342",
   "name": "Skycov",
   "lat": 48.50289,
-  "lon": 18.42078
+  "lon": 18.42078,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32020",
   "name": "Sladkovicovo",
   "lat": 48.20137,
-  "lon": 17.63852
+  "lon": 17.63852,
+  "okres": "Galanta"
  },
  {
   "id": "32464",
   "name": "Slanec",
   "lat": 48.63588,
-  "lon": 21.47721
+  "lon": 21.47721,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32523",
   "name": "Slavosovce",
   "lat": 48.71303,
-  "lon": 20.28219
+  "lon": 20.28219,
+  "okres": "Rožňava"
  },
  {
   "id": "32714",
   "name": "Slazany",
   "lat": 48.38365,
-  "lon": 18.32563
+  "lon": 18.32563,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "34029",
   "name": "Sliac (centrum)",
   "lat": 48.61668,
-  "lon": 19.13715
+  "lon": 19.13715,
+  "okres": "Zvolen"
  },
  {
   "id": "32745",
   "name": "Sliac (kupele)",
   "lat": 48.61668,
-  "lon": 19.13715
+  "lon": 19.13715,
+  "okres": "Zvolen"
  },
  {
   "id": "31456",
   "name": "Sliac (meteo stanica)",
   "lat": 48.61668,
-  "lon": 19.13715
+  "lon": 19.13715,
+  "okres": "Zvolen"
  },
  {
   "id": "48022",
@@ -4687,13 +5417,15 @@
   "id": "32034",
   "name": "Slovenska Lupca",
   "lat": 48.76532,
-  "lon": 19.27549
+  "lon": 19.27549,
+  "okres": "Banská Bystrica"
  },
  {
   "id": "32528",
   "name": "Slovenska Ves",
   "lat": 49.22481,
-  "lon": 20.42511
+  "lon": 20.42511,
+  "okres": "Kežmarok"
  },
  {
   "id": "32716",
@@ -4705,7 +5437,8 @@
   "id": "31995",
   "name": "Slovensky Grob",
   "lat": 48.2576,
-  "lon": 17.27428
+  "lon": 17.27428,
+  "okres": "Pezinok"
  },
  {
   "id": "31505",
@@ -4717,43 +5450,50 @@
   "id": "32612",
   "name": "Slovinky",
   "lat": 48.88098,
-  "lon": 20.83704
+  "lon": 20.83704,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "31517",
   "name": "Slubica",
   "lat": 48.97342,
-  "lon": 20.87208
+  "lon": 20.87208,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32168",
   "name": "Smizany",
   "lat": 48.95446,
-  "lon": 20.52341
+  "lon": 20.52341,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "31964",
   "name": "Smolenice",
   "lat": 48.50478,
-  "lon": 17.43067
+  "lon": 17.43067,
+  "okres": "Trnava"
  },
  {
   "id": "32272",
   "name": "Smolnik",
   "lat": 49.1,
-  "lon": 22.28333
+  "lon": 22.28333,
+  "okres": "Snina"
  },
  {
   "id": "34021",
   "name": "Smrdaky",
   "lat": 48.72234,
-  "lon": 17.30235
+  "lon": 17.30235,
+  "okres": "Senica"
  },
  {
   "id": "38076",
   "name": "Smrekovica - Branisko",
   "lat": 49.04648,
-  "lon": 20.87138
+  "lon": 20.87138,
+  "okres": "Levoča"
  },
  {
   "id": "48023",
@@ -4765,79 +5505,92 @@
   "id": "31538",
   "name": "Snina",
   "lat": 48.98857,
-  "lon": 22.15099
+  "lon": 22.15099,
+  "okres": "Snina"
  },
  {
   "id": "32039",
   "name": "Soblahov",
   "lat": 48.8644,
-  "lon": 18.07262
+  "lon": 18.07262,
+  "okres": "Trenčín"
  },
  {
   "id": "32149",
   "name": "Sobotiste",
   "lat": 48.73511,
-  "lon": 17.40732
+  "lon": 17.40732,
+  "okres": "Senica"
  },
  {
   "id": "31539",
   "name": "Sobrance",
   "lat": 48.74455,
-  "lon": 22.18136
+  "lon": 22.18136,
+  "okres": "Sobrance"
  },
  {
   "id": "32396",
   "name": "Sokolany",
   "lat": 48.60891,
-  "lon": 21.22943
+  "lon": 21.22943,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32542",
   "name": "Sokolce",
   "lat": 47.8517,
-  "lon": 17.82763
+  "lon": 17.82763,
+  "okres": "Komárno"
  },
  {
   "id": "32283",
   "name": "Sokolovce",
   "lat": 48.53562,
-  "lon": 17.84362
+  "lon": 17.84362,
+  "okres": "Piešťany"
  },
  {
   "id": "31974",
   "name": "Sol",
   "lat": 48.92777,
-  "lon": 21.59946
+  "lon": 21.59946,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32102",
   "name": "Solcany",
   "lat": 48.53802,
-  "lon": 18.20258
+  "lon": 18.20258,
+  "okres": "Topoľčany"
  },
  {
   "id": "32151",
   "name": "Solosnica",
   "lat": 48.46521,
-  "lon": 17.23073
+  "lon": 17.23073,
+  "okres": "Malacky"
  },
  {
   "id": "32650",
   "name": "Somotor",
   "lat": 48.40253,
-  "lon": 21.80793
+  "lon": 21.80793,
+  "okres": "Trebišov"
  },
  {
   "id": "32250",
   "name": "Soporna",
   "lat": 48.2537,
-  "lon": 17.81659
+  "lon": 17.81659,
+  "okres": "Galanta"
  },
  {
   "id": "32089",
   "name": "Spacince",
   "lat": 48.44019,
-  "lon": 17.60735
+  "lon": 17.60735,
+  "okres": "Trnava"
  },
  {
   "id": "31169",
@@ -4849,109 +5602,127 @@
   "id": "32013",
   "name": "Spisska Bela",
   "lat": 49.18725,
-  "lon": 20.45948
+  "lon": 20.45948,
+  "okres": "Kežmarok"
  },
  {
   "id": "31509",
   "name": "Spisska Nova Ves",
   "lat": 48.94464,
-  "lon": 20.56153
+  "lon": 20.56153,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "31503",
   "name": "Spisska Stara Ves",
   "lat": 49.38297,
-  "lon": 20.35959
+  "lon": 20.35959,
+  "okres": "Kežmarok"
  },
  {
   "id": "32146",
   "name": "Spisska Teplica",
   "lat": 49.04598,
-  "lon": 20.24866
+  "lon": 20.24866,
+  "okres": "Poprad"
  },
  {
   "id": "32119",
   "name": "Spisske Bystre",
   "lat": 48.99113,
-  "lon": 20.24364
+  "lon": 20.24364,
+  "okres": "Poprad"
  },
  {
   "id": "32229",
   "name": "Spisske Podhradie",
   "lat": 49.00088,
-  "lon": 20.75307
+  "lon": 20.75307,
+  "okres": "Levoča"
  },
  {
   "id": "32476",
   "name": "Spisske Tomasovce",
   "lat": 48.96196,
-  "lon": 20.47234
+  "lon": 20.47234,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32014",
   "name": "Spisske Vlachy",
   "lat": 48.94746,
-  "lon": 20.79574
+  "lon": 20.79574,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32627",
   "name": "Spissky Hrusov",
   "lat": 48.94746,
-  "lon": 20.7059
+  "lon": 20.7059,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32560",
   "name": "Spissky Stiavnik",
   "lat": 48.99373,
-  "lon": 20.35852
+  "lon": 20.35852,
+  "okres": "Poprad"
  },
  {
   "id": "32341",
   "name": "Spissky Stvrtok",
   "lat": 49.0012,
-  "lon": 20.46707
+  "lon": 20.46707,
+  "okres": "Levoča"
  },
  {
   "id": "32495",
   "name": "Stakcin",
   "lat": 49.00167,
-  "lon": 22.22963
+  "lon": 22.22963,
+  "okres": "Snina"
  },
  {
   "id": "32075",
   "name": "Stankovany",
   "lat": 49.14225,
-  "lon": 19.17389
+  "lon": 19.17389,
+  "okres": "Ružomberok"
  },
  {
   "id": "32469",
   "name": "Stara Bystrica",
   "lat": 49.3474,
-  "lon": 18.94906
+  "lon": 18.94906,
+  "okres": "Čadca"
  },
  {
   "id": "32599",
   "name": "Stara Kremnicka",
   "lat": 48.60528,
-  "lon": 18.88944
+  "lon": 18.88944,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "34039",
   "name": "Stara Lesna",
   "lat": 49.13676,
-  "lon": 20.30464
+  "lon": 20.30464,
+  "okres": "Kežmarok"
  },
  {
   "id": "31512",
   "name": "Stara Lubovna",
   "lat": 49.29859,
-  "lon": 20.6862
+  "lon": 20.6862,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "31405",
   "name": "Stara Tura",
   "lat": 48.77721,
-  "lon": 17.69433
+  "lon": 17.69433,
+  "okres": "Nové Mesto nad Váhom"
  },
  {
   "id": "38160",
@@ -4963,19 +5734,22 @@
   "id": "31500",
   "name": "Stary Smokovec",
   "lat": 49.13905,
-  "lon": 20.22034
+  "lon": 20.22034,
+  "okres": "Poprad"
  },
  {
   "id": "32367",
   "name": "Stary Tekov",
   "lat": 48.24471,
-  "lon": 18.53667
+  "lon": 18.53667,
+  "okres": "Levice"
  },
  {
   "id": "32284",
   "name": "Staskov",
   "lat": 49.421,
-  "lon": 18.68694
+  "lon": 18.68694,
+  "okres": "Čadca"
  },
  {
   "id": "38595",
@@ -4987,139 +5761,162 @@
   "id": "32192",
   "name": "Stefanov",
   "lat": 48.67918,
-  "lon": 17.20105
+  "lon": 17.20105,
+  "okres": "Senica"
  },
  {
   "id": "32069",
   "name": "Stiavnik",
   "lat": 49.23838,
-  "lon": 18.46714
+  "lon": 18.46714,
+  "okres": "Bytča"
  },
  {
   "id": "32506",
   "name": "Stitnik",
   "lat": 48.65898,
-  "lon": 20.36401
+  "lon": 20.36401,
+  "okres": "Rožňava"
  },
  {
   "id": "34043",
   "name": "Stos",
   "lat": 48.70818,
-  "lon": 20.79094
+  "lon": 20.79094,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32309",
   "name": "Stranavy",
   "lat": 49.17147,
-  "lon": 18.82183
+  "lon": 18.82183,
+  "okres": "Žilina"
  },
  {
   "id": "32707",
   "name": "Strane pod Tatrami",
   "lat": 49.15891,
-  "lon": 20.36704
+  "lon": 20.36704,
+  "okres": "Kežmarok"
  },
  {
   "id": "31441",
   "name": "Stranik",
   "lat": 49.23825,
-  "lon": 18.82767
+  "lon": 18.82767,
+  "okres": "Žilina"
  },
  {
   "id": "38174",
   "name": "Stratena",
   "lat": 48.87115,
-  "lon": 20.33844
+  "lon": 20.33844,
+  "okres": "Rožňava"
  },
  {
   "id": "31952",
   "name": "Strazske",
   "lat": 48.8735,
-  "lon": 21.83668
+  "lon": 21.83668,
+  "okres": "Michalovce"
  },
  {
   "id": "32242",
   "name": "Strba",
   "lat": 49.05913,
-  "lon": 20.07975
+  "lon": 20.07975,
+  "okres": "Poprad"
  },
  {
   "id": "31494",
   "name": "Strbske Pleso",
   "lat": 49.11939,
-  "lon": 20.06292
+  "lon": 20.06292,
+  "okres": "Poprad"
  },
  {
   "id": "32213",
   "name": "Strecno",
   "lat": 49.18801,
-  "lon": 18.86445
+  "lon": 18.86445,
+  "okres": "Žilina"
  },
  {
   "id": "32502",
   "name": "Streda nad Bodrogom",
   "lat": 48.37217,
-  "lon": 21.75423
+  "lon": 21.75423,
+  "okres": "Trebišov"
  },
  {
   "id": "32310",
   "name": "Strekov",
   "lat": 47.9042,
-  "lon": 18.41652
+  "lon": 18.41652,
+  "okres": "Nové Zámky"
  },
  {
   "id": "31943",
   "name": "Stropkov",
   "lat": 49.20211,
-  "lon": 21.65216
+  "lon": 21.65216,
+  "okres": "Stropkov"
  },
  {
   "id": "31999",
   "name": "Studienka",
   "lat": 48.52647,
-  "lon": 17.13733
+  "lon": 17.13733,
+  "okres": "Malacky"
  },
  {
   "id": "31922",
   "name": "Stupava",
   "lat": 48.27474,
-  "lon": 17.03173
+  "lon": 17.03173,
+  "okres": "Malacky"
  },
  {
   "id": "31434",
   "name": "Sturovo",
   "lat": 47.79495,
-  "lon": 18.7175
+  "lon": 18.7175,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32035",
   "name": "Stvrtok na Ostrove",
   "lat": 48.09924,
-  "lon": 17.35395
+  "lon": 17.35395,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "31977",
   "name": "Sucany",
   "lat": 49.09988,
-  "lon": 18.99073
+  "lon": 18.99073,
+  "okres": "Martin"
  },
  {
   "id": "32698",
   "name": "Sucha Hora",
   "lat": 49.36628,
-  "lon": 19.7899
+  "lon": 19.7899,
+  "okres": "Tvrdošín"
  },
  {
   "id": "32561",
   "name": "Sucha nad Parnou",
   "lat": 48.41104,
-  "lon": 17.48696
+  "lon": 17.48696,
+  "okres": "Trnava"
  },
  {
   "id": "32005",
   "name": "Sumiac",
   "lat": 48.84009,
-  "lon": 20.1297
+  "lon": 20.1297,
+  "okres": "Brezno"
  },
  {
   "id": "32705",
@@ -5131,97 +5928,113 @@
   "id": "31961",
   "name": "Surany",
   "lat": 48.08613,
-  "lon": 18.18447
+  "lon": 18.18447,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32048",
   "name": "Surovce",
   "lat": 48.3312,
-  "lon": 17.71859
+  "lon": 17.71859,
+  "okres": "Trnava"
  },
  {
   "id": "38081",
   "name": "Sutovo",
   "lat": 49.15,
-  "lon": 19.08333
+  "lon": 19.08333,
+  "okres": "Martin"
  },
  {
   "id": "32368",
   "name": "Svatoplukovo",
   "lat": 48.22817,
-  "lon": 18.05582
+  "lon": 18.05582,
+  "okres": "Nitra"
  },
  {
   "id": "32734",
   "name": "Svaty Anton",
   "lat": 48.41923,
-  "lon": 18.9401
+  "lon": 18.9401,
+  "okres": "Banská Štiavnica"
  },
  {
   "id": "31944",
   "name": "Svaty Jur",
   "lat": 48.25216,
-  "lon": 17.21539
+  "lon": 17.21539,
+  "okres": "Pezinok"
  },
  {
   "id": "32366",
   "name": "Svaty Peter",
   "lat": 47.84151,
-  "lon": 18.25413
+  "lon": 18.25413,
+  "okres": "Komárno"
  },
  {
   "id": "32062",
   "name": "Svedlar",
   "lat": 48.81335,
-  "lon": 20.71378
+  "lon": 20.71378,
+  "okres": "Gelnica"
  },
  {
   "id": "32300",
   "name": "Sverepec",
   "lat": 49.08009,
-  "lon": 18.40795
+  "lon": 18.40795,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "31528",
   "name": "Svidnik",
   "lat": 49.30819,
-  "lon": 21.5703
+  "lon": 21.5703,
+  "okres": "Svidník"
  },
  {
   "id": "32673",
   "name": "Svinia",
   "lat": 49.01266,
-  "lon": 21.1217
+  "lon": 21.1217,
+  "okres": "Prešov"
  },
  {
   "id": "32254",
   "name": "Svinna",
   "lat": 48.78782,
-  "lon": 18.16372
+  "lon": 18.16372,
+  "okres": "Trenčín"
  },
  {
   "id": "32006",
   "name": "Svit",
   "lat": 49.06014,
-  "lon": 20.20695
+  "lon": 20.20695,
+  "okres": "Poprad"
  },
  {
   "id": "32635",
   "name": "Svodin",
   "lat": 47.91054,
-  "lon": 18.49967
+  "lon": 18.49967,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32186",
   "name": "Svrcinovec",
   "lat": 49.48091,
-  "lon": 18.79623
+  "lon": 18.79623,
+  "okres": "Čadca"
  },
  {
   "id": "34032",
   "name": "Tale",
   "lat": 48.87411,
-  "lon": 19.60012
+  "lon": 19.60012,
+  "okres": "Brezno"
  },
  {
   "id": "34034",
@@ -5233,7 +6046,8 @@
   "id": "34038",
   "name": "Tatranska Lomnica",
   "lat": 49.16616,
-  "lon": 20.28128
+  "lon": 20.28128,
+  "okres": "Poprad"
  },
  {
   "id": "31498",
@@ -5245,277 +6059,323 @@
   "id": "32190",
   "name": "Tekovska Breznica",
   "lat": 48.38649,
-  "lon": 18.61866
+  "lon": 18.61866,
+  "okres": "Žarnovica"
  },
  {
   "id": "32274",
   "name": "Tekovske Luzany",
   "lat": 48.09865,
-  "lon": 18.53787
+  "lon": 18.53787,
+  "okres": "Levice"
  },
  {
   "id": "32527",
   "name": "Tekovske Nemce",
   "lat": 48.3561,
-  "lon": 18.53014
+  "lon": 18.53014,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "31497",
   "name": "Telgart",
   "lat": 48.85156,
-  "lon": 20.18849
+  "lon": 20.18849,
+  "okres": "Brezno"
  },
  {
   "id": "32549",
   "name": "Teplicka",
   "lat": 48.90916,
-  "lon": 20.58967
+  "lon": 20.58967,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32091",
   "name": "Teplicka nad Vahom",
   "lat": 49.22435,
-  "lon": 18.79995
+  "lon": 18.79995,
+  "okres": "Žilina"
  },
  {
   "id": "31985",
   "name": "Terchova",
   "lat": 49.25895,
-  "lon": 19.02935
+  "lon": 19.02935,
+  "okres": "Žilina"
  },
  {
   "id": "32726",
   "name": "Terna",
   "lat": 49.10968,
-  "lon": 21.23868
+  "lon": 21.23868,
+  "okres": "Prešov"
  },
  {
   "id": "32686",
   "name": "Tesarske Mlynany",
   "lat": 48.33405,
-  "lon": 18.35358
+  "lon": 18.35358,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32255",
   "name": "Tesedikovo",
   "lat": 48.10609,
-  "lon": 17.8519
+  "lon": 17.8519,
+  "okres": "Šaľa"
  },
  {
   "id": "31529",
   "name": "Tisinec",
   "lat": 49.22133,
-  "lon": 21.63704
+  "lon": 21.63704,
+  "okres": "Stropkov"
  },
  {
   "id": "38172",
   "name": "Tisovec",
   "lat": 48.67738,
-  "lon": 19.94364
+  "lon": 19.94364,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "32345",
   "name": "Tlmace",
   "lat": 48.28926,
-  "lon": 18.53152
+  "lon": 18.53152,
+  "okres": "Levice"
  },
  {
   "id": "32047",
   "name": "Tomasikovo",
   "lat": 48.08442,
-  "lon": 17.69149
+  "lon": 17.69149,
+  "okres": "Galanta"
  },
  {
   "id": "31946",
   "name": "Tomasov",
   "lat": 48.14249,
-  "lon": 17.33565
+  "lon": 17.33565,
+  "okres": "Senec"
  },
  {
   "id": "32672",
   "name": "Tomasovce",
   "lat": 48.39305,
-  "lon": 20.15297
+  "lon": 20.15297,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "31418",
   "name": "Topolcany",
   "lat": 48.56361,
-  "lon": 18.16712
+  "lon": 18.16712,
+  "okres": "Topoľčany"
  },
  {
   "id": "32018",
   "name": "Topolcianky",
   "lat": 48.41615,
-  "lon": 18.41282
+  "lon": 18.41282,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32339",
   "name": "Topolniky",
   "lat": 47.96748,
-  "lon": 17.79016
+  "lon": 17.79016,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32623",
   "name": "Toporec",
   "lat": 49.26408,
-  "lon": 20.49286
+  "lon": 20.49286,
+  "okres": "Kežmarok"
  },
  {
   "id": "32482",
   "name": "Tornala",
   "lat": 48.41915,
-  "lon": 20.32566
+  "lon": 20.32566,
+  "okres": "Revúca"
  },
  {
   "id": "32697",
   "name": "Torysa",
   "lat": 49.16078,
-  "lon": 20.8846
+  "lon": 20.8846,
+  "okres": "Sabinov"
  },
  {
   "id": "32252",
   "name": "Tovarne",
   "lat": 48.91323,
-  "lon": 21.75853
+  "lon": 21.75853,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32043",
   "name": "Tovarniky",
   "lat": 48.57836,
-  "lon": 18.1429
+  "lon": 18.1429,
+  "okres": "Topoľčany"
  },
  {
   "id": "32664",
   "name": "Trakovice",
   "lat": 48.43929,
-  "lon": 17.71165
+  "lon": 17.71165,
+  "okres": "Hlohovec"
  },
  {
   "id": "32514",
   "name": "Travnica",
   "lat": 48.13973,
-  "lon": 18.33909
+  "lon": 18.33909,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32574",
   "name": "Trebatice",
   "lat": 48.59654,
-  "lon": 17.75154
+  "lon": 17.75154,
+  "okres": "Piešťany"
  },
  {
   "id": "32742",
   "name": "Trebisov (centrum)",
   "lat": 48.62858,
-  "lon": 21.71954
+  "lon": 21.71954,
+  "okres": "Trebišov"
  },
  {
   "id": "32176",
   "name": "Trencianska Tepla",
   "lat": 48.93655,
-  "lon": 18.1174
+  "lon": 18.1174,
+  "okres": "Trenčín"
  },
  {
   "id": "32152",
   "name": "Trencianska Turna",
   "lat": 48.85141,
-  "lon": 18.01974
+  "lon": 18.01974,
+  "okres": "Trenčín"
  },
  {
   "id": "32138",
   "name": "Trencianske Jastrabie",
   "lat": 48.80129,
-  "lon": 18.10852
+  "lon": 18.10852,
+  "okres": "Trenčín"
  },
  {
   "id": "32475",
   "name": "Trencianske Stankovce",
   "lat": 48.83976,
-  "lon": 17.98513
+  "lon": 17.98513,
+  "okres": "Trenčín"
  },
  {
   "id": "32052",
   "name": "Trencianske Teplice",
   "lat": 48.91063,
-  "lon": 18.16691
+  "lon": 18.16691,
+  "okres": "Trenčín"
  },
  {
   "id": "31363",
   "name": "Trencin",
   "lat": 48.89452,
-  "lon": 18.04436
+  "lon": 18.04436,
+  "okres": "Trenčín"
  },
  {
   "id": "32350",
   "name": "Trhova Hradska",
   "lat": 47.98995,
-  "lon": 17.76109
+  "lon": 17.76109,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32525",
   "name": "Trhoviste",
   "lat": 48.69822,
-  "lon": 21.80465
+  "lon": 21.80465,
+  "okres": "Michalovce"
  },
  {
   "id": "31527",
   "name": "Tri Chotare",
   "lat": 48.19444,
-  "lon": 19.80501
+  "lon": 19.80501,
+  "okres": "Lučenec"
  },
  {
   "id": "31360",
   "name": "Trnava",
   "lat": 48.37773,
-  "lon": 17.58603
+  "lon": 17.58603,
+  "okres": "Trnava"
  },
  {
   "id": "32319",
   "name": "Trnava Hora",
   "lat": 48.58979,
-  "lon": 18.95434
+  "lon": 18.95434,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "32019",
   "name": "Trnovec nad Vahom",
   "lat": 48.1493,
-  "lon": 17.93104
+  "lon": 17.93104,
+  "okres": "Šaľa"
  },
  {
   "id": "32004",
   "name": "Trstena",
   "lat": 49.36101,
-  "lon": 19.61249
+  "lon": 19.61249,
+  "okres": "Tvrdošín"
  },
  {
   "id": "32587",
   "name": "Trstene pri Hornade",
   "lat": 48.57552,
-  "lon": 21.33429
+  "lon": 21.33429,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32441",
   "name": "Trstice",
   "lat": 48.01446,
-  "lon": 17.80843
+  "lon": 17.80843,
+  "okres": "Galanta"
  },
  {
   "id": "32208",
   "name": "Trstin",
   "lat": 48.52684,
-  "lon": 17.4657
+  "lon": 17.4657,
+  "okres": "Trnava"
  },
  {
   "id": "32096",
   "name": "Tulcik",
   "lat": 49.08902,
-  "lon": 21.30967
+  "lon": 21.30967,
+  "okres": "Prešov"
  },
  {
   "id": "32050",
   "name": "Turany",
   "lat": 49.11754,
-  "lon": 19.04029
+  "lon": 19.04029,
+  "okres": "Martin"
  },
  {
   "id": "48026",
@@ -5527,169 +6387,197 @@
   "id": "31447",
   "name": "Turcianske Klacany",
   "lat": 49.11627,
-  "lon": 18.94921
+  "lon": 18.94921,
+  "okres": "Martin"
  },
  {
   "id": "32458",
   "name": "Turcianske Teplice (centrum)",
   "lat": 48.86225,
-  "lon": 18.86048
+  "lon": 18.86048,
+  "okres": "Turčianske Teplice"
  },
  {
   "id": "34026",
   "name": "Turcianske Teplice (stanica)",
   "lat": 48.86225,
-  "lon": 18.86048
+  "lon": 18.86048,
+  "okres": "Turčianske Teplice"
  },
  {
   "id": "32193",
   "name": "Turie",
   "lat": 49.14907,
-  "lon": 18.74983
+  "lon": 18.74983,
+  "okres": "Žilina"
  },
  {
   "id": "32499",
   "name": "Turna nad Bodvou",
   "lat": 48.59999,
-  "lon": 20.88093
+  "lon": 20.88093,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32226",
   "name": "Turzovka",
   "lat": 49.40429,
-  "lon": 18.62258
+  "lon": 18.62258,
+  "okres": "Čadca"
  },
  {
   "id": "32465",
   "name": "Tuzina",
   "lat": 48.89491,
-  "lon": 18.61566
+  "lon": 18.61566,
+  "okres": "Prievidza"
  },
  {
   "id": "31473",
   "name": "Tvrdosin",
   "lat": 49.337,
-  "lon": 19.556
+  "lon": 19.556,
+  "okres": "Tvrdošín"
  },
  {
   "id": "32078",
   "name": "Tvrdosovce",
   "lat": 48.0945,
-  "lon": 18.06686
+  "lon": 18.06686,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32234",
   "name": "Udavske",
   "lat": 48.97559,
-  "lon": 21.96514
+  "lon": 21.96514,
+  "okres": "Humenné"
  },
  {
   "id": "31945",
   "name": "Udica",
   "lat": 49.16667,
-  "lon": 18.4
+  "lon": 18.4,
+  "okres": "Považská Bystrica"
  },
  {
   "id": "32613",
   "name": "Uhrovec",
   "lat": 48.74884,
-  "lon": 18.33844
+  "lon": 18.33844,
+  "okres": "Bánovce nad Bebravou"
  },
  {
   "id": "32401",
   "name": "Ulany nad Zitavou",
   "lat": 48.1059,
-  "lon": 18.23704
+  "lon": 18.23704,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32685",
   "name": "Ulic",
   "lat": 48.95881,
-  "lon": 22.42807
+  "lon": 22.42807,
+  "okres": "Snina"
  },
  {
   "id": "32298",
   "name": "Unin",
   "lat": 48.72525,
-  "lon": 17.21452
+  "lon": 17.21452,
+  "okres": "Skalica"
  },
  {
   "id": "32334",
   "name": "Urmince",
   "lat": 48.53504,
-  "lon": 18.09791
+  "lon": 18.09791,
+  "okres": "Topoľčany"
  },
  {
   "id": "32330",
   "name": "Utekac",
   "lat": 48.60499,
-  "lon": 19.80413
+  "lon": 19.80413,
+  "okres": "Poltár"
  },
  {
   "id": "32519",
   "name": "Vahovce",
   "lat": 48.24925,
-  "lon": 17.78536
+  "lon": 17.78536,
+  "okres": "Galanta"
  },
  {
   "id": "32531",
   "name": "Valaliky",
   "lat": 48.63575,
-  "lon": 21.29876
+  "lon": 21.29876,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32321",
   "name": "Valaska",
   "lat": 48.80756,
-  "lon": 19.57096
+  "lon": 19.57096,
+  "okres": "Brezno"
  },
  {
   "id": "32236",
   "name": "Valaska Bela",
   "lat": 48.88803,
-  "lon": 18.39519
+  "lon": 18.39519,
+  "okres": "Prievidza"
  },
  {
   "id": "31439",
   "name": "Valca",
   "lat": 49.00185,
-  "lon": 18.84496
+  "lon": 18.84496,
+  "okres": "Martin"
  },
  {
   "id": "32115",
   "name": "Varin",
   "lat": 49.20229,
-  "lon": 18.87073
+  "lon": 18.87073,
+  "okres": "Žilina"
  },
  {
   "id": "32569",
   "name": "Vavrecka",
   "lat": 49.38568,
-  "lon": 19.46649
+  "lon": 19.46649,
+  "okres": "Namestovo"
  },
  {
   "id": "31492",
   "name": "Vazec",
   "lat": 49.05969,
-  "lon": 19.98035
+  "lon": 19.98035,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "31516",
   "name": "Vcelare",
   "lat": 48.58888,
-  "lon": 20.80783
+  "lon": 20.80783,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32676",
   "name": "Vechec",
   "lat": 48.87295,
-  "lon": 21.63012
+  "lon": 21.63012,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32461",
   "name": "Velka Ida",
   "lat": 48.59595,
-  "lon": 21.16795
+  "lon": 21.16795,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31537",
@@ -5701,19 +6589,22 @@
   "id": "32683",
   "name": "Velka Lehota",
   "lat": 48.46077,
-  "lon": 18.56066
+  "lon": 18.56066,
+  "okres": "Žarnovica"
  },
  {
   "id": "32419",
   "name": "Velka Lomnica",
   "lat": 49.11253,
-  "lon": 20.36007
+  "lon": 20.36007,
+  "okres": "Kežmarok"
  },
  {
   "id": "31959",
   "name": "Velka Maca",
   "lat": 48.24146,
-  "lon": 17.68991
+  "lon": 17.68991,
+  "okres": "Galanta"
  },
  {
   "id": "31446",
@@ -5725,91 +6616,106 @@
   "id": "31993",
   "name": "Velke Blahovo",
   "lat": 48.00371,
-  "lon": 17.57641
+  "lon": 17.57641,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32415",
   "name": "Velke Kapusany",
   "lat": 48.55197,
-  "lon": 22.08036
+  "lon": 22.08036,
+  "okres": "Michalovce"
  },
  {
   "id": "32245",
   "name": "Velke Kostolany",
   "lat": 48.50989,
-  "lon": 17.72189
+  "lon": 17.72189,
+  "okres": "Piešťany"
  },
  {
   "id": "32247",
   "name": "Velke Levare",
   "lat": 48.50403,
-  "lon": 17.00358
+  "lon": 17.00358,
+  "okres": "Malacky"
  },
  {
   "id": "32490",
   "name": "Velke Lovce",
   "lat": 48.06229,
-  "lon": 18.33853
+  "lon": 18.33853,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32448",
   "name": "Velke Ludince",
   "lat": 47.96271,
-  "lon": 18.5114
+  "lon": 18.5114,
+  "okres": "Levice"
  },
  {
   "id": "32422",
   "name": "Velke Ripnany",
   "lat": 48.50293,
-  "lon": 17.97871
+  "lon": 17.97871,
+  "okres": "Topoľčany"
  },
  {
   "id": "31992",
   "name": "Velke Rovne",
   "lat": 49.29127,
-  "lon": 18.58427
+  "lon": 18.58427,
+  "okres": "Bytča"
  },
  {
   "id": "32711",
   "name": "Velke Trakany",
   "lat": 48.39147,
-  "lon": 22.08858
+  "lon": 22.08858,
+  "okres": "Trebišov"
  },
  {
   "id": "32540",
   "name": "Velke Uherce",
   "lat": 48.60685,
-  "lon": 18.4405
+  "lon": 18.4405,
+  "okres": "Partizánske"
  },
  {
   "id": "32064",
   "name": "Velke Ulany",
   "lat": 48.16647,
-  "lon": 17.57519
+  "lon": 17.57519,
+  "okres": "Galanta"
  },
  {
   "id": "32155",
   "name": "Velke Zaluzie",
   "lat": 48.30841,
-  "lon": 17.93874
+  "lon": 17.93874,
+  "okres": "Nitra"
  },
  {
   "id": "31937",
   "name": "Velky Biel",
   "lat": 48.21335,
-  "lon": 17.3608
+  "lon": 17.3608,
+  "okres": "Senec"
  },
  {
   "id": "32223",
   "name": "Velky Blh",
   "lat": 48.44527,
-  "lon": 20.11649
+  "lon": 20.11649,
+  "okres": "Rimavská Sobota"
  },
  {
   "id": "32346",
   "name": "Velky Cetin",
   "lat": 48.22033,
-  "lon": 18.19087
+  "lon": 18.19087,
+  "okres": "Nitra"
  },
  {
   "id": "32675",
@@ -5821,13 +6727,15 @@
   "id": "32015",
   "name": "Velky Grob",
   "lat": 48.24973,
-  "lon": 17.49613
+  "lon": 17.49613,
+  "okres": "Galanta"
  },
  {
   "id": "32607",
   "name": "Velky Hores",
   "lat": 48.38464,
-  "lon": 21.90898
+  "lon": 21.90898,
+  "okres": "Trebišov"
  },
  {
   "id": "38082",
@@ -5839,91 +6747,106 @@
   "id": "31372",
   "name": "Velky Krtis",
   "lat": 48.21059,
-  "lon": 19.35043
+  "lon": 19.35043,
+  "okres": "Veľký Krtíš"
  },
  {
   "id": "32222",
   "name": "Velky Kyr",
   "lat": 48.18245,
-  "lon": 18.15733
+  "lon": 18.15733,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32355",
   "name": "Velky Lapas",
   "lat": 48.29105,
-  "lon": 18.181
+  "lon": 18.181,
+  "okres": "Nitra"
  },
  {
   "id": "32533",
   "name": "Velky Lipnik",
   "lat": 49.37354,
-  "lon": 20.50272
+  "lon": 20.50272,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32046",
   "name": "Velky Meder",
   "lat": 47.85798,
-  "lon": 17.76884
+  "lon": 17.76884,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32397",
   "name": "Velky Saris",
   "lat": 49.04114,
-  "lon": 21.1993
+  "lon": 21.1993,
+  "okres": "Prešov"
  },
  {
   "id": "32471",
   "name": "Velky Slavkov",
   "lat": 49.09331,
-  "lon": 20.28258
+  "lon": 20.28258,
+  "okres": "Poprad"
  },
  {
   "id": "32438",
   "name": "Vesele",
   "lat": 49.46601,
-  "lon": 19.38338
+  "lon": 19.38338,
+  "okres": "Namestovo"
  },
  {
   "id": "32513",
   "name": "Vidina",
   "lat": 48.35912,
-  "lon": 19.65428
+  "lon": 19.65428,
+  "okres": "Lučenec"
  },
  {
   "id": "32572",
   "name": "Viglas",
   "lat": 48.56315,
-  "lon": 19.3029
+  "lon": 19.3029,
+  "okres": "Detva"
  },
  {
   "id": "31536",
   "name": "Vihorlat",
   "lat": 48.83333,
-  "lon": 22.25
+  "lon": 22.25,
+  "okres": "Humenné"
  },
  {
   "id": "32550",
   "name": "Vikartovce",
   "lat": 48.99345,
-  "lon": 20.1509
+  "lon": 20.1509,
+  "okres": "Poprad"
  },
  {
   "id": "32191",
   "name": "Vinica",
   "lat": 48.11728,
-  "lon": 19.11862
+  "lon": 19.11862,
+  "okres": "Veľký Krtíš"
  },
  {
   "id": "31969",
   "name": "Vinicne",
   "lat": 48.27188,
-  "lon": 17.30227
+  "lon": 17.30227,
+  "okres": "Pezinok"
  },
  {
   "id": "32378",
   "name": "Vinne",
   "lat": 48.80965,
-  "lon": 21.96757
+  "lon": 21.96757,
+  "okres": "Michalovce"
  },
  {
   "id": "38159",
@@ -5947,49 +6870,57 @@
   "id": "32288",
   "name": "Visnove",
   "lat": 49.16083,
-  "lon": 18.78427
+  "lon": 18.78427,
+  "okres": "Žilina"
  },
  {
   "id": "32393",
   "name": "Vistuk",
   "lat": 48.33343,
-  "lon": 17.39945
+  "lon": 17.39945,
+  "okres": "Pezinok"
  },
  {
   "id": "32276",
   "name": "Vitanova",
   "lat": 49.35479,
-  "lon": 19.73057
+  "lon": 19.73057,
+  "okres": "Tvrdošín"
  },
  {
   "id": "32451",
   "name": "Vitaz",
   "lat": 48.97137,
-  "lon": 20.95654
+  "lon": 20.95654,
+  "okres": "Prešov"
  },
  {
   "id": "32264",
   "name": "Vlcany",
   "lat": 48.03097,
-  "lon": 17.95214
+  "lon": 17.95214,
+  "okres": "Šaľa"
  },
  {
   "id": "32322",
   "name": "Vlckovce",
   "lat": 48.31701,
-  "lon": 17.6497
+  "lon": 17.6497,
+  "okres": "Trnava"
  },
  {
   "id": "32040",
   "name": "Voderady",
   "lat": 48.27701,
-  "lon": 17.5594
+  "lon": 17.5594,
+  "okres": "Trnava"
  },
  {
   "id": "32127",
   "name": "Vojcice",
   "lat": 48.67838,
-  "lon": 21.71581
+  "lon": 21.71581,
+  "okres": "Trebišov"
  },
  {
   "id": "38075",
@@ -6001,55 +6932,64 @@
   "id": "32546",
   "name": "Volkovce",
   "lat": 48.33994,
-  "lon": 18.4575
+  "lon": 18.4575,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32446",
   "name": "Vozokany",
   "lat": 48.56562,
-  "lon": 17.99455
+  "lon": 17.99455,
+  "okres": "Topoľčany"
  },
  {
   "id": "31968",
   "name": "Vrable",
   "lat": 48.24371,
-  "lon": 18.30846
+  "lon": 18.30846,
+  "okres": "Nitra"
  },
  {
   "id": "32140",
   "name": "Vrakun",
   "lat": 47.94293,
-  "lon": 17.60113
+  "lon": 17.60113,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "31530",
   "name": "Vranov nad Toplou",
   "lat": 48.88836,
-  "lon": 21.68479
+  "lon": 21.68479,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "31450",
   "name": "Vratna - Chleb",
   "lat": 48.90126,
-  "lon": 21.36221
+  "lon": 21.36221,
+  "okres": "Prešov"
  },
  {
   "id": "32488",
   "name": "Vrbov",
   "lat": 49.08764,
-  "lon": 20.4253
+  "lon": 20.4253,
+  "okres": "Kežmarok"
  },
  {
   "id": "32445",
   "name": "Vrbovce",
   "lat": 48.73631,
-  "lon": 21.95151
+  "lon": 21.95151,
+  "okres": "Michalovce"
  },
  {
   "id": "32162",
   "name": "Vrbove",
   "lat": 48.61973,
-  "lon": 17.7226
+  "lon": 17.7226,
+  "okres": "Piešťany"
  },
  {
   "id": "34581",
@@ -6061,103 +7001,120 @@
   "id": "34582",
   "name": "Vrsatske podhradie",
   "lat": 49.06528,
-  "lon": 18.15425
+  "lon": 18.15425,
+  "okres": "Ilava"
  },
  {
   "id": "31965",
   "name": "Vrutky",
   "lat": 49.11328,
-  "lon": 18.91714
+  "lon": 18.91714,
+  "okres": "Martin"
  },
  {
   "id": "32260",
   "name": "Vycapy-Opatovce",
   "lat": 48.41149,
-  "lon": 18.08223
+  "lon": 18.08223,
+  "okres": "Nitra"
  },
  {
   "id": "31490",
   "name": "Vychodna",
   "lat": 49.05913,
-  "lon": 19.89006
+  "lon": 19.89006,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32413",
   "name": "Vydrany",
   "lat": 48.01806,
-  "lon": 17.58588
+  "lon": 17.58588,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "32454",
   "name": "Vyhne",
   "lat": 48.50571,
-  "lon": 18.80137
+  "lon": 18.80137,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "34033",
   "name": "Vysna Boca",
   "lat": 48.92663,
-  "lon": 19.75273
+  "lon": 19.75273,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "48025",
   "name": "Vysna Hutka",
   "lat": 48.67595,
-  "lon": 21.35406
+  "lon": 21.35406,
+  "okres": "Košice–okolie"
  },
  {
   "id": "32616",
   "name": "Vysne Ruzbachy",
   "lat": 49.30387,
-  "lon": 20.56558
+  "lon": 20.56558,
+  "okres": "Stará Ĺubovňa"
  },
  {
   "id": "32594",
   "name": "Vysny Zipov",
   "lat": 48.98469,
-  "lon": 21.58775
+  "lon": 21.58775,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "32545",
   "name": "Vysoka nad Kysucou",
   "lat": 49.37852,
-  "lon": 18.54408
+  "lon": 18.54408,
+  "okres": "Čadca"
  },
  {
   "id": "32105",
   "name": "Vysoka pri Morave",
   "lat": 48.32944,
-  "lon": 16.91191
+  "lon": 16.91191,
+  "okres": "Malacky"
  },
  {
   "id": "32584",
   "name": "Zabokreky",
   "lat": 49.02427,
-  "lon": 18.92382
+  "lon": 18.92382,
+  "okres": "Martin"
  },
  {
   "id": "32586",
   "name": "Zabokreky nad Nitrou",
   "lat": 48.6242,
-  "lon": 18.30253
+  "lon": 18.30253,
+  "okres": "Partizánske"
  },
  {
   "id": "32220",
   "name": "Zahorska Ves",
   "lat": 48.38071,
-  "lon": 16.84882
+  "lon": 16.84882,
+  "okres": "Malacky"
  },
  {
   "id": "31923",
   "name": "Zakamenne",
   "lat": 49.38859,
-  "lon": 19.29294
+  "lon": 19.29294,
+  "okres": "Namestovo"
  },
  {
   "id": "32267",
   "name": "Zakopcie",
   "lat": 49.40728,
-  "lon": 18.73178
+  "lon": 18.73178,
+  "okres": "Čadca"
  },
  {
   "id": "32307",
@@ -6169,133 +7126,155 @@
   "id": "32581",
   "name": "Zamutov",
   "lat": 48.90144,
-  "lon": 21.55698
+  "lon": 21.55698,
+  "okres": "Vranov nad Topľou"
  },
  {
   "id": "31435",
   "name": "Zarnovica",
   "lat": 48.48123,
-  "lon": 18.71565
+  "lon": 18.71565,
+  "okres": "Žarnovica"
  },
  {
   "id": "32129",
   "name": "Zaskov",
   "lat": 49.17236,
-  "lon": 19.2174
+  "lon": 19.2174,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "32357",
   "name": "Zavadka nad Hronom",
   "lat": 48.85048,
-  "lon": 19.91152
+  "lon": 19.91152,
+  "okres": "Brezno"
  },
  {
   "id": "32408",
   "name": "Zavar",
   "lat": 48.35277,
-  "lon": 17.67377
+  "lon": 17.67377,
+  "okres": "Trnava"
  },
  {
   "id": "32501",
   "name": "Zavazna Poruba",
   "lat": 49.05396,
-  "lon": 19.64913
+  "lon": 19.64913,
+  "okres": "Liptovský Mikuláš"
  },
  {
   "id": "32070",
   "name": "Zavod",
   "lat": 48.54494,
-  "lon": 17.03028
+  "lon": 17.03028,
+  "okres": "Malacky"
  },
  {
   "id": "32224",
   "name": "Zazriva",
   "lat": 49.2748,
-  "lon": 19.15303
+  "lon": 19.15303,
+  "okres": "Dolný Kubín"
  },
  {
   "id": "32178",
   "name": "Zbehy",
   "lat": 48.36558,
-  "lon": 18.01814
+  "lon": 18.01814,
+  "okres": "Nitra"
  },
  {
   "id": "32485",
   "name": "Zborov",
   "lat": 49.36871,
-  "lon": 21.308
+  "lon": 21.308,
+  "okres": "Bardejov"
  },
  {
   "id": "32462",
   "name": "Zborov nad Bystricou",
   "lat": 49.37967,
-  "lon": 18.88661
+  "lon": 18.88661,
+  "okres": "Čadca"
  },
  {
   "id": "32562",
   "name": "Zdana",
   "lat": 48.60131,
-  "lon": 21.3491
+  "lon": 21.3491,
+  "okres": "Košice–okolie"
  },
  {
   "id": "31986",
   "name": "Zdiar",
   "lat": 49.271,
-  "lon": 20.26239
+  "lon": 20.26239,
+  "okres": "Poprad"
  },
  {
   "id": "32466",
   "name": "Zehra",
   "lat": 48.9796,
-  "lon": 20.7917
+  "lon": 20.7917,
+  "okres": "Spišská Nová Ves"
  },
  {
   "id": "32228",
   "name": "Zelenec",
   "lat": 48.32897,
-  "lon": 17.59535
+  "lon": 17.59535,
+  "okres": "Trnava"
  },
  {
   "id": "31433",
   "name": "Zeliezovce",
   "lat": 48.05075,
-  "lon": 18.65421
+  "lon": 18.65421,
+  "okres": "Levice"
  },
  {
   "id": "32625",
   "name": "Zelovce",
   "lat": 48.12362,
-  "lon": 19.35593
+  "lon": 19.35593,
+  "okres": "Veľký Krtíš"
  },
  {
   "id": "32477",
   "name": "Zemberovce",
   "lat": 48.25839,
-  "lon": 18.74006
+  "lon": 18.74006,
+  "okres": "Levice"
  },
  {
   "id": "32410",
   "name": "Zemianska Olca",
   "lat": 47.80808,
-  "lon": 17.86652
+  "lon": 17.86652,
+  "okres": "Komárno"
  },
  {
   "id": "32433",
   "name": "Zemianske Kostolany",
   "lat": 48.68761,
-  "lon": 18.52677
+  "lon": 18.52677,
+  "okres": "Prievidza"
  },
  {
   "id": "32232",
   "name": "Zemne",
   "lat": 47.9836,
-  "lon": 17.99492
+  "lon": 17.99492,
+  "okres": "Nové Zámky"
  },
  {
   "id": "32329",
   "name": "Zemplinska Teplica",
   "lat": 48.64661,
-  "lon": 21.57211
+  "lon": 21.57211,
+  "okres": "Trebišov"
  },
  {
   "id": "32712",
@@ -6307,13 +7286,15 @@
   "id": "32604",
   "name": "Zemplinske Hradiste",
   "lat": 48.58357,
-  "lon": 21.73722
+  "lon": 21.73722,
+  "okres": "Trebišov"
  },
  {
   "id": "31442",
   "name": "Ziar nad Hronom",
   "lat": 48.59184,
-  "lon": 18.84958
+  "lon": 18.84958,
+  "okres": "Žiar nad Hronom"
  },
  {
   "id": "38161",
@@ -6325,37 +7306,43 @@
   "id": "32369",
   "name": "Ziharec",
   "lat": 48.07231,
-  "lon": 17.88674
+  "lon": 17.88674,
+  "okres": "Šaľa"
  },
  {
   "id": "31920",
   "name": "Zilina",
   "lat": 49.22315,
-  "lon": 18.73941
+  "lon": 18.73941,
+  "okres": "Žilina"
  },
  {
   "id": "32240",
   "name": "Zirany",
   "lat": 48.37766,
-  "lon": 18.17514
+  "lon": 18.17514,
+  "okres": "Nitra"
  },
  {
   "id": "32318",
   "name": "Zlate Klasy",
   "lat": 48.11667,
-  "lon": 17.41667
+  "lon": 17.41667,
+  "okres": "Dunajská Streda"
  },
  {
   "id": "31400",
   "name": "Zlate Moravce",
   "lat": 48.38553,
-  "lon": 18.40063
+  "lon": 18.40063,
+  "okres": "Zlaté Moravce"
  },
  {
   "id": "32534",
   "name": "Zlatna na Ostrove",
   "lat": 47.76667,
-  "lon": 17.96667
+  "lon": 17.96667,
+  "okres": "Komárno"
  },
  {
   "id": "31580",
@@ -6367,36 +7354,42 @@
   "id": "31940",
   "name": "Zohor",
   "lat": 48.31667,
-  "lon": 16.98333
+  "lon": 16.98333,
+  "okres": "Malacky"
  },
  {
   "id": "32054",
   "name": "Zuberec",
   "lat": 49.26164,
-  "lon": 19.61473
+  "lon": 19.61473,
+  "okres": "Tvrdošín"
  },
  {
   "id": "32394",
   "name": "Zubrohlava",
   "lat": 49.44544,
-  "lon": 19.5117
+  "lon": 19.5117,
+  "okres": "Namestovo"
  },
  {
   "id": "32498",
   "name": "Zupcany",
   "lat": 49.01205,
-  "lon": 21.15874
+  "lon": 21.15874,
+  "okres": "Prešov"
  },
  {
   "id": "31453",
   "name": "Zvolen",
   "lat": 48.57442,
-  "lon": 19.15324
+  "lon": 19.15324,
+  "okres": "Zvolen"
  },
  {
   "id": "32314",
   "name": "Zvolenska Slatina",
   "lat": 48.56353,
-  "lon": 19.25989
+  "lon": 19.25989,
+  "okres": "Zvolen"
  }
 ]

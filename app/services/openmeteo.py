@@ -22,9 +22,12 @@ MODELS = {
     "gfs": "gfs_seamless",
 }
 HOURLY_VARS = ["temperature_2m", "precipitation", "wind_speed_10m", "weather_code"]
+DAILY_VARS = ["sunrise", "sunset", "uv_index_max"]
 
 # cache: (lat, lon) -> (expires_utc, payload)
 _cache: dict[tuple[float, float], tuple[datetime, dict]] = {}
+# cache pre denné údaje (slnko/UV) — vlastný request s lokálnym časom
+_daily_cache: dict[tuple[float, float], tuple[datetime, list]] = {}
 CACHE_TTL = timedelta(minutes=15)
 FORECAST_DAYS = 10
 
@@ -56,6 +59,50 @@ async def fetch_forecast(client: httpx.AsyncClient, lat: float, lon: float) -> d
     payload = {mkey: _digest_model(hourly, mname) for mkey, mname in MODELS.items()}
     _cache[key] = (now + CACHE_TTL, payload)
     return payload
+
+
+async def fetch_daily(client: httpx.AsyncClient, lat: float, lon: float) -> list[dict]:
+    """Denné údaje: východ/západ slnka a max. UV index.
+
+    Vlastný request s timezone=auto — slnko a UV chceme v lokálnom čase obce
+    (modelové porovnanie naopak beží v UTC kvôli zhode hraníc dní s yr.py).
+    Vracia [{date, sunrise, sunset, uv_max}] (ISO časy v lokálnom čase).
+    """
+    key = (round(lat, 3), round(lon, 3))
+    now = datetime.now(timezone.utc)
+    cached = _daily_cache.get(key)
+    if cached and cached[0] > now:
+        return cached[1]
+
+    res = await client.get(
+        OM_URL,
+        params={
+            "latitude": key[0],
+            "longitude": key[1],
+            "daily": ",".join(DAILY_VARS),
+            "timezone": "auto",
+            "forecast_days": FORECAST_DAYS,
+        },
+        timeout=20,
+    )
+    res.raise_for_status()
+    d = res.json().get("daily", {})
+    dates = d.get("time", [])
+    sunrise = d.get("sunrise", [])
+    sunset = d.get("sunset", [])
+    uv = d.get("uv_index_max", [])
+
+    out = []
+    for i, date in enumerate(dates):
+        out.append({
+            "date": date,
+            "sunrise": sunrise[i] if i < len(sunrise) else None,
+            "sunset": sunset[i] if i < len(sunset) else None,
+            "uv_max": round(uv[i], 1) if i < len(uv) and uv[i] is not None else None,
+        })
+
+    _daily_cache[key] = (now + CACHE_TTL, out)
+    return out
 
 
 def _digest_model(h: dict, model: str) -> list[dict]:

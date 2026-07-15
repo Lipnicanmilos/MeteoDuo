@@ -49,6 +49,16 @@ function windArrow(deg) {
   const arrows = ["↓","↙","←","↖","↑","↗","→","↘"];
   return arrows[Math.round(deg / 45) % 8];
 }
+function fmtTime(iso) { return iso ? iso.slice(11, 16) : "–"; }
+// UV index -> farba podľa škály WHO
+function uvColor(uv) {
+  if (uv == null) return "var(--muted)";
+  if (uv < 3) return "#22c55e";
+  if (uv < 6) return "#eab308";
+  if (uv < 8) return "#f97316";
+  if (uv < 11) return "#ef4444";
+  return "#a855f7";
+}
 
 function CityPicker({ cities, value, onChange, children }) {
   const byName = useMemo(() => new Map(cities.map(c => [c.name.toLowerCase(), c.id])), [cities]);
@@ -75,15 +85,59 @@ function CityPicker({ cities, value, onChange, children }) {
   );
 }
 
-function DayCards({ days }) {
+function DayCards({ days, daily }) {
+  const sunByDate = useMemo(() => {
+    const m = new Map();
+    (daily || []).forEach(d => m.set(d.date, d));
+    return m;
+  }, [daily]);
+
   return (
     <div className="day-cards">
-      {days.map((d, i) => (
-        <div className="day-card" key={d.date}>
-          <div className="dayname">{dayLabel(d.date, i)}<small>{fmtDate(d.date)}</small></div>
-          <div className="emoji">{symbolEmoji(d.symbol)}</div>
-          <div className="temps">{Math.round(d.temp_max)}° <span className="min">/ {Math.round(d.temp_min)}°</span></div>
-          <div className="precip">💧 {d.precip} mm</div>
+      {days.map((d, i) => {
+        const sun = sunByDate.get(d.date);
+        return (
+          <div className="day-card" key={d.date}>
+            <div className="row">
+              <div className="dayname">{dayLabel(d.date, i)}<small>{fmtDate(d.date)}</small></div>
+              <div className="emoji">{symbolEmoji(d.symbol)}</div>
+              <div className="temps">{Math.round(d.temp_max)}° <span className="min">/ {Math.round(d.temp_min)}°</span></div>
+              <div className="precip">💧 {d.precip} mm</div>
+            </div>
+            {sun && (sun.sunrise || sun.uv_max != null) && (
+              <div className="sun">
+                {sun.sunrise && <span title="Východ slnka">🌅 {fmtTime(sun.sunrise)}</span>}
+                {sun.sunset && <span title="Západ slnka">🌇 {fmtTime(sun.sunset)}</span>}
+                {sun.uv_max != null && (
+                  <span className="uv" title="Maximálny UV index">
+                    UV <span className="uv-pill" style={{ background: uvColor(sun.uv_max) }}>{sun.uv_max}</span>
+                  </span>
+                )}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// farebný prúžok s výstrahami pre okres (bod 4)
+function WarnBar({ warnings }) {
+  if (!warnings || !warnings.length) return null;
+  return (
+    <div className="warn-bar">
+      {warnings.map((w, i) => (
+        <div className="warn" key={i} style={{ "--wc": w.color }}>
+          <span className="wi">{w.icon}</span>
+          <span className="wt">
+            <b>{w.event || ("Výstraha – " + w.type)}</b>
+            {w.headline && <span className="wmeta">{w.headline}</span>}
+            <span className="wmeta">
+              {w.level} úroveň · {fmtDate(w.onset.slice(0, 10))} {fmtTime(w.onset)}
+              {" – "}{fmtDate(w.expires.slice(0, 10))} {fmtTime(w.expires)}
+            </span>
+          </span>
         </div>
       ))}
     </div>
@@ -207,6 +261,82 @@ const SOURCES = [
   { id: "gfs",   label: "🇺🇸 GFS",    sub: "NOAA",              color: "#b45309" },
 ];
 
+// mini SVG graf: čiara (teplota) alebo stĺpce (zrážky) cez dni
+function Sparkline({ values, domainMin, domainMax, color, type }) {
+  const W = 100, H = 30, pad = 3;
+  const pts = values.filter(v => v != null);
+  if (pts.length < 1) return <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" />;
+  const span = (domainMax - domainMin) || 1;
+  const x = i => pad + (values.length === 1 ? W / 2 : (i * (W - 2 * pad)) / (values.length - 1));
+  const y = v => H - pad - ((v - domainMin) / span) * (H - 2 * pad);
+
+  if (type === "bar") {
+    const bw = Math.max(2, (W - 2 * pad) / values.length - 2);
+    return (
+      <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none">
+        {values.map((v, i) => v == null ? null : (
+          <rect key={i} x={x(i) - bw / 2} width={bw}
+                y={Math.min(y(v), H - pad - 0.5)} height={Math.max(0.5, H - pad - y(v))}
+                fill={color} rx="1" opacity="0.85" />
+        ))}
+      </svg>
+    );
+  }
+  const line = values.map((v, i) => v == null ? null : `${x(i).toFixed(1)},${y(v).toFixed(1)}`)
+                     .filter(Boolean).join(" ");
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none">
+      <polyline points={line} fill="none" stroke={color} strokeWidth="1.8"
+                strokeLinejoin="round" strokeLinecap="round" />
+      {values.map((v, i) => v == null ? null : (
+        <circle key={i} cx={x(i)} cy={y(v)} r="1.6" fill={color} />
+      ))}
+    </svg>
+  );
+}
+
+// súhrn trendov: pre každý zdroj sparkline teploty a zrážok cez zobrazené dni
+function SparkSummary({ active, sources, dates }) {
+  const dayOf = (id, date) => (sources[id] || []).find(d => d.date === date);
+  const tVals = {}, pVals = {};
+  let tMin = Infinity, tMax = -Infinity, pMax = 0;
+  active.forEach(s => {
+    tVals[s.id] = dates.map(dt => { const d = dayOf(s.id, dt); return d ? d.temp_max : null; });
+    pVals[s.id] = dates.map(dt => { const d = dayOf(s.id, dt); return d ? d.precip : null; });
+    tVals[s.id].forEach(v => { if (v != null) { tMin = Math.min(tMin, v); tMax = Math.max(tMax, v); } });
+    pVals[s.id].forEach(v => { if (v != null) pMax = Math.max(pMax, v); });
+  });
+  if (tMin === Infinity) return null;
+
+  return (
+    <div className="spark-summary">
+      {active.map(s => {
+        const tv = tVals[s.id].filter(v => v != null);
+        const pv = pVals[s.id].filter(v => v != null);
+        const tLast = tv.length ? Math.round(tv[tv.length - 1]) : "–";
+        const pSum = pv.reduce((a, b) => a + b, 0);
+        return (
+          <div className="spark-card" key={s.id}>
+            <div className="sh" style={{ color: s.color }}>{s.label} <small>{s.sub}</small></div>
+            <div className="spark-row">
+              <span className="lbl">🌡️ max</span>
+              <Sparkline values={tVals[s.id]} domainMin={tMin} domainMax={tMax}
+                         color={s.color} type="line" />
+              <span className="val">{tLast}°</span>
+            </div>
+            <div className="spark-row">
+              <span className="lbl">💧 zrážky</span>
+              <Sparkline values={pVals[s.id]} domainMin={0} domainMax={pMax || 1}
+                         color={s.color} type="bar" />
+              <span className="val">{pSum.toFixed(0)} mm</span>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 // spoločná tabuľka: všetky zdroje pod sebou, deň po dni
 function CompareTable({ sources, yrError, omError, daysCount }) {
   const active = SOURCES.filter(s => sources[s.id] && sources[s.id].length);
@@ -229,7 +359,9 @@ function CompareTable({ sources, yrError, omError, daysCount }) {
   };
 
   return (
-    <div className="compare-scroll">
+    <div>
+      <SparkSummary active={active} sources={sources} dates={dates} />
+      <div className="compare-scroll">
       <table className="compare-table">
         <thead>
           <tr>
@@ -276,6 +408,7 @@ function CompareTable({ sources, yrError, omError, daysCount }) {
           })}
         </tbody>
       </table>
+      </div>
       <div className="note">
         ECMWF je model, ktorý predvolene zobrazuje Windy aj 10-dňový meteogram SHMÚ.
         ALADIN (SHMÚ, 3 dni) čísla nezverejňuje — je len v obrázkovom meteograme vyššie.
@@ -311,14 +444,26 @@ function FavBar({ favs, cities, cityId, onSelect, onRemove }) {
   );
 }
 
+// počiatočný stav zo zdieľateľnej URL (?obec=32463&dni=10), inak localStorage
+function initialCity() {
+  const p = new URLSearchParams(location.search).get("obec");
+  return p || localStorage.getItem("meteoduo_city") || DEFAULT_CITY;
+}
+function initialDays() {
+  const p = new URLSearchParams(location.search).get("dni");
+  const v = p || localStorage.getItem("meteoduo_days");
+  return v === "1" ? 1 : v === "10" ? 10 : 3;
+}
+function initialTheme() {
+  return localStorage.getItem("meteoduo_theme") || "auto"; // auto | light | dark
+}
+
 function App() {
   const [cities, setCities] = useState([]);
-  const [cityId, setCityId] = useState(localStorage.getItem("meteoduo_city") || DEFAULT_CITY);
+  const [cityId, setCityId] = useState(initialCity);
   const [favs, setFavs] = useState(loadFavs);
-  const [daysCount, setDaysCount] = useState(() => {
-    const v = localStorage.getItem("meteoduo_days");
-    return v === "1" ? 1 : v === "10" ? 10 : 3;
-  });
+  const [daysCount, setDaysCount] = useState(initialDays);
+  const [theme, setTheme] = useState(initialTheme);
   const [mgType, setMgType] = useState("aladin");
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -328,6 +473,24 @@ function App() {
   useEffect(() => { localStorage.setItem("meteoduo_days", String(daysCount)); }, [daysCount]);
   // rozsah dní automaticky prepne aj zodpovedajúci meteogram (ručne sa dá zmeniť čipmi)
   useEffect(() => { setMgType(daysCount === 10 ? "mgram10" : "aladin"); }, [daysCount]);
+
+  // tmavý režim (bod 6c): auto = podľa systému (žiadny atribút), inak vynútené
+  useEffect(() => {
+    const root = document.documentElement;
+    if (theme === "auto") root.removeAttribute("data-theme");
+    else root.setAttribute("data-theme", theme);
+    localStorage.setItem("meteoduo_theme", theme);
+  }, [theme]);
+  const cycleTheme = () => setTheme(t => t === "auto" ? "light" : t === "light" ? "dark" : "auto");
+  const themeIcon = theme === "dark" ? "🌙" : theme === "light" ? "☀️" : "🌗";
+
+  // zdieľateľná URL (bod 6b): drž ?obec&dni v adrese bez reloadu
+  useEffect(() => {
+    const p = new URLSearchParams(location.search);
+    p.set("obec", cityId);
+    p.set("dni", String(daysCount));
+    history.replaceState(null, "", location.pathname + "?" + p.toString());
+  }, [cityId, daysCount]);
   const isFav = favs.includes(cityId);
   const toggleFav = () => setFavs(f => f.includes(cityId) ? f.filter(x => x !== cityId) : [...f, cityId]);
   const removeFav = id => setFavs(f => f.filter(x => x !== id));
@@ -372,6 +535,10 @@ function App() {
                   title={isFav ? "Odobrať z obľúbených" : "Uložiť medzi obľúbené"}>
             {isFav ? "★" : "☆"}
           </button>
+          <button className="theme-btn" onClick={cycleTheme}
+                  title={"Motív: " + (theme === "auto" ? "automatický" : theme === "light" ? "svetlý" : "tmavý")}>
+            {themeIcon}
+          </button>
         </CityPicker>
       </header>
 
@@ -392,10 +559,18 @@ function App() {
           {!loading && data && (
             <React.Fragment>
               <div className="place">
-                <div className="name">{data.city.name}</div>
+                <div className="name">
+                  {data.city.name}
+                  {data.warnings && data.warnings.length > 0 &&
+                    <span className="warn-badge" title={data.warnings.length + " výstraha/y v okrese " + (data.city.okres || "")}>
+                      {data.warnings[0].icon}
+                    </span>}
+                </div>
+                {data.city.okres && <div className="coords">okres {data.city.okres}</div>}
                 {data.city.lat && <div className="coords">{data.city.lat.toFixed(3)}°N, {data.city.lon.toFixed(3)}°E</div>}
               </div>
-              {data.yr && <DayCards days={data.yr.days.slice(0, daysCount)} />}
+              <WarnBar warnings={data.warnings} />
+              {data.yr && <DayCards days={data.yr.days.slice(0, daysCount)} daily={data.daily} />}
               {!data.yr && <div className="status">Súhrn nie je dostupný.</div>}
             </React.Fragment>
           )}

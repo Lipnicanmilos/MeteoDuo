@@ -13,13 +13,17 @@
 
 ## Funkcie
 
-- [ ] **4. Výstrahy SHMÚ / Meteoalarm** ⚠️ — farebný prúžok pri obci, keď
-      platí výstraha (vietor, búrky, poľadovica)
-- [ ] **5. Východ/západ slnka + UV index** — Open-Meteo daily, do denného
-      súhrnu
-- [ ] **6a.** Sparkline grafy (teplota/zrážky) v porovnávacej tabuľke
-- [ ] **6b.** Zdieľateľná URL s obcou a rozsahom (?obec=32463&dni=10)
-- [ ] **6c.** Tmavý režim
+- [x] **4. Výstrahy SHMÚ / Meteoalarm** ⚠️ — hotové: Meteoalarm JSON feed
+      (app/services/warnings.py), okres v cities.json (scripts/assign_okres.py),
+      farebný prúžok + badge pri obci
+- [x] **5. Východ/západ slnka + UV index** — hotové: Open-Meteo daily
+      (openmeteo.fetch_daily), v denných kartách 🌅/🌇 + farebný UV pill
+- [x] **6a.** Sparkline grafy (teplota/zrážky) v porovnávacej tabuľke — hotové:
+      SVG súhrn trendov pre každý model (SparkSummary)
+- [x] **6b.** Zdieľateľná URL s obcou a rozsahom (?obec=32463&dni=10) — hotové:
+      init z URL + sync cez history.replaceState
+- [x] **6c.** Tmavý režim — hotové: prepínač auto/svetlý/tmavý v hlavičke,
+      CSS premenné + prefers-color-scheme
 
 ## Ostatné
 
