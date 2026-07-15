@@ -28,6 +28,12 @@ async def index():
                         headers={"Cache-Control": "no-cache"})
 
 
+@app.get("/radar")
+async def radar():
+    return FileResponse(STATIC_DIR / "radar.html",
+                        headers={"Cache-Control": "no-cache"})
+
+
 @app.get("/api/cities")
 async def cities():
     return shmu.CITIES

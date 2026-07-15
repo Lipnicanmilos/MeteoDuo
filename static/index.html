@@ -57,6 +57,14 @@
   .view-toggle button:hover { background: rgba(255,255,255,.25); }
   .view-toggle button.active { background: #fff; color: var(--primary); }
 
+  .radar-link {
+    display: inline-block; background: rgba(255,255,255,.16);
+    border: 1px solid rgba(255,255,255,.45); color: #fff; text-decoration: none;
+    border-radius: 10px; padding: .45rem .8rem; font-size: .85rem;
+    font-weight: 600; line-height: 1.2; white-space: nowrap; transition: background .2s;
+  }
+  .radar-link:hover { background: rgba(255,255,255,.3); }
+
   /* obľúbené obce */
   .fav-bar {
     display: flex; gap: .5rem; overflow-x: auto;
@@ -600,6 +608,10 @@ function App() {
           <button className={daysCount === 10 ? "active" : ""}
                   onClick={() => setDaysCount(10)}>10 dní</button>
         </div>
+        <a className="radar-link"
+           href={data && data.city.lat != null
+                 ? "/radar?lat=" + data.city.lat + "&lon=" + data.city.lon
+                 : "/radar"}>🌧️ Radar</a>
         <CityPicker cities={cities} value={cityId} onChange={setCityId}>
           <button className="fav-btn" onClick={toggleFav}
                   title={isFav ? "Odobrať z obľúbených" : "Uložiť medzi obľúbené"}>
