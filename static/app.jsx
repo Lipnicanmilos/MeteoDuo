@@ -437,7 +437,12 @@ function FavBar({ favs, cities, cityId, onSelect, onRemove }) {
         if (!c) return null;
         return (
           <span key={id} className={"fav-chip" + (id === cityId ? " active" : "")}
-                onClick={() => onSelect(id)} title={"Zobraziť " + c.name}>
+                role="button" tabIndex={0}
+                onClick={() => onSelect(id)}
+                onKeyDown={e => {
+                  if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onSelect(id); }
+                }}
+                title={"Zobraziť " + c.name}>
             {c.name}
             <button className="x" title="Odobrať z obľúbených"
                     onClick={e => { e.stopPropagation(); onRemove(id); }}>✕</button>
@@ -503,6 +508,13 @@ function App() {
     fetch("/api/cities").then(r => r.json()).then(setCities)
       .catch(() => setError("Nepodarilo sa načítať zoznam obcí."));
   }, []);
+
+  // neplatné ID z URL (?obec=...) alebo zo starého localStorage -> default
+  useEffect(() => {
+    if (cities.length && !cities.some(c => c.id === cityId)) {
+      setCityId(DEFAULT_CITY);
+    }
+  }, [cities, cityId]);
 
   useEffect(() => {
     let cancelled = false;

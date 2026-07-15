@@ -13,6 +13,8 @@ from datetime import datetime, timedelta, timezone
 
 import httpx
 
+from app.services.shmu import prune_expired
+
 OM_URL = "https://api.open-meteo.com/v1/forecast"
 
 # kľúč -> názov modelu v Open-Meteo API; poradie = poradie riadkov v tabuľke
@@ -57,6 +59,7 @@ async def fetch_forecast(client: httpx.AsyncClient, lat: float, lon: float) -> d
     hourly = res.json().get("hourly", {})
 
     payload = {mkey: _digest_model(hourly, mname) for mkey, mname in MODELS.items()}
+    prune_expired(_cache, now)
     _cache[key] = (now + CACHE_TTL, payload)
     return payload
 
@@ -101,6 +104,7 @@ async def fetch_daily(client: httpx.AsyncClient, lat: float, lon: float) -> list
             "uv_max": round(uv[i], 1) if i < len(uv) and uv[i] is not None else None,
         })
 
+    prune_expired(_daily_cache, now)
     _daily_cache[key] = (now + CACHE_TTL, out)
     return out
 

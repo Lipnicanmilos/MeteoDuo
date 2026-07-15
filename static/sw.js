@@ -6,7 +6,10 @@
  *    odpoveď sa uloží do cache a pri výpadku siete sa servíruje z nej —
  *    tým je posledná predpoveď (aj meteogram) dostupná offline
  */
-const CACHE = "meteoduo-v1";
+// POZOR: pri zmene statiky (index.html, app.jsx, ikony) zdvihni verziu —
+// online používatelia dostanú novú verziu aj bez toho (network-first),
+// ale offline cache sa prečistí až po bumpe
+const CACHE = "meteoduo-v2";
 
 const PRECACHE = [
   "/",

@@ -9,6 +9,8 @@ from datetime import datetime, timedelta, timezone
 
 import httpx
 
+from app.services.shmu import prune_expired
+
 MET_URL = "https://api.met.no/weatherapi/locationforecast/2.0/compact"
 USER_AGENT = "MeteoDuo/1.0 https://github.com/Lipnicanmilos/meteoduo"
 
@@ -37,6 +39,7 @@ async def fetch_forecast(client: httpx.AsyncClient, lat: float, lon: float) -> d
     timeseries = res.json()["properties"]["timeseries"]
 
     payload = _digest(timeseries)
+    prune_expired(_cache, now)
     _cache[key] = (now + CACHE_TTL, payload)
     return payload
 

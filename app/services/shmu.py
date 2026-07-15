@@ -35,6 +35,16 @@ CITY_OKRES = {c["id"]: c["okres"] for c in CITIES if c.get("okres")}
 # cache: (city_id, mg_type) -> (expires_utc, image_url)
 _url_cache: dict[tuple[str, str], tuple[datetime, str]] = {}
 URL_TTL = timedelta(minutes=10)
+# cache PNG bytov: (city_id, mg_type) -> (expires_utc, bytes) — bez nej by
+# každý request sťahoval ~100-200 KB zo SHMÚ znova
+_png_cache: dict[tuple[str, str], tuple[datetime, bytes]] = {}
+PNG_TTL = timedelta(minutes=10)
+
+
+def prune_expired(cache: dict, now: datetime) -> None:
+    """Zmaž expirované záznamy — inak cache slovníky rastú donekonečna."""
+    for k in [k for k, v in cache.items() if v[0] <= now]:
+        del cache[k]
 
 
 async def latest_meteogram_url(client: httpx.AsyncClient, city_id: str,
@@ -52,15 +62,25 @@ async def latest_meteogram_url(client: httpx.AsyncClient, city_id: str,
         return None
 
     url = SHMU_BASE + m.group(1)
+    prune_expired(_url_cache, now)
     _url_cache[key] = (now + URL_TTL, url)
     return url
 
 
 async def fetch_meteogram_png(client: httpx.AsyncClient, city_id: str,
                               mg_type: str = "aladin") -> bytes | None:
+    now = datetime.now(timezone.utc)
+    key = (city_id, mg_type)
+    cached = _png_cache.get(key)
+    if cached and cached[0] > now:
+        return cached[1]
+
     url = await latest_meteogram_url(client, city_id, mg_type)
     if not url:
         return None
     res = await client.get(url, timeout=20)
     res.raise_for_status()
+
+    prune_expired(_png_cache, now)
+    _png_cache[key] = (now + PNG_TTL, res.content)
     return res.content
