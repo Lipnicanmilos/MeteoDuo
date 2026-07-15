@@ -44,6 +44,19 @@
   }
   .fav-btn:hover { background: rgba(255,255,255,.3); }
 
+  /* prepínač rozsahu predpovede (1 deň / 3 dni) */
+  .view-toggle {
+    display: flex; border: 1px solid rgba(255,255,255,.45);
+    border-radius: 10px; overflow: hidden; background: rgba(255,255,255,.16);
+  }
+  .view-toggle button {
+    border: none; background: none; color: #fff; padding: .45rem .8rem;
+    cursor: pointer; font-size: .85rem; font-weight: 600; line-height: 1.2;
+    transition: background .2s;
+  }
+  .view-toggle button:hover { background: rgba(255,255,255,.25); }
+  .view-toggle button.active { background: #fff; color: var(--primary); }
+
   /* obľúbené obce */
   .fav-bar {
     display: flex; gap: .5rem; overflow-x: auto;
@@ -115,6 +128,14 @@
   table.hours td.w { color: var(--muted); text-align: right; }
 
   /* meteogram */
+  .mg-tabs { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: .8rem; }
+  .mg-tabs button {
+    border: 1px solid var(--border); background: var(--surface); border-radius: 50px;
+    padding: .3rem .7rem; font-size: .78rem; font-weight: 600; cursor: pointer;
+    color: var(--muted); transition: all .2s; white-space: nowrap;
+  }
+  .mg-tabs button:hover { border-color: var(--primary); color: var(--primary); }
+  .mg-tabs button.active { background: var(--primary); border-color: var(--primary); color: #fff; }
   .meteogram-wrap { text-align: center; }
   .meteogram-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; position: relative; }
   .meteogram-wrap img { max-width: 100%; border-radius: 8px; }
@@ -123,7 +144,7 @@
   @media (hover: hover) and (pointer: fine) {
     .meteogram-scroll img { cursor: zoom-in; }
     .zoom-lens {
-      position: absolute; width: 240px; height: 240px; border-radius: 50%;
+      position: absolute; width: 340px; height: 340px; border-radius: 50%;
       border: 3px solid var(--primary); pointer-events: none;
       background-repeat: no-repeat; background-color: #fff;
       box-shadow: 0 8px 30px rgba(15,23,42,.35), inset 0 0 8px rgba(15,23,42,.15);
@@ -131,6 +152,54 @@
     }
   }
   .note { font-size: .75rem; color: var(--muted); margin-top: .6rem; line-height: 1.5; }
+
+  /* lightbox — zväčšený meteogram na stred obrazovky */
+  .lightbox {
+    position: fixed; inset: 0; z-index: 100;
+    background: rgba(15,23,42,.78);
+    display: flex; align-items: center; justify-content: center;
+    padding: 1.5rem; cursor: zoom-out;
+  }
+  .lightbox img {
+    max-width: 96vw; max-height: 94vh; border-radius: 10px;
+    background: #fff; box-shadow: 0 20px 60px rgba(0,0,0,.5);
+  }
+
+  /* Windy — cez celú šírku */
+  .windy { grid-column: 1 / -1; }
+  .windy iframe {
+    width: 100%; height: 480px; border: 0; border-radius: 10px;
+    display: block; background: var(--bg);
+  }
+
+  /* porovnávacia tabuľka — cez celú šírku */
+  .compare { grid-column: 1 / -1; }
+  .compare-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table.compare-table { width: 100%; border-collapse: collapse; font-size: .92rem; min-width: 640px; }
+  table.compare-table th {
+    text-align: left; font-size: .72rem; text-transform: uppercase; letter-spacing: .03em;
+    color: var(--muted); font-weight: 700; padding: .4rem .7rem .55rem;
+    border-bottom: 2px solid var(--border);
+  }
+  table.compare-table td { padding: .55rem .7rem; }
+  table.compare-table tr.day-top td { border-top: 1px solid var(--border); }
+  table.compare-table tr:first-child td { border-top: none; }
+  .compare-table .c-day { vertical-align: middle; }
+  .compare-table .c-day .dn { font-weight: 700; text-transform: capitalize; display: block; }
+  .compare-table .c-day small { color: var(--muted); font-weight: 400; }
+  .compare-table .src { white-space: nowrap; font-weight: 600; }
+  .compare-table .src .sub { color: var(--muted); font-weight: 400; font-size: .72rem; }
+  .compare-table .sym { text-align: center; font-size: 1.05rem; width: 2.2rem; }
+  .compare-table .tmax { font-weight: 700; }
+  .compare-table .tmin { color: var(--muted); }
+  .compare-table .prec { color: var(--primary); white-space: nowrap; }
+  .compare-table .wind { color: var(--muted); white-space: nowrap; }
+  .compare-table .delta {
+    display: inline-block; margin: .25rem .25rem 0 0;
+    font-size: .68rem; font-weight: 700; color: #b45309;
+    background: #fef3c7; border-radius: 6px; padding: .1rem .35rem; white-space: nowrap;
+  }
+  .compare-table .c-day .delta { display: block; width: fit-content; }
 
   .status { text-align: center; color: var(--muted); padding: 2.5rem 1rem; }
   .error { color: #b91c1c; background: #fef2f2; border: 1px solid #fecaca;
@@ -181,6 +250,24 @@ function symbolEmoji(code) {
   if (!code) return "·";
   const base = code.replace(/_(day|night|polartwilight)$/, "");
   for (const [k, v] of EMOJI) if (base.includes(k)) return v;
+  return "🌡️";
+}
+
+// WMO weather code (Open-Meteo) -> emoji
+function wmoEmoji(code) {
+  if (code == null) return "·";
+  if (code === 0) return "☀️";
+  if (code === 1) return "🌤️";
+  if (code === 2) return "⛅";
+  if (code === 3) return "☁️";
+  if (code === 45 || code === 48) return "🌫️";
+  if (code >= 51 && code <= 57) return "🌦️";
+  if (code >= 61 && code <= 65) return "🌧️";
+  if (code === 66 || code === 67) return "🌨️";
+  if (code >= 71 && code <= 77) return "❄️";
+  if (code >= 80 && code <= 82) return "🌦️";
+  if (code === 85 || code === 86) return "🌨️";
+  if (code >= 95) return "⛈️";
   return "🌡️";
 }
 
@@ -240,7 +327,7 @@ function DayCards({ days }) {
   );
 }
 
-function HourlyPanel({ hourly }) {
+function HourlyPanel({ hourly, daysCount }) {
   const byDay = useMemo(() => {
     const m = new Map();
     for (const h of hourly) {
@@ -248,8 +335,12 @@ function HourlyPanel({ hourly }) {
       if (!m.has(day)) m.set(day, []);
       m.get(day).push(h);
     }
-    return [...m.entries()].slice(0, 3);
-  }, [hourly]);
+    return [...m.entries()].slice(0, daysCount);
+  }, [hourly, daysCount]);
+
+  // pri jednom dni každú hodinu, pri troch každú tretiu, pri desiatich šiestu
+  // (MET Norway po ~60 h aj tak dáva už len 6-hodinové kroky)
+  const step = daysCount === 1 ? 1 : daysCount === 10 ? 6 : 3;
 
   return (
     <div>
@@ -257,7 +348,7 @@ function HourlyPanel({ hourly }) {
         <div className="day-block" key={day}>
           <h3>{dayLabel(day, i)} {fmtDate(day)}</h3>
           <table className="hours"><tbody>
-            {rows.filter(h => parseInt(h.time.slice(11, 13)) % 3 === 0).map(h => (
+            {rows.filter(h => parseInt(h.time.slice(11, 13)) % step === 0).map(h => (
               <tr key={h.time}>
                 <td className="h">{h.time.slice(11, 16)}</td>
                 <td className="e">{symbolEmoji(h.symbol)}</td>
@@ -273,12 +364,28 @@ function HourlyPanel({ hourly }) {
   );
 }
 
+// typy SHMÚ meteogramov (id -> API ?type=, label pre čipy, popis)
+const MG_TYPES = [
+  { id: "aladin",  label: "ALADIN · 3 dni",  caption: "Automatická predpoveď modelu ALADIN, aktualizovaná 4× denne." },
+  { id: "laef",    label: "A-LAEF · 3 dni",  caption: "Ansámblová predpoveď A-LAEF (epsgram) na 3 dni." },
+  { id: "egram8",  label: "EPS · 8 dní",     caption: "Ansámblová predpoveď ECMWF (epsgram) na 8 dní." },
+  { id: "mgram10", label: "ECMWF · 10 dní",  caption: "Meteogram ECMWF na 10 dní." },
+];
+
 const ZOOM = 2.5;
 
-function Meteogram({ src, alt }) {
+function Meteogram({ src, alt, caption }) {
   const [lens, setLens] = useState(null);   // {x, y, bgX, bgY, bgW, bgH}
   const [failed, setFailed] = useState(false);
-  useEffect(() => { setFailed(false); setLens(null); }, [src]);
+  const [open, setOpen] = useState(false);  // lightbox
+  useEffect(() => { setFailed(false); setLens(null); setOpen(false); }, [src]);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = e => { if (e.key === "Escape") setOpen(false); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
 
   function onMove(e) {
     const img = e.currentTarget;
@@ -286,7 +393,7 @@ function Meteogram({ src, alt }) {
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
     if (x < 0 || y < 0 || x > rect.width || y > rect.height) { setLens(null); return; }
-    const half = 120; // polovica priemeru lupy
+    const half = 170; // polovica priemeru lupy
     setLens({
       x: img.offsetLeft + x - half,
       y: img.offsetTop + y - half,
@@ -303,6 +410,7 @@ function Meteogram({ src, alt }) {
         {!failed && (
           <img src={src} alt={alt}
                onMouseMove={onMove} onMouseLeave={() => setLens(null)}
+               onClick={() => setOpen(true)}
                onError={() => setFailed(true)} />
         )}
         {failed && <div className="error">Meteogram sa nepodarilo načítať.</div>}
@@ -315,8 +423,102 @@ function Meteogram({ src, alt }) {
           }} />
         )}
       </div>
-      <div className="note">Automatická predpoveď modelu ALADIN, aktualizovaná 4× denne.
-        Prejdením myšou sa zobrazí lupa.</div>
+      <div className="note">{caption} Prejdením myšou sa zobrazí lupa, kliknutím sa meteogram zväčší.</div>
+      {open && !failed && (
+        <div className="lightbox" onClick={() => setOpen(false)}>
+          <img src={src} alt={alt} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+function fmtWind(v) { return v != null ? v.toFixed(1) + " m/s" : "–"; }
+
+// zdroje v porovnávacej tabuľke; ECMWF = model, ktorý predvolene zobrazuje
+// Windy aj 10-dňový meteogram SHMÚ (ALADIN čísla SHMÚ nezverejňuje)
+const SOURCES = [
+  { id: "yr",    label: "🇳🇴 yr.no",  sub: "MET Norway",        color: "#2563eb" },
+  { id: "ecmwf", label: "🌍 ECMWF",   sub: "Windy · SHMÚ 10 d", color: "#0f766e" },
+  { id: "icon",  label: "🇩🇪 ICON",   sub: "DWD",               color: "#7c3aed" },
+  { id: "gfs",   label: "🇺🇸 GFS",    sub: "NOAA",              color: "#b45309" },
+];
+
+// spoločná tabuľka: všetky zdroje pod sebou, deň po dni
+function CompareTable({ sources, yrError, omError, daysCount }) {
+  const active = SOURCES.filter(s => sources[s.id] && sources[s.id].length);
+
+  const dates = useMemo(() => {
+    const set = new Set();
+    active.forEach(s => sources[s.id].forEach(d => set.add(d.date)));
+    return [...set].sort().slice(0, daysCount);
+  }, [sources, daysCount]);
+
+  if (!dates.length) {
+    return <div className="error">{yrError || omError || "Dáta na porovnanie nie sú dostupné."}</div>;
+  }
+
+  const dayOf = (srcId, date) => (sources[srcId] || []).find(d => d.date === date);
+  const spreadOf = (date, field) => {
+    const vals = active.map(s => { const d = dayOf(s.id, date); return d && d[field]; })
+                       .filter(v => v != null);
+    return vals.length > 1 ? Math.max(...vals) - Math.min(...vals) : 0;
+  };
+
+  return (
+    <div className="compare-scroll">
+      <table className="compare-table">
+        <thead>
+          <tr>
+            <th className="c-day">Deň</th>
+            <th>Zdroj</th>
+            <th></th>
+            <th>Max</th>
+            <th>Min</th>
+            <th>Zrážky</th>
+            <th>Vietor</th>
+          </tr>
+        </thead>
+        <tbody>
+          {dates.map((date, i) => {
+            const tSpread = spreadOf(date, "temp_max");
+            const pSpread = spreadOf(date, "precip");
+            return (
+              <React.Fragment key={date}>
+                {active.map((s, j) => {
+                  const d = dayOf(s.id, date);
+                  return (
+                    <tr key={s.id} className={j === 0 ? "day-top" : ""}>
+                      {j === 0 && (
+                        <td className="c-day" rowSpan={active.length}>
+                          <span className="dn">{dayLabel(date, i)}</span>
+                          <small>{fmtDate(date)}</small>
+                          {tSpread >= 2 && <span className="delta" title="Rozptyl max. teploty medzi modelmi">Δ {tSpread.toFixed(1)}°</span>}
+                          {pSpread >= 3 && <span className="delta" title="Rozptyl zrážok medzi modelmi">Δ {pSpread.toFixed(1)} mm</span>}
+                        </td>
+                      )}
+                      <td className="src" style={{ color: s.color }}>
+                        {s.label} <small className="sub">{s.sub}</small>
+                      </td>
+                      <td className="sym">{d ? (s.id === "yr" ? symbolEmoji(d.symbol) : wmoEmoji(d.wmo)) : ""}</td>
+                      <td className="tmax">{d ? Math.round(d.temp_max) + "°" : "–"}</td>
+                      <td className="tmin">{d ? Math.round(d.temp_min) + "°" : "–"}</td>
+                      <td className="prec">{d ? "💧 " + d.precip + " mm" : "–"}</td>
+                      <td className="wind">{d ? fmtWind(d.wind_max) : "–"}</td>
+                    </tr>
+                  );
+                })}
+              </React.Fragment>
+            );
+          })}
+        </tbody>
+      </table>
+      <div className="note">
+        ECMWF je model, ktorý predvolene zobrazuje Windy aj 10-dňový meteogram SHMÚ.
+        ALADIN (SHMÚ, 3 dni) čísla nezverejňuje — je len v obrázkovom meteograme vyššie.
+        {yrError && <div>⚠️ yr.no: {yrError}</div>}
+        {omError && <div>⚠️ Open-Meteo: {omError}</div>}
+      </div>
     </div>
   );
 }
@@ -350,11 +552,19 @@ function App() {
   const [cities, setCities] = useState([]);
   const [cityId, setCityId] = useState(localStorage.getItem("meteoduo_city") || DEFAULT_CITY);
   const [favs, setFavs] = useState(loadFavs);
+  const [daysCount, setDaysCount] = useState(() => {
+    const v = localStorage.getItem("meteoduo_days");
+    return v === "1" ? 1 : v === "10" ? 10 : 3;
+  });
+  const [mgType, setMgType] = useState("aladin");
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => { localStorage.setItem("meteoduo_favs", JSON.stringify(favs)); }, [favs]);
+  useEffect(() => { localStorage.setItem("meteoduo_days", String(daysCount)); }, [daysCount]);
+  // rozsah dní automaticky prepne aj zodpovedajúci meteogram (ručne sa dá zmeniť čipmi)
+  useEffect(() => { setMgType(daysCount === 10 ? "mgram10" : "aladin"); }, [daysCount]);
   const isFav = favs.includes(cityId);
   const toggleFav = () => setFavs(f => f.includes(cityId) ? f.filter(x => x !== cityId) : [...f, cityId]);
   const removeFav = id => setFavs(f => f.filter(x => x !== id));
@@ -380,7 +590,15 @@ function App() {
       <header>
         <div>
           <h1>⛅ MeteoDuo</h1>
-          <div className="tagline">dve predpovede vedľa seba · na 3 dni</div>
+          <div className="tagline">dve predpovede vedľa seba · {daysCount === 1 ? "dnes" : daysCount === 3 ? "na 3 dni" : "na 10 dní"}</div>
+        </div>
+        <div className="view-toggle" role="group" aria-label="Rozsah predpovede">
+          <button className={daysCount === 1 ? "active" : ""}
+                  onClick={() => setDaysCount(1)}>1 deň</button>
+          <button className={daysCount === 3 ? "active" : ""}
+                  onClick={() => setDaysCount(3)}>3 dni</button>
+          <button className={daysCount === 10 ? "active" : ""}
+                  onClick={() => setDaysCount(10)}>10 dní</button>
         </div>
         <CityPicker cities={cities} value={cityId} onChange={setCityId}>
           <button className="fav-btn" onClick={toggleFav}
@@ -397,7 +615,7 @@ function App() {
         <section className="panel">
           <h2>🇳🇴 yr.no <span className="src">(MET Norway, hodinová predpoveď)</span></h2>
           {loading && <div className="status">Načítavam…</div>}
-          {!loading && data && data.yr && <HourlyPanel hourly={data.yr.hourly} />}
+          {!loading && data && data.yr && <HourlyPanel hourly={data.yr.hourly} daysCount={daysCount} />}
           {!loading && data && !data.yr && <div className="error">{data.yr_error || "Dáta nie sú dostupné."}</div>}
         </section>
 
@@ -410,17 +628,57 @@ function App() {
                 <div className="name">{data.city.name}</div>
                 {data.city.lat && <div className="coords">{data.city.lat.toFixed(3)}°N, {data.city.lon.toFixed(3)}°E</div>}
               </div>
-              {data.yr && <DayCards days={data.yr.days} />}
+              {data.yr && <DayCards days={data.yr.days.slice(0, daysCount)} />}
               {!data.yr && <div className="status">Súhrn nie je dostupný.</div>}
             </React.Fragment>
           )}
         </section>
 
         <section className="panel">
-          <h2>🇸🇰 SHMÚ <span className="src">(model ALADIN, meteogram na 3 dni)</span></h2>
+          <h2>🇸🇰 SHMÚ <span className="src">(meteogramy)</span></h2>
+          <div className="mg-tabs" role="group" aria-label="Typ meteogramu">
+            {MG_TYPES.map(t => (
+              <button key={t.id} className={mgType === t.id ? "active" : ""}
+                      onClick={() => setMgType(t.id)}>{t.label}</button>
+            ))}
+          </div>
           {loading && <div className="status">Načítavam…</div>}
           {!loading && data && (
-            <Meteogram src={data.meteogram_url} alt={"ALADIN meteogram – " + data.city.name} />
+            <Meteogram src={data.meteogram_url + "?type=" + mgType}
+                       alt={"SHMÚ meteogram (" + mgType + ") – " + data.city.name}
+                       caption={MG_TYPES.find(t => t.id === mgType).caption} />
+          )}
+        </section>
+
+        <section className="panel compare">
+          <h2>📊 Porovnanie modelov <span className="src">(číselne, deň po dni)</span></h2>
+          {loading && <div className="status">Načítavam…</div>}
+          {!loading && data && (
+            <CompareTable sources={Object.assign({ yr: data.yr && data.yr.days }, data.om_models || {})}
+                          yrError={data.yr_error} omError={data.om_error}
+                          daysCount={daysCount} />
+          )}
+        </section>
+
+        <section className="panel windy">
+          <h2>🌀 Windy <span className="src">(interaktívna mapa a predpoveď)</span></h2>
+          {loading && <div className="status">Načítavam…</div>}
+          {!loading && data && data.city.lat != null && (
+            <React.Fragment>
+              <iframe title={"Windy – " + data.city.name}
+                      loading="lazy"
+                      src={"https://embed.windy.com/embed.html?type=map&location=coordinates" +
+                           "&metricWind=m%2Fs&metricTemp=%C2%B0C&metricRain=mm" +
+                           "&zoom=9&overlay=rain&product=ecmwf&level=surface" +
+                           "&lat=" + data.city.lat + "&lon=" + data.city.lon +
+                           "&detailLat=" + data.city.lat + "&detailLon=" + data.city.lon +
+                           "&detail=true&marker=true&message=true"} />
+              <div className="note">Interaktívna mapa windy.com (model ECMWF) so značkou na vybranej obci
+                — v spodnej časti bodová predpoveď na 10+ dní.</div>
+            </React.Fragment>
+          )}
+          {!loading && data && data.city.lat == null && (
+            <div className="error">Bez súradníc obce sa Windy mapa nedá zobraziť.</div>
           )}
         </section>
       </main>

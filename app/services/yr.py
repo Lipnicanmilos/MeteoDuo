@@ -15,11 +15,12 @@ USER_AGENT = "MeteoDuo/1.0 https://github.com/Lipnicanmilos/meteoduo"
 # cache: (lat, lon) -> (expires_utc, payload)
 _cache: dict[tuple[float, float], tuple[datetime, dict]] = {}
 CACHE_TTL = timedelta(minutes=15)
-FORECAST_DAYS = 3
+# MET Norway dáva ~9-10 dní (po ~60 h už len 6-hodinové kroky)
+FORECAST_DAYS = 10
 
 
 async def fetch_forecast(client: httpx.AsyncClient, lat: float, lon: float) -> dict:
-    """Vráti {'hourly': [...], 'days': [...]} na najbližšie 3 dni."""
+    """Vráti {'hourly': [...], 'days': [...]} na najbližších FORECAST_DAYS dní."""
     key = (round(lat, 3), round(lon, 3))
     now = datetime.now(timezone.utc)
     cached = _cache.get(key)
@@ -63,11 +64,14 @@ def _digest(timeseries: list[dict]) -> dict:
     days: dict[str, dict] = {}
     for h in hourly:
         day = h["time"][:10]
-        d = days.setdefault(day, {"date": day, "temps": [], "precip": 0.0, "symbols": []})
+        d = days.setdefault(day, {"date": day, "temps": [], "precip": 0.0,
+                                  "winds": [], "symbols": []})
         if h["temp"] is not None:
             d["temps"].append(h["temp"])
         if h["precip"] is not None:
             d["precip"] += h["precip"]
+        if h["wind"] is not None:
+            d["winds"].append(h["wind"])
         # symbol reprezentujúci deň berieme z denných hodín
         hour = int(h["time"][11:13])
         if h["symbol"] and 9 <= hour <= 18:
@@ -83,6 +87,7 @@ def _digest(timeseries: list[dict]) -> dict:
             "temp_min": round(min(d["temps"]), 1),
             "temp_max": round(max(d["temps"]), 1),
             "precip": round(d["precip"], 1),
+            "wind_max": round(max(d["winds"]), 1) if d["winds"] else None,
             "symbol": Counter(symbols).most_common(1)[0][0] if symbols else None,
         })
 

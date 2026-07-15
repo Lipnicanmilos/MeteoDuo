@@ -1,4 +1,5 @@
 """MeteoDuo — dve predpovede vedľa seba (yr.no / MET Norway + SHMÚ ALADIN)."""
+import asyncio
 from contextlib import asynccontextmanager
 from pathlib import Path
 
@@ -6,7 +7,7 @@ import httpx
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, Response
 
-from app.services import geocode, shmu, yr
+from app.services import geocode, openmeteo, shmu, yr
 
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
 
@@ -23,7 +24,8 @@ app = FastAPI(title="MeteoDuo", lifespan=lifespan)
 
 @app.get("/")
 async def index():
-    return FileResponse(STATIC_DIR / "index.html")
+    return FileResponse(STATIC_DIR / "index.html",
+                        headers={"Cache-Control": "no-cache"})
 
 
 @app.get("/api/cities")
@@ -41,13 +43,23 @@ async def forecast(city_id: str):
 
     coords = await geocode.geocode(client, name)
     yr_data, yr_error = None, None
+    om_data, om_error = None, None
     if coords:
-        try:
-            yr_data = await yr.fetch_forecast(client, *coords)
-        except httpx.HTTPError as e:
-            yr_error = f"MET Norway API nedostupné ({e.__class__.__name__})"
+        yr_res, om_res = await asyncio.gather(
+            yr.fetch_forecast(client, *coords),
+            openmeteo.fetch_forecast(client, *coords),
+            return_exceptions=True,
+        )
+        if isinstance(yr_res, Exception):
+            yr_error = f"MET Norway API nedostupné ({yr_res.__class__.__name__})"
+        else:
+            yr_data = yr_res
+        if isinstance(om_res, Exception):
+            om_error = f"Open-Meteo API nedostupné ({om_res.__class__.__name__})"
+        else:
+            om_data = om_res
     else:
-        yr_error = "Miesto sa nepodarilo geokódovať"
+        yr_error = om_error = "Miesto sa nepodarilo geokódovať"
 
     return {
         "city": {"id": city_id, "name": name,
@@ -55,16 +67,20 @@ async def forecast(city_id: str):
                  "lon": coords[1] if coords else None},
         "yr": yr_data,
         "yr_error": yr_error,
+        "om_models": om_data,   # {"ecmwf": [...], "icon": [...], "gfs": [...]}
+        "om_error": om_error,
         "meteogram_url": f"/api/meteogram/{city_id}",
     }
 
 
 @app.get("/api/meteogram/{city_id}")
-async def meteogram(city_id: str):
+async def meteogram(city_id: str, type: str = "aladin"):
     if city_id not in shmu.CITY_IDS:
         raise HTTPException(404, "Neznáme mesto")
+    if type not in shmu.METEOGRAM_TYPES:
+        raise HTTPException(400, "Neznámy typ meteogramu")
     try:
-        png = await shmu.fetch_meteogram_png(app.state.http, city_id)
+        png = await shmu.fetch_meteogram_png(app.state.http, city_id, type)
     except httpx.HTTPError:
         raise HTTPException(502, "SHMÚ nedostupné")
     if png is None:
