@@ -2,12 +2,11 @@
 
 ## Optimalizácie (poradie = priorita)
 
-- [ ] **1. Súradnice priamo v cities.json** — každá obec sa teraz geokóduje
-      cez Open-Meteo API za behu; predpočítať jednorazovým skriptom
-      → rýchlejšie načítanie, o jednu závislosť menej
-- [ ] **2. Predkompilovať JSX** — Babel standalone kompiluje v prehliadači
-      pri každom načítaní (~1 s); jednorazová kompilácia do plain JS
-      (bez Node/Vite)
+- [x] **1. Súradnice priamo v cities.json** — hotové (scripts/geocode_cities.py,
+      1064/1068 obcí; geokódovanie API je už len fallback)
+- [x] **2. Predkompilovať JSX** — hotové: JSX v static/app.jsx, kompiluje
+      server cez dukpy (Babel v Pythone) na /app.js s auto-rekompiláciou
+      pri zmene; Babel standalone z prehliadača odstránený
 - [ ] **3. PWA** — manifest + service worker; inštalácia na mobil,
       posledná predpoveď dostupná offline
 

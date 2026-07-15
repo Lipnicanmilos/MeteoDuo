@@ -34,7 +34,9 @@ Pod panelmi:
     + 3 modely (ECMWF, ICON, GFS) cez Open-Meteo jedným requestom
   - `/api/meteogram/{city_id}?type=aladin|laef|egram8|mgram10` — proxy
     najnovšieho meteogramu zo shmu.sk
-- **Frontend:** React 18 cez CDN (bez build kroku) — `static/index.html`
+- **Frontend:** React 18 cez CDN, JSX v `static/app.jsx` — kompiluje ho
+  server (dukpy/Babel v Pythone, žiadny Node) na route `/app.js`;
+  prekompiluje sa automaticky pri zmene zdroja
 
 ## Lokálne spustenie
 

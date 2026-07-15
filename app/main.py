@@ -3,6 +3,7 @@ import asyncio
 from contextlib import asynccontextmanager
 from pathlib import Path
 
+import dukpy
 import httpx
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, Response
@@ -10,6 +11,9 @@ from fastapi.responses import FileResponse, Response
 from app.services import geocode, openmeteo, shmu, yr
 
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
+APP_JSX = STATIC_DIR / "app.jsx"
+APP_JS = STATIC_DIR / "app.compiled.js"
+_jsx_lock = asyncio.Lock()
 
 
 @asynccontextmanager
@@ -31,6 +35,22 @@ async def index():
 @app.get("/radar")
 async def radar():
     return FileResponse(STATIC_DIR / "radar.html",
+                        headers={"Cache-Control": "no-cache"})
+
+
+@app.get("/app.js")
+async def app_js():
+    """JSX kompilované na serveri (dukpy/Babel — bez Node aj bez Babel CDN).
+
+    Prekompiluje sa automaticky, keď je app.jsx novší než cache na disku.
+    """
+    async with _jsx_lock:
+        if (not APP_JS.exists()
+                or APP_JS.stat().st_mtime < APP_JSX.stat().st_mtime):
+            src = APP_JSX.read_text(encoding="utf-8")
+            js = await asyncio.to_thread(dukpy.jsx_compile, src)
+            APP_JS.write_text(js, encoding="utf-8")
+    return FileResponse(APP_JS, media_type="application/javascript",
                         headers={"Cache-Control": "no-cache"})
 
 
