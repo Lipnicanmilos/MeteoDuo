@@ -53,7 +53,14 @@ async def app_js():
                 or APP_JS.stat().st_mtime < APP_JSX.stat().st_mtime):
             src = APP_JSX.read_text(encoding="utf-8")
             js = await asyncio.to_thread(dukpy.jsx_compile, src)
-            APP_JS.write_text(js, encoding="utf-8")
+            try:
+                APP_JS.write_text(js, encoding="utf-8")
+            except OSError:
+                # read-only filesystem (AWS Lambda) — cache na disk nejde,
+                # skompilovaný JS pošleme priamo z pamäte
+                return Response(content=js,
+                                media_type="application/javascript",
+                                headers={"Cache-Control": "no-cache"})
     return FileResponse(APP_JS, media_type="application/javascript",
                         headers={"Cache-Control": "no-cache"})
 
