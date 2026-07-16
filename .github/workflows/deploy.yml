@@ -31,3 +31,15 @@ jobs:
           docker build -t "$ECR_REPO:latest" -t "$ECR_REPO:${{ github.sha }}" .
           docker push "$ECR_REPO:latest"
           docker push "$ECR_REPO:${{ github.sha }}"
+
+      - name: Deploy to Lambda
+        run: |
+          if aws lambda get-function --function-name meteoduo > /dev/null 2>&1; then
+            aws lambda update-function-code \
+              --function-name meteoduo \
+              --image-uri "$ECR_REPO:${{ github.sha }}"
+            aws lambda wait function-updated --function-name meteoduo
+            echo "Lambda updated to ${{ github.sha }}"
+          else
+            echo "Lambda function meteoduo does not exist yet - skipping deploy"
+          fi

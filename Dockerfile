@@ -1,5 +1,9 @@
 FROM python:3.12-slim
 
+# Lambda Web Adapter — v AWS Lambda prekladá udalosti na HTTP pre uvicorn,
+# mimo Lambdy sa neaktivuje (image beží normálne aj lokálne / v inom hostingu)
+COPY --from=public.ecr.aws/awsguru/aws-lambda-adapter:0.9.1 /lambda-adapter /opt/extensions/lambda-adapter
+
 WORKDIR /app
 
 COPY requirements.txt .
