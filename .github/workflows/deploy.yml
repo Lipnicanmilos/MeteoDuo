@@ -1,0 +1,33 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  ECR_REPO: 084149021262.dkr.ecr.eu-central-1.amazonaws.com/meteoduo
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::084149021262:role/meteoduo-github-deploy
+          aws-region: eu-central-1
+
+      - name: Login to ECR
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build and push image
+        run: |
+          docker build -t "$ECR_REPO:latest" -t "$ECR_REPO:${{ github.sha }}" .
+          docker push "$ECR_REPO:latest"
+          docker push "$ECR_REPO:${{ github.sha }}"
