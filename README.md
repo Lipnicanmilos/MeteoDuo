@@ -65,9 +65,21 @@ python -m venv .venv
 
 Aplikácia beží na http://localhost:8901.
 
-## Nasadenie (Cloud Run / AWS)
+## Nasadenie (AWS)
 
-Kontajner je čisto pythonovský — žiadny Node/build krok:
+Appka beží na AWS: **https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com**
+
+- **AWS Lambda** (container image, 1024 MB, eu-central-1) + **API Gateway HTTP API**
+  ako verejný endpoint — pri malej návštevnosti prakticky zadarmo (free tier)
+- **Lambda Web Adapter** v Dockerfile prekladá Lambda udalosti na HTTP pre
+  uvicorn; mimo Lambdy sa neaktivuje, image beží normálne aj lokálne
+- JSX sa predkompiluje pri builde image (filesystem Lambdy je read-only
+  a cold start preskočí pomalú dukpy kompiláciu)
+- **CI/CD:** push do `main` → GitHub Actions (OIDC rola, bez uložených AWS
+  kľúčov) → build image → ECR → `lambda update-function-code`
+  (`.github/workflows/deploy.yml`)
+
+Lokálny kontajner:
 
 ```bash
 docker build -t meteoduo .

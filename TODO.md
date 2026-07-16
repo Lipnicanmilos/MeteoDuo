@@ -2,19 +2,23 @@
 
 ## Otvorené
 
-- [ ] **Nasadenie** — Cloud Run alebo AWS; Dockerfile je hotový, appka zatiaľ
-      beží len lokálne. Po nasadení skontrolovať User-Agent limity API
-      (MET Norway vyžaduje identifikáciu), pridať rate-limit a `--proxy-headers`
-      pre uvicorn za load balancerom.
+- [ ] **Vlastná doména** — API Gateway custom domain + certifikát (ACM),
+      teraz beží na execute-api URL.
+- [ ] **Skontrolovať User-Agent pre MET Norway** — API vyžaduje identifikáciu
+      aplikácie; overiť, že yr.py posiela zmysluplný User-Agent aj z Lambdy.
 - [ ] **Testy** — pytest pre digest funkcie (yr._digest, openmeteo._digest_model,
       warnings._digest) s uloženými JSON fixture — ochrana pri zmene formátu API.
 - [ ] **Logging** — chyby externých zdrojov v /api/forecast sa teraz zahadzujú
-      potichu (zámerne pre UX); po nasadení ich aspoň logovať pre diagnostiku.
+      potichu (zámerne pre UX); logovať ich do CloudWatch pre diagnostiku.
 - [ ] **Migrácia na Vite** (voliteľné) — frontend zámerne beží cez React CDN
       a JSX kompiluje server (dukpy), bez Node/build kroku; zvážiť pri raste appky.
 
 ## Hotové
 
+- [x] **Nasadenie na AWS** — Lambda (container image) + API Gateway HTTP API,
+      https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com; CI/CD cez
+      GitHub Actions (OIDC) → ECR → update-function-code; uvicorn
+      `--proxy-headers`; JSX predkompilované pri builde (read-only FS)
 - [x] **Súradnice + okres v cities.json** — scripts/geocode_cities.py (súradnice),
       scripts/assign_okres.py (okres pre výstrahy); API geokódovanie je len fallback
 - [x] **Serverová kompilácia JSX** — JSX v static/app.jsx, kompiluje server cez
