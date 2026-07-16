@@ -2,6 +2,9 @@
 
 ## Otvorené
 
+- [ ] **Doplniť burky.cz** — integrovať bleskovú/búrkovú mapu z burky.cz
+      (detekcia bleskov, radar zrážok pre strednú Európu) — zvážiť embed panel
+      alebo odkaz podobne ako radar/Windy; overiť podmienky použitia a atribúciu.
 - [ ] **AWS: vymeniť root access key za IAM usera** — CLI kľúč je vytvorený
       pre root účet (a bol viditeľný na screenshote) → vytvoriť IAM usera
       (napr. `milos-cli`, AdministratorAccess), `aws configure` s novým kľúčom,
