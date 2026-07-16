@@ -2,6 +2,10 @@
 
 ## Otvorené
 
+- [ ] **AWS: vymeniť root access key za IAM usera** — CLI kľúč je vytvorený
+      pre root účet (a bol viditeľný na screenshote) → vytvoriť IAM usera
+      (napr. `milos-cli`, AdministratorAccess), `aws configure` s novým kľúčom,
+      root kľúč deaktivovať a zmazať. GitHub Actions sa to netýka (OIDC rola).
 - [ ] **Vlastná doména** — API Gateway custom domain + certifikát (ACM),
       teraz beží na execute-api URL.
 - [ ] **Skontrolovať User-Agent pre MET Norway** — API vyžaduje identifikáciu

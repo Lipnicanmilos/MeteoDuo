@@ -2,6 +2,8 @@
 
 Predpovede počasia z viacerých zdrojov vedľa seba — pre ľubovoľnú slovenskú obec, na 1 / 3 / 10 dní.
 
+**🌐 Naživo: https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com**
+
 | Ľavý panel | Stred | Pravý panel |
 |---|---|---|
 | **yr.no** (MET Norway) — hodinová predpoveď: teplota, zrážky, vietor | Vybraná obec + denný súhrn | **SHMÚ** — meteogramy (ALADIN, A-LAEF, EPS, ECMWF) |
@@ -78,6 +80,9 @@ Appka beží na AWS: **https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com
 - **CI/CD:** push do `main` → GitHub Actions (OIDC rola, bez uložených AWS
   kľúčov) → build image → ECR → `lambda update-function-code`
   (`.github/workflows/deploy.yml`)
+- **Kde to nájsť v AWS konzole:** región **Europe (Frankfurt) / eu-central-1**
+  (vpravo hore prepnúť región!) → Lambda `meteoduo` (appka + CloudWatch logy),
+  API Gateway `meteoduo` (verejný endpoint), ECR `meteoduo` (Docker images)
 
 Lokálny kontajner:
 
