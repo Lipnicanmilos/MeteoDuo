@@ -649,6 +649,7 @@ function App() {
         <a href="https://meteoalarm.org" target="_blank" rel="noreferrer">Meteoalarm</a> (výstrahy, CC BY 4.0) ·{" "}
         <a href="https://www.windy.com" target="_blank" rel="noreferrer">Windy</a> (mapa).
         MeteoDuo dáta iba zobrazuje, nie je ich autorom.
+        {" "}Autor: <a href="https://lipnicanmilos.github.io" target="_blank" rel="noreferrer">Miloš Lipničan</a>.
       </footer>
     </React.Fragment>
   );
