@@ -542,10 +542,16 @@ function App() {
           <button className={daysCount === 10 ? "active" : ""}
                   onClick={() => setDaysCount(10)}>10 dní</button>
         </div>
-        <a className="radar-link"
-           href={data && data.city.lat != null
-                 ? "/radar?lat=" + data.city.lat + "&lon=" + data.city.lon
-                 : "/radar"}>🌧️ Radar</a>
+        <div className="map-links">
+          {[{ href: "/radar", label: "🌧️ Radar" },
+            { href: "/windy", label: "🌀 Windy" },
+            { href: "/blesky", label: "⚡ Blesky" }].map((m) => (
+            <a key={m.href} className="map-link"
+               href={data && data.city.lat != null
+                     ? m.href + "?lat=" + data.city.lat + "&lon=" + data.city.lon
+                     : m.href}>{m.label}</a>
+          ))}
+        </div>
         <CityPicker cities={cities} value={cityId} onChange={setCityId}>
           <button className="fav-btn" onClick={toggleFav}
                   title={isFav ? "Odobrať z obľúbených" : "Uložiť medzi obľúbené"}>
@@ -618,27 +624,6 @@ function App() {
           )}
         </section>
 
-        <section className="panel windy">
-          <h2>🌀 Windy <span className="src">(interaktívna mapa a predpoveď)</span></h2>
-          {loading && <div className="status">Načítavam…</div>}
-          {!loading && data && data.city.lat != null && (
-            <React.Fragment>
-              <iframe title={"Windy – " + data.city.name}
-                      loading="lazy"
-                      src={"https://embed.windy.com/embed.html?type=map&location=coordinates" +
-                           "&metricWind=m%2Fs&metricTemp=%C2%B0C&metricRain=mm" +
-                           "&zoom=9&overlay=rain&product=ecmwf&level=surface" +
-                           "&lat=" + data.city.lat + "&lon=" + data.city.lon +
-                           "&detailLat=" + data.city.lat + "&detailLon=" + data.city.lon +
-                           "&detail=true&marker=true&message=true"} />
-              <div className="note">Interaktívna mapa windy.com (model ECMWF) so značkou na vybranej obci
-                — v spodnej časti bodová predpoveď na 10+ dní.</div>
-            </React.Fragment>
-          )}
-          {!loading && data && data.city.lat == null && (
-            <div className="error">Bez súradníc obce sa Windy mapa nedá zobraziť.</div>
-          )}
-        </section>
       </main>
 
       <footer>
@@ -647,7 +632,9 @@ function App() {
         <a href="https://open-meteo.com/" target="_blank" rel="noreferrer">Open-Meteo</a> (modely ECMWF/ICON/GFS, slnko a UV; CC BY 4.0) ·{" "}
         <a href="https://www.shmu.sk" target="_blank" rel="noreferrer">SHMÚ</a> (meteogramy) ·{" "}
         <a href="https://meteoalarm.org" target="_blank" rel="noreferrer">Meteoalarm</a> (výstrahy, CC BY 4.0) ·{" "}
-        <a href="https://www.windy.com" target="_blank" rel="noreferrer">Windy</a> (mapa).
+        <a href="https://www.windy.com" target="_blank" rel="noreferrer">Windy</a> (mapa) ·{" "}
+        <a href="https://www.blitzortung.org" target="_blank" rel="noreferrer">Blitzortung.org</a> (blesky,
+        nekomerčné použitie).
         MeteoDuo dáta iba zobrazuje, nie je ich autorom.
         {" "}Autor: <a href="https://lipnicanmilos.github.io" target="_blank" rel="noreferrer">Miloš Lipničan</a>.
       </footer>

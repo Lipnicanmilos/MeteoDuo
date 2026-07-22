@@ -42,6 +42,18 @@ async def radar():
                         headers={"Cache-Control": "no-cache"})
 
 
+@app.get("/windy")
+async def windy():
+    return FileResponse(STATIC_DIR / "windy.html",
+                        headers={"Cache-Control": "no-cache"})
+
+
+@app.get("/blesky")
+async def blesky():
+    return FileResponse(STATIC_DIR / "blesky.html",
+                        headers={"Cache-Control": "no-cache"})
+
+
 @app.get("/app.js")
 async def app_js():
     """JSX kompilované na serveri (dukpy/Babel — bez Node aj bez Babel CDN).

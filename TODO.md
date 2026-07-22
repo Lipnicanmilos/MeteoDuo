@@ -2,17 +2,12 @@
 
 ## Otvorené
 
-- [ ] **Doplniť burky.cz** — integrovať bleskovú/búrkovú mapu z burky.cz
-      (detekcia bleskov, radar zrážok pre strednú Európu) — zvážiť embed panel
-      alebo odkaz podobne ako radar/Windy; overiť podmienky použitia a atribúciu.
 - [ ] **AWS: vymeniť root access key za IAM usera** — CLI kľúč je vytvorený
       pre root účet (a bol viditeľný na screenshote) → vytvoriť IAM usera
       (napr. `milos-cli`, AdministratorAccess), `aws configure` s novým kľúčom,
       root kľúč deaktivovať a zmazať. GitHub Actions sa to netýka (OIDC rola).
 - [ ] **Vlastná doména** — API Gateway custom domain + certifikát (ACM),
       teraz beží na execute-api URL.
-- [ ] **Skontrolovať User-Agent pre MET Norway** — API vyžaduje identifikáciu
-      aplikácie; overiť, že yr.py posiela zmysluplný User-Agent aj z Lambdy.
 - [ ] **Testy** — pytest pre digest funkcie (yr._digest, openmeteo._digest_model,
       warnings._digest) s uloženými JSON fixture — ochrana pri zmene formátu API.
 - [ ] **Logging** — chyby externých zdrojov v /api/forecast sa teraz zahadzujú
@@ -22,6 +17,16 @@
 
 ## Hotové
 
+- [x] **Blesková mapa** ⚡ — panel s embedom `map.blitzortung.org` cez celú šírku,
+      centrovaný na vybranú obec (`#zoom/lat/lon`), `Advertisment=0` (odstráni
+      AdSense) a `Cookies=0`. POZOR: pôvodné zadanie znelo „burky.cz" — tá doména
+      dnes hostí spam pre online kasíno. Česká meteo stránka je **bourky.cz**, tá
+      má ale CC BY-NC-ND a sama len embeduje Blitzortung, tak ideme rovno na zdroj.
+      Časový rozsah sa cez URL nastaviť nedá (žiadny taký parameter neexistuje) —
+      slúži naň menu vnútri mapy.
+- [x] **User-Agent pre MET Norway** — yr.py:35 ho posiela bezpodmienečne
+      (`MeteoDuo/1.0` + URL repozitára); overené aj z produkčnej Lambdy, kde
+      /api/forecast vracia yr dáta (inak by MET vrátil 403)
 - [x] **Nasadenie na AWS** — Lambda (container image) + API Gateway HTTP API,
       https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com; CI/CD cez
       GitHub Actions (OIDC) → ECR → update-function-code; uvicorn
