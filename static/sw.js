@@ -1,7 +1,7 @@
 /* MeteoDuo service worker — offline: statika + posledná načítaná predpoveď.
  *
  * Stratégie:
- *  - React CDN (unpkg, verziované URL) ... cache-first, nemenia sa
+ *  - /vendor/* (React, self-hostovaný) ... cache-first, mení sa len pri update
  *  - všetko ostatné (HTML, /app.js, /api/*) ... network-first; úspešná
  *    odpoveď sa uloží do cache a pri výpadku siete sa servíruje z nej —
  *    tým je posledná predpoveď (aj meteogram) dostupná offline
@@ -9,27 +9,23 @@
 // POZOR: pri zmene statiky (index.html, app.jsx, ikony) zdvihni verziu —
 // online používatelia dostanú novú verziu aj bez toho (network-first),
 // ale offline cache sa prečistí až po bumpe
-const CACHE = "meteoduo-v4";
+const CACHE = "meteoduo-v5";
 
 const PRECACHE = [
   "/",
   "/app.js",
   "/manifest.webmanifest",
+  "/favicon.ico",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
-  "https://unpkg.com/react@18/umd/react.production.min.js",
-  "https://unpkg.com/react-dom@18/umd/react-dom.production.min.js",
+  "/vendor/react.production.min.js",
+  "/vendor/react-dom.production.min.js",
 ];
 
 self.addEventListener("install", (e) => {
-  // ručný fetch + put namiesto addAll: unpkg vracia opaque response (no-cors)
-  // a addAll opaque odpovede odmieta (status 0 != ok)
   e.waitUntil(
     caches.open(CACHE)
-      .then((c) => Promise.all(PRECACHE.map(
-        (u) => fetch(u, { mode: u.startsWith("/") ? "same-origin" : "no-cors" })
-          .then((res) => c.put(u, res))
-      )))
+      .then((c) => c.addAll(PRECACHE))
       .then(() => self.skipWaiting())
   );
 });
@@ -48,8 +44,8 @@ self.addEventListener("fetch", (e) => {
 
   const url = new URL(req.url);
 
-  // CDN knižnice: cache-first (verziované, nemenia sa)
-  if (url.origin === "https://unpkg.com") {
+  // knižnice vo /vendor/: cache-first (menia sa len pri ručnom update)
+  if (url.origin === location.origin && url.pathname.startsWith("/vendor/")) {
     e.respondWith(
       caches.match(req).then((hit) => hit || fetch(req).then((res) => {
         const copy = res.clone();

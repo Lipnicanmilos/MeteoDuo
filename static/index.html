@@ -4,13 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MeteoDuo – dve predpovede vedľa seba</title>
-<meta name="description" content="Predpoveď počasia pre slovenské obce z dvoch zdrojov naraz: yr.no (MET Norway) a SHMÚ ALADIN meteogram.">
+<meta name="description" content="Predpoveď počasia pre slovenské obce z viacerých zdrojov naraz: yr.no (MET Norway), meteogramy SHMÚ a porovnanie modelov ECMWF, ICON a GFS. Výstrahy SHMÚ, UV index, východ a západ slnka, zrážkový radar a mapa bleskov.">
 <meta name="theme-color" content="#2563eb">
 <link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
 <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
-<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<!-- React je self-hostovaný (18.3.1) — z CDN bol jedinou cudzou závislosťou
+     na kritickej ceste, výpadok unpkg.com by znamenal prázdnu stránku -->
+<script src="/vendor/react.production.min.js"></script>
+<script src="/vendor/react-dom.production.min.js"></script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {

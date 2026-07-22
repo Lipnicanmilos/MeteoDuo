@@ -28,6 +28,9 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="MeteoDuo", lifespan=lifespan)
 app.add_middleware(GZipMiddleware, minimum_size=1024)  # app.js, cities, forecast
 app.mount("/icons", StaticFiles(directory=STATIC_DIR / "icons"), name="icons")
+# React je self-hostovaný — z unpkg bol jedinou cudzou závislosťou na kritickej
+# ceste a jeho výpadok by znamenal prázdnu stránku
+app.mount("/vendor", StaticFiles(directory=STATIC_DIR / "vendor"), name="vendor")
 
 
 @app.get("/")
@@ -40,6 +43,14 @@ async def index():
 async def radar():
     return FileResponse(STATIC_DIR / "radar.html",
                         headers={"Cache-Control": "no-cache"})
+
+
+@app.get("/favicon.ico", include_in_schema=False)
+async def favicon():
+    # prehliadače si ho pýtajú aj pri <link rel="icon"> na PNG — bez tejto
+    # routy je z každej návštevy 404 (a po zapnutí logovania šum v CloudWatch)
+    return FileResponse(STATIC_DIR / "favicon.ico", media_type="image/x-icon",
+                        headers={"Cache-Control": "public, max-age=86400"})
 
 
 @app.get("/windy")

@@ -60,6 +60,14 @@ def main() -> None:
         base.resize((size, size), Image.LANCZOS).save(OUT / name)
         print(f"{name}  {size}x{size}")
 
+    # favicon.ico do koreňa statiky — prehliadače si ho pýtajú aj keď je
+    # v HTML <link rel="icon"> na PNG; bez neho je z každej návštevy 404
+    ico = OUT.parent / "favicon.ico"
+    base.resize((64, 64), Image.LANCZOS).save(
+        ico, format="ICO", sizes=[(16, 16), (32, 32), (48, 48), (64, 64)]
+    )
+    print("favicon.ico  16/32/48/64")
+
 
 if __name__ == "__main__":
     main()
