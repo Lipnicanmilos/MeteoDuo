@@ -64,6 +64,15 @@ async def fetch_forecast(client: httpx.AsyncClient, lat: float, lon: float) -> d
     return payload
 
 
+def cached_at(lat: float, lon: float) -> datetime | None:
+    """Kedy boli modely pre tieto súradnice reálne stiahnuté (None = nie sú v cache).
+
+    Cache drží čas expirácie, takže čas stiahnutia je expirácia mínus TTL.
+    """
+    entry = _cache.get((round(lat, 3), round(lon, 3)))
+    return entry[0] - CACHE_TTL if entry else None
+
+
 async def fetch_daily(client: httpx.AsyncClient, lat: float, lon: float) -> list[dict]:
     """Denné údaje: východ/západ slnka a max. UV index.
 

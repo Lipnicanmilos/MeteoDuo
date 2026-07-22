@@ -128,6 +128,53 @@ function fmtWhen(iso) {
   return iso ? fmtDate(iso.slice(0, 10)) + " " + fmtTime(iso) : "?";
 }
 
+// Vek dát. Server cachuje predpovede 15 min a service worker pri výpadku siete
+// servuje poslednú uloženú — bez tohto by používateľ nerozoznal čerstvé dáta od
+// včerajších. Čas sa prepočítava každú minútu, aby zostarol aj v otvorenej karte.
+const STALE_AFTER_MIN = 35;
+
+function Freshness({ fetchedAt }) {
+  const [now, setNow] = React.useState(() => Date.now());
+  const [offline, setOffline] = React.useState(() => !navigator.onLine);
+
+  React.useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), 60000);
+    const on = () => setOffline(false);
+    const off = () => setOffline(true);
+    window.addEventListener("online", on);
+    window.addEventListener("offline", off);
+    return () => {
+      clearInterval(t);
+      window.removeEventListener("online", on);
+      window.removeEventListener("offline", off);
+    };
+  }, []);
+
+  if (!fetchedAt) return null;
+  const then = new Date(fetchedAt).getTime();
+  if (isNaN(then)) return null;
+
+  const minutes = Math.max(0, Math.round((now - then) / 60000));
+  const stale = offline || minutes >= STALE_AFTER_MIN;
+  const time = new Date(then).toLocaleTimeString("sk-SK", { hour: "2-digit", minute: "2-digit" });
+
+  let age;
+  if (minutes < 1) age = "pred chvíľou";
+  else if (minutes < 60) age = "pred " + minutes + " min";
+  else {
+    const h = Math.floor(minutes / 60);
+    age = "pred " + h + (h === 1 ? " hodinou" : " hodinami");
+  }
+
+  return (
+    <div className={"freshness" + (stale ? " stale" : "")}
+         title={"Dáta stiahnuté zo zdrojov " + new Date(then).toLocaleString("sk-SK")}>
+      {offline ? "⚠ offline · " : stale ? "⚠ " : ""}
+      aktualizované {time} <span className="age">({age})</span>
+    </div>
+  );
+}
+
 function WarnBar({ warnings }) {
   if (!warnings || !warnings.length) return null;
   return (
@@ -590,6 +637,7 @@ function App() {
                 </div>
                 {data.city.okres && <div className="coords">okres {data.city.okres}</div>}
                 {data.city.lat && <div className="coords">{data.city.lat.toFixed(3)}°N, {data.city.lon.toFixed(3)}°E</div>}
+                <Freshness fetchedAt={data.fetched_at} />
               </div>
               <WarnBar warnings={data.warnings} />
               {data.yr && <DayCards days={data.yr.days.slice(0, daysCount)} daily={data.daily} />}

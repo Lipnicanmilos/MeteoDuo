@@ -136,7 +136,16 @@ async def forecast(city_id: str):
     else:
         yr_error = om_error = "Miesto sa nepodarilo geokódovať"
 
+    # Najstarší z časov stiahnutia — zdroje majú vlastné cache, ktoré môžu
+    # expirovať v rôznych momentoch. Radšej podhodnotiť čerstvosť než nadhodnotiť.
+    fetched_at = None
+    if coords:
+        stamps = [s for s in (yr.cached_at(*coords), openmeteo.cached_at(*coords)) if s]
+        if stamps:
+            fetched_at = min(stamps).isoformat()
+
     return {
+        "fetched_at": fetched_at,   # ISO UTC, kedy sa dáta reálne stiahli zo zdrojov
         "city": {"id": city_id, "name": name, "okres": okres,
                  "lat": coords[0] if coords else None,
                  "lon": coords[1] if coords else None},

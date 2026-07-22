@@ -146,6 +146,16 @@
   .place { text-align: center; margin-bottom: 1.25rem; }
   .place .name { font-size: 1.9rem; font-weight: 800; letter-spacing: -.02em; }
   .place .coords { color: var(--muted); font-size: .8rem; }
+  .freshness {
+    margin-top: .5rem; font-size: .78rem; color: var(--muted);
+    display: inline-block; padding: .2rem .6rem; border-radius: 50px;
+    border: 1px solid var(--border);
+  }
+  .freshness .age { opacity: .75; }
+  .freshness.stale {
+    background: var(--chip-warn-bg); color: var(--chip-warn-fg);
+    border-color: transparent; font-weight: 600;
+  }
   .day-cards { display: flex; flex-direction: column; gap: .9rem; }
   .day-card {
     background: var(--card-grad);
