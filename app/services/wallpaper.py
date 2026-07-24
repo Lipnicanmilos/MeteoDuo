@@ -263,57 +263,93 @@ def render(city_name: str, yr_data: dict | None, *, width: int = 1170,
 
     mid_bg = _lerp(top, bottom, 0.34)  # farba pozadia v oblasti ikony (pre mesiac)
 
-    # mesto
-    _text(d, (W / 2, H * 0.235), city_name, _font("regular", int(W * 0.062)))
-
-    # ikona počasia
-    _draw_icon(d, kind, W / 2, H * 0.345, W * 0.34, is_night, mid_bg)
-
-    # teplota (veľká)
-    cur_temp = now_h.get("temp")
-    _text(d, (W / 2, H * 0.475), _fmt_temp(cur_temp), _font("bold", int(W * 0.27)))
-
-    # popis počasia
-    _text(d, (W / 2, H * 0.565), label, _font("regular", int(W * 0.058)))
-
-    # max / min dnes
-    if days:
-        hi = _fmt_temp(days[0].get("temp_max"))
-        lo = _fmt_temp(days[0].get("temp_min"))
-        _text(d, (W / 2, H * 0.615), f"↑ {hi}   ↓ {lo}",
-              _font("regular", int(W * 0.05)), fill=(226, 232, 240))
-
-    # 3-dňový pás
-    if len(days) >= 2:
-        strip = days[:3]
-        n = len(strip)
-        col_w = W * 0.74 / n
-        x0 = W * 0.13 + col_w / 2
-        y = H * 0.76
-        for i, dd in enumerate(strip):
-            cx = x0 + i * col_w
-            wd = _weekday_label(dd.get("date"), i)
-            _text(d, (cx, y), wd, _font("bold", int(W * 0.042)),
-                  fill=(226, 232, 240))
-            _, k2 = _condition(dd.get("symbol"))
-            # pás = denné súhrny → ikony vždy v dennej variante (sln. namiesto mesiaca)
-            _draw_icon(d, k2, cx, y + H * 0.045, W * 0.14, False, mid_bg)
-            hi = _fmt_temp(dd.get("temp_max"))
-            lo = _fmt_temp(dd.get("temp_min"))
-            _text(d, (cx, y + H * 0.092), f"{hi} / {lo}",
-                  _font("regular", int(W * 0.035)), fill=(203, 213, 225))
-
-    # pätička
-    when = (updated or datetime.now(timezone.utc)).astimezone()
-    _text(d, (W / 2, H * 0.945),
-          f"MeteoDuo · aktualizované {when:%H:%M}",
-          _font("regular", int(W * 0.033)), fill=(203, 213, 225))
-    _text(d, (W / 2, H * 0.965), "Zdroj: MET Norway (yr.no)",
-          _font("regular", int(W * 0.026)), fill=(148, 163, 184))
+    # layout podľa pomeru strán: široký/nízky = widget na šírku, ~štvorec =
+    # štvorcový widget, vysoký = tapeta na celú obrazovku
+    aspect = W / H
+    args = (d, W, H, city_name, now_h, days, label, kind, is_night, mid_bg, updated)
+    if aspect >= 1.3:
+        _layout_wide(*args)
+    elif aspect >= 0.78:
+        _layout_square(*args)
+    else:
+        _layout_tall(*args)
 
     buf = io.BytesIO()
     img.save(buf, format="PNG", optimize=True)
     return buf.getvalue()
+
+
+def _footer(d, W, H, updated, scale_ref, y1, y2):
+    when = (updated or datetime.now(timezone.utc)).astimezone()
+    _text(d, (W / 2, y1), f"MeteoDuo · {when:%H:%M}",
+          _font("regular", int(scale_ref * 0.033)), fill=(203, 213, 225))
+    if y2 is not None:
+        _text(d, (W / 2, y2), "Zdroj: MET Norway (yr.no)",
+              _font("regular", int(scale_ref * 0.026)), fill=(148, 163, 184))
+
+
+def _layout_tall(d, W, H, city_name, now_h, days, label, kind, is_night, mid_bg,
+                 updated):
+    _text(d, (W / 2, H * 0.235), city_name, _font("regular", int(W * 0.062)))
+    _draw_icon(d, kind, W / 2, H * 0.345, W * 0.34, is_night, mid_bg)
+    _text(d, (W / 2, H * 0.475), _fmt_temp(now_h.get("temp")),
+          _font("bold", int(W * 0.27)))
+    _text(d, (W / 2, H * 0.565), label, _font("regular", int(W * 0.058)))
+    if days:
+        hi, lo = _fmt_temp(days[0].get("temp_max")), _fmt_temp(days[0].get("temp_min"))
+        _text(d, (W / 2, H * 0.615), f"↑ {hi}   ↓ {lo}",
+              _font("regular", int(W * 0.05)), fill=(226, 232, 240))
+    if len(days) >= 2:
+        strip = days[:3]
+        col_w = W * 0.74 / len(strip)
+        x0 = W * 0.13 + col_w / 2
+        y = H * 0.76
+        for i, dd in enumerate(strip):
+            cx = x0 + i * col_w
+            _text(d, (cx, y), _weekday_label(dd.get("date"), i),
+                  _font("bold", int(W * 0.042)), fill=(226, 232, 240))
+            _, k2 = _condition(dd.get("symbol"))
+            _draw_icon(d, k2, cx, y + H * 0.045, W * 0.14, False, mid_bg)
+            hi, lo = _fmt_temp(dd.get("temp_max")), _fmt_temp(dd.get("temp_min"))
+            _text(d, (cx, y + H * 0.092), f"{hi} / {lo}",
+                  _font("regular", int(W * 0.035)), fill=(203, 213, 225))
+    _footer(d, W, H, updated, W, H * 0.945, H * 0.965)
+
+
+def _layout_wide(d, W, H, city_name, now_h, days, label, kind, is_night, mid_bg,
+                 updated):
+    """Kompaktná karta na šírku (napr. 4×2 Android widget)."""
+    s = H  # škálujeme podľa výšky (kratší rozmer)
+    icon_size = min(W * 0.25, H * 0.56)
+    _draw_icon(d, kind, W * 0.16, H * 0.44, icon_size, is_night, mid_bg)
+    # teplota vpravo od ikony
+    _text(d, (W * 0.47, H * 0.44), _fmt_temp(now_h.get("temp")),
+          _font("bold", int(s * 0.40)), anchor="mm")
+    # pravý stĺpec: mesto / popis / max-min
+    rx = W * 0.72
+    _text(d, (rx, H * 0.26), city_name, _font("regular", int(s * 0.11)))
+    _text(d, (rx, H * 0.46), label, _font("regular", int(s * 0.095)))
+    if days:
+        hi, lo = _fmt_temp(days[0].get("temp_max")), _fmt_temp(days[0].get("temp_min"))
+        _text(d, (rx, H * 0.64), f"↑ {hi}   ↓ {lo}",
+              _font("regular", int(s * 0.085)), fill=(226, 232, 240))
+    _footer(d, W, H, updated, s, H * 0.90, None)
+
+
+def _layout_square(d, W, H, city_name, now_h, days, label, kind, is_night, mid_bg,
+                   updated):
+    """Štvorcová karta (napr. 2×2 Android widget)."""
+    s = min(W, H)
+    _text(d, (W / 2, H * 0.15), city_name, _font("regular", int(s * 0.10)))
+    _draw_icon(d, kind, W / 2, H * 0.40, s * 0.42, is_night, mid_bg)
+    _text(d, (W / 2, H * 0.63), _fmt_temp(now_h.get("temp")),
+          _font("bold", int(s * 0.26)))
+    _text(d, (W / 2, H * 0.78), label, _font("regular", int(s * 0.075)))
+    if days:
+        hi, lo = _fmt_temp(days[0].get("temp_max")), _fmt_temp(days[0].get("temp_min"))
+        _text(d, (W / 2, H * 0.87), f"↑ {hi}   ↓ {lo}",
+              _font("regular", int(s * 0.065)), fill=(226, 232, 240))
+    _footer(d, W, H, updated, s, H * 0.955, None)
 
 
 def _weekday_label(date_iso: str | None, index: int) -> str:
