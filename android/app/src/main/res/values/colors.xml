@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ladené do vzhľadu MeteoDuo (tmavá karta, svetlý text) -->
+    <color name="w_bg_top">#1E2A3F</color>
+    <color name="w_bg_bottom">#0F1729</color>
+    <color name="w_text">#E2E8F0</color>
+    <color name="w_muted">#94A3B8</color>
+</resources>

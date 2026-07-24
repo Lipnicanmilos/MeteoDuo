@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#1E2A3F"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- slnko -->
+    <path
+        android:fillColor="#FFCD4A"
+        android:pathData="M54,38a16,16 0 1,0 0.01,0z" />
+    <group>
+        <path android:strokeColor="#FFCD4A" android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M54,14 L54,24" />
+        <path android:strokeColor="#FFCD4A" android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M54,72 L54,82" />
+        <path android:strokeColor="#FFCD4A" android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M30,48 L20,48" />
+        <path android:strokeColor="#FFCD4A" android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M88,48 L78,48" />
+        <path android:strokeColor="#FFCD4A" android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M37,31 L30,24" />
+        <path android:strokeColor="#FFCD4A" android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M78,24 L71,31" />
+    </group>
+    <!-- oblak -->
+    <path
+        android:fillColor="#EEF2F7"
+        android:pathData="M40,74 m0,0 a12,12 0 0,1 12,-12 a14,14 0 0,1 26,4 a10,10 0 0,1 -2,20 l-34,0 a10,10 0 0,1 -2,-12 z" />
+</vector>
