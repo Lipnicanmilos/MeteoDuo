@@ -2,7 +2,12 @@
 <resources>
     <string name="app_name">MeteoDuo Widget</string>
     <string name="config_title">Nastavenie widgetu</string>
-    <string name="config_hint">Zadaj SHMÚ id mesta. Nájdeš ho v appke MeteoDuo — na stránke „Tapeta" v adrese za ?city=, alebo na webe za ?obec=. Predvolene Bratislava (centrum) = 32737.</string>
-    <string name="config_city_hint">napr. 32737</string>
+    <string name="config_search_label">Mesto / obec</string>
+    <string name="config_search_hint">Začni písať názov…</string>
+    <string name="config_add_fav">★ Pridať medzi obľúbené</string>
+    <string name="config_favs_label">Obľúbené</string>
+    <string name="config_favs_empty">Zatiaľ žiadne — vyber mesto a pridaj ho ★</string>
+    <string name="config_alpha_label">Priehľadnosť pozadia</string>
     <string name="config_save">Uložiť</string>
+    <string name="config_loading">Načítavam zoznam obcí…</string>
 </resources>

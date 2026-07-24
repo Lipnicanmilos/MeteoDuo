@@ -57,7 +57,10 @@ class WeatherWidgetProvider : AppWidgetProvider() {
 
     override fun onDeleted(context: Context, ids: IntArray) {
         val p = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit()
-        for (id in ids) p.remove(keyCity(id))
+        for (id in ids) {
+            p.remove(keyCity(id))
+            p.remove(keyAlpha(id))
+        }
         p.apply()
     }
 
@@ -67,12 +70,30 @@ class WeatherWidgetProvider : AppWidgetProvider() {
         const val DEFAULT_CITY = "32737"     // Bratislava (centrum)
         const val PREFS = "meteoduo_widget"
 
-        fun keyCity(id: Int) = "city_$id"
+        const val FAVS_KEY = "favs"
 
-        fun cityFor(context: Context, id: Int): String {
-            val p = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-            return p.getString(keyCity(id), DEFAULT_CITY) ?: DEFAULT_CITY
-        }
+        fun keyCity(id: Int) = "city_$id"
+        fun keyAlpha(id: Int) = "alpha_$id"
+
+        private fun prefs(context: Context) =
+            context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+
+        fun prefsEdit(context: Context) = prefs(context).edit()
+
+        fun cityFor(context: Context, id: Int): String =
+            prefs(context).getString(keyCity(id), DEFAULT_CITY) ?: DEFAULT_CITY
+
+        /** Priehľadnosť pozadia v % (0 = priehľadné, 100 = plné). */
+        fun alphaFor(context: Context, id: Int): Int =
+            prefs(context).getInt(keyAlpha(id), 100)
+
+        /** Obľúbené mestá (zdieľané naprieč widgetmi), zoznam SHMÚ id. */
+        fun getFavs(context: Context): List<String> =
+            (prefs(context).getString(FAVS_KEY, "") ?: "")
+                .split(",").filter { it.isNotBlank() }
+
+        fun setFavs(context: Context, ids: List<String>) =
+            prefs(context).edit().putString(FAVS_KEY, ids.joinToString(",")).apply()
 
         /** Naplní jeden widget aktuálnymi dátami. Volá sa z pozadia (nie main). */
         fun refresh(context: Context, mgr: AppWidgetManager, id: Int) {
@@ -88,6 +109,9 @@ class WeatherWidgetProvider : AppWidgetProvider() {
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
             )
             views.setOnClickPendingIntent(R.id.widget_root, pi)
+
+            // priehľadnosť pozadia (0–100 % → 0–255 alpha na ImageView)
+            views.setInt(R.id.widget_bg, "setImageAlpha", alphaFor(context, id) * 255 / 100)
 
             try {
                 val city = cityFor(context, id)
