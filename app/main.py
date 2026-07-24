@@ -74,6 +74,34 @@ async def widget():
                         headers={"Cache-Control": "no-cache"})
 
 
+APK_URL = ("https://github.com/Lipnicanmilos/MeteoDuo/releases/download/"
+           "widget-latest/meteoduo-widget.apk")
+
+
+@app.get("/download/meteoduo-widget.apk")
+async def download_widget_apk():
+    """APK proxujeme z GitHub Releases cez vlastnú doménu.
+
+    Niektoré mobilné siete/prehliadače zamrznú pri redirect na
+    release-assets.githubusercontent.com — servírovaním z tej istej domény,
+    na ktorej appka beží, sa tomu vyhneme. (APK ~2 MB < 6 MB Lambda limit.)
+    """
+    try:
+        r = await app.state.http.get(APK_URL, timeout=30)
+        r.raise_for_status()
+    except httpx.HTTPError:
+        raise HTTPException(502, "APK sa nepodarilo načítať z GitHubu")
+    return Response(
+        content=r.content,
+        media_type="application/vnd.android.package-archive",
+        headers={
+            "Content-Disposition": 'attachment; filename="meteoduo-widget.apk"',
+            "Content-Length": str(len(r.content)),
+            "Cache-Control": "public, max-age=300",
+        },
+    )
+
+
 @app.get("/app.js")
 async def app_js():
     """JSX kompilované na serveri (dukpy/Babel — bez Node aj bez Babel CDN).
