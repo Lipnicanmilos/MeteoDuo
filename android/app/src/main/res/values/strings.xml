@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MeteoDuo Widget</string>
+    <string name="app_name">MeteoDuo</string>
+    <string name="settings_desc">Nastavenia widgetu</string>
     <string name="config_title">Nastavenie widgetu</string>
     <string name="config_search_label">Mesto / obec</string>
     <string name="config_search_hint">Začni písať názov…</string>

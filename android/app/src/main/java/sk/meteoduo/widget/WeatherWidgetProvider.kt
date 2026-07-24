@@ -98,17 +98,24 @@ class WeatherWidgetProvider : AppWidgetProvider() {
         /** Naplní jeden widget aktuálnymi dátami. Volá sa z pozadia (nie main). */
         fun refresh(context: Context, mgr: AppWidgetManager, id: Int) {
             val views = RemoteViews(context.packageName, R.layout.widget_weather)
+            val piFlags = PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
 
-            // ťuknutie na widget = okamžitá obnova
-            val intent = Intent(context, WeatherWidgetProvider::class.java).apply {
-                action = ACTION_REFRESH
-                putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, id)
-            }
-            val pi = PendingIntent.getBroadcast(
-                context, id, intent,
-                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+            // ťuknutie na telo widgetu = otvor appku (WebView s MeteoDuo)
+            val openApp = Intent(context, MainActivity::class.java)
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            views.setOnClickPendingIntent(
+                R.id.widget_root,
+                PendingIntent.getActivity(context, id * 2, openApp, piFlags)
             )
-            views.setOnClickPendingIntent(R.id.widget_root, pi)
+
+            // ťuknutie na ⚙ = uprav mesto / obľúbené / priehľadnosť hocikedy
+            val openCfg = Intent(context, WidgetConfigActivity::class.java)
+                .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, id)
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            views.setOnClickPendingIntent(
+                R.id.w_settings,
+                PendingIntent.getActivity(context, id * 2 + 1, openCfg, piFlags)
+            )
 
             // priehľadnosť pozadia (0–100 % → 0–255 alpha na ImageView)
             views.setInt(R.id.widget_bg, "setImageAlpha", alphaFor(context, id) * 255 / 100)
