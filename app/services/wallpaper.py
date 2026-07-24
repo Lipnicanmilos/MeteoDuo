@@ -236,6 +236,17 @@ def _text(d, xy, text, font, fill=(255, 255, 255), anchor="mm",
     d.text((x, y), text, font=font, anchor=anchor, fill=fill)
 
 
+def _fit_font(d, text, kind, size, max_w):
+    """Zmenší font, kým sa text nezmestí do max_w (napr. dlhý názov mesta)."""
+    size = int(size)
+    while size > 10:
+        f = _font(kind, size)
+        if d.textlength(text, font=f) <= max_w:
+            return f
+        size = int(size * 0.92)
+    return _font(kind, size)
+
+
 def _fmt_temp(t) -> str:
     if t is None:
         return "–"
@@ -290,7 +301,8 @@ def _footer(d, W, H, updated, scale_ref, y1, y2):
 
 def _layout_tall(d, W, H, city_name, now_h, days, label, kind, is_night, mid_bg,
                  updated):
-    _text(d, (W / 2, H * 0.235), city_name, _font("regular", int(W * 0.062)))
+    _text(d, (W / 2, H * 0.235), city_name,
+          _fit_font(d, city_name, "regular", W * 0.062, W * 0.90))
     _draw_icon(d, kind, W / 2, H * 0.345, W * 0.34, is_night, mid_bg)
     _text(d, (W / 2, H * 0.475), _fmt_temp(now_h.get("temp")),
           _font("bold", int(W * 0.27)))
@@ -321,18 +333,24 @@ def _layout_wide(d, W, H, city_name, now_h, days, label, kind, is_night, mid_bg,
     """Kompaktná karta na šírku (napr. 4×2 Android widget)."""
     s = H  # škálujeme podľa výšky (kratší rozmer)
     icon_size = min(W * 0.25, H * 0.56)
-    _draw_icon(d, kind, W * 0.16, H * 0.44, icon_size, is_night, mid_bg)
+    _draw_icon(d, kind, W * 0.15, H * 0.44, icon_size, is_night, mid_bg)
     # teplota vpravo od ikony
-    _text(d, (W * 0.47, H * 0.44), _fmt_temp(now_h.get("temp")),
-          _font("bold", int(s * 0.40)), anchor="mm")
-    # pravý stĺpec: mesto / popis / max-min
-    rx = W * 0.72
-    _text(d, (rx, H * 0.26), city_name, _font("regular", int(s * 0.11)))
-    _text(d, (rx, H * 0.46), label, _font("regular", int(s * 0.095)))
+    temp_str = _fmt_temp(now_h.get("temp"))
+    temp_font = _font("bold", int(s * 0.40))
+    temp_cx = W * 0.42
+    _text(d, (temp_cx, H * 0.44), temp_str, temp_font, anchor="mm")
+    temp_right = temp_cx + d.textlength(temp_str, font=temp_font) / 2
+    # pravý stĺpec: zarovnaný vpravo, text sa zmestí medzi teplotu a okraj
+    rx = W * 0.965
+    avail = rx - temp_right - W * 0.025
+    _text(d, (rx, H * 0.28), city_name,
+          _fit_font(d, city_name, "regular", s * 0.11, avail), anchor="rm")
+    _text(d, (rx, H * 0.48), label,
+          _fit_font(d, label, "regular", s * 0.095, avail), anchor="rm")
     if days:
         hi, lo = _fmt_temp(days[0].get("temp_max")), _fmt_temp(days[0].get("temp_min"))
-        _text(d, (rx, H * 0.64), f"↑ {hi}   ↓ {lo}",
-              _font("regular", int(s * 0.085)), fill=(226, 232, 240))
+        _text(d, (rx, H * 0.66), f"↑ {hi}   ↓ {lo}",
+              _font("regular", int(s * 0.085)), fill=(226, 232, 240), anchor="rm")
     _footer(d, W, H, updated, s, H * 0.90, None)
 
 
@@ -340,7 +358,8 @@ def _layout_square(d, W, H, city_name, now_h, days, label, kind, is_night, mid_b
                    updated):
     """Štvorcová karta (napr. 2×2 Android widget)."""
     s = min(W, H)
-    _text(d, (W / 2, H * 0.15), city_name, _font("regular", int(s * 0.10)))
+    _text(d, (W / 2, H * 0.15), city_name,
+          _fit_font(d, city_name, "regular", s * 0.10, W * 0.92))
     _draw_icon(d, kind, W / 2, H * 0.40, s * 0.42, is_night, mid_bg)
     _text(d, (W / 2, H * 0.63), _fmt_temp(now_h.get("temp")),
           _font("bold", int(s * 0.26)))
