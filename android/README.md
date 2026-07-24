@@ -36,6 +36,32 @@ gradle wrapper            # jednorazovo, ak nemáš ./gradlew
 ./gradlew assembleDebug   # APK: app/build/outputs/apk/debug/app-debug.apk
 ```
 
+## Distribúcia užívateľom (podpísaný APK → GitHub Releases)
+
+Web appka má stránku `/widget` s tlačidlom, ktoré ukazuje na
+`https://github.com/Lipnicanmilos/MeteoDuo/releases/latest/download/meteoduo-widget.apk`.
+Aby fungovalo, nahraj podpísaný APK **presne s týmto názvom** do GitHub Releases:
+
+**A) Podpísaný release APK (Android Studio)**
+1. *Build → Generate Signed Bundle / APK…* → **APK** → Next.
+2. *Key store path* → **Create new…** → ulož `.jks` (napr. `meteoduo-widget.jks`),
+   zadaj heslá + alias. **Zálohuj `.jks` a heslá** — bez nich nevydáš žiadny update!
+3. Build variant **release** → Finish. APK je v `android/app/release/app-release.apk`.
+
+**B) Premenuj** `app-release.apk` → **`meteoduo-widget.apk`** (názov musí sedieť s webom).
+
+**C) GitHub Releases (cez web, netreba gh CLI)**
+1. Repo MeteoDuo → **Releases** → **Draft a new release**.
+2. *Choose a tag* → napíš napr. `widget-v1` → *Create new tag*.
+3. Title napr. „MeteoDuo Widget v1", do *Attach binaries* pretiahni `meteoduo-widget.apk`.
+4. **Publish release**. Tlačidlo na `/widget` odteraz stiahne tento APK.
+
+> Pri ďalších verziách vytvor nový release, ale **asset pomenuj vždy** `meteoduo-widget.apk`,
+> aby „latest/download" link ostal platný.
+
+**Rýchly self-test bez podpisu:** `./gradlew assembleDebug` → nainštaluj
+`app/build/outputs/apk/debug/app-debug.apk` cez USB (na distribúciu ale použi podpísaný release).
+
 ## Konfigurácia
 
 - **Endpoint** a **predvolené mesto** sú v
