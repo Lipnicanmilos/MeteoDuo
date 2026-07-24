@@ -12,7 +12,7 @@ from fastapi.staticfiles import StaticFiles
 
 from app.services import geocode, openmeteo, shmu, wallpaper, warnings, yr
 
-DEFAULT_CITY = "32463"  # Babín — rovnaké predvolené mesto ako vo frontende
+DEFAULT_CITY = "32737"  # Bratislava (centrum) — predvolené mesto pre tapetu
 
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
 APP_JSX = STATIC_DIR / "app.jsx"
@@ -64,6 +64,13 @@ async def windy():
 @app.get("/blesky")
 async def blesky():
     return FileResponse(STATIC_DIR / "blesky.html",
+                        headers={"Cache-Control": "no-cache"})
+
+
+@app.get("/tapeta")
+async def tapeta():
+    # sprievodca: tapeta / widget s aktuálnym počasím na plochu telefónu
+    return FileResponse(STATIC_DIR / "tapeta.html",
                         headers={"Cache-Control": "no-cache"})
 
 

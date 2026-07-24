@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MeteoDuo – Tapeta &amp; Widget</title>
+<meta name="description" content="Nastav si aktuálne počasie ako tapetu alebo widget na plochu telefónu — hotové URL na mieru tvojho mobilu.">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<script>
+  // téma z appky (rovnaký kľúč ako index): auto | light | dark
+  try {
+    var t = localStorage.getItem("meteoduo_theme");
+    if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+</script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --primary: #2563eb; --accent: #0ea5e9;
+    --grad: linear-gradient(135deg, #2563eb, #0ea5e9);
+    --bg: #f1f5f9; --surface: #ffffff; --text: #0f172a; --muted: #64748b;
+    --border: #e2e8f0; --shadow: 0 4px 20px rgba(37,99,235,.08);
+    --card-grad: linear-gradient(135deg, #eff6ff, #f0f9ff); --card-border: #dbeafe;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b1220; --surface: #131c2e; --text: #e2e8f0; --muted: #94a3b8;
+      --border: #2a3852; --shadow: 0 4px 20px rgba(0,0,0,.45);
+      --card-grad: linear-gradient(135deg, #172033, #131c2e); --card-border: #2a3852;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b1220; --surface: #131c2e; --text: #e2e8f0; --muted: #94a3b8;
+    --border: #2a3852; --shadow: 0 4px 20px rgba(0,0,0,.45);
+    --card-grad: linear-gradient(135deg, #172033, #131c2e); --card-border: #2a3852;
+  }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg); color: var(--text); min-height: 100vh;
+    transition: background .3s, color .3s;
+  }
+  header {
+    background: var(--grad); color: #fff; padding: 1rem 1.5rem;
+    display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+  }
+  header h1 { font-size: 1.4rem; letter-spacing: -.02em; }
+  header .back {
+    margin-left: auto; color: #fff; text-decoration: none; font-size: .9rem;
+    background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.45);
+    border-radius: 10px; padding: .45rem .8rem; font-weight: 600;
+  }
+  header .back:hover { background: rgba(255,255,255,.3); }
+
+  .wrap { max-width: 980px; margin: 0 auto; padding: 1.25rem; }
+  .intro { color: var(--muted); font-size: .95rem; line-height: 1.6; margin-bottom: 1rem; }
+  .city-line {
+    display: inline-flex; align-items: center; gap: .5rem; margin-bottom: 1.5rem;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 50px;
+    padding: .45rem .9rem; font-size: .9rem; font-weight: 600;
+  }
+  .city-line .muted { color: var(--muted); font-weight: 400; }
+
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .card.tapeta { grid-column: 1 / -1; }
+  @media (max-width: 720px) { .cards { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    box-shadow: var(--shadow); padding: 1.25rem; display: flex; flex-direction: column; gap: .9rem;
+  }
+  .card h2 { font-size: 1.1rem; color: var(--primary); display: flex; align-items: center; gap: .5rem; }
+  .card h2 small { color: var(--muted); font-weight: 400; font-size: .8rem; }
+  .preview-row { display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap; }
+  .preview {
+    border-radius: 12px; border: 1px solid var(--border); overflow: hidden;
+    background: var(--card-grad); display: block; max-width: 100%; height: auto;
+  }
+  .preview.tall { width: 150px; }
+  .preview.wide { width: 320px; max-width: 100%; }
+  .preview.square { width: 190px; }
+  .card .body { flex: 1; min-width: 220px; display: flex; flex-direction: column; gap: .7rem; }
+  .steps { margin: 0; padding-left: 1.15rem; color: var(--muted); font-size: .87rem; line-height: 1.55; }
+  .steps li { margin: .15rem 0; }
+  .actions { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: auto; }
+  .btn {
+    display: inline-flex; align-items: center; gap: .4rem; border: none; cursor: pointer;
+    border-radius: 10px; padding: .6rem 1rem; font-size: .9rem; font-weight: 700;
+    font-family: inherit; text-decoration: none; transition: filter .2s, background .2s;
+  }
+  .btn-primary { background: var(--grad); color: #fff; }
+  .btn-primary:hover { filter: brightness(1.06); }
+  .btn-ghost { background: transparent; color: var(--primary); border: 1px solid var(--border); }
+  .btn-ghost:hover { border-color: var(--primary); }
+  .btn.copied { background: #16a34a; color: #fff; border-color: transparent; }
+  .url {
+    font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: .74rem;
+    color: var(--muted); word-break: break-all; background: var(--card-grad);
+    border: 1px solid var(--card-border); border-radius: 8px; padding: .5rem .65rem;
+  }
+  .note {
+    margin-top: 1.5rem; font-size: .82rem; color: var(--muted); line-height: 1.6;
+    border-top: 1px solid var(--border); padding-top: 1rem;
+  }
+  .note b { color: var(--text); }
+  footer { text-align: center; color: var(--muted); font-size: .78rem; padding: 1.5rem; }
+  footer a { color: var(--primary); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🖼️ Tapeta &amp; Widget</h1>
+  <a class="back" href="/">← Späť do MeteoDuo</a>
+</header>
+
+<div class="wrap">
+  <p class="intro">
+    Zobraz si aktuálne počasie priamo na ploche telefónu — ako tapetu alebo widget.
+    Odkazy nižšie sú pripravené pre <b>tvoje zvolené mesto</b> a <b>rozlíšenie tohto telefónu</b>,
+    stačí ich stiahnuť alebo skopírovať.
+  </p>
+
+  <div class="city-line">
+    📍 <span id="cityName">Bratislava (centrum)</span>
+    <span class="muted">· mesto zmeníš v appke</span>
+  </div>
+
+  <div class="cards">
+    <!-- TAPETA -->
+    <div class="card tapeta">
+      <h2>Tapeta na celú obrazovku <small id="wpDim"></small></h2>
+      <div class="preview-row">
+        <img class="preview tall" id="pvTall" alt="Náhľad tapety" loading="lazy">
+        <div class="body">
+          <ol class="steps">
+            <li>Klikni <b>Stiahnuť tapetu</b> (obrázok je na mieru tvojho displeja).</li>
+            <li>Otvor ho v Galérii/Fotkách → <b>Nastaviť ako pozadie</b>.</li>
+            <li><b>iPhone – automaticky:</b> v appke Skratky daj <i>Get Contents of URL</i> na skopírovanú adresu → <i>Set Wallpaper</i>, a spúšťaj napr. každé ráno.</li>
+          </ol>
+          <div class="url" id="urlTall"></div>
+          <div class="actions">
+            <a class="btn btn-primary" id="dlTall" download="meteoduo-tapeta.png">⬇️ Stiahnuť tapetu</a>
+            <button class="btn btn-ghost" data-copy="urlTall">📋 Kopírovať URL</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WIDGET WIDE -->
+    <div class="card">
+      <h2>Widget na šírku <small>4×2</small></h2>
+      <img class="preview wide" id="pvWide" alt="Náhľad širokého widgetu" loading="lazy">
+      <div class="body">
+        <ol class="steps">
+          <li>Nainštaluj <b>KWGT</b> alebo appku typu „<b>Image Widget z URL</b>".</li>
+          <li>Pridaj jej widget na plochu (veľkosť ~4×2).</li>
+          <li>Vlož skopírovanú URL a nastav <b>obnovu</b> (napr. 1 h).</li>
+        </ol>
+        <div class="url" id="urlWide"></div>
+        <div class="actions">
+          <button class="btn btn-primary" data-copy="urlWide">📋 Kopírovať URL</button>
+          <a class="btn btn-ghost" id="openWide" target="_blank" rel="noopener">Otvoriť ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- WIDGET SQUARE -->
+    <div class="card">
+      <h2>Widget štvorec <small>2×2</small></h2>
+      <img class="preview square" id="pvSquare" alt="Náhľad štvorcového widgetu" loading="lazy">
+      <div class="body">
+        <ol class="steps">
+          <li>Rovnaký postup ako pri širokom widgete.</li>
+          <li>Použi štvorcovú veľkosť widgetu (~2×2).</li>
+          <li>Vlož URL a nastav obnovu.</li>
+        </ol>
+        <div class="url" id="urlSquare"></div>
+        <div class="actions">
+          <button class="btn btn-primary" data-copy="urlSquare">📋 Kopírovať URL</button>
+          <a class="btn btn-ghost" id="openSquare" target="_blank" rel="noopener">Otvoriť ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="note">
+    <b>Prečo to takto?</b> Ani Android, ani iOS nedovolia webovej stránke nastaviť pozadie
+    alebo widget „na jeden klik" — preto tapetu stiahneš ručne a widget vloží pomocná appka.
+    Obrázok sa na serveri generuje čerstvý (cache 15 min), takže drží krok s počasím.
+    Ak sa widget neobnovuje, povoľ danej appke beh na pozadí / vypni pre ňu optimalizáciu batérie.
+  </p>
+</div>
+
+<footer>MeteoDuo · zdroj počasia: <a href="https://www.yr.no" target="_blank" rel="noopener">MET Norway (yr.no)</a></footer>
+
+<script>
+(function () {
+  var DEFAULT_CITY = "32737"; // Bratislava (centrum)
+  var params = new URLSearchParams(location.search);
+  var city = params.get("city") || (function () {
+    try { return localStorage.getItem("meteoduo_city"); } catch (e) { return null; }
+  })() || DEFAULT_CITY;
+
+  var origin = location.origin;
+  function wpURL(w, h) {
+    return origin + "/wallpaper.png?city=" + encodeURIComponent(city) +
+           "&w=" + w + "&h=" + h;
+  }
+
+  // rozlíšenie tohto telefónu (clampnuté na limity endpointu)
+  var dpr = window.devicePixelRatio || 1;
+  var dw = Math.min(Math.max(Math.round(screen.width * dpr), 320), 2000);
+  var dh = Math.min(Math.max(Math.round(screen.height * dpr), 480), 3200);
+
+  var urlTall = wpURL(dw, dh);
+  var urlWide = wpURL(1000, 500);
+  var urlSquare = wpURL(600, 600);
+
+  document.getElementById("urlTall").textContent = urlTall;
+  document.getElementById("urlWide").textContent = urlWide;
+  document.getElementById("urlSquare").textContent = urlSquare;
+  document.getElementById("wpDim").textContent = dw + "×" + dh + " px";
+
+  document.getElementById("dlTall").href = urlTall;
+  document.getElementById("openWide").href = urlWide;
+  document.getElementById("openSquare").href = urlSquare;
+
+  // náhľady (menšie rozmery kvôli rýchlosti; endpoint cache 15 min)
+  document.getElementById("pvTall").src = wpURL(390, 844);
+  document.getElementById("pvWide").src = urlWide;
+  document.getElementById("pvSquare").src = urlSquare;
+
+  // názov mesta z /api/cities
+  fetch("/api/cities").then(function (r) { return r.json(); }).then(function (list) {
+    var c = list.find(function (x) { return x.id === city; });
+    if (c) document.getElementById("cityName").textContent = c.name;
+  }).catch(function () {});
+
+  // kopírovanie URL
+  document.querySelectorAll("[data-copy]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var text = document.getElementById(btn.getAttribute("data-copy")).textContent;
+      var done = function () {
+        var orig = btn.textContent;
+        btn.textContent = "✓ Skopírované";
+        btn.classList.add("copied");
+        setTimeout(function () { btn.textContent = orig; btn.classList.remove("copied"); }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, done);
+      } else {
+        var ta = document.createElement("textarea");
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try { document.execCommand("copy"); } catch (e) {}
+        document.body.removeChild(ta); done();
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
