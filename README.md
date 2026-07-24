@@ -33,6 +33,15 @@ Pod panelmi:
   odkaz otvorí presne ten istý pohľad
 - **Tmavý režim** — prepínač automatický / svetlý / tmavý v hlavičke
 - **PWA** — inštalovateľná na mobil, posledná predpoveď dostupná offline
+- **Mapy na celú obrazovku** — zrážkový **radar** a **Windy** (oficiálny embed),
+  **blesky** naživo (Blitzortung)
+- **Počasie na plochu telefónu:**
+  - **Natívny Android widget** so živou predpoveďou (stránka `/widget`) — sám sa
+    obnovuje, renderuje sa natívne (nie je to obrázok). APK sa buildí v cloude
+    (GitHub Actions) a servíruje z vlastnej domény
+  - **Tapeta** s aktuálnym počasím (`/wallpaper.png`) — obrázok generovaný
+    serverom (Pillow), layout sa vyberá podľa pomeru strán (tapeta / široký /
+    štvorcový widget); dá sa ťahať aj cez iOS Skratky / Android KWGT
 - **Lupa** na meteograme (hover, desktop) a **lightbox** (klik = zväčšenie
   na stred obrazovky, Esc/klik zatvorí)
 - Responzívne mobilné zobrazenie (panely pod sebou)
@@ -46,6 +55,11 @@ Pod panelmi:
     súradnice a okres sú predpočítané v `cities.json` (geokódovanie je fallback)
   - `/api/meteogram/{city_id}?type=aladin|laef|egram8|mgram10` — proxy
     najnovšieho meteogramu zo shmu.sk
+  - `/wallpaper.png?city=&w=&h=` — PNG s aktuálnym počasím (Pillow); layout
+    (tapeta / široký / štvorcový widget) sa vyberá podľa pomeru strán
+  - `/widget` + `/download/meteoduo-widget.apk` — landing na natívny Android
+    widget a proxy stiahnutie APK z GitHub Releases cez vlastnú doménu
+  - `/radar`, `/windy`, `/blesky` — mapy na celú obrazovku (Windy / Blitzortung embed)
   - `/manifest.webmanifest`, `/sw.js`, `/icons/*` — PWA (inštalácia + offline cache)
 - **Frontend:** React 18 cez CDN, JSX v `static/app.jsx` — kompiluje ho
   server (dukpy/Babel v Pythone, žiadny Node) na route `/app.js`;
@@ -90,6 +104,16 @@ Lokálny kontajner:
 docker build -t meteoduo .
 docker run -p 8080:8080 meteoduo
 ```
+
+## Android widget
+
+Natívny widget na domovskú obrazovku je samostatný Kotlin projekt v
+[`android/`](android/) — ťahá živú predpoveď z `/api/forecast/{cityId}` a
+renderuje ju cez RemoteViews (Android ho sám obnovuje). Buildí sa **v cloude**
+cez GitHub Actions ([`.github/workflows/android.yml`](.github/workflows/android.yml)):
+push do `android/**` → debug APK → nahratie do releasu `widget-latest`. Web
+stránka `/widget` ho ponúka na stiahnutie (cez `/download/meteoduo-widget.apk`).
+Detaily a postup na build/podpis v [android/README.md](android/README.md).
 
 Otvorené úlohy sú v [TODO.md](TODO.md).
 
