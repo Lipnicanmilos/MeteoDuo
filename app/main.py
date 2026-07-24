@@ -10,7 +10,9 @@ from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 
-from app.services import geocode, openmeteo, shmu, warnings, yr
+from app.services import geocode, openmeteo, shmu, wallpaper, warnings, yr
+
+DEFAULT_CITY = "32463"  # Babín — rovnaké predvolené mesto ako vo frontende
 
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
 APP_JSX = STATIC_DIR / "app.jsx"
@@ -184,6 +186,37 @@ async def meteogram(city_id: str, type: str = "aladin"):
         raise HTTPException(404, "Meteogram sa nenašiel")
     return Response(content=png, media_type="image/png",
                     headers={"Cache-Control": "public, max-age=600"})
+
+
+@app.get("/wallpaper.png")
+async def wallpaper_png(city: str = DEFAULT_CITY, w: int = 1170, h: int = 2532):
+    """PNG tapeta s aktuálnym počasím pre mobil.
+
+    Dá sa stiahnuť priamo v appke, alebo z tejto URL periodicky ťahať cez
+    iOS Skratky / Android Tasker a nastaviť ako (skoro-živú) tapetu.
+    """
+    if city not in shmu.CITY_IDS:
+        city = DEFAULT_CITY
+    w = max(320, min(w, 2000))
+    h = max(480, min(h, 3200))
+
+    client = app.state.http
+    name = shmu.CITY_NAMES[city]
+    coords = shmu.CITY_COORDS.get(city) or await geocode.geocode(client, name)
+
+    yr_data, updated = None, None
+    if coords:
+        try:
+            yr_data = await yr.fetch_forecast(client, *coords)
+            updated = yr.cached_at(*coords)
+        except httpx.HTTPError:
+            yr_data = None  # render vypíše zástupné pomlčky namiesto pádu
+
+    png = await asyncio.to_thread(
+        wallpaper.render, name, yr_data, width=w, height=h, updated=updated
+    )
+    return Response(content=png, media_type="image/png",
+                    headers={"Cache-Control": "public, max-age=900"})
 
 
 @app.get("/health")

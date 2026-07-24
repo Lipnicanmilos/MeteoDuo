@@ -598,6 +598,9 @@ function App() {
                      ? m.href + "?lat=" + data.city.lat + "&lon=" + data.city.lon
                      : m.href}>{m.label}</a>
           ))}
+          <a className="map-link" href={"/wallpaper.png?city=" + cityId}
+             target="_blank" rel="noopener"
+             title="Stiahnuť tapetu s aktuálnym počasím pre mobil">🖼️ Tapeta</a>
         </div>
         <CityPicker cities={cities} value={cityId} onChange={setCityId}>
           <button className="fav-btn" onClick={toggleFav}

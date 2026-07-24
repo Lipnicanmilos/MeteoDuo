@@ -9,7 +9,7 @@
 // POZOR: pri zmene statiky (index.html, app.jsx, ikony) zdvihni verziu —
 // online používatelia dostanú novú verziu aj bez toho (network-first),
 // ale offline cache sa prečistí až po bumpe
-const CACHE = "meteoduo-v7";
+const CACHE = "meteoduo-v8";
 
 const PRECACHE = [
   "/",
