@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MeteoDuo – Widget na plochu</title>
+<meta name="description" content="Natívny Android widget so živou predpoveďou počasia na domovskú obrazovku — stiahni a nastav za minútu.">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<script>
+  try {
+    var t = localStorage.getItem("meteoduo_theme");
+    if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+</script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --primary: #2563eb; --accent: #0ea5e9;
+    --grad: linear-gradient(135deg, #2563eb, #0ea5e9);
+    --bg: #f1f5f9; --surface: #ffffff; --text: #0f172a; --muted: #64748b;
+    --border: #e2e8f0; --shadow: 0 4px 20px rgba(37,99,235,.08);
+    --card-grad: linear-gradient(135deg, #eff6ff, #f0f9ff); --card-border: #dbeafe;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b1220; --surface: #131c2e; --text: #e2e8f0; --muted: #94a3b8;
+      --border: #2a3852; --shadow: 0 4px 20px rgba(0,0,0,.45);
+      --card-grad: linear-gradient(135deg, #172033, #131c2e); --card-border: #2a3852;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b1220; --surface: #131c2e; --text: #e2e8f0; --muted: #94a3b8;
+    --border: #2a3852; --shadow: 0 4px 20px rgba(0,0,0,.45);
+    --card-grad: linear-gradient(135deg, #172033, #131c2e); --card-border: #2a3852;
+  }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg); color: var(--text); min-height: 100vh;
+    transition: background .3s, color .3s;
+  }
+  header {
+    background: var(--grad); color: #fff; padding: 1rem 1.5rem;
+    display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+  }
+  header h1 { font-size: 1.4rem; letter-spacing: -.02em; }
+  header .back {
+    margin-left: auto; color: #fff; text-decoration: none; font-size: .9rem;
+    background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.45);
+    border-radius: 10px; padding: .45rem .8rem; font-weight: 600;
+  }
+  header .back:hover { background: rgba(255,255,255,.3); }
+
+  .wrap { max-width: 720px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+  .lead { color: var(--muted); font-size: 1rem; line-height: 1.65; margin-bottom: 1.5rem; }
+  .lead b { color: var(--text); }
+
+  .dl {
+    display: flex; flex-direction: column; align-items: center; gap: .6rem;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    box-shadow: var(--shadow); padding: 1.75rem; text-align: center; margin-bottom: 1.5rem;
+  }
+  .dl-btn {
+    display: inline-flex; align-items: center; gap: .5rem; background: var(--grad);
+    color: #fff; text-decoration: none; font-weight: 800; font-size: 1.05rem;
+    padding: .9rem 1.8rem; border-radius: 12px; transition: filter .2s;
+  }
+  .dl-btn:hover { filter: brightness(1.06); }
+  .dl .sub { color: var(--muted); font-size: .82rem; }
+
+  ol.steps { margin: 0 0 1.5rem 1.2rem; line-height: 1.7; }
+  ol.steps li { margin: .4rem 0; }
+  ol.steps b { color: var(--text); }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 1rem 1.15rem; margin-bottom: 1rem; font-size: .9rem; line-height: 1.6;
+    color: var(--muted);
+  }
+  .card.warn { border-left: 4px solid #f59e0b; }
+  .card b { color: var(--text); }
+  .card h3 { font-size: .95rem; color: var(--primary); margin-bottom: .3rem; }
+
+  footer { text-align: center; color: var(--muted); font-size: .78rem; padding: 1.5rem; }
+  footer a { color: var(--primary); }
+</style>
+</head>
+<body>
+<header>
+  <h1>📲 Widget na plochu</h1>
+  <a class="back" href="/">← Späť do MeteoDuo</a>
+</header>
+
+<div class="wrap">
+  <p class="lead">
+    Natívny <b>Android widget</b> so <b>živou predpoveďou počasia</b> priamo na domovskej
+    obrazovke. Sám sa obnovuje (nie je to obrázok, netreba žiadnu pomocnú appku).
+    Stiahni, nainštaluj a nastav za minútu.
+  </p>
+
+  <div class="dl">
+    <a class="dl-btn" id="apkBtn"
+       href="https://github.com/Lipnicanmilos/MeteoDuo/releases/latest/download/meteoduo-widget.apk">
+      ⬇️ Stiahnuť widget (APK)
+    </a>
+    <span class="sub">Android 8+ · zadarmo · zdroj otvorený na GitHube</span>
+  </div>
+
+  <div class="card warn" id="iosNote" style="display:none">
+    ⚠️ Vyzerá to, že nie si na Androide. Tento widget je <b>iba pre Android</b> —
+    Apple na iPhone widgety z appiek tretích strán takto nepovoľuje. Na iPhone použi
+    radšej <a href="/wallpaper.png">tapetu s počasím</a> (stiahni obrázok a nastav ako pozadie,
+    prípadne cez Skratky).
+  </div>
+
+  <h3 style="color:var(--primary);margin:1.5rem 0 .5rem;">Inštalácia — krok po kroku</h3>
+  <ol class="steps">
+    <li>Ťukni na <b>Stiahnuť widget (APK)</b> vyššie a počkaj, kým sa súbor stiahne.</li>
+    <li>Otvor stiahnutý súbor (v lište sťahovania alebo v Súboroch → Downloads).</li>
+    <li>Android sa spýta na povolenie <b>„Inštalovať neznáme aplikácie"</b> pre tvoj
+        prehliadač → <b>povoľ</b> to (je to bežné pri appkách mimo Google Play).</li>
+    <li>Ak <b>Play Protect</b> zobrazí varovanie → <b>„Aj tak nainštalovať"</b>.</li>
+    <li>Po inštalácii podrž prst na ploche → <b>Widgety</b> → <b>MeteoDuo Widget</b> →
+        pretiahni na plochu.</li>
+    <li>Zadaj <b>mesto</b> (predvolene Bratislava centrum) → <b>Uložiť</b>. Hotovo —
+        widget ukáže živé počasie a sám sa obnovuje; ťuknutím obnovíš hneď.</li>
+  </ol>
+
+  <div class="card">
+    <h3>Ako zadať iné mesto</h3>
+    Widget sa pri pridaní spýta na <b>id mesta</b>. Zistíš ho tak, že v appke MeteoDuo
+    vyberieš mesto a klikneš „🖼️ Tapeta" — v adrese uvidíš <b>?city=&lt;číslo&gt;</b>.
+    To číslo zadaj vo widgete.
+  </div>
+
+  <div class="card">
+    <h3>Prečo neznáme zdroje?</h3>
+    Appka nie je (zatiaľ) na Google Play, preto ju inštaluješ priamo z APK. Je
+    <b>open-source</b> — kód si môžeš pozrieť na
+    <a href="https://github.com/Lipnicanmilos/MeteoDuo" target="_blank" rel="noopener">GitHube</a>.
+    Bezpečnostné varovania sú štandardné pri každej appke mimo obchodu.
+  </div>
+</div>
+
+<footer>MeteoDuo · zdroj počasia: <a href="https://www.yr.no" target="_blank" rel="noopener">MET Norway (yr.no)</a></footer>
+
+<script>
+  // jednoduchý hint pre ne-Android zariadenia
+  if (!/Android/i.test(navigator.userAgent)) {
+    document.getElementById("iosNote").style.display = "block";
+  }
+</script>
+</body>
+</html>

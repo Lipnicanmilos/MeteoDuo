@@ -67,6 +67,13 @@ async def blesky():
                         headers={"Cache-Control": "no-cache"})
 
 
+@app.get("/widget")
+async def widget():
+    # landing na stiahnutie natívneho Android widgetu (APK z GitHub Releases)
+    return FileResponse(STATIC_DIR / "widget.html",
+                        headers={"Cache-Control": "no-cache"})
+
+
 @app.get("/app.js")
 async def app_js():
     """JSX kompilované na serveri (dukpy/Babel — bez Node aj bez Babel CDN).

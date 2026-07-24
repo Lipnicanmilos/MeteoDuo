@@ -601,6 +601,8 @@ function App() {
           <a className="map-link" href={"/wallpaper.png?city=" + cityId}
              target="_blank" rel="noopener"
              title="Stiahnuť tapetu s aktuálnym počasím pre mobil">🖼️ Tapeta</a>
+          <a className="map-link" href="/widget"
+             title="Natívny Android widget so živou predpoveďou na plochu">📲 Widget</a>
         </div>
         <CityPicker cities={cities} value={cityId} onChange={setCityId}>
           <button className="fav-btn" onClick={toggleFav}
