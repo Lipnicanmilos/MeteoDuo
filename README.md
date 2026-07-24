@@ -36,9 +36,12 @@ Pod panelmi:
 - **Mapy na celú obrazovku** — zrážkový **radar** a **Windy** (oficiálny embed),
   **blesky** naživo (Blitzortung)
 - **Počasie na plochu telefónu:**
-  - **Natívny Android widget** so živou predpoveďou (stránka `/widget`) — sám sa
-    obnovuje, renderuje sa natívne (nie je to obrázok). APK sa buildí v cloude
-    (GitHub Actions) a servíruje z vlastnej domény
+  - **Natívne Android widgety** so živou predpoveďou (stránka `/widget`) —
+    dva typy: „**MeteoDuo — počasie**" (aktuálne) a „**MeteoDuo — 24 h**"
+    (8-stĺpcová hodinovka). Sám sa obnovuje, renderuje sa natívne (nie je to
+    obrázok), s nastavením mesta (vyhľadávanie + obľúbené) a priehľadnosti;
+    klik otvorí appku, ⚙ nastavenia. Súčasťou APK je aj appka (WebView) na
+    ikonu domovskej obrazovky
   - **Tapeta** s aktuálnym počasím (`/wallpaper.png`) — obrázok generovaný
     serverom (Pillow), layout sa vyberá podľa pomeru strán (tapeta / široký /
     štvorcový widget); dá sa ťahať aj cez iOS Skratky / Android KWGT
@@ -105,15 +108,25 @@ docker build -t meteoduo .
 docker run -p 8080:8080 meteoduo
 ```
 
-## Android widget
+## Android appka a widgety
 
-Natívny widget na domovskú obrazovku je samostatný Kotlin projekt v
-[`android/`](android/) — ťahá živú predpoveď z `/api/forecast/{cityId}` a
-renderuje ju cez RemoteViews (Android ho sám obnovuje). Buildí sa **v cloude**
-cez GitHub Actions ([`.github/workflows/android.yml`](.github/workflows/android.yml)):
-push do `android/**` → debug APK → nahratie do releasu `widget-latest`. Web
-stránka `/widget` ho ponúka na stiahnutie (cez `/download/meteoduo-widget.apk`).
-Detaily a postup na build/podpis v [android/README.md](android/README.md).
+Samostatný Kotlin projekt v [`android/`](android/) — ťahá živú predpoveď z
+`/api/forecast/{cityId}` a renderuje ju natívne cez RemoteViews:
+
+- **Dva widgety:** aktuálne počasie a 24-hodinová hodinovka (8 stĺpcov).
+- **Nastavenie:** vyhľadávanie obce (z `/api/cities`), obľúbené mestá a
+  priehľadnosť pozadia — otvoriteľné z widgetu (⚙) hocikedy.
+- **Appka (WebView):** ikona v zásuvke otvorí webové MeteoDuo; klik na widget
+  ju tiež otvorí.
+
+**Build v cloude** cez GitHub Actions
+([`.github/workflows/android.yml`](.github/workflows/android.yml)): push do
+`android/**` → **podpísaný release APK** (stabilný keystore vygeneruje a
+commitne CI, takže updaty sa inštalujú bez odinštalovania) → release
+`widget-latest`. Web stránka `/widget` ho ponúka na stiahnutie cez
+`/download/meteoduo-widget.apk` (proxy z vlastnej domény). Odkaz „Widget" sa
+v appke zobrazuje len na Androide. Detaily v
+[android/README.md](android/README.md).
 
 Otvorené úlohy sú v [TODO.md](TODO.md).
 

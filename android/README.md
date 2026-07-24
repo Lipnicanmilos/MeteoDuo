@@ -1,75 +1,62 @@
-# MeteoDuo — natívny Android widget
+# MeteoDuo — natívna Android appka a widgety
 
-Domovský widget s **živou predpoveďou počasia** z MeteoDuo API. Na rozdiel od
-webového PNG riešenia sa obnovuje **sám** (Android widget update, bez KWGT/Tasker)
-a renderuje sa **natívne** (RemoteViews, emoji ikona) — nie je to obrázok.
+Kotlin projekt s **domovskými widgetmi** so živou predpoveďou počasia z MeteoDuo
+API + jednoduchou **appkou (WebView)**. Renderuje sa **natívne** (RemoteViews,
+emoji ikony) a obnovuje **sám** (Android widget update) — bez KWGT/Tasker.
 
-## Čo robí
+## Čo obsahuje
 
-- Ťahá dáta z `GET /api/forecast/{cityId}` (živá predpoveď yr.no cez MeteoDuo).
-- Zobrazuje: mesto, ikonu počasia (emoji), aktuálnu teplotu, popis, max/min a čas obnovy.
-- Android ho obnovuje každých ~30 min (`updatePeriodMillis`); **ťuknutím** sa obnoví hneď.
-- Pri pridaní widgetu sa spýta na **mesto** (SHMÚ id) — predvolene Bratislava (centrum) `32737`.
+- **Dva widgety** (v zozname widgetov pod „MeteoDuo — počasie" / „MeteoDuo — 24 h"):
+  - **Aktuálne počasie** — mesto, ikona, teplota, popis, dnešné max/min, čas obnovy.
+  - **24-hodinová hodinovka** — 8 stĺpcov po 3 h (čas / ikona / teplota).
+- **Nastavenia widgetu** (⚙ v rohu, dostupné hocikedy — nielen pri pridaní):
+  - **Vyhľadávanie obce** — našepkávač zo všetkých obcí (`GET /api/cities`),
+    netreba poznať SHMÚ id.
+  - **Obľúbené mestá** — pridať / vybrať / odobrať (uložené v telefóne, zdieľané).
+  - **Priehľadnosť pozadia** — posuvník 0–100 %.
+- **Appka (WebView)** — ikona v zásuvke aplikácií otvorí webové MeteoDuo;
+  **klik na widget** ju tiež otvorí. Pri otvorení obnoví widgety.
+- Android obnovuje widgety každých ~30 min (`updatePeriodMillis`).
+- Predvolené mesto: Bratislava (centrum) `32737`.
 
-## Ako zistiť `cityId`
+## Build a distribúcia — automaticky cez GitHub Actions
 
-V appke MeteoDuo vyber mesto a otvor stránku **„🖼️ Tapeta"** — v adrese je `?city=<číslo>`.
-(Alebo priamo na webe je mesto v URL ako `?obec=<číslo>`.)
+Nepotrebuješ Android Studio ani lokálny toolchain. Workflow
+[`.github/workflows/android.yml`](../.github/workflows/android.yml) pri každej
+zmene v `android/**` (alebo ručne cez *Run workflow*):
 
-## Build (potrebuješ Android Studio)
+1. na runneri (Android SDK) zbuildí **podpísaný release APK**,
+2. nahrá ho ako `meteoduo-widget.apk` do releasu **`widget-latest`**.
 
-> ⚠️ Tento projekt **nebol zbuildený ani otestovaný automaticky** — je to scaffold.
-> Skompilovať a nainštalovať APK treba na vlastnom stroji.
+Web stránka `/widget` ho ponúka na stiahnutie cez
+`/download/meteoduo-widget.apk` (server ho proxuje z GitHubu → vlastná doména,
+obchádza CDN, ktorý niektorým mobilom zamŕzal).
 
-1. Otvor priečinok `android/` v **Android Studio** (Giraffe alebo novší).
-   Android Studio si dogeneruje Gradle wrapper a stiahne závislosti.
-2. Priprav zariadenie: fyzický telefón s **USB debugging**, alebo emulátor.
-3. **Run ▶** (alebo *Build → Build APK(s)*), APK bude v
-   `app/build/outputs/apk/`.
-4. Na telefóne: podrž plochu → **Widgety** → *MeteoDuo Widget* → pretiahni na plochu →
-   zadaj mesto → **Uložiť**.
+### Stabilný podpis (updaty bez odinštalovania)
 
-### Alternatívne z príkazového riadka
-```bash
-cd android
-gradle wrapper            # jednorazovo, ak nemáš ./gradlew
-./gradlew assembleDebug   # APK: app/build/outputs/apk/debug/app-debug.apk
-```
+Aby mal každý build **rovnaký podpis** (a nová verzia sa nainštalovala „cez"
+starú), CI pri prvom builde vygeneruje `app/meteoduo-release.jks` (`keytool`)
+a **commitne ho do repa**; ďalšie buildy ním podpisujú release. Heslo je
+v `app/build.gradle.kts` (`signingConfigs.release`).
 
-## Distribúcia užívateľom (podpísaný APK → GitHub Releases)
+> ⚠️ Keystore aj heslo sú vo verejnom repe — vedomý kompromis pre hobby
+> sideload appku. Ak by projekt išiel na **Google Play**, vygeneruj nový,
+> privátny kľúč (do GitHub Secrets) a tento nepoužívaj.
 
-Web appka má stránku `/widget` s tlačidlom, ktoré ukazuje na
-`https://github.com/Lipnicanmilos/MeteoDuo/releases/latest/download/meteoduo-widget.apk`.
-Aby fungovalo, nahraj podpísaný APK **presne s týmto názvom** do GitHub Releases:
+## Lokálny build (voliteľné, Android Studio)
 
-**A) Podpísaný release APK (Android Studio)**
-1. *Build → Generate Signed Bundle / APK…* → **APK** → Next.
-2. *Key store path* → **Create new…** → ulož `.jks` (napr. `meteoduo-widget.jks`),
-   zadaj heslá + alias. **Zálohuj `.jks` a heslá** — bez nich nevydáš žiadny update!
-3. Build variant **release** → Finish. APK je v `android/app/release/app-release.apk`.
+Otvor priečinok `android/` v Android Studio → **Run ▶** na telefón (USB
+debugging) alebo emulátor. Z CLI: `gradle wrapper && ./gradlew assembleDebug`
+(debug APK v `app/build/outputs/apk/debug/`). Release build lokálne potrebuje
+`app/meteoduo-release.jks` (po prvom CI builde je už v repe).
 
-**B) Premenuj** `app-release.apk` → **`meteoduo-widget.apk`** (názov musí sedieť s webom).
+## Konfigurácia v kóde
 
-**C) GitHub Releases (cez web, netreba gh CLI)**
-1. Repo MeteoDuo → **Releases** → **Draft a new release**.
-2. *Choose a tag* → napíš napr. `widget-v1` → *Create new tag*.
-3. Title napr. „MeteoDuo Widget v1", do *Attach binaries* pretiahni `meteoduo-widget.apk`.
-4. **Publish release**. Tlačidlo na `/widget` odteraz stiahne tento APK.
-
-> Pri ďalších verziách vytvor nový release, ale **asset pomenuj vždy** `meteoduo-widget.apk`,
-> aby „latest/download" link ostal platný.
-
-**Rýchly self-test bez podpisu:** `./gradlew assembleDebug` → nainštaluj
-`app/build/outputs/apk/debug/app-debug.apk` cez USB (na distribúciu ale použi podpísaný release).
-
-## Konfigurácia
-
-- **Endpoint** a **predvolené mesto** sú v
-  `app/src/main/java/sk/meteoduo/widget/WeatherWidgetProvider.kt`
-  (`BASE`, `DEFAULT_CITY`).
-- Interval obnovy: `app/src/main/res/xml/weather_widget_info.xml`
-  (`updatePeriodMillis`; Android ignoruje hodnoty pod 30 min). Pre spoľahlivejšiu
-  a častejšiu obnovu sa dá neskôr doplniť `WorkManager`.
+- **Endpoint** a **predvolené mesto**: `WeatherWidgetProvider.kt` (`BASE`,
+  `DEFAULT_CITY`).
+- **Interval obnovy**: `res/xml/weather_widget_info.xml` a `hourly_widget_info.xml`
+  (`updatePeriodMillis`; Android ignoruje hodnoty pod 30 min).
+- **Hodiny v 24 h widgete**: `HourlyWidgetProvider.STEPS`.
 
 ## Prečo natívne a nie PWA
 
