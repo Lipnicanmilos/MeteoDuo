@@ -5,3 +5,4 @@
     <string name="config_hint">Zadaj SHMÚ id mesta. Nájdeš ho v appke MeteoDuo — na stránke „Tapeta" v adrese za ?city=, alebo na webe za ?obec=. Predvolene Bratislava (centrum) = 32737.</string>
     <string name="config_city_hint">napr. 32737</string>
     <string name="config_save">Uložiť</string>
+</resources>
