@@ -174,8 +174,19 @@ class WidgetConfigActivity : Activity() {
             .putInt(WeatherWidgetProvider.keyAlpha(widgetId), alphaBar.progress)
             .apply()
 
+        // obnov práve ten widget — nech je hlavný alebo hodinový
         val mgr = AppWidgetManager.getInstance(this)
-        Thread { WeatherWidgetProvider.refresh(this, mgr, widgetId) }.start()
+        val provider = mgr.getAppWidgetInfo(widgetId)?.provider
+        if (provider != null) {
+            sendBroadcast(Intent(AppWidgetManager.ACTION_APPWIDGET_UPDATE).apply {
+                component = provider
+                putExtra(
+                    AppWidgetManager.EXTRA_APPWIDGET_IDS, intArrayOf(widgetId)
+                )
+            })
+        } else {
+            Thread { WeatherWidgetProvider.refresh(this, mgr, widgetId) }.start()
+        }
 
         setResult(RESULT_OK, Intent().putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, widgetId))
         finish()

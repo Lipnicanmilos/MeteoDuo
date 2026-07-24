@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/widget_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="@null"
+        android:src="@drawable/widget_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/wh_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/w_text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingEnd="20dp"
+            android:text="Bratislava (centrum)" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout style="@style/HourCol">
+                <TextView android:id="@+id/wh0_time" style="@style/HourTime" />
+                <TextView android:id="@+id/wh0_emoji" style="@style/HourEmoji" />
+                <TextView android:id="@+id/wh0_temp" style="@style/HourTemp" />
+            </LinearLayout>
+            <LinearLayout style="@style/HourCol">
+                <TextView android:id="@+id/wh1_time" style="@style/HourTime" />
+                <TextView android:id="@+id/wh1_emoji" style="@style/HourEmoji" />
+                <TextView android:id="@+id/wh1_temp" style="@style/HourTemp" />
+            </LinearLayout>
+            <LinearLayout style="@style/HourCol">
+                <TextView android:id="@+id/wh2_time" style="@style/HourTime" />
+                <TextView android:id="@+id/wh2_emoji" style="@style/HourEmoji" />
+                <TextView android:id="@+id/wh2_temp" style="@style/HourTemp" />
+            </LinearLayout>
+            <LinearLayout style="@style/HourCol">
+                <TextView android:id="@+id/wh3_time" style="@style/HourTime" />
+                <TextView android:id="@+id/wh3_emoji" style="@style/HourEmoji" />
+                <TextView android:id="@+id/wh3_temp" style="@style/HourTemp" />
+            </LinearLayout>
+            <LinearLayout style="@style/HourCol">
+                <TextView android:id="@+id/wh4_time" style="@style/HourTime" />
+                <TextView android:id="@+id/wh4_emoji" style="@style/HourEmoji" />
+                <TextView android:id="@+id/wh4_temp" style="@style/HourTemp" />
+            </LinearLayout>
+            <LinearLayout style="@style/HourCol">
+                <TextView android:id="@+id/wh5_time" style="@style/HourTime" />
+                <TextView android:id="@+id/wh5_emoji" style="@style/HourEmoji" />
+                <TextView android:id="@+id/wh5_temp" style="@style/HourTemp" />
+            </LinearLayout>
+            <LinearLayout style="@style/HourCol">
+                <TextView android:id="@+id/wh6_time" style="@style/HourTime" />
+                <TextView android:id="@+id/wh6_emoji" style="@style/HourEmoji" />
+                <TextView android:id="@+id/wh6_temp" style="@style/HourTemp" />
+            </LinearLayout>
+            <LinearLayout style="@style/HourCol">
+                <TextView android:id="@+id/wh7_time" style="@style/HourTime" />
+                <TextView android:id="@+id/wh7_emoji" style="@style/HourEmoji" />
+                <TextView android:id="@+id/wh7_temp" style="@style/HourTemp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/w_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:padding="6dp"
+        android:textSize="14sp"
+        android:text="⚙"
+        android:contentDescription="@string/settings_desc" />
+</FrameLayout>

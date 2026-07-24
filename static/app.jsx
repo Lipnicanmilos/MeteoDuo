@@ -1,6 +1,7 @@
 const { useState, useEffect, useMemo } = React;
 
 const DEFAULT_CITY = "32463"; // Babin
+const IS_ANDROID = /Android/i.test(navigator.userAgent || ""); // widget je len pre Android
 
 const EMOJI = [
   ["clearsky", "☀️"], ["fair", "🌤️"], ["partlycloudy", "⛅"], ["cloudy", "☁️"],
@@ -598,8 +599,10 @@ function App() {
                      ? m.href + "?lat=" + data.city.lat + "&lon=" + data.city.lon
                      : m.href}>{m.label}</a>
           ))}
+          {IS_ANDROID && (
           <a className="map-link" href="/widget"
              title="Natívny Android widget so živou predpoveďou na plochu">📲 Widget</a>
+          )}
         </div>
         <CityPicker cities={cities} value={cityId} onChange={setCityId}>
           <button className="fav-btn" onClick={toggleFav}

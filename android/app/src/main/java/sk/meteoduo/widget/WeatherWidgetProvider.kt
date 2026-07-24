@@ -166,7 +166,7 @@ class WeatherWidgetProvider : AppWidgetProvider() {
         private fun fmt(t: Double): String =
             if (t.isNaN()) "–" else "${t.roundToInt()}°"
 
-        private fun httpGet(urlStr: String): String {
+        fun httpGet(urlStr: String): String {
             val conn = (URL(urlStr).openConnection() as HttpURLConnection).apply {
                 requestMethod = "GET"
                 connectTimeout = 8000

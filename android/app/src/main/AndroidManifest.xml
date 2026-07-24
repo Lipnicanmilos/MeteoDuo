@@ -15,7 +15,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MeteoDuo.NoBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -25,13 +26,27 @@
         <!-- Widget provider: Android ho podľa updatePeriodMillis sám obnovuje -->
         <receiver
             android:name=".WeatherWidgetProvider"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/widget_current_label">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/weather_widget_info" />
+        </receiver>
+
+        <!-- Druhý widget: predpoveď na ~24 hodín -->
+        <receiver
+            android:name=".HourlyWidgetProvider"
+            android:exported="true"
+            android:label="@string/widget_hourly_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/hourly_widget_info" />
         </receiver>
 
         <!-- Konfigurácia pri pridaní widgetu: výber mesta (SHMÚ id) -->

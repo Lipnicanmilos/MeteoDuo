@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">MeteoDuo</string>
     <string name="settings_desc">Nastavenia widgetu</string>
+    <string name="widget_current_label">MeteoDuo — počasie</string>
+    <string name="widget_hourly_label">MeteoDuo — 24 h</string>
     <string name="config_title">Nastavenie widgetu</string>
     <string name="config_search_label">Mesto / obec</string>
     <string name="config_search_hint">Začni písať názov…</string>

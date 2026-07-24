@@ -2,4 +2,35 @@
 <resources>
     <!-- Platformová téma (bez appcompat/material) — config activity je obyčajná Activity -->
     <style name="Theme.MeteoDuoWidget" parent="@android:style/Theme.DeviceDefault.Light" />
+    <!-- WebView appka: bez natívneho ActionBaru (web má vlastnú hlavičku) -->
+    <style name="Theme.MeteoDuo.NoBar" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar" />
+
+    <!-- stĺpce hodinového widgetu -->
+    <style name="HourCol">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="HourTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/w_muted</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="HourEmoji">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+    <style name="HourTemp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/w_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

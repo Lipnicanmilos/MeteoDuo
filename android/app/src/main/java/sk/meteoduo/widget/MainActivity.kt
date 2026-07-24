@@ -36,11 +36,17 @@ class MainActivity : Activity() {
         super.onResume()
         // otvorenie appky = dobrá chvíľa obnoviť aj widgety na ploche
         val mgr = AppWidgetManager.getInstance(this)
-        val ids = mgr.getAppWidgetIds(
+        val currentIds = mgr.getAppWidgetIds(
             ComponentName(this, WeatherWidgetProvider::class.java)
         )
-        if (ids.isNotEmpty()) {
-            Thread { for (id in ids) WeatherWidgetProvider.refresh(this, mgr, id) }.start()
+        val hourlyIds = mgr.getAppWidgetIds(
+            ComponentName(this, HourlyWidgetProvider::class.java)
+        )
+        if (currentIds.isNotEmpty() || hourlyIds.isNotEmpty()) {
+            Thread {
+                for (id in currentIds) WeatherWidgetProvider.refresh(this, mgr, id)
+                for (id in hourlyIds) HourlyWidgetProvider.refreshHourly(this, mgr, id)
+            }.start()
         }
     }
 
