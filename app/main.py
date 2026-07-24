@@ -67,13 +67,6 @@ async def blesky():
                         headers={"Cache-Control": "no-cache"})
 
 
-@app.get("/tapeta")
-async def tapeta():
-    # sprievodca: tapeta / widget s aktuálnym počasím na plochu telefónu
-    return FileResponse(STATIC_DIR / "tapeta.html",
-                        headers={"Cache-Control": "no-cache"})
-
-
 @app.get("/app.js")
 async def app_js():
     """JSX kompilované na serveri (dukpy/Babel — bez Node aj bez Babel CDN).
