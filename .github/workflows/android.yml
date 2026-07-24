@@ -39,11 +39,27 @@ jobs:
           sudo unzip -q -d /opt /tmp/gradle.zip
           echo "/opt/gradle-8.7/bin" >> "$GITHUB_PATH"
 
-      - name: Build debug APK
+      - name: Ensure signing keystore (generate once, commit)
+        working-directory: android
+        run: |
+          if [ ! -f app/meteoduo-release.jks ]; then
+            keytool -genkeypair -v \
+              -keystore app/meteoduo-release.jks \
+              -storepass meteoduo -keypass meteoduo -alias meteoduo \
+              -keyalg RSA -keysize 2048 -validity 10000 \
+              -dname "CN=MeteoDuo, O=MeteoDuo, C=SK"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add app/meteoduo-release.jks
+            git commit -m "android: release keystore pre stabilny podpis [skip ci]"
+            git push origin HEAD:main
+          fi
+
+      - name: Build release APK
         working-directory: android
         run: |
           set -o pipefail
-          gradle assembleDebug --no-daemon --stacktrace 2>&1 | tee "$GITHUB_WORKSPACE/build.log"
+          gradle assembleRelease --no-daemon --stacktrace 2>&1 | tee "$GITHUB_WORKSPACE/build.log"
 
       - name: Upload build log on failure
         if: failure()
@@ -54,7 +70,7 @@ jobs:
           files: build.log
 
       - name: Rename APK
-        run: cp android/app/build/outputs/apk/debug/app-debug.apk meteoduo-widget.apk
+        run: cp android/app/build/outputs/apk/release/app-release.apk meteoduo-widget.apk
 
       - name: Publish to Releases
         uses: softprops/action-gh-release@v2
@@ -63,10 +79,10 @@ jobs:
           name: MeteoDuo Widget (najnovší build)
           files: meteoduo-widget.apk
           body: |
-            Automaticky zbuildený Android widget (debug APK).
+            Automaticky zbuildený Android widget (podpísaný release APK).
 
             Inštalácia: stiahni na Androide, otvor, povoľ „Inštalovať neznáme aplikácie",
             prípadne Play Protect → „Aj tak nainštalovať".
 
-            Pozn.: ide o debug podpis — aktualizácia na novšiu verziu môže vyžadovať
-            najprv odinštalovanie starej. Stabilný release podpis vieme doplniť neskôr.
+            Aktualizácie: nová verzia sa nainštaluje „cez" starú bez odinštalovania
+            (stabilný podpis).

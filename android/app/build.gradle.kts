@@ -15,9 +15,26 @@ android {
         versionName = "1.0"
     }
 
+    signingConfigs {
+        // Stabilný podpis: keystore je committed v repe (app/meteoduo-release.jks),
+        // vygeneruje ho CI pri prvom builde. Vďaka tomu má každý release APK
+        // rovnaký podpis → update sa nainštaluje „cez" starý bez odinštalovania.
+        // (Pri hobby sideload appke je verejný keystore prijateľný kompromis.)
+        create("release") {
+            val ks = file("meteoduo-release.jks")
+            if (ks.exists()) {
+                storeFile = ks
+                storePassword = "meteoduo"
+                keyAlias = "meteoduo"
+                keyPassword = "meteoduo"
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
