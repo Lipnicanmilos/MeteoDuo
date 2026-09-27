@@ -66,7 +66,7 @@ class WeatherWidgetProvider : AppWidgetProvider() {
 
     companion object {
         const val ACTION_REFRESH = "sk.meteoduo.widget.REFRESH"
-        const val BASE = "https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com"
+        const val BASE = "https://meteoduo.onrender.com"
         const val DEFAULT_CITY = "32737"     // Bratislava (centrum)
         const val PREFS = "meteoduo_widget"
 

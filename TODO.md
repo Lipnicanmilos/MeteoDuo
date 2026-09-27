@@ -2,16 +2,14 @@
 
 ## Otvorené
 
-- [ ] **AWS: vymeniť root access key za IAM usera** — CLI kľúč je vytvorený
-      pre root účet (a bol viditeľný na screenshote) → vytvoriť IAM usera
-      (napr. `milos-cli`, AdministratorAccess), `aws configure` s novým kľúčom,
-      root kľúč deaktivovať a zmazať. GitHub Actions sa to netýka (OIDC rola).
-- [ ] **Vlastná doména** — API Gateway custom domain + certifikát (ACM),
-      teraz beží na execute-api URL.
+- [ ] **Vlastná doména** — Render custom domain (napr. meteoduo.sk); teraz beží
+      na onrender.com subdoméne.
+- [ ] **Cold start (free plán Render)** — po ~15 min nečinnosti appka zaspí,
+      prvá návšteva ~50 s; zvážiť keep-alive ping alebo platený plán, ak bude vadiť.
 - [ ] **Testy** — pytest pre digest funkcie (yr._digest, openmeteo._digest_model,
       warnings._digest) s uloženými JSON fixture — ochrana pri zmene formátu API.
 - [ ] **Logging** — chyby externých zdrojov v /api/forecast sa teraz zahadzujú
-      potichu (zámerne pre UX); logovať ich do CloudWatch pre diagnostiku.
+      potichu (zámerne pre UX); logovať ich do Render logs pre diagnostiku.
 - [ ] **Migrácia na Vite** (voliteľné) — frontend zámerne beží cez React CDN
       a JSX kompiluje server (dukpy), bez Node/build kroku; zvážiť pri raste appky.
 
@@ -25,12 +23,11 @@
       Časový rozsah sa cez URL nastaviť nedá (žiadny taký parameter neexistuje) —
       slúži naň menu vnútri mapy.
 - [x] **User-Agent pre MET Norway** — yr.py:35 ho posiela bezpodmienečne
-      (`MeteoDuo/1.0` + URL repozitára); overené aj z produkčnej Lambdy, kde
-      /api/forecast vracia yr dáta (inak by MET vrátil 403)
-- [x] **Nasadenie na AWS** — Lambda (container image) + API Gateway HTTP API,
-      https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com; CI/CD cez
-      GitHub Actions (OIDC) → ECR → update-function-code; uvicorn
-      `--proxy-headers`; JSX predkompilované pri builde (read-only FS)
+      (`MeteoDuo/1.0` + URL repozitára); inak by MET vrátil 403
+- [x] **Nasadenie na Render** — https://meteoduo.onrender.com (docker web, free
+      plán, Frankfurt, render.yaml); auto-deploy z GitHubu pri push do main.
+      Predtým beželo na AWS Lambda + API Gateway — účet zrušený (free plan skončil
+      24.9.2026), preto migrácia na Render (2026-09-27)
 - [x] **Súradnice + okres v cities.json** — scripts/geocode_cities.py (súradnice),
       scripts/assign_okres.py (okres pre výstrahy); API geokódovanie je len fallback
 - [x] **Serverová kompilácia JSX** — JSX v static/app.jsx, kompiluje server cez

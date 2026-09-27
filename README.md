@@ -2,7 +2,7 @@
 
 Predpovede počasia z viacerých zdrojov vedľa seba — pre ľubovoľnú slovenskú obec, na 1 / 3 / 10 dní.
 
-**🌐 Naživo: https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com**
+**🌐 Naživo: https://meteoduo.onrender.com**
 
 | Ľavý panel | Stred | Pravý panel |
 |---|---|---|
