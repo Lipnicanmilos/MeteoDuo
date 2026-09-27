@@ -1,0 +1,12 @@
+# Render Blueprint — automatická konfigurácia služby MeteoDuo.
+# Render pri prepojení repa načíta tento súbor a vytvorí web službu.
+# Docs: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: meteoduo
+    runtime: docker
+    plan: free
+    region: frankfurt          # najbližšie k SK návštevníkom
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health   # appka má /health endpoint
+    autoDeploy: true           # nový build pri každom push do main

@@ -84,28 +84,27 @@ python -m venv .venv
 
 Aplikácia beží na http://localhost:8901.
 
-## Nasadenie (AWS)
+## Nasadenie (Render)
 
-Appka beží na AWS: **https://h3r2z4x75k.execute-api.eu-central-1.amazonaws.com**
+Appka beží na **Render** (free plán) — kontajner podľa `Dockerfile`, konfig
+v [`render.yaml`](render.yaml):
 
-- **AWS Lambda** (container image, 1024 MB, eu-central-1) + **API Gateway HTTP API**
-  ako verejný endpoint — pri malej návštevnosti prakticky zadarmo (free tier)
-- **Lambda Web Adapter** v Dockerfile prekladá Lambda udalosti na HTTP pre
-  uvicorn; mimo Lambdy sa neaktivuje, image beží normálne aj lokálne
-- JSX sa predkompiluje pri builde image (filesystem Lambdy je read-only
-  a cold start preskočí pomalú dukpy kompiláciu)
-- **CI/CD:** push do `main` → GitHub Actions (OIDC rola, bez uložených AWS
-  kľúčov) → build image → ECR → `lambda update-function-code`
-  (`.github/workflows/deploy.yml`)
-- **Kde to nájsť v AWS konzole:** región **Europe (Frankfurt) / eu-central-1**
-  (vpravo hore prepnúť región!) → Lambda `meteoduo` (appka + CloudWatch logy),
-  API Gateway `meteoduo` (verejný endpoint), ECR `meteoduo` (Docker images)
+- **Docker web služba**, región Frankfurt, health-check `/health`
+- **Auto-deploy:** Render sleduje repo a pri každom push do `main` spraví nový
+  build a nasadenie (žiadne CI kľúče netreba — deploy rieši Render cez GitHub app)
+- Port príde cez `$PORT` (Render), lokálne default 8080
+- JSX sa predkompiluje pri builde image (rýchlejší štart)
+- **Pozor (free plán):** služba po ~15 min nečinnosti „zaspí"; prvá návšteva
+  potom trvá ~50 s, kým sa kontajner naštartuje
+
+Prepojenie repa s Renderom: [render.com](https://render.com) → **New → Blueprint**
+→ vybrať repo `MeteoDuo` (Render načíta `render.yaml`) → **Apply**.
 
 Lokálny kontajner:
 
 ```bash
 docker build -t meteoduo .
-docker run -p 8080:8080 meteoduo
+docker run -p 8080:8080 -e PORT=8080 meteoduo
 ```
 
 ## Android appka a widgety
